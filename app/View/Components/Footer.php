@@ -4,9 +4,8 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Navigation extends Component
+class Footer extends Component
 {
-    public $items = [];
     /**
      * Create a new component instance.
      *
@@ -14,12 +13,7 @@ class Navigation extends Component
      */
     public function __construct()
     {
-        $this->items = [
-            ['name' => 'MQA'],
-            ['name' => 'MNQF'],
-            ['name' => 'Approved Institution'],
-            ['name' => 'Download']
-        ];
+        //
     }
 
     /**
@@ -29,6 +23,6 @@ class Navigation extends Component
      */
     public function render()
     {
-        return view('components.navigation');
+        return view('components.footer');
     }
 }
