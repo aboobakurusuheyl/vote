@@ -2,9 +2,9 @@
     <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
         <div class="flex items-center flex-1">
             <div class="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
+                <a href="/">
                     <span class="sr-only">Workflow</span>
-                    <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
+                    <img class="h-8 w-auto sm:h-10" src="/asset/logo.svg" alt="">
                 </a>
                 <div class="-mr-2 flex items-center md:hidden">
                     <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
@@ -18,7 +18,7 @@
             </div>
             <div class="hidden md:block md:ml-10 md:space-x-10">
                 @foreach($items as $item)
-                <a href="#" class="font-medium text-gray-500 hover:text-gray-900">{{$item['name']}}</a>
+                <a href="{{$item['href']}}" class="font-medium text-gray-500 hover:text-gray-900">{{$item['name']}}</a>
                 @endforeach
 
 
@@ -47,7 +47,7 @@
         <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div class="px-5 pt-4 flex items-center justify-between">
                 <div>
-                    <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
+                    <img class="h-8 w-auto" src="/asset/logo.svg" alt="">
                 </div>
                 <div class="-mr-2">
                     <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">

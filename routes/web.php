@@ -20,3 +20,12 @@ Route::get('/', function () {
 Route::get('/mqa', function () {
     return view('page.maq');
 });
+
+
+Route::get('/mnqf', function () {
+    return view('page.mnqf');
+});
+
+Route::get('/approved-institutions', function () {
+    return view('page.approved-institutions');
+});

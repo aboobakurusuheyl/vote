@@ -15,10 +15,10 @@ class Navigation extends Component
     public function __construct()
     {
         $this->items = [
-            ['name' => 'MQA'],
-            ['name' => 'MNQF'],
-            ['name' => 'Approved Institution'],
-            ['name' => 'Download']
+            ['name' => 'MQA', 'href' => '/mqa'],
+            ['name' => 'MNQF', 'href' => '/mnqf'],
+            ['name' => 'Approved Institution', 'href' => '/approved-institutions'],
+            ['name' => 'Download', 'href' => '/mqa']
         ];
     }
 
