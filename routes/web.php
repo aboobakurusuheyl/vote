@@ -29,3 +29,7 @@ Route::get('/mnqf', function () {
 Route::get('/approved-institutions', function () {
     return view('page.approved-institutions');
 });
+
+Route::get('/approved-institutions/{id}', function () {
+    return view('page.institutions-deatail');
+});
