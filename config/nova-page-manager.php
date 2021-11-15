@@ -25,6 +25,7 @@ return [
     'templates' => [
         \App\Nova\Templates\SidePage::class,
         \App\Nova\Templates\People::class,
+        \App\Nova\Templates\PageWithFaq::class,
     ],
 
 

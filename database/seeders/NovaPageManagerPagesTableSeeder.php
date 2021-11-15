@@ -38,6 +38,25 @@ class NovaPageManagerPagesTableSeeder extends Seeder
                 'template' => 'side-page',
                 'updated_at' => '2021-11-15 10:21:24',
             ),
+            1 =>
+            array(
+                'created_at' => '2021-11-15 14:15:47',
+                'data' => '{"faq": {"MNQF Implementation Notes": "I don\'t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.", "MNQF Implementation Notes 2": "MNQF Implementation Notes sdf"}, "title": "Maldives National Qualification Framework", "legend": "mnqf", "content": "<div>Today, the Maldivian post-secondary education sector is growing rapidly, with an increasing number of private providers entering the sector to meet the demand. Emerging from this growing importance of post-secondary education is the concomitant requirement to assure the quality of qualifications awarded in testimony of educational attainments. Thus, the Maldives National Qualifications Framework (MNQF) is designed to:</div><ul><li>Facilitate the development of a quality assurance mechanism for the post-secondary education sector.</li><li>Provide a framework for recognition of qualifications offered in the Maldives and abroad.</li></ul><div>MNQF provides a comprehensive and coherent national framework that facilitates quality improvement, quality assurance, and private sector participation in post- secondary education. MNQF also ensures that students, employers, education providers and the community at large easily understand the learning outcomes involved in various qualifications.</div>", "faq_heading": "Objective"}',
+                'draft_parent_id' => NULL,
+                'id' => 2,
+                'locale' => 'en',
+                'locale_parent_id' => NULL,
+                'name' => 'mnqf',
+                'parent_id' => 1,
+                'preview_token' => NULL,
+                'published' => 1,
+                'seo_description' => NULL,
+                'seo_image' => NULL,
+                'seo_title' => NULL,
+                'slug' => 'mnqf',
+                'template' => 'page-with-faq',
+                'updated_at' => '2021-11-15 14:22:02',
+            ),
         ));
     }
 }

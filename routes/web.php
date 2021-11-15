@@ -19,13 +19,14 @@ Route::get('/', function () {
 
 Route::get('/mqa', function () {
     $data = nova_get_page(1);
-    //dd($data);
+    //dd(nova_get_pages_structure());
     return view('page.maq',  compact('data'));
 });
 
 
 Route::get('/mnqf', function () {
-    return view('page.mnqf');
+    $data = nova_get_page(2);
+    return view('page.mnqf', compact('data'));
 });
 
 Route::get('/approved-institutions', function () {
