@@ -8,10 +8,10 @@ use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Trix;
 use OptimistDigital\NovaPageManager\Template;
 
-class SidePage extends Template
+class AboutPage extends Template
 {
     public static $type = 'page';
-    public static $name = 'side-page';
+    public static $name = 'about-page';
     public static $seo = true;
     public static $view = null;
 
