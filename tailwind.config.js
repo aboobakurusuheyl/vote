@@ -1,3 +1,4 @@
+const colors = require("tailwindcss/colors");
 module.exports = {
     purge: [
         "./vendor/laravel/jetstream/**/*.blade.php",
@@ -7,7 +8,11 @@ module.exports = {
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                cyan: colors.cyan,
+            },
+        },
     },
     variants: {
         extend: {},
