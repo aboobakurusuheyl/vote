@@ -67,7 +67,6 @@ class Post extends Resource
             DateTime::make('Published at'),
             DateTime::make('Expired at'),
             Images::make('Feature Image')->enableExistingMedia(),
-
             Files::make('Multiple files', 'multiple_files')
 
         ];

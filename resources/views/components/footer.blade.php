@@ -174,7 +174,7 @@
         </div>
         <div class="mt-12 border-t border-gray-200 pt-8">
             <p class="text-base text-gray-400 xl:text-center">
-                &copy; 2020 Workflow, Inc. All rights reserved.
+                &copy; 2021 MQA, Inc. All rights reserved.
             </p>
         </div>
     </div>

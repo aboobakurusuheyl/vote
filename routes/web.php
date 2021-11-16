@@ -51,9 +51,9 @@ Route::get('/{slug}', function ($slug) {
 
     if ($data['template'] === 'post-list') {
         $posts = Post::where('page', $data['id'])->get();
-        //dd(nova_get_page_by_slug($slug));
+        //dd($posts[0]->getMedia('feature_image')->first()->getFullUrl());
         return view($data['view'], compact('data', 'posts'));
     }
 
     return view($data['view'], compact('data'));
-});
+})->where(['slug' => '^((?!nova|nova-api|nova-vendor|storage).)*$']);
