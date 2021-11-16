@@ -24,10 +24,10 @@ Route::get('/mqa', function () {
 });
 
 
-Route::get('/mnqf', function () {
-    $data = nova_get_page(2);
-    return view('page.mnqf', compact('data'));
-});
+// Route::get('/mnqf', function () {
+//     $data = nova_get_page(2);
+//     return view('page.mnqf', compact('data'));
+// });
 
 Route::get('/approved-institutions', function () {
     return view('page.approved-institutions');
@@ -35,4 +35,10 @@ Route::get('/approved-institutions', function () {
 
 Route::get('/approved-institutions/{id}', function () {
     return view('page.institutions-deatail');
+});
+
+Route::get('/{slug}', function ($slug) {
+    // dd(nova_get_pages_structure(), nova_get_page_by_slug($slug));
+    $data = nova_get_page_by_slug($slug);
+    return view($data['view'], compact('data'));
 });

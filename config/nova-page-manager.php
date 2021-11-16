@@ -26,6 +26,7 @@ return [
         \App\Nova\Templates\AboutPage::class,
         \App\Nova\Templates\People::class,
         \App\Nova\Templates\PageWithFaq::class,
+        \App\Nova\Templates\Post::class,
     ],
 
 

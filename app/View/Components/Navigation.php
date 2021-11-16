@@ -14,12 +14,15 @@ class Navigation extends Component
      */
     public function __construct()
     {
-        $this->items = [
-            ['name' => 'MQA', 'href' => '/mqa'],
-            ['name' => 'MNQF', 'href' => '/mnqf'],
-            ['name' => 'Approved Institution', 'href' => '/approved-institutions'],
-            ['name' => 'Download', 'href' => '/mqa']
-        ];
+
+        // $this->items = [
+        // ['name' => 'MQA', 'href' => '/mqa'],
+        // ['name' => 'MNQF', 'href' => '/mnqf'],
+        // ['name' => 'Approved Institution', 'href' => '/approved-institutions'],
+        // ['name' => 'Download', 'href' => '/mqa']
+        // ];
+        $this->items = nova_get_pages_structure();
+        //dd($this->items[0]);
     }
 
     /**

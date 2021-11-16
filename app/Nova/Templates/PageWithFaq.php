@@ -13,7 +13,7 @@ class PageWithFaq extends Template
     public static $type = 'page';
     public static $name = 'page-with-faq';
     public static $seo = false;
-    public static $view = null;
+    public static $view = 'page.mnqf';
 
     public function fields(Request $request): array
     {

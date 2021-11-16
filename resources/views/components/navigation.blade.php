@@ -18,7 +18,7 @@
             </div>
             <div class="hidden md:block md:ml-10 md:space-x-10">
                 @foreach($items as $item)
-                <a href="{{$item['href']}}" class="font-medium text-gray-500 hover:text-gray-900">{{$item['name']}}</a>
+                <a href="/{{$item['slug']['en']}}" class="font-medium text-gray-500 hover:text-gray-900">{{$item['name']['en']}}</a>
                 @endforeach
 
 

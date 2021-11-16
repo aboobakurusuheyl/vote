@@ -13,7 +13,7 @@ class AboutPage extends Template
     public static $type = 'page';
     public static $name = 'about-page';
     public static $seo = true;
-    public static $view = null;
+    public static $view = 'page.maq';
 
     public function fields(Request $request): array
     {
