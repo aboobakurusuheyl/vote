@@ -55,7 +55,7 @@ Route::get('/{slug}/{id}', function ($slug, $id) {
         $post =  Post::find($id);
         return view('page.post-detail', compact('data', 'post'));
     }
-});
+})->where(['slug' => '^((?!nova|nova-api|nova-vendor|storage).)*$']);
 
 
 
