@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/mqa', function () {
-    $data = nova_get_page(1);
+    // $data = nova_get_page(1);
     //dd(nova_get_pages_structure());
     return view('page.maq',  compact('data'));
 });
@@ -36,6 +36,13 @@ Route::get('/approved-institutions', function () {
 Route::get('/approved-institutions/{id}', function () {
     return view('page.institutions-deatail');
 });
+
+
+Route::get('/contact', function () {
+    //dd(nova_get_pages_structure());
+    return view('page.contact',  compact('data'));
+});
+
 
 Route::get('/{slug}', function ($slug) {
     // dd(nova_get_pages_structure(), nova_get_page_by_slug($slug));
