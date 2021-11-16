@@ -79,7 +79,7 @@ class NovaPageManagerPagesTableSeeder extends Seeder
             3 => 
             array (
                 'created_at' => '2021-11-16 08:20:56',
-                'data' => NULL,
+                'data' => '{"title": "Event list"}',
                 'draft_parent_id' => NULL,
                 'id' => 4,
                 'locale' => 'en',
@@ -93,7 +93,26 @@ class NovaPageManagerPagesTableSeeder extends Seeder
                 'seo_title' => NULL,
                 'slug' => 'event',
                 'template' => 'post-list',
-                'updated_at' => '2021-11-16 08:20:56',
+                'updated_at' => '2021-11-16 09:50:05',
+            ),
+            4 => 
+            array (
+                'created_at' => '2021-11-16 09:42:46',
+                'data' => '{"title": "News"}',
+                'draft_parent_id' => NULL,
+                'id' => 5,
+                'locale' => 'en',
+                'locale_parent_id' => NULL,
+                'name' => 'News',
+                'parent_id' => NULL,
+                'preview_token' => NULL,
+                'published' => 1,
+                'seo_description' => NULL,
+                'seo_image' => NULL,
+                'seo_title' => NULL,
+                'slug' => 'news',
+                'template' => 'post-list',
+                'updated_at' => '2021-11-16 09:48:52',
             ),
         ));
         

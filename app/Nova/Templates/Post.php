@@ -3,6 +3,7 @@
 namespace App\Nova\Templates;
 
 use Illuminate\Http\Request;
+use Laravel\Nova\Fields\Text;
 use OptimistDigital\NovaPageManager\Template;
 
 class Post extends Template
@@ -10,10 +11,12 @@ class Post extends Template
     public static $type = 'page';
     public static $name = 'post-list';
     public static $seo = false;
-    public static $view = null;
+    public static $view = 'page.post-list';
 
     public function fields(Request $request): array
     {
-        return [];
+        return [
+            Text::make('Title')
+        ];
     }
 }

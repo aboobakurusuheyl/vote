@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Post;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -45,7 +46,14 @@ Route::get('/contact', function () {
 
 
 Route::get('/{slug}', function ($slug) {
-    // dd(nova_get_pages_structure(), nova_get_page_by_slug($slug));
+    //dd(nova_get_pages_structure(), nova_get_page_by_slug($slug));
     $data = nova_get_page_by_slug($slug);
+
+    if ($data['template'] === 'post-list') {
+        $posts = Post::where('page', $data['id'])->get();
+        //dd(nova_get_page_by_slug($slug));
+        return view($data['view'], compact('data', 'posts'));
+    }
+
     return view($data['view'], compact('data'));
 });
