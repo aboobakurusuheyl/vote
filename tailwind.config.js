@@ -1,5 +1,6 @@
 const colors = require("tailwindcss/colors");
 module.exports = {
+    mode: "jit",
     purge: [
         "./vendor/laravel/jetstream/**/*.blade.php",
         "./storage/framework/views/*.php",

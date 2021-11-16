@@ -39,7 +39,7 @@
                                     Case Study
                                 </a>
                             </p> -->
-                            <a href="#" class="block mt-2">
+                            <a href="/{{$data['slug']}}/{{$post->id}}" class="block mt-2">
                                 <p class="text-xl font-semibold text-gray-900">
                                     {{$post->title}}
                                 </p>

@@ -39,10 +39,24 @@ Route::get('/approved-institutions/{id}', function () {
 });
 
 
+
+
+
 Route::get('/contact', function () {
     //dd(nova_get_pages_structure());
     return view('page.contact',  compact('data'));
 });
+
+Route::get('/{slug}/{id}', function ($slug, $id) {
+    //
+    $data = nova_get_page_by_slug($slug);
+
+    if ($data['template'] === "post-list") {
+        $post =  Post::find($id);
+        return view('page.post-detail', compact('data', 'post'));
+    }
+});
+
 
 
 Route::get('/{slug}', function ($slug) {
