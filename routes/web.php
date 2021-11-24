@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\File;
 use App\Models\Post;
 use Illuminate\Support\Facades\Route;
 
@@ -67,6 +68,11 @@ Route::get('/{slug}', function ($slug) {
         $posts = Post::where('page', $data['id'])->get();
         //dd($posts[0]->getMedia('feature_image')->first()->getFullUrl());
         return view($data['view'], compact('data', 'posts'));
+    } else if ($data['template'] === 'file-list') {
+        $files = File::where('page', $data['id'])->get();
+
+        //dd($files[0]->getMedia('attachment')->first()->getFullUrl(), $files);
+        return view($data['view'], compact('data', 'files'));
     }
 
     return view($data['view'], compact('data'));

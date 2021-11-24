@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePostsTable extends Migration
+class CreateFilesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,16 +13,14 @@ class CreatePostsTable extends Migration
      */
     public function up()
     {
-        Schema::create('posts', function (Blueprint $table) {
+        Schema::create('files', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('description', 800)->nullable();
-            $table->longText('body');
+            $table->string('description')->nullable();
             $table->string('slug');
-            $table->integer('page');
+            $table->integer('page')->reference('id')->on('nova_page_manager_pages');
             $table->timestamp('published_at')->nullable();
-            $table->timestamp('expired_at')->nullable();
-            $table->integer('author_id')->nullable();
+            $table->timestamp('due_at')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
@@ -35,6 +33,6 @@ class CreatePostsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('posts');
+        Schema::dropIfExists('files');
     }
 }

@@ -27,6 +27,7 @@ return [
         \App\Nova\Templates\People::class,
         \App\Nova\Templates\PageWithFaq::class,
         \App\Nova\Templates\Post::class,
+        \App\Nova\Templates\FileList::class
     ],
 
 
