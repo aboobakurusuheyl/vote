@@ -16,10 +16,17 @@
                     </button>
                 </div>
             </div>
-            <div class="hidden md:block md:ml-10 md:space-x-10">
-                @foreach($items as $item)
-                <a href="/{{$item['slug']['en']}}" class="font-medium text-gray-500 hover:text-gray-900">{{$item['name']['en']}}</a>
+            <div class="hidden md:flex md:ml-10 md:space-x-10">
+                @foreach($items[0]['menuItems'] as $menu)
+                @if(count($menu['children'])>0)
+                <x-navigation-drop-down :menu="$menu" />
+                @else
+                @if($menu['type'] === 'page-link')
+                <a href="{{$menu['data']['page']['path']}}" class="font-medium text-gray-500 hover:text-gray-900 block">{{$menu['name']}}</a>
+                @endif
+                @endif
                 @endforeach
+
 
 
             </div>

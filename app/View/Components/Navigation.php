@@ -21,7 +21,9 @@ class Navigation extends Component
         // ['name' => 'Approved Institution', 'href' => '/approved-institutions'],
         // ['name' => 'Download', 'href' => '/mqa']
         // ];
-        $this->items = nova_get_pages_structure();
+
+        //dd(nova_get_menus()[0]['menuItems']);
+        $this->items = nova_get_menus();
         //dd($this->items[0]);
     }
 

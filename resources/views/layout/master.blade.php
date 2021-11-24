@@ -27,7 +27,11 @@
             <x-footer />
         </div>
     </div>
+    <!-- javascript -->
+
+
 
 </body>
+<script defer src="{{ mix('js/app.js') }}"></script>
 
 </html>

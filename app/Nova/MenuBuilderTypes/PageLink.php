@@ -4,6 +4,7 @@ namespace App\Nova\MenuBuilderTypes;
 
 use Illuminate\Support\Facades\DB;
 use Laravel\Nova\Fields\Select;
+use Laravel\Nova\Fields\Text;
 use OptimistDigital\MenuBuilder\MenuItemTypes\MenuItemTextType;
 
 class PageLink extends MenuItemTextType
@@ -36,7 +37,8 @@ class PageLink extends MenuItemTextType
             Select::make('page')->options(function () {
                 return  DB::table('nova_page_manager_pages')->get()->pluck('name', 'id');
                 //return array_filter(user::pluck('name', 'id')->toArray());
-            })->hideFromIndex(),
+            }),
+
         ];
     }
 
@@ -86,6 +88,8 @@ class PageLink extends MenuItemTextType
      */
     public static function getData($data = null)
     {
+
+        $data['page'] = nova_get_page($data['page']);
         return $data;
     }
 }
