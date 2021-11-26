@@ -16,6 +16,7 @@
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
         "optimistdigital/nova-menu-builder": "^6.0",
+        "optimistdigital/nova-multiselect-field": "^2.3",
         "optimistdigital/nova-page-manager": "^4.0",
         "spatie/laravel-medialibrary": "^9.0.0"
     },

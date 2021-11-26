@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "52b13d6eff063635a60c14c4331aa581",
+    "content-hash": "e051bcf6a8edbe3593f18c524ad1baa7",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3257,6 +3257,73 @@
                 }
             ],
             "time": "2021-10-29T12:57:47+00:00"
+        },
+        {
+            "name": "optimistdigital/nova-multiselect-field",
+            "version": "2.3.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/optimistdigital/nova-multiselect-field.git",
+                "reference": "0e96417dad1d09cf5bc7631a6bd8564bdca7bf3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/optimistdigital/nova-multiselect-field/zipball/0e96417dad1d09cf5bc7631a6bd8564bdca7bf3a",
+                "reference": "0e96417dad1d09cf5bc7631a6bd8564bdca7bf3a",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/nova": "^3.0",
+                "optimistdigital/nova-translations-loader": "^3.0.0",
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "OptimistDigital\\MultiselectField\\FieldServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "OptimistDigital\\MultiselectField\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tarvo Reinpalu",
+                    "email": "tarvoreinpalu@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Optimist Digital",
+                    "email": "info@optimistdigital.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "A multiple select field for Laravel Nova.",
+            "keywords": [
+                "laravel",
+                "multiselect",
+                "nova",
+                "select"
+            ],
+            "support": {
+                "issues": "https://github.com/optimistdigital/nova-multiselect-field/issues",
+                "source": "https://github.com/optimistdigital/nova-multiselect-field/tree/2.3.12"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/optimistdigital",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-11-12T14:29:11+00:00"
         },
         {
             "name": "optimistdigital/nova-page-manager",

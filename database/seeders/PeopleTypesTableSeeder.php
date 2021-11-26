@@ -35,6 +35,14 @@ class PeopleTypesTableSeeder extends Seeder
                 'name' => 'Senior Staffs',
                 'updated_at' => '2021-11-26 14:45:07',
             ),
+            2 => 
+            array (
+                'created_at' => '2021-11-26 20:06:02',
+                'description' => '-',
+                'id' => 3,
+                'name' => 'Information Officer',
+                'updated_at' => '2021-11-26 20:06:02',
+            ),
         ));
         
         

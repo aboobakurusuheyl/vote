@@ -29,6 +29,7 @@ trait Metable
      */
     public function withMeta(array $meta)
     {
+
         $this->meta = array_merge($this->meta, $meta);
 
         return $this;
