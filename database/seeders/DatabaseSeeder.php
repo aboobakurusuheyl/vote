@@ -18,5 +18,6 @@ class DatabaseSeeder extends Seeder
         $this->call(NovaPageManagerPagesTableSeeder::class);
         $this->call(MenuMenusTableSeeder::class);
         $this->call(MenuMenuItemsTableSeeder::class);
+        $this->call(PeopleTypesTableSeeder::class);
     }
 }

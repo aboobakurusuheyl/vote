@@ -1,7 +1,7 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative" x-data="{open:false}">
     <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-    <button type="button" x-on:click="open=true" @click.outside="open = false" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
+    <button type="button" x-on:click="open=true" @click.outside="open = false" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500" aria-expanded="false">
         <span>{{$menu['name']}}</span>
         <!--
       Heroicon name: solid/chevron-down

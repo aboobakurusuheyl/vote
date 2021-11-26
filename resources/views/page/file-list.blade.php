@@ -59,7 +59,7 @@
 
                                     <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                                         @if(count($file->getMedia('attachment'))>0)
-                                        <a href="{{$file->getMedia('attachment')->first()->getFullUrl()}}" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                        <a href="{{$file->getMedia('attachment')->first()->getFullUrl()}}" class="text-cyan-600 hover:text-cyan-900">Edit</a>
                                         @endif
                                     </td>
                                 </tr>
