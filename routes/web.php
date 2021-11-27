@@ -45,7 +45,7 @@ Route::get('/approved-institutions/{id}', function () {
 
 Route::get('/contact', function () {
     //dd(nova_get_pages_structure());
-    return view('page.contact',  compact('data'));
+    return view('page.contact');
 });
 
 Route::get('/{slug}/{id}', function ($slug, $id) {

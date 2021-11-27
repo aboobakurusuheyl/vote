@@ -27,7 +27,13 @@ class AboutPage extends Template
             Multiselect::make('PeopleTypes')
                 ->options(PeopleType::all()->pluck('name', 'id'))
                 ->resolveForPageResponseUsing(function ($value, $templateModel) {
-                    return PeopleType::findMany($value);
+                    $placeholders = implode(',', array_fill(0, count($value), '?'));
+
+                    return PeopleType::whereIn('id', $value)
+                        ->orderByRaw("field(id,{$placeholders})", $value)->get();
+                    // string for the query);
+                    //dd($value, PeopleType::whereIn('id', $value)->get());
+                    // return PeopleType::findMany($value);
                 })->reorderable(),
             Trix::make('Contact Us')
         ];
