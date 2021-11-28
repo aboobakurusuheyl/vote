@@ -24,7 +24,7 @@
                 @if($menu['type'] === 'page-link')
                 <a href="{{$menu['data']['page']['path']}}" class="font-medium text-gray-500 hover:text-gray-900 block">{{$menu['name']}}</a>
                 @elseif($menu['type'] === 'static-url')
-                <a href="{{ }}" class="font-medium text-gray-500 hover:text-gray-900 block">{{$menu['name']}}</a>
+                <a href="{{$menu['value']}}" class="font-medium text-gray-500 hover:text-gray-900 block">{{$menu['name']}}</a>
                 @endif
                 @endif
                 @endforeach
