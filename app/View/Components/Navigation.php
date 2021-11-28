@@ -22,7 +22,7 @@ class Navigation extends Component
         // ['name' => 'Download', 'href' => '/mqa']
         // ];
 
-        //dd(nova_get_menus()[0]['menuItems']);
+        //dd(nova_get_menus());
         $this->items = nova_get_menus();
         //dd($this->items[0]);
     }

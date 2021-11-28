@@ -195,6 +195,22 @@ class MenuMenuItemsTableSeeder extends Seeder
                 'updated_at' => '2021-11-27 05:54:20',
                 'value' => NULL,
             ),
+            11 => 
+            array (
+                'class' => 'OptimistDigital\\MenuBuilder\\MenuItemTypes\\MenuItemStaticURLType',
+                'created_at' => '2021-11-28 05:38:33',
+                'data' => NULL,
+                'enabled' => 1,
+                'id' => 13,
+                'locale' => 'en_US',
+                'menu_id' => 1,
+                'name' => 'Contact',
+                'order' => 13,
+                'parent_id' => NULL,
+                'target' => '_self',
+                'updated_at' => '2021-11-28 05:38:33',
+                'value' => '/contact',
+            ),
         ));
         
         
