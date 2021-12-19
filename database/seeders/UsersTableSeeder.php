@@ -30,6 +30,18 @@ class UsersTableSeeder extends Seeder
                 'remember_token' => NULL,
                 'updated_at' => '2021-11-15 08:46:20',
             ),
+            1 => 
+            array (
+                'created_at' => '2021-11-15 08:46:20',
+                'email' => 'aboobakurusuhail@gmail.com',
+                'email_verified_at' => NULL,
+                'id' => 2,
+                'name' => 'Aboobakuru Suhail',
+                'password' => '$2y$10$U7iaq74dYoOAHm1InEPTuu.BhlGQQ4QH44zaMKvOQ9lCRnlv7aT4O',
+                'remember_token' => NULL,
+                'updated_at' => '2021-11-15 08:46:20',
+            ),
+
         ));
         
         

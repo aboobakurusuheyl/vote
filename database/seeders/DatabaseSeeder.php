@@ -20,5 +20,8 @@ class DatabaseSeeder extends Seeder
         $this->call(MenuMenuItemsTableSeeder::class);
         $this->call(PeopleTypesTableSeeder::class);
         $this->call(PeopleTableSeeder::class);
+        $this->call(CoursesTableSeeder::class);
+        $this->call(MnqfsTableSeeder::class);
+        $this->call(InstitutesTableSeeder::class);
     }
 }
