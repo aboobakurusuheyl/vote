@@ -15,7 +15,7 @@ class CreateInstitutesTable extends Migration
     {
         Schema::create('institutes', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->longText('name');
             $table->boolean('overseas');
             $table->string('country');
             $table->longText('logo');
