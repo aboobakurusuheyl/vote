@@ -18,7 +18,7 @@
 
 <body class="antialiased font-sans">
     <div class="relative bg-white overflow-hidden">
-        <div class="relative pt-6 ">
+        <div class="relative">
             <x-navigation />
 
             <main class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">

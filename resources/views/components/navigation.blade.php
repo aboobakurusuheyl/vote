@@ -1,9 +1,19 @@
 <div>
-    <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
+    <div class=" flex justify-end px-12 py-4">
+        <ul class="flex space-x-3">
+            <li>Blick List</li>
+            <li>Meida</li>
+            <li>Quick Link</li>
+        </ul>
+    </div>
+    <div class="flex justify-center w-full py-6 bg-[#cbe7d3]">
+        <div><img src="/asset/mqa_header.svg" class="block" /></div>
+    </div>
+    <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 py-4" aria-label="Global">
         <div class="flex items-center flex-1">
             <div class="flex items-center justify-between w-full md:w-auto">
                 <a href="/">
-                    <span class="sr-only">Workflow</span>
+                    <span class="sr-only">MQA</span>
                     <img class="h-8 w-auto sm:h-10" src="/asset/logo.svg" alt="">
                 </a>
                 <div class="-mr-2 flex items-center md:hidden">
