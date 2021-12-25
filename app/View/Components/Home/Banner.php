@@ -2,10 +2,13 @@
 
 namespace App\View\Components\Home;
 
+use App\Models\Hero;
 use Illuminate\View\Component;
 
 class Banner extends Component
 {
+
+    public $banners = [];
     /**
      * Create a new component instance.
      *
@@ -13,6 +16,8 @@ class Banner extends Component
      */
     public function __construct()
     {
+        $this->banners = Hero::get();
+        // dd($this->banners);
         //
     }
 

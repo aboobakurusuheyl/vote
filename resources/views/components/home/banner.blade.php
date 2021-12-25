@@ -1,4 +1,4 @@
-<div class="lg:grid lg:grid-cols-12 lg:gap-8">
+<!-- <div class="lg:grid lg:grid-cols-12 lg:gap-8">
     <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
         <h1>
             <span class="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">Coming soon</span>
@@ -42,4 +42,26 @@
             </button>
         </div>
     </div>
+</div> -->
+
+<div class="swiper mySwiper  h-[500px]">
+    <div class="swiper-wrapper ">
+        @foreach($banners as $banner)
+        <div class="swiper-slide bg-gray-800">
+            @if(count($banner->getMedia('banner'))>0)
+            <img src="{{$banner->getMedia('banner')->first()->getFullUrl()}}" />
+            @endif
+        </div>
+        @endforeach
+        <!-- <div class="swiper-slide bg-gray-800">
+            <img src="https://images.unsplash.com/photo-1640350410242-1f2a8a9b7f7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" />
+        </div>
+        <div class="swiper-slide bg-gray-800">
+
+            <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" />
+        </div> -->
+
+
+    </div>
+    <div class="swiper-pagination"></div>
 </div>
