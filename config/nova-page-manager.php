@@ -28,7 +28,8 @@ return [
         \App\Nova\Templates\PageWithFaq::class,
         \App\Nova\Templates\Post::class,
         \App\Nova\Templates\FileList::class,
-        \App\Nova\Templates\PageSimple::class
+        \App\Nova\Templates\PageSimple::class,
+        \App\Nova\Templates\FileGroup::class
     ],
 
 

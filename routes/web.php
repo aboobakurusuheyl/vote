@@ -48,6 +48,11 @@ Route::get('/contact', function () {
     return view('page.contact');
 });
 
+// Route::get('/download', function () {
+//     //dd(nova_get_pages_structure());
+//     return view('page.file-group');
+// });
+
 Route::get('/{slug}/{id}', function ($slug, $id) {
     //
     $data = nova_get_page_by_slug($slug);
@@ -73,6 +78,9 @@ Route::get('/{slug}', function ($slug) {
 
         //dd($files[0]->getMedia('attachment')->first()->getFullUrl(), $files);
         return view($data['view'], compact('data', 'files'));
+    } else if ($data['template'] === "file-group") {
+        return view($data['view'], compact('data'));
+        dd($data);
     }
 
     return view($data['view'], compact('data'));
