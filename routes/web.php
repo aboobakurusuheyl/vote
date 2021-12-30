@@ -35,12 +35,10 @@ Route::get('/approved-institutions', function () {
     return view('page.approved-institutions');
 });
 
-Route::get('/approved-institutions/{id}', function () {
+Route::get('/approved-institutions/{id}', function ($id) {
+    $data = nova_get_page_by_slug($id);
     return view('page.institutions-deatail');
 });
-
-
-
 
 
 Route::get('/contact', function () {
