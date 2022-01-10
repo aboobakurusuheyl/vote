@@ -7,6 +7,7 @@ use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Image;
+use Laravel\Nova\Fields\HasMany;
 
 class Institute extends Resource
 {
@@ -46,7 +47,8 @@ class Institute extends Resource
             Text::make(__('Level'), 'name'),
             Text::make(__('Overseas'), 'overseas'),
             Text::make(__('Country'), 'country'),
-            Image::make('Logo')
+            Image::make('Logo'),
+            HasMany::make('Course')
         ];
     }
 

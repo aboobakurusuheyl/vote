@@ -86,5 +86,4 @@ Route::post('/{resource}/{resourceId}/attach/{relatedResource}', 'ResourceAttach
 Route::post('/{resource}/{resourceId}/update-attached/{relatedResource}/{relatedResourceId}', 'AttachedResourceUpdateController@handle');
 Route::post('/{resource}/{resourceId}/attach-morphed/{relatedResource}', 'MorphedResourceAttachController@handle');
 
-//
-Route::post();
+Route::get('/{resource}/getdetails/{resourceId}', 'InstituteController@index');
