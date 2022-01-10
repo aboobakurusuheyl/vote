@@ -7,15 +7,12 @@
             </h1>
         </div>
 
-        <div class=" grid grid-cols-5 gap-6 pt-14">
-            <a href="/approved-institutions/1">
-                <x-card.college />
-            </a><a href="/approved-institutions/1">
-                <x-card.college />
+        <div class=" grid grid-cols-3 gap-6 pt-14">
+
+            @foreach($institutes as $institute)
+            <x-card.college :institute="$institute" />
             </a>
-            <a href="/approved-institutions/1">
-                <x-card.college />
-            </a>
+            @endforeach
         </div>
     </div>
 </x-master-layout>

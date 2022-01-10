@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\File;
+use App\Models\institute;
 use App\Models\Post;
 use Illuminate\Support\Facades\Route;
 
@@ -32,7 +33,8 @@ Route::get('/mqa', function () {
 // });
 
 Route::get('/approved-institutions', function () {
-    return view('page.approved-institutions');
+    $institutes = Institute::all();
+    return view('page.approved-institutions', compact('institutes'));
 });
 
 Route::get('/approved-institutions/{id}', 'InstituteController@index');

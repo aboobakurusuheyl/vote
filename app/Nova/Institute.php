@@ -48,7 +48,7 @@ class Institute extends Resource
             Text::make(__('Overseas'), 'overseas'),
             Text::make(__('Country'), 'country'),
             Image::make('Logo'),
-            HasMany::make('Course')
+            HasMany::make('courses')
         ];
     }
 

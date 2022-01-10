@@ -45,7 +45,7 @@ class Mnqf extends Resource
             ID::make(__('ID'), 'id')->sortable(),
             Text::make(__('Level'), 'level'),
             Text::make(__('Title'), 'title'),
-            HasMany::make('Course')
+            HasMany::make('Courses')
         ];
     }
 

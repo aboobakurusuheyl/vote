@@ -6,13 +6,16 @@ use Illuminate\View\Component;
 
 class College extends Component
 {
+    public $institute;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($institute)
     {
+
+        $this->institute = $institute;
         //
     }
 
