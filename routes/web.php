@@ -3,6 +3,7 @@
 use App\Models\File;
 use App\Models\institute;
 use App\Models\Post;
+use App\Models\QuickLinks;
 use App\Nova\Institute as NovaInstitute;
 use Illuminate\Support\Facades\Route;
 use SebastianBergmann\Environment\Console;
@@ -54,6 +55,10 @@ Route::get('/contact', function () {
     return view('page.contact');
 });
 
+Route::get('/quick-links', function () {
+    $links = QuickLinks::all();
+    return view('page.links', compact('links'));
+});
 // Route::get('/download', function () {
 //     //dd(nova_get_pages_structure());
 //     return view('page.file-group');
@@ -91,3 +96,7 @@ Route::get('/{slug}', function ($slug) {
 
     return view($data['view'], compact('data'));
 })->where(['slug' => '^((?!nova|nova-api|nova-vendor|storage).)*$']);
+
+// Route::get('/linkstorage', function () {
+//     Artisan::call('storage:link');
+// });

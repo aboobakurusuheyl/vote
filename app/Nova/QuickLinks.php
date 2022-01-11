@@ -4,6 +4,8 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
+use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Image;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 class QuickLinks extends Resource
@@ -41,6 +43,10 @@ class QuickLinks extends Resource
     {
         return [
             ID::make(__('ID'), 'id')->sortable(),
+            Text::make(__('Name'), 'name'),
+            Text::make(__('Url'), 'url'),
+            Text::make(__('Description'), 'description'),
+            Image::make('Logo')->disk('public')
         ];
     }
 
