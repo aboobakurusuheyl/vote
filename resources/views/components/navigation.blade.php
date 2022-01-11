@@ -1,8 +1,19 @@
 <div>
     <div class=" flex justify-end px-12 py-4">
         <ul class="flex space-x-3">
-            <li>Blick List</li>
-            <li>Meida</li>
+            {{-- @foreach($items[0]['menuItems'] as $menu)
+                @if(count($menu['children'])>0)
+                <x-navigation-drop-down :menu="$menu" />
+                @else
+                @if($menu['type'] === 'page-link')
+                <a href="{{$menu['data']['page']['path']}}" class="font-medium text-gray-500 hover:text-gray-900 block">{{$menu['name']}}</a>
+                @elseif($menu['type'] === 'static-url')
+                <a href="{{$menu['value']}}" class="font-medium text-gray-500 hover:text-gray-900 block">{{$menu['name']}}</a>
+                @endif
+                @endif
+                @endforeach --}}
+            <li>Black List</li>
+            <li>Media</li>
             <li>Quick Link</li>
         </ul>
     </div>
@@ -38,9 +49,6 @@
                 @endif
                 @endif
                 @endforeach
-
-
-
             </div>
         </div>
         <!-- <div class="hidden md:block text-right">

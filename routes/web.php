@@ -25,7 +25,7 @@ Route::get('/', function () {
 });
 
 Route::get('/mqa', function () {
-    // $data = nova_get_page(1);
+    $data = nova_get_page(1);
     //dd(nova_get_pages_structure());
     return view('page.maq',  compact('data'));
 });

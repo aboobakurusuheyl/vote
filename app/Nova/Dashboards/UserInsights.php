@@ -2,6 +2,7 @@
 
 namespace App\Nova\Dashboards;
 
+use App\Nova\Lenses\MostValuableUsers;
 use Laravel\Nova\Dashboard;
 use App\Nova\Metrics\TotalUsers;
 use App\Nova\Metrics\UsersOverTime;
@@ -18,6 +19,8 @@ class UserInsights extends Dashboard
         return [
             new TotalUsers,
             new UsersOverTime,
+            new Lenses\MostValuableUsers,
+            //new MostValuableUsers
         ];
     }
 
