@@ -19,7 +19,8 @@ use SebastianBergmann\Environment\Console;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $latestposts = Post::orderBy('id', 'desc')->take(3)->get();
+    return view('welcome', compact('latestposts'));
 });
 
 Route::get('/mqa', function () {

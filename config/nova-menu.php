@@ -56,6 +56,12 @@ return [
             'unique' => true,
             'max_depth' => 2,
             'menu_item_types' => []
+        ],
+        'top' => [
+            'name' => 'TopMenu',
+            'unique' => true,
+            'max_depth' => 2,
+            'menu_item_types' => []
         ]
     ],
 
