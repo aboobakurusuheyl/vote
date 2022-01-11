@@ -8,6 +8,11 @@ use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Image;
 use Laravel\Nova\Fields\HasMany;
+use Laravel\Nova\Fields\Boolean;
+use Laravel\Nova\Fields\Country;
+use Epartment\NovaDependencyContainer\HasDependencies;
+use Epartment\NovaDependencyContainer\NovaDependencyContainer;
+use Epartment\NovaDependencyContainer\ActionHasDependencies;
 
 class Institute extends Resource
 {
@@ -44,11 +49,16 @@ class Institute extends Resource
     {
         return [
             ID::make(__('ID'), 'id')->sortable(),
-            Text::make(__('Level'), 'name'),
-            Text::make(__('Overseas'), 'overseas'),
-            Text::make(__('Country'), 'country'),
+            Text::make(__('Name'), 'name'),
+            Boolean::make(__('Overseas'), 'overseas'),
+            NovaDependencyContainer::make([
+                Country::make('Country', 'country_code')
+            ])->dependsOn('overseas', 1),
             Image::make('Logo'),
-            HasMany::make('courses')
+            Boolean::make('BlackListed'),
+            HasMany::make('courses'),
+
+            
         ];
     }
 
