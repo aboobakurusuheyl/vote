@@ -3,7 +3,9 @@
 use App\Models\File;
 use App\Models\institute;
 use App\Models\Post;
+use App\Nova\Institute as NovaInstitute;
 use Illuminate\Support\Facades\Route;
+use SebastianBergmann\Environment\Console;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,11 +39,12 @@ Route::get('/approved-institutions', function () {
     return view('page.approved-institutions', compact('institutes'));
 });
 
-Route::get('/approved-institutions/{id}', 'InstituteController@index');
+//Route::get('/approved-institutions/{id}', 'InstituteController@index');
 
 Route::get('/approved-institutions/{id}', function ($id) {
-    $data = nova_get_page_by_slug($id);
-    return view('page.institutions-deatail');
+
+    $institute = Institute::where('id', $id)->first();
+    return view('page.institutions-deatail', compact('institute'));
 });
 
 
