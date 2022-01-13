@@ -34,14 +34,10 @@
                 <!-- Use an "onChange" listener to redirect the user to the selected tab URL. -->
                 <select id="tabs" name="tabs" class="block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-cyan-500 focus:border-cyan-500 sm:text-sm rounded-md">
                     <option>Level 1</option>
-                    <option>Level 2</option>
-                    <option selected>Level 3</option>
-                    <option>Level 4</option>
-                    <option>Level 5</option>
-                    <option>Level 6</option>
-                    <option>Level 7</option>
-                    <option>Level 8</option>
-                    <option>Level 9</option>
+
+                    @foreach($levels as $level)
+                    <option {{$current_level === $level->level ? 'selected':''}}>Level {{$level->level}}</option>
+                    @endforeach
                 </select>
             </div>
             <div class="hidden sm:block">
