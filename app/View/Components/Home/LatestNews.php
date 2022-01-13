@@ -4,6 +4,7 @@ namespace App\View\Components\Home;
 
 use App\Models\Post;
 use Illuminate\View\Component;
+use Illuminate\Support\Facades\Storage;
 
 class LatestNews extends Component
 {
@@ -16,7 +17,17 @@ class LatestNews extends Component
     public function __construct()
     {
         $this->items = Post::where('page', 5)->orderBy('id', 'desc')->take(3)->get();
-        //dd($items);
+        // $imageurl = "test";
+        // foreach ($posts as $item)
+        // {
+            //Storage::url($user->profile_photo);
+            // $imageurl = Storage::url($posts->featured_image);
+            //$posts['featured_image'] = $imageurl;
+
+        // }
+        // $this->items = $posts;
+        // Storage::get($user->profile_photo);
+        // dd($this->items);
     }
 
     /**

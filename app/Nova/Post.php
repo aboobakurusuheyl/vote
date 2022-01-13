@@ -2,7 +2,6 @@
 
 namespace App\Nova;
 
-use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Laravel\Nova\Fields\DateTime;
@@ -15,6 +14,7 @@ use Laravel\Nova\Fields\Trix;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Ebess\AdvancedNovaMediaLibrary\Fields\Files;
 use Ebess\AdvancedNovaMediaLibrary\Fields\Images;
+use Laravel\Nova\Fields\Image;
 
 
 class Post extends Resource
@@ -66,7 +66,8 @@ class Post extends Resource
             })->onlyOnIndex(),
             DateTime::make('Published at'),
             DateTime::make('Expired at'),
-            Images::make(__('Feature Image'), 'featured_image')->enableExistingMedia(),
+            Image::make('Featured_Image')->disk('public'),
+            //Images::make('Feature Image')->enableExistingMedia(),
             Files::make('Multiple files', 'multiple_files')
 
         ];

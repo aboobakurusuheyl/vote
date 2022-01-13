@@ -3,9 +3,11 @@
 namespace App\View\Components\Home;
 
 use Illuminate\View\Component;
+use App\Models\File;
 
 class LatestCirculars extends Component
 {
+    public $items;
     /**
      * Create a new component instance.
      *
@@ -13,7 +15,7 @@ class LatestCirculars extends Component
      */
     public function __construct()
     {
-        //
+        $this->items = File::where('page', 8)->orderBy('id', 'desc')->take(3)->get();
     }
 
     /**
