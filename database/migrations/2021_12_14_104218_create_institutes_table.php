@@ -19,6 +19,7 @@ class CreateInstitutesTable extends Migration
             $table->boolean('overseas');
             $table->string('country');
             $table->longText('logo');
+            $table->boolean('blacklisted');
             $table->timestamps();
         });
     }

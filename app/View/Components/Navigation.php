@@ -24,7 +24,7 @@ class Navigation extends Component
 
         //dd(nova_get_menus());
         $this->items = nova_get_menus();
-        //dd($this->items[0]);
+        //dd($this->items);
     }
 
     /**

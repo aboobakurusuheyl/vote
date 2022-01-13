@@ -55,7 +55,7 @@ class Institute extends Resource
                 Country::make('Country', 'country_code')
             ])->dependsOn('overseas', 1),
             Image::make('Logo'),
-            Boolean::make('BlackListed'),
+            Boolean::make(__('BlackListed'), 'blacklisted'),
             HasMany::make('courses'),
 
             

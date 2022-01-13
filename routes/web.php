@@ -37,8 +37,8 @@ Route::get('/mqa', function () {
 // });
 
 Route::get('/approved-institutions', function () {
-    $institutes = Institute::all();
-    return view('page.approved-institutions', compact('institutes'));
+    //$institutes = Institute::all();
+    return view('page.approved-institutions');
 });
 
 //Route::get('/approved-institutions/{id}', 'InstituteController@index');
