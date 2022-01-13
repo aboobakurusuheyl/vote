@@ -45,7 +45,20 @@
                 </div>
             </div>
             <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
-                <div class="md:grid md:grid-cols-2 md:gap-8">
+                @foreach ($items[2]['menuItems'] as $menu)
+                @if (count($menu['children']) > 0)
+                    <x-navigation-drop-down :menu="$menu" />
+                @else
+                    @if ($menu['type'] === 'page-link')
+                        <a href="{{ $menu['data']['page']['path'] }}"
+                            class="font-medium text-gray-500 hover:text-gray-900 block">{{ $menu['name'] }}</a>
+                    @elseif($menu['type'] === 'static-url')
+                        <a href="{{ $menu['value'] }}"
+                            class="font-medium text-gray-500 hover:text-gray-900 block">{{ $menu['name'] }}</a>
+                    @endif
+                @endif
+            @endforeach
+                {{-- <div class="md:grid md:grid-cols-2 md:gap-8">
                     <div>
                         <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
                             Solutions
@@ -168,7 +181,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
         <div class="mt-12 border-t border-gray-200 pt-8">

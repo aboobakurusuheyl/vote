@@ -24,5 +24,6 @@ class DatabaseSeeder extends Seeder
         $this->call(MnqfsTableSeeder::class);
         $this->call(CoursesTableSeeder::class);
         $this->call(FilesTableSeeder::class);
+        $this->call(PostsTableSeeder::class);
     }
 }

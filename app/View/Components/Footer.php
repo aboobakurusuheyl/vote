@@ -6,6 +6,7 @@ use Illuminate\View\Component;
 
 class Footer extends Component
 {
+    public $items = [];
     /**
      * Create a new component instance.
      *
@@ -14,6 +15,8 @@ class Footer extends Component
     public function __construct()
     {
         //
+        $this->items = nova_get_menus();
+        //dd($this->items);
     }
 
     /**

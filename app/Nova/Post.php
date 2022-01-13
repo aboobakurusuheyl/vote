@@ -66,7 +66,7 @@ class Post extends Resource
             })->onlyOnIndex(),
             DateTime::make('Published at'),
             DateTime::make('Expired at'),
-            Images::make('Feature Image')->enableExistingMedia(),
+            Images::make(__('Feature Image'), 'featured_image')->enableExistingMedia(),
             Files::make('Multiple files', 'multiple_files')
 
         ];

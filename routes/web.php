@@ -20,8 +20,8 @@ use SebastianBergmann\Environment\Console;
 */
 
 Route::get('/', function () {
-    $latestposts = Post::orderBy('id', 'desc')->take(3)->get();
-    return view('welcome', compact('latestposts'));
+    //$latestposts = Post::orderBy('id', 'desc')->take(3)->get();
+    return view('welcome');
 });
 
 Route::get('/mqa', function () {

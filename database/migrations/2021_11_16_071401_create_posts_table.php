@@ -20,6 +20,7 @@ class CreatePostsTable extends Migration
             $table->longText('body');
             $table->string('slug');
             $table->integer('page');
+            $table->string('featured_image');
             $table->timestamp('published_at')->nullable();
             $table->timestamp('expired_at')->nullable();
             $table->integer('author_id')->nullable();

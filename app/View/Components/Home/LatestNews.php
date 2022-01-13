@@ -2,10 +2,12 @@
 
 namespace App\View\Components\Home;
 
+use App\Models\Post;
 use Illuminate\View\Component;
 
 class LatestNews extends Component
 {
+    public $items;
     /**
      * Create a new component instance.
      *
@@ -13,7 +15,8 @@ class LatestNews extends Component
      */
     public function __construct()
     {
-        //
+        $this->items = Post::where('page', 5)->orderBy('id', 'desc')->take(3)->get();
+        //dd($items);
     }
 
     /**
