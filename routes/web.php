@@ -72,7 +72,7 @@ Route::get('/{slug}/{id}', function ($slug, $id) {
         $post =  Post::find($id);
         return view('page.post-detail', compact('data', 'post'));
     }
-})->where(['slug' => '^((?!nova|nova-api|nova-vendor|storage).)*$']);
+})->where(['slug' => '^((?!backend|nova-api|nova-vendor|storage).)*$']);
 
 
 
@@ -95,7 +95,7 @@ Route::get('/{slug}', function ($slug) {
     }
 
     return view($data['view'], compact('data'));
-})->where(['slug' => '^((?!nova|nova-api|nova-vendor|storage).)*$']);
+})->where(['slug' => '^((?!backend|nova-api|nova-vendor|storage).)*$']);
 
 // Route::get('/linkstorage', function () {
 //     Artisan::call('storage:link');
