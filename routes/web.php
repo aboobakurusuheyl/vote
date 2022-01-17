@@ -49,6 +49,11 @@ Route::get('/approved-institutions/{id}', function ($id) {
     return view('page.institutions-deatail', compact('institute'));
 });
 
+Route::get('/blacklisted', function () {
+    //$institute = Institute::where('blacklisted', 1)->get();
+    return view('page.blacklisted');
+});
+
 
 Route::get('/contact', function () {
     //dd(nova_get_pages_structure());
