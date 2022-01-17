@@ -56,9 +56,7 @@ class Institute extends Resource
             ])->dependsOn('overseas', 1),
             Image::make('Logo'),
             Boolean::make(__('BlackListed'), 'blacklisted'),
-            HasMany::make('courses'),
-
-            
+            HasMany::make('courses')
         ];
     }
 
