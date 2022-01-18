@@ -52,7 +52,7 @@ class Institute extends Resource
             Text::make(__('Name'), 'name'),
             Boolean::make(__('Overseas'), 'overseas'),
             NovaDependencyContainer::make([
-                Country::make('Country', 'country_code')
+                Country::make('Country', 'country')
             ])->dependsOn('overseas', 1),
             Image::make('Logo'),
             Boolean::make(__('BlackListed'), 'blacklisted'),

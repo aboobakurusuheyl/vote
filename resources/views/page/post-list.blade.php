@@ -62,8 +62,8 @@
                                     </a>
                                 </p> -->
                                 <div class="flex space-x-1 text-sm text-gray-500">
-                                    <time datetime="2020-02-12">
-                                        Feb 12, 2020
+                                    <time datetime="2022-02-12">
+                                        Feb 12, 2022
                                     </time>
                                     <!-- <span aria-hidden="true">
                                         &middot;

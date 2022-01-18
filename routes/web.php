@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Course;
 use App\Models\File;
 use App\Models\institute;
 use App\Models\Post;
@@ -47,6 +48,12 @@ Route::get('/approved-institutions/{id}', function ($id) {
 
     $institute = Institute::where('id', $id)->first();
     return view('page.institutions-deatail', compact('institute'));
+});
+
+Route::get('/course-detail/{id}', function ($id) {
+
+    $course = Course::where('id', $id)->with('institute', 'mnqf')->first();
+    return view('page.course-detail', compact('course'));
 });
 
 Route::get('/blacklisted', function () {
