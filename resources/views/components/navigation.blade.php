@@ -1,4 +1,4 @@
-<div x-data="{show:true}">
+<div x-data="{show:false}">
     <div class=" md:flex justify-end px-12 py-4 hidden">
         <ul class="flex space-x-3">
             @foreach ($items[1]['menuItems'] as $menu)
