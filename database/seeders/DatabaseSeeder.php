@@ -25,5 +25,6 @@ class DatabaseSeeder extends Seeder
         $this->call(CoursesTableSeeder::class);
         $this->call(FilesTableSeeder::class);
         $this->call(PostsTableSeeder::class);
+        $this->call(QuickLinksTableSeeder::class);
     }
 }

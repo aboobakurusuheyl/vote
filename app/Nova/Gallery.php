@@ -4,18 +4,16 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
-use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Http\Requests\NovaRequest;
-use Ebess\AdvancedNovaMediaLibrary\Fields\Images;
 
-class Hero extends Resource
+class Gallery extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
      * @var string
      */
-    public static $model = \App\Models\Hero::class;
+    public static $model = \App\Models\Gallery::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
@@ -43,11 +41,6 @@ class Hero extends Resource
     {
         return [
             ID::make(__('ID'), 'id')->sortable(),
-            Text::make('Name'),
-            Images::make('Hero Image', 'banner')
-                ->rules('required', 'size:1')
-                ->singleImageRules('dimensions:max_width=1920')
-                ->enableExistingMedia(),
         ];
     }
 
