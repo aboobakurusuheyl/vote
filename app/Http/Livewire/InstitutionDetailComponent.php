@@ -44,11 +44,12 @@ class InstitutionDetailComponent extends Component
     {
         $this->current_level = $level;
         $this->courses =  $this->institute->courses->whereIn('mnqf_id', Mnqf::select('id')->where('level', $level)->get()->pluck('id'));
-        $this->getLevels();
+        //   $this->getLevels();
     }
 
     public function render()
     {
+        $this->getLevels();
         return view('livewire.institution-detail-component');
     }
 }
