@@ -6,7 +6,9 @@ use Illuminate\Http\Request;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Image;
 use Laravel\Nova\Http\Requests\NovaRequest;
+use Ebess\AdvancedNovaMediaLibrary\Fields\Images;
 
 class People extends Resource
 {
@@ -48,7 +50,8 @@ class People extends Resource
             Text::make('Name'),
             Text::make('designation'),
             BelongsTo::make('PeopleType'),
-            Text::make('Email')->hideFromIndex()
+            Text::make('Email')->hideFromIndex(),
+            Image::make('Image'),
         ];
     }
 
