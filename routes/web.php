@@ -2,6 +2,7 @@
 
 use App\Models\Course;
 use App\Models\File;
+use App\Models\Gallery;
 use App\Models\institute;
 use App\Models\Post;
 use App\Models\QuickLinks;
@@ -61,6 +62,17 @@ Route::get('/course-detail/{id}', function ($id) {
 Route::get('/blacklisted', function () {
     //$institute = Institute::where('blacklisted', 1)->get();
     return view('page.blacklisted');
+});
+
+Route::get('/galleries', function () {
+    $galleries = Gallery::all();
+    return view('page.galleries',compact('galleries'));
+});
+
+Route::get('/gallery-detail/{id}', function ($id) {
+
+    $gallery = Gallery::where('id', $id)->first();
+    return view('page.gallery-detail', compact('gallery'));
 });
 
 
