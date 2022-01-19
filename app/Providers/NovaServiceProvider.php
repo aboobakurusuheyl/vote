@@ -82,6 +82,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
         return [
             new \OptimistDigital\NovaPageManager\NovaPageManager,
             new \OptimistDigital\MenuBuilder\MenuBuilder,
+            \Vyuldashev\NovaPermission\NovaPermissionTool::make(),
             //new NovaToolPermissions(),
         ];
     }

@@ -6,6 +6,7 @@ use App\Models\institute;
 use App\Models\Post;
 use App\Models\QuickLinks;
 use App\Nova\Institute as NovaInstitute;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use SebastianBergmann\Environment\Console;
 
@@ -21,6 +22,7 @@ use SebastianBergmann\Environment\Console;
 */
 
 Route::get('/', function () {
+    //dd(Auth::user()->getAllPermissions()->pluck('name')->toArray());
     //$latestposts = Post::orderBy('id', 'desc')->take(3)->get();
     return view('welcome');
 });

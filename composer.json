@@ -20,7 +20,8 @@
         "optimistdigital/nova-menu-builder": "^6.0",
         "optimistdigital/nova-multiselect-field": "^2.3",
         "optimistdigital/nova-page-manager": "^4.0",
-        "spatie/laravel-medialibrary": "^9.0.0"
+        "spatie/laravel-medialibrary": "^9.0.0",
+        "vyuldashev/nova-permission": "^3.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
