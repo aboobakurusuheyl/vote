@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire;
 
-use App\Models\institute;
+use App\Models\Institute;
 use Livewire\Component;
 use Illuminate\Support\Facades\DB;
 
