@@ -4,7 +4,9 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
+use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Http\Requests\NovaRequest;
+use Ebess\AdvancedNovaMediaLibrary\Fields\Images;
 
 class Gallery extends Resource
 {
@@ -41,6 +43,17 @@ class Gallery extends Resource
     {
         return [
             ID::make(__('ID'), 'id')->sortable(),
+            Text::make('Name'),
+            Text::make('Description'),
+            Images::make('Images')
+                 ->rules('required')
+                 ->showStatistics()
+                 ->singleImageRules('dimensions:max_width=1920')
+                 ->enableExistingMedia(),
+            // Images::make('Images',)
+            //     ->showStatistics()
+            //     ->singleImageRules('dimensions:max_width=1920')
+            //     ->enableExistingMedia(),
         ];
     }
 
