@@ -2,11 +2,11 @@
 
 namespace App\Nova\Metrics;
 
-use App\Models\User;
+use App\Models\Post;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Metrics\Value;
 
-class TotalUsers extends Value
+class TotalPosts extends Value
 {
     /**
      * Calculate the value of the metric.
@@ -16,7 +16,7 @@ class TotalUsers extends Value
      */
     public function calculate(NovaRequest $request)
     {
-        return $this->count($request, User::class);
+        return $this->count($request, Post::class);
     }
 
     /**
@@ -54,6 +54,6 @@ class TotalUsers extends Value
      */
     public function uriKey()
     {
-        return 'total-users';
+        return 'total-posts';
     }
 }

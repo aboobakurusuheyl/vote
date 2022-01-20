@@ -2,6 +2,8 @@
 
 namespace App\Nova\Lenses;
 
+use App\Models\Post;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
@@ -20,7 +22,10 @@ class MostValuableUsers extends Lens
     public static function query(LensRequest $request, $query)
     {
         return $request->withOrdering($request->withFilters(
-            $query
+            $query->select(Post::columns())
+            //->join('licenses', 'users.id', '=', 'licenses.user_id')
+            //->orderBy('revenue', 'desc')
+            //->groupBy('users.id', 'users.name')
         ));
     }
 

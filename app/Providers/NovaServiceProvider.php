@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Institute;
 use Illuminate\Support\Facades\Gate;
 use Laravel\Nova\Cards\Help;
 use Laravel\Nova\Nova;
@@ -96,4 +97,13 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
     {
         //
     }
+
+    // protected function resources()
+    // {
+    //     Nova::resourcesIn(app_path('Nova'));
+
+    //     Nova::resources([
+    //         Institute::class
+    //     ]);
+    // }
 }
