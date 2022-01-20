@@ -2,11 +2,11 @@
 
 namespace App\Policies;
 
-use App\Models\Course;
+use App\Models\QuickLinks;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-class CoursePolicy
+class QuickLinksPolicy
 {
     use HandlesAuthorization;
 
@@ -18,21 +18,19 @@ class CoursePolicy
      */
     public function viewAny(User $user)
     {
-        return in_array('course-view-all', $user->getAllPermissions()->pluck('name')->toArray());
-        //
+        return in_array('quicklink-view-all', $user->getAllPermissions()->pluck('name')->toArray());
     }
 
     /**
      * Determine whether the user can view the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Course  $course
+     * @param  \App\Models\QuickLinks  $quickLinks
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function view(User $user, Course $course)
+    public function view(User $user, QuickLinks $quickLinks)
     {
-        return in_array('course-view', $user->getAllPermissions()->pluck('name')->toArray());
-        //
+        return in_array('quicklink-view', $user->getAllPermissions()->pluck('name')->toArray());
     }
 
     /**
@@ -43,58 +41,54 @@ class CoursePolicy
      */
     public function create(User $user)
     {
-        //
+        return in_array('quicklink-create', $user->getAllPermissions()->pluck('name')->toArray());
     }
 
     /**
      * Determine whether the user can update the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Course  $course
+     * @param  \App\Models\QuickLinks  $quickLinks
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function update(User $user, Course $course)
+    public function update(User $user, QuickLinks $quickLinks)
     {
-        return in_array('course-update', $user->getAllPermissions()->pluck('name')->toArray());
-        //
+        return in_array('quicklink-update', $user->getAllPermissions()->pluck('name')->toArray());
     }
 
     /**
      * Determine whether the user can delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Course  $course
+     * @param  \App\Models\QuickLinks  $quickLinks
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function delete(User $user, Course $course)
+    public function delete(User $user, QuickLinks $quickLinks)
     {
-        return in_array('course-delete', $user->getAllPermissions()->pluck('name')->toArray());
-        //
+        return in_array('quicklink-delete', $user->getAllPermissions()->pluck('name')->toArray());
     }
 
     /**
      * Determine whether the user can restore the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Course  $course
+     * @param  \App\Models\QuickLinks  $quickLinks
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function restore(User $user, Course $course)
+    public function restore(User $user, QuickLinks $quickLinks)
     {
-        return in_array('course-restore', $user->getAllPermissions()->pluck('name')->toArray());
-        //
+        return in_array('quicklink-restore', $user->getAllPermissions()->pluck('name')->toArray());
     }
 
     /**
      * Determine whether the user can permanently delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Course  $course
+     * @param  \App\Models\QuickLinks  $quickLinks
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function forceDelete(User $user, Course $course)
+    public function forceDelete(User $user, QuickLinks $quickLinks)
     {
-        return in_array('course-delete', $user->getAllPermissions()->pluck('name')->toArray());
-        //
+        return in_array('quicklink-delete', $user->getAllPermissions()->pluck('name')->toArray());
     }
 }
