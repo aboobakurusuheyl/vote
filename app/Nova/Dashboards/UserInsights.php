@@ -10,6 +10,7 @@ use App\Nova\Metrics\TotalPosts;
 use Laravel\Nova\Dashboard;
 use App\Nova\Metrics\TotalUsers;
 use App\Nova\Metrics\UsersOverTime;
+use Coroowicaksono\ChartJsIntegration\StackedChart;
 
 class UserInsights extends Dashboard
 {
@@ -28,6 +29,10 @@ class UserInsights extends Dashboard
             new TotalPosts(),
             //new Lenses\MostValuableUsers,
             //new MostValuableUsers,
+            // (new StackedChart())
+            //     ->title('Institute')
+            //     ->model('\App\Models\Institute') // Use Your Model Here
+            //     ->width('2/3')
         ];
     }
 
