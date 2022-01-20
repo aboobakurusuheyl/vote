@@ -100,4 +100,9 @@ class Gallery extends Resource
     {
         return [];
     }
+
+    public function registerMediaCollections(): void
+    {
+        $this->addMediaCollection('images');
+    }
 }

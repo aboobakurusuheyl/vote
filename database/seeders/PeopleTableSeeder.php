@@ -30,6 +30,8 @@ class PeopleTableSeeder extends Seeder
                 'name' => 'Dr. Abdul Hannan Waheed',
                 'people_type_id' => 1,
                 'updated_at' => '2021-11-26 14:56:34',
+                'image' => '',
+
             ),
             1 => 
             array (
@@ -42,6 +44,8 @@ class PeopleTableSeeder extends Seeder
                 'name' => 'Ms. Nazima Mohamed',
                 'people_type_id' => 1,
                 'updated_at' => '2021-11-26 14:58:25',
+                'image' => '',
+
             ),
             2 => 
             array (
@@ -54,6 +58,8 @@ class PeopleTableSeeder extends Seeder
                 'name' => 'Ms. Mariyam Sudha',
                 'people_type_id' => 1,
                 'updated_at' => '2021-11-26 14:59:04',
+                'image' => '',
+
             ),
             3 => 
             array (
@@ -66,6 +72,8 @@ class PeopleTableSeeder extends Seeder
                 'name' => 'Mr. Ahmed Ahsan',
                 'people_type_id' => 1,
                 'updated_at' => '2021-11-26 14:59:51',
+                'image' => '',
+
             ),
             4 => 
             array (
@@ -78,6 +86,8 @@ class PeopleTableSeeder extends Seeder
                 'name' => 'Dr Abdul Hannan Waheed',
                 'people_type_id' => 2,
                 'updated_at' => '2021-11-26 15:03:19',
+                'image' => '',
+
             ),
             5 => 
             array (
@@ -90,6 +100,8 @@ class PeopleTableSeeder extends Seeder
                 'name' => 'Khadheeja Adam',
                 'people_type_id' => 2,
                 'updated_at' => '2021-11-26 15:04:57',
+                'image' => '',
+
             ),
             6 => 
             array (
@@ -102,6 +114,8 @@ class PeopleTableSeeder extends Seeder
                 'name' => 'Dr Ahmed Ali Manik',
                 'people_type_id' => 2,
                 'updated_at' => '2021-11-26 19:08:55',
+                'image' => '',
+
             ),
             7 => 
             array (
@@ -114,6 +128,8 @@ class PeopleTableSeeder extends Seeder
                 'name' => 'Dr Aishath Reesha',
                 'people_type_id' => 2,
                 'updated_at' => '2021-11-26 19:09:30',
+                'image' => '',
+
             ),
             8 => 
             array (
@@ -126,6 +142,8 @@ class PeopleTableSeeder extends Seeder
                 'name' => 'Dr Mohamed Shareef',
                 'people_type_id' => 2,
                 'updated_at' => '2021-11-26 19:10:01',
+                'image' => '',
+
             ),
             9 => 
             array (
@@ -138,6 +156,8 @@ class PeopleTableSeeder extends Seeder
                 'name' => 'Adam Haleem',
                 'people_type_id' => 2,
                 'updated_at' => '2021-11-26 19:10:26',
+                'image' => '',
+
             ),
             10 => 
             array (
@@ -150,6 +170,8 @@ class PeopleTableSeeder extends Seeder
                 'name' => 'Moosa Mohamed Manik',
                 'people_type_id' => 2,
                 'updated_at' => '2021-11-26 19:11:03',
+                'image' => '',
+
             ),
             11 => 
             array (
@@ -162,6 +184,8 @@ class PeopleTableSeeder extends Seeder
                 'name' => 'Ms. Shaziyya Mohamed',
                 'people_type_id' => 3,
                 'updated_at' => '2021-11-26 19:13:06',
+                'image' => '',
+
             ),
         ));
         
