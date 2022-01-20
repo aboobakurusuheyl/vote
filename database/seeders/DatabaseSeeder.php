@@ -26,5 +26,7 @@ class DatabaseSeeder extends Seeder
         $this->call(FilesTableSeeder::class);
         $this->call(PostsTableSeeder::class);
         $this->call(QuickLinksTableSeeder::class);
+        $this->call(PermissionsTableSeeder::class);
+        $this->call(RolesTableSeeder::class);
     }
 }

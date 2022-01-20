@@ -94,7 +94,7 @@ class CoursePolicy
      */
     public function forceDelete(User $user, Course $course)
     {
-        return in_array('course-delete', $user->getAllPermissions()->pluck('name')->toArray());
+        //return in_array('course-delete', $user->getAllPermissions()->pluck('name')->toArray());
         //
     }
 }
