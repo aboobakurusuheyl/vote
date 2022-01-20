@@ -2,13 +2,14 @@
 
 namespace App\Http\Livewire;
 
+use App\Models\Institute;
 use App\Models\Mnqf;
 use Illuminate\Support\Facades\DB;
 use Livewire\Component;
 
 class InstitutionDetailComponent extends Component
 {
-    public $institute;
+    public Institute $institute;
     public $courses;
     public $levels = [];
     public $current_level = 0;
