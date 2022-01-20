@@ -16,6 +16,6 @@ class Course extends Model
 
     public function institute()
     {
-        return $this->belongsTo(institute::class);
+        return $this->belongsTo(Institute::class);
     }
 }
