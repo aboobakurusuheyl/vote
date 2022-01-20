@@ -3,7 +3,7 @@
 use App\Models\Course;
 use App\Models\File;
 use App\Models\Gallery;
-use App\Models\institute;
+use App\Models\Institute;
 use App\Models\Post;
 use App\Models\QuickLinks;
 use App\Nova\Institute as NovaInstitute;
