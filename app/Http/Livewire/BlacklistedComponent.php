@@ -16,7 +16,7 @@ class BlacklistedComponent extends Component
     public function render()
     {
         $search = '%' . $this->search . '%';
-        $this->institutes = institute::where('blacklisted', 1)
+        $this->institutes = Institute::where('blacklisted', 1)
             ->where('name', 'like',  $search)->get();
         return view('livewire.blacklisted-component');
     }

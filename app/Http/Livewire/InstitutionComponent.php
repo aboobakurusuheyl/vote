@@ -24,7 +24,7 @@ class InstitutionComponent extends Component
     public function render()
     {
         $search = '%' . $this->search . '%';
-        $this->institutes = institute::where('blacklisted', 0)
+        $this->institutes = Institute::where('blacklisted', 0)
             ->where('name', 'like',  $search)->get();
         return view('livewire.institution-component');
     }

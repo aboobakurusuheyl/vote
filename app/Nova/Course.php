@@ -52,7 +52,7 @@ class Course extends Resource
             Text::make('designation', 'name'),
             Text::make(__('Name'), 'name'),
             BelongsTo::make('Mnqf'),
-            BelongsTo::make('institute')
+            BelongsTo::make('Institute')
         ];
     }
 
