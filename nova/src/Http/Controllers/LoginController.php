@@ -7,6 +7,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;
+use Laravel\Nova\Dashboard;
 use Laravel\Nova\Nova;
 
 class LoginController extends Controller
@@ -66,7 +67,7 @@ class LoginController extends Controller
      */
     public function redirectPath()
     {
-        return Nova::path();
+        return Nova::path().'/dashboards/user-insights';
     }
 
     /**
