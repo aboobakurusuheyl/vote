@@ -9,9 +9,8 @@ use Illuminate\Support\Facades\DB;
 class InstitutionComponent extends Component
 {
 
+    public Institute $institute;
     public $search;
-    public $institutes;
-
 
     // public function mount()
     // {

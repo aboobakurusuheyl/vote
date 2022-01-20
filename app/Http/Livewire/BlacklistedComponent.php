@@ -9,8 +9,9 @@ use Illuminate\Support\Facades\DB;
 class BlacklistedComponent extends Component
 {
 
+    public Institute $institute;
     public $search;
-    public $institutes;
+    
 
     public function render()
     {
