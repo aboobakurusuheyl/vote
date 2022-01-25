@@ -10,15 +10,13 @@
 
         </div>
     </div>
-    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+    {{-- <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
         @foreach ($galleries as $gallery)
 
             <x-card.gallery :gallery="$gallery" />
 
         @endforeach
-
-        <!-- More people... -->
-    </div>
+    </div> --}}
 
     <div class="min-h-screen  py-6 flex flex-col justify-center sm:py-12">
         <div class="flex justify-center space-x-24">
