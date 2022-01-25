@@ -49,6 +49,8 @@ class People extends Resource
             ID::make(__('ID'), 'id')->sortable(),
             Text::make('Name'),
             Text::make('designation'),
+            Text::make('mobile'),
+            Text::make('organization'),
             BelongsTo::make('PeopleType'),
             Text::make('Email')->hideFromIndex(),
             Image::make('Image'),

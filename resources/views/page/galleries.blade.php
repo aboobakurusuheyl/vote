@@ -20,5 +20,31 @@
         <!-- More people... -->
     </div>
 
+    <div class="min-h-screen  py-6 flex flex-col justify-center sm:py-12">
+        <div class="flex justify-center space-x-24">
+            @foreach ($galleries as $gallery)
+                <a href="/gallery-detail/{{ $gallery->id }}" class="focus:outline-none">
+                    <div class="flex flex-col items-center space-y-5">
+                        <div class="relative py-3 sm:max-w-xl sm:mx-auto h-64 w-56 group cursor-pointer">
+                            @foreach ($gallery->getMedia('images') as $image)
+                                <img class="h-64 w-56 rounded-lg absolute shadow-md" src="{{ $image->getFullUrl() }}"
+                                    alt="{{ $image->name }}">
+                                <img class="h-64 w-56 rounded-lg absolute group-hover:rotate-[6deg] origin-bottom-right rotate-[2deg] transform ease-in-out  shadow-md transition-transform duration-150"
+                                    src="{{$image->getFullUrl()}}" />
+                                <img class="h-64 w-56 rounded-lg absolute group-hover:rotate-[12deg] origin-bottom-right rotate-[4deg] transform ease-in-out shadow-md transition-transform duration-150"
+                                    src="{{$image->getFullUrl()}}" />
+                            @endforeach
+                        </div>
+                        <div>
+                            <h1 class="font-semibold text-gray-700">{{ $gallery->name }}</h1>
+                            <small class="text-xs text-gray-300 block">{{ $gallery->description }}</small>
+                        </div>
+                    </div>
+                </a>
+
+            @endforeach
+        </div>
+    </div>
+
 
 </x-master-layout>

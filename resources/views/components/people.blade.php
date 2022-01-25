@@ -7,6 +7,8 @@
     <div class="font-medium text-lg leading-6 space-y-1">
         <h3>{{$people->name}}</h3>
         <p class="text-cyan-600 pt-2">{{$people->designation}}</p>
+        <p class="text-cyan-600 pt-2">{{$people->organization}}</p>
         <p class="text-gray-400">{{$people->email}}</p>
+        <p class="text-gray-400">{{$people->mobile}} - {{$people->mobile}}</p>
     </div>
 </div>
