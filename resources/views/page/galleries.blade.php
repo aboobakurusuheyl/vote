@@ -28,14 +28,11 @@
                             {{-- @foreach ($gallery->getMedia('images') as $image) --}}
                             <img class="h-64 w-56 rounded-lg absolute shadow-md"
                                 src="{{ $gallery->getMedia('images')[0]->getFullUrl() }}" alt="image">
-                            @if ($gallery->getMedia('images')[1])
-                                <img class="h-64 w-56 rounded-lg absolute group-hover:rotate-[6deg] origin-bottom-right rotate-[2deg] transform ease-in-out  shadow-md transition-transform duration-150"
-                                    src="{{ $gallery->getMedia('images')[1]->getFullUrl() }}" />
-                            @endif
-                            @if ($gallery->getMedia('images')[2])
-                                <img class="h-64 w-56 rounded-lg absolute group-hover:rotate-[12deg] origin-bottom-right rotate-[4deg] transform ease-in-out  shadow-md transition-transform duration-150"
-                                    src="{{ $gallery->getMedia('images')[1]->getFullUrl() }}" />
-                            @endif
+                            <img class="h-64 w-56 rounded-lg absolute group-hover:rotate-[6deg] origin-bottom-right rotate-[2deg] transform ease-in-out  shadow-md transition-transform duration-150"
+                                src="{{ $gallery->getMedia('images')[1]->getFullUrl() }}" />
+                            <img class="h-64 w-56 rounded-lg absolute group-hover:rotate-[12deg] origin-bottom-right rotate-[4deg] transform ease-in-out  shadow-md transition-transform duration-150"
+                                src="{{ $gallery->getMedia('images')[2]->getFullUrl() }}" />
+
                             {{-- @endforeach --}}
                         </div>
                         <div>
