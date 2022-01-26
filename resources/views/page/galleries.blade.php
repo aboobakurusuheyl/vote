@@ -21,17 +21,22 @@
     <div class="min-h-screen  py-6 flex flex-col justify-center sm:py-12">
         <div class="flex justify-center space-x-24">
             @foreach ($galleries as $gallery)
+                {{-- {{$gallery->getMedia('images')}} --}}
                 <a href="/gallery-detail/{{ $gallery->id }}" class="focus:outline-none">
                     <div class="flex flex-col items-center space-y-5">
                         <div class="relative py-3 sm:max-w-xl sm:mx-auto h-64 w-56 group cursor-pointer">
-                            @foreach ($gallery->getMedia('images') as $image)
-                                <img class="h-64 w-56 rounded-lg absolute shadow-md" src="{{ $image->getFullUrl() }}"
-                                    alt="{{ $image->name }}">
+                            {{-- @foreach ($gallery->getMedia('images') as $image) --}}
+                            <img class="h-64 w-56 rounded-lg absolute shadow-md"
+                                src="{{ $gallery->getMedia('images')[0]->getFullUrl() }}" alt="image">
+                            @if ($gallery->getMedia('images')[1])
                                 <img class="h-64 w-56 rounded-lg absolute group-hover:rotate-[6deg] origin-bottom-right rotate-[2deg] transform ease-in-out  shadow-md transition-transform duration-150"
-                                    src="{{$image->getFullUrl()}}" />
-                                <img class="h-64 w-56 rounded-lg absolute group-hover:rotate-[12deg] origin-bottom-right rotate-[4deg] transform ease-in-out shadow-md transition-transform duration-150"
-                                    src="{{$image->getFullUrl()}}" />
-                            @endforeach
+                                    src="{{ $gallery->getMedia('images')[1]->getFullUrl() }}" />
+                            @endif
+                            @if ($gallery->getMedia('images')[2])
+                                <img class="h-64 w-56 rounded-lg absolute group-hover:rotate-[12deg] origin-bottom-right rotate-[4deg] transform ease-in-out  shadow-md transition-transform duration-150"
+                                    src="{{ $gallery->getMedia('images')[1]->getFullUrl() }}" />
+                            @endif
+                            {{-- @endforeach --}}
                         </div>
                         <div>
                             <h1 class="font-semibold text-gray-700">{{ $gallery->name }}</h1>
