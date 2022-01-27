@@ -84,6 +84,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
             new \OptimistDigital\NovaPageManager\NovaPageManager,
             new \OptimistDigital\MenuBuilder\MenuBuilder,
             \Vyuldashev\NovaPermission\NovaPermissionTool::make(),
+            new \Mastani\NovaPasswordReset\NovaPasswordReset,
             //new NovaToolPermissions(),
         ];
     }
