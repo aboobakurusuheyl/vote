@@ -50,6 +50,7 @@ class People extends Resource
             Text::make('Name'),
             Text::make('designation'),
             Text::make('mobile'),
+            Text::make('work'),
             Text::make('organization'),
             BelongsTo::make('PeopleType'),
             Text::make('Email')->hideFromIndex(),

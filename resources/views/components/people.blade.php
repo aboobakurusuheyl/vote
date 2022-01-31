@@ -9,6 +9,6 @@
         <p class="text-cyan-600 pt-2">{{$people->designation}}</p>
         <p class="text-cyan-600 pt-2">{{$people->organization}}</p>
         <p class="text-gray-400">{{$people->email}}</p>
-        <p class="text-gray-400">{{$people->mobile}} - {{$people->mobile}}</p>
+        <p class="text-gray-400">{{$people->mobile}}</p>
     </div>
 </div>
