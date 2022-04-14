@@ -29,7 +29,8 @@ return [
         \App\Nova\Templates\Post::class,
         \App\Nova\Templates\FileList::class,
         \App\Nova\Templates\PageSimple::class,
-        \App\Nova\Templates\FileGroup::class
+        \App\Nova\Templates\FileGroup::class,
+        \App\Nova\Templates\PageTab::class
     ],
 
 

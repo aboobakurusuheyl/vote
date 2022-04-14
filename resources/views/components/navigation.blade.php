@@ -17,8 +17,12 @@
             <li>Quick Link</li> --}}
         </ul>
     </div>
-    <div class="md:flex justify-center w-full py-6 bg-[#cbe7d3] hidden">
-        <div><img src="/asset/mqa_header.svg" class="block" /></div>
+    <div class="md:flex justify-center w-full py-6 bg-[#cbe7d3] hidden items-center">
+        <div class="w-12"><img src="/asset/emblem.svg" class="block" /></div>
+        <div>
+            <h1 class=" text-3xl font-bold px-5">Maldives Qualification Authority</h1>
+        </div>
+        <div class="w-12"><img src="/asset/mqa_logo.svg" class="block" /></div>
     </div>
     <nav class="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 py-4" aria-label="Global">
         <div class="flex items-center flex-1">
