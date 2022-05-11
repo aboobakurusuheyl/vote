@@ -5,17 +5,17 @@ namespace App\Nova;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Image;
 use Laravel\Nova\Http\Requests\NovaRequest;
-use Laravel\Nova\Fields\HasMany;
 
-class Mnqf extends Resource
+class Staff extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
      * @var string
      */
-    public static $model = \App\Models\Mnqf::class;
+    public static $model = \App\Models\Staff::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
@@ -31,6 +31,7 @@ class Mnqf extends Resource
      */
     public static $search = [
         'id',
+        'Name',
     ];
 
     /**
@@ -43,9 +44,9 @@ class Mnqf extends Resource
     {
         return [
             ID::make(__('ID'), 'id')->sortable(),
-            Text::make(__('Level'), 'level'),
-            Text::make(__('Title'), 'title'),
-            HasMany::make('Courses')
+            Text::make(__('Name'), 'name'),
+            Text::make(__('Mobile'), 'mobile'),
+            Image::make('image')->disk('public'),
         ];
     }
 
