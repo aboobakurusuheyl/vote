@@ -47,20 +47,24 @@ Route::post('logincheck', function (Request $request) {
     $v = Validator::make($request->all(), $rules);
 
     if ($v->fails()) {
+       
         // return to login page with errors
         return Redirect::to('login')
             ->withInput()
             ->withErrors($v->errors());
     } else {
         if ($request->mobile != null ){
+            dd('test');
             $user = Staff::where('mobile', $request->mobile)->first();
             if ($user != null) {
                 $userdata = array(
                     'mobile' => $request->mobile,
-                );       
+                );
+        
                 Redis::set('user:'.$request->mobile, [
                     'login_date' =>now()
                 ]);
+                return Redirect::to('staff');
             } else {
                 return Redirect::to('login')
                     ->withInput()
@@ -71,6 +75,7 @@ Route::post('logincheck', function (Request $request) {
                 ->withInput()
                 ->withErrors(['mobile' => 'Mobile number is required']);
         }
+        
         
     }
 });
