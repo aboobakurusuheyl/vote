@@ -12,7 +12,7 @@
         @foreach($maleStaffs as $staff)
         <li wire:click="selectStaff({{ $staff }},'male')" class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
           <div class="flex-1 flex flex-col p-8">
-            <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
+            <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-lg" src="{{$staff->avatarUrl()}}" alt="{{$staff->name}}">
             <h3 class="mt-6 text-gray-900 text-sm font-medium">{{$staff->name}}</h3>
             <dl class="mt-1 flex-grow flex flex-col justify-between">
               <dd class="text-gray-500 text-sm">{{$staff->mobile}}</dd>
@@ -35,7 +35,7 @@
         @foreach($femaleStaffs as $staff)
         <li wire:click="selectStaff({{ $staff }},'female')" class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
           <div class="flex-1 flex flex-col p-8">
-            <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="">
+            <img class="w-32 h-32 flex-shrink-0 mx-auto rounded-lg" src="{{$staff->avatarUrl()}}" alt="{{$staff->name}}">
             <h3 class="mt-6 text-gray-900 text-sm font-medium">{{$staff->name}}</h3>
             <dl class="mt-1 flex-grow flex flex-col justify-between">
               <dd class="text-gray-500 text-sm">{{$staff->mobile}}</dd>

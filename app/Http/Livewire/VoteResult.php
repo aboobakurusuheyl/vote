@@ -18,7 +18,7 @@ class VoteResult extends Component
         ->whereType('male')
             ->join('staff_votes', 'users.id', '=', 'staff_votes.staff_id')
             ->groupBy('staff_id')
-            ->select('users.name', DB::raw('count(user_id) as count'))
+            ->select('users.name', 'users.image', DB::raw('count(user_id) as count'))
             ->orderByDesc('count')
             ->take(5)->get();
 
@@ -26,7 +26,7 @@ class VoteResult extends Component
         ->whereType('female')
             ->join('staff_votes', 'users.id', '=', 'staff_votes.staff_id')
             ->groupBy('staff_id')
-            ->select('users.name', DB::raw('count(user_id) as count'))
+            ->select('users.name', 'users.image', DB::raw('count(user_id) as count'))
             ->orderByDesc('count')
             ->take(5)->get();
         return view('livewire.vote-result', [

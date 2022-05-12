@@ -41,4 +41,13 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function avatarUrl()
+    {
+        return $this->image
+            ? $this->image
+            : 'https://ui-avatars.com/api/?name='.$this->name.'&color=7F9CF5&background=EBF4FF';
+
+        // 'https://www.gravatar.com/avatar/'.md5(strtolower(trim($this->email)));
+    }
 }
