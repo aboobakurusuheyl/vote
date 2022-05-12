@@ -47,22 +47,30 @@ Route::post('logincheck', function (Request $request) {
     $v = Validator::make($request->all(), $rules);
 
     if ($v->fails()) {
-        
         // return to login page with errors
         return Redirect::to('login')
             ->withInput()
             ->withErrors($v->errors());
     } else {
-
-        $userdata = array(
-            'mobile' => $request->mobile,
-        );
-
-        Redis::set('user:'.$request->mobile, [
-            'login_date' =>now()
-        ]);
-       
-        return Redirect::to('staff');
+        if ($request->mobile != null ){
+            $user = Staff::where('mobile', $request->mobile)->first();
+            if ($user != null) {
+                $userdata = array(
+                    'mobile' => $request->mobile,
+                );       
+                Redis::set('user:'.$request->mobile, [
+                    'login_date' =>now()
+                ]);
+            } else {
+                return Redirect::to('login')
+                    ->withInput()
+                    ->withErrors(['mobile' => 'Mobile number not registered']);
+            }
+        } else {
+            return Redirect::to('login')
+                ->withInput()
+                ->withErrors(['mobile' => 'Mobile number is required']);
+        }
         
     }
 });
