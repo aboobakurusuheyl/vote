@@ -18,6 +18,7 @@ class CreateStaffTable extends Migration
             $table->longText('name');
             $table->string('mobile');
             $table->longText('image')->nullable();
+            $table->string('gender')->nullable();
             $table->timestamps();
         });
     }
