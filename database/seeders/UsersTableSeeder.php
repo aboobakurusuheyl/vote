@@ -22,6 +22,7 @@ class UsersTableSeeder extends Seeder
             0 =>
             array(
               'name' => 'Aboobakuru Suhail',
+              'email' => 'aboobakuru.suhail@pension.gov.mv',
               'number' => '7527111',
               'gender' => 'male',
               'password' => '2871',
@@ -106,6 +107,7 @@ class UsersTableSeeder extends Seeder
             12 =>
             array(
               'name' => 'Ali Nawaz',
+              'email' => 'ali.nawaz@pension.gov.mv',
               'number' => '7933446',
               'gender' => 'male',
               'password' => '9323',
@@ -288,6 +290,7 @@ class UsersTableSeeder extends Seeder
             38 =>
             array(
               'name' => 'Mohamed Ameen Ibrahim',
+              'email' => 'ameen.ibrahim@pension.gov.mv',
               'number' => '7574370',
               'gender' => 'male',
               'password' => '8553',
