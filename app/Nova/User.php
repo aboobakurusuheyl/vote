@@ -3,30 +3,26 @@
 namespace App\Nova;
 
 use Illuminate\Http\Request;
-use Laravel\Nova\Fields\Gravatar;
 use Laravel\Nova\Fields\ID;
-use Laravel\Nova\Fields\MorphToMany;
-use Laravel\Nova\Fields\Password;
 use Laravel\Nova\Fields\Text;
-use Silvanite\NovaToolPermissions\Role;
-use Vyuldashev\NovaPermission\PermissionBooleanGroup;
-use Vyuldashev\NovaPermission\RoleBooleanGroup;
+use Laravel\Nova\Fields\Image;
+use Laravel\Nova\Http\Requests\NovaRequest;
 
-class User extends Resource
+class user extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
      * @var string
      */
-    public static $model = \App\Models\User::class;
+    public static $model = \App\Models\user::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
      *
      * @var string
      */
-    public static $title = 'name';
+    public static $title = 'id';
 
     /**
      * The columns that should be searched.
@@ -34,7 +30,8 @@ class User extends Resource
      * @var array
      */
     public static $search = [
-        'id', 'name', 'email',
+        'id',
+        'name',
     ];
 
     /**
@@ -46,33 +43,11 @@ class User extends Resource
     public function fields(Request $request)
     {
         return [
-            ID::make()->sortable(),
-
-            Gravatar::make()->maxWidth(50),
-
-            Text::make('Name')
-                ->sortable()
-                ->rules('required', 'max:255'),
-
-            Text::make('Email')
-                ->sortable()
-                ->rules('required', 'email', 'max:254')
-                ->creationRules('unique:users,email')
-                ->updateRules('unique:users,email,{{resourceId}}'),
-
-            Password::make('Password')
-                ->onlyOnForms()
-                ->creationRules('required', 'string', 'min:8')
-                ->updateRules('nullable', 'string', 'min:8'),
-
-            RoleBooleanGroup::make('Roles'),
-            PermissionBooleanGroup::make('Permissions'),
-            MorphToMany::make('Roles', 'roles', \Vyuldashev\NovaPermission\Role::class),
-            MorphToMany::make('Permissions', 'permissions', \Vyuldashev\NovaPermission\Permission::class)
-
-
-            //BelongsToMany::make('Roles', 'roles', Role::class),
-
+            ID::make(__('ID'), 'id')->sortable(),
+            Text::make(__('Name'), 'name'),
+            Text::make(__('Mobile'), 'mobile'),
+            Text::make(__('Email'), 'email'),
+            Image::make('image')->disk('public'),
         ];
     }
 

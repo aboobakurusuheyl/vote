@@ -147,4 +147,8 @@ return [
 
     'currency' => 'USD',
 
+    'brand' => [
+        'logo' => resource_path('/logo.svg'),
+    ],
+
 ];

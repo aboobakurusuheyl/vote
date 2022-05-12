@@ -27,7 +27,10 @@ class AuthServiceProvider extends ServiceProvider
 
         Gate::define('viewResult', function ($user) {
             return in_array($user->mobile, [
-                '9190645'
+                '9190645',
+                '7527111',
+                '7467737',
+                '7670464'
             ]);
         });
     }

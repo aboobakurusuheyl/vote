@@ -30,6 +30,7 @@ class UsersTableSeeder extends Seeder
             1 =>
             array(
               'name' => 'Ahmed Abdulla Mufeed',
+              'email' => '',
               'number' => '9832211',
               'gender' => 'male',
               'password' => '5031',
@@ -37,6 +38,7 @@ class UsersTableSeeder extends Seeder
             2 =>
             array(
               'name' => 'Ahmed Husham',
+              'email' => '',
               'number' => '7970303',
               'gender' => 'male',
               'password' => '6501',
@@ -44,6 +46,7 @@ class UsersTableSeeder extends Seeder
             3 =>
             array(
               'name' => 'Ahmed Shafeez',
+              'email' => '',
               'number' => '7779324',
               'gender' => 'male',
               'password' => '7299',
@@ -51,6 +54,7 @@ class UsersTableSeeder extends Seeder
             4 =>
             array(
               'name' => 'Aishath Ahna',
+              'email' => '',
               'number' => '7467737',
               'gender' => 'female',
               'password' => '3152',
@@ -58,6 +62,7 @@ class UsersTableSeeder extends Seeder
             5 =>
             array(
               'name' => 'Aishath Dhifla Majid',
+              'email' => '',
               'number' => '7831167',
               'gender' => 'female',
               'password' => '2533',
@@ -65,6 +70,7 @@ class UsersTableSeeder extends Seeder
             6 =>
             array(
               'name' => 'Aishath Fazna',
+              'email' => '',
               'number' => '7910106',
               'gender' => 'female',
               'password' => '3908',
@@ -72,6 +78,7 @@ class UsersTableSeeder extends Seeder
             7 =>
             array(
               'name' => 'Aishath Leesha',
+              'email' => '',
               'number' => '7628518',
               'gender' => 'female',
               'password' => '2915',
@@ -79,6 +86,7 @@ class UsersTableSeeder extends Seeder
             8 =>
             array(
               'name' => 'Aishath Najla',
+              'email' => '',
               'number' => '7471311',
               'gender' => 'female',
               'password' => '4686',
@@ -86,6 +94,7 @@ class UsersTableSeeder extends Seeder
             9 =>
             array(
               'name' => 'Aishath Saina Naseer',
+              'email' => '',
               'number' => '7644164',
               'gender' => 'female',
               'password' => '8582',
@@ -93,6 +102,7 @@ class UsersTableSeeder extends Seeder
             10 =>
             array(
               'name' => 'Aishath Sham\'a',
+              'email' => '',
               'number' => '7991661',
               'gender' => 'female',
               'password' => '2534',
@@ -100,6 +110,7 @@ class UsersTableSeeder extends Seeder
             11 =>
             array(
               'name' => 'Ali Haneef',
+              'email' => '',
               'number' => '7782115',
               'gender' => 'male',
               'password' => '4070',
@@ -108,6 +119,7 @@ class UsersTableSeeder extends Seeder
             array(
               'name' => 'Ali Nawaz',
               'email' => 'ali.nawaz@pension.gov.mv',
+              'email' => '',
               'number' => '7933446',
               'gender' => 'male',
               'password' => '9323',
@@ -115,6 +127,7 @@ class UsersTableSeeder extends Seeder
             13 =>
             array(
               'name' => 'Ali Zahir',
+              'email' => '',
               'number' => '7772812',
               'gender' => 'male',
               'password' => '7281',
@@ -122,6 +135,7 @@ class UsersTableSeeder extends Seeder
             14 =>
             array(
               'name' => 'Aminath Almasath Haneef',
+              'email' => '',
               'number' => '7651519',
               'gender' => 'female',
               'password' => '9175',
@@ -129,6 +143,7 @@ class UsersTableSeeder extends Seeder
             15 =>
             array(
               'name' => 'Aminath Enash Ahmed',
+              'email' => '',
               'number' => '7982356',
               'gender' => 'female',
               'password' => '5893',
@@ -136,6 +151,7 @@ class UsersTableSeeder extends Seeder
             16 =>
             array(
               'name' => 'Aminath Irthiyasha',
+              'email' => '',
               'number' => '7733610',
               'gender' => 'female',
               'password' => '5173',
@@ -143,6 +159,7 @@ class UsersTableSeeder extends Seeder
             17 =>
             array(
               'name' => 'Aminath Samha',
+              'email' => '',
               'number' => '9944417',
               'gender' => 'female',
               'password' => '4512',
@@ -150,6 +167,7 @@ class UsersTableSeeder extends Seeder
             18 =>
             array(
               'name' => 'Dheeba Nizar',
+              'email' => '',
               'number' => '7670464',
               'gender' => 'female',
               'password' => '9584',
@@ -157,6 +175,7 @@ class UsersTableSeeder extends Seeder
             19 =>
             array(
               'name' => 'Dhunya Abdul Hadhy',
+              'email' => '',
               'number' => '7706983',
               'gender' => 'female',
               'password' => '2515',
@@ -164,6 +183,7 @@ class UsersTableSeeder extends Seeder
             20 =>
             array(
               'name' => 'Fathimath Mohamed',
+              'email' => '',
               'number' => '7930639',
               'gender' => 'female',
               'password' => '4491',
@@ -171,6 +191,7 @@ class UsersTableSeeder extends Seeder
             21 =>
             array(
               'name' => 'Fathimath Sujatha Haleem',
+              'email' => '',
               'number' => '7784997',
               'gender' => 'female',
               'password' => '4972',
@@ -178,6 +199,7 @@ class UsersTableSeeder extends Seeder
             22 =>
             array(
               'name' => 'Fathmath Hanan Ahmed',
+              'email' => '',
               'number' => '9887424',
               'gender' => 'female',
               'password' => '3744',
@@ -185,6 +207,7 @@ class UsersTableSeeder extends Seeder
             23 =>
             array(
               'name' => 'Gaaidh Hussain',
+              'email' => '',
               'number' => '9644055',
               'gender' => 'male',
               'password' => '8304',
@@ -192,6 +215,7 @@ class UsersTableSeeder extends Seeder
             24 =>
             array(
               'name' => 'Hafeeza Falak',
+              'email' => '',
               'number' => '9729199',
               'gender' => 'female',
               'password' => '3329',
@@ -199,6 +223,7 @@ class UsersTableSeeder extends Seeder
             25 =>
             array(
               'name' => 'Hamza Afeef',
+              'email' => '',
               'number' => '7986775',
               'gender' => 'male',
               'password' => '2141',
@@ -206,6 +231,7 @@ class UsersTableSeeder extends Seeder
             26 =>
             array(
               'name' => 'Hanna Moosa',
+              'email' => '',
               'number' => '7632144',
               'gender' => 'female',
               'password' => '4341',
@@ -213,6 +239,7 @@ class UsersTableSeeder extends Seeder
             27 =>
             array(
               'name' => 'Hassan Naif Mohamed',
+              'email' => '',
               'number' => '9190645',
               'gender' => 'male',
               'password' => '3012',
@@ -220,6 +247,7 @@ class UsersTableSeeder extends Seeder
             28 =>
             array(
               'name' => 'Ibrahim Mufeed',
+              'email' => '',
               'number' => '7745594',
               'gender' => 'male',
               'password' => '5608',
@@ -227,6 +255,7 @@ class UsersTableSeeder extends Seeder
             29 =>
             array(
               'name' => 'Ifham Amjad',
+              'email' => '',
               'number' => '7484717',
               'gender' => 'male',
               'password' => '4066',
@@ -234,6 +263,7 @@ class UsersTableSeeder extends Seeder
             30 =>
             array(
               'name' => 'Ismail Ahmed',
+              'email' => '',
               'number' => '7530735',
               'gender' => 'male',
               'password' => '1980',
@@ -241,6 +271,7 @@ class UsersTableSeeder extends Seeder
             31 =>
             array(
               'name' => 'Ismail Wikram Nafees',
+              'email' => '',
               'number' => '7830010',
               'gender' => 'male',
               'password' => '6529',
@@ -248,6 +279,7 @@ class UsersTableSeeder extends Seeder
             32 =>
             array(
               'name' => 'Mahmood Waheed',
+              'email' => '',
               'number' => '9101188',
               'gender' => 'male',
               'password' => '8198',
@@ -255,6 +287,7 @@ class UsersTableSeeder extends Seeder
             33 =>
             array(
               'name' => 'Mariyam Hana',
+              'email' => '',
               'number' => '9925945',
               'gender' => 'female',
               'password' => '5431',
@@ -262,6 +295,7 @@ class UsersTableSeeder extends Seeder
             34 =>
             array(
               'name' => 'Mariyam Jumana',
+              'email' => '',
               'number' => '7749991',
               'gender' => 'female',
               'password' => '7996',
@@ -269,6 +303,7 @@ class UsersTableSeeder extends Seeder
             35 =>
             array(
               'name' => 'Mariyam Majidha Hassan',
+              'email' => '',
               'number' => '7788600',
               'gender' => 'female',
               'password' => '6554',
@@ -276,6 +311,7 @@ class UsersTableSeeder extends Seeder
             36 =>
             array(
               'name' => 'Mariyam Shadiya',
+              'email' => '',
               'number' => '7731815',
               'gender' => 'female',
               'password' => '9502',
@@ -283,6 +319,7 @@ class UsersTableSeeder extends Seeder
             37 =>
             array(
               'name' => 'Mariyam Shamha Ismail',
+              'email' => '',
               'number' => '9116855',
               'gender' => 'female',
               'password' => '1255',
@@ -291,6 +328,7 @@ class UsersTableSeeder extends Seeder
             array(
               'name' => 'Mohamed Ameen Ibrahim',
               'email' => 'ameen.ibrahim@pension.gov.mv',
+              'email' => '',
               'number' => '7574370',
               'gender' => 'male',
               'password' => '8553',
@@ -298,6 +336,7 @@ class UsersTableSeeder extends Seeder
             39 =>
             array(
               'name' => 'Mohamed Niyaaz',
+              'email' => '',
               'number' => '9171722',
               'gender' => 'male',
               'password' => '1865',
@@ -305,6 +344,7 @@ class UsersTableSeeder extends Seeder
             40 =>
             array(
               'name' => 'Mohamed Shafeeu',
+              'email' => '',
               'number' => '7610369',
               'gender' => 'male',
               'password' => '7064',
@@ -312,6 +352,7 @@ class UsersTableSeeder extends Seeder
             41 =>
             array(
               'name' => 'Mohamed Shahid',
+              'email' => '',
               'number' => '7777993',
               'gender' => 'male',
               'password' => '7674',
@@ -319,6 +360,7 @@ class UsersTableSeeder extends Seeder
             42 =>
             array(
               'name' => 'Mohamed Shifan',
+              'email' => '',
               'number' => '7967776',
               'gender' => 'male',
               'password' => '1103',
@@ -326,6 +368,7 @@ class UsersTableSeeder extends Seeder
             43 =>
             array(
               'name' => 'Nasra Mohamed Kaleygefaan',
+              'email' => '',
               'number' => '7412203',
               'gender' => 'female',
               'password' => '5009',
@@ -333,6 +376,7 @@ class UsersTableSeeder extends Seeder
             44 =>
             array(
               'name' => 'Niyaza Abdulla',
+              'email' => '',
               'number' => '9925352',
               'gender' => 'female',
               'password' => '3695',
@@ -340,6 +384,7 @@ class UsersTableSeeder extends Seeder
             45 =>
             array(
               'name' => 'Shamla Ali',
+              'email' => '',
               'number' => '7567897',
               'gender' => 'female',
               'password' => '6714',
@@ -347,6 +392,7 @@ class UsersTableSeeder extends Seeder
             46 =>
             array(
               'name' => 'Shiufa Hussain',
+              'email' => '',
               'number' => '7781900',
               'gender' => 'female',
               'password' => '3137',
@@ -354,6 +400,7 @@ class UsersTableSeeder extends Seeder
             47 =>
             array(
               'name' => 'Thalhath Moosa',
+              'email' => '',
               'number' => '7906629',
               'gender' => 'male',
               'password' => '1212',
@@ -361,6 +408,7 @@ class UsersTableSeeder extends Seeder
             48 =>
             array(
               'name' => 'Abdulla Fikuree',
+              'email' => '',
               'number' => '7904846',
               'gender' => 'male',
               'password' => '3653',
@@ -368,6 +416,7 @@ class UsersTableSeeder extends Seeder
             49 =>
             array(
               'name' => 'Zeeshan Abdul Ghanee',
+              'email' => '',
               'number' => '7378887',
               'gender' => 'female',
               'password' => '7657',
@@ -375,6 +424,7 @@ class UsersTableSeeder extends Seeder
             50 =>
             array(
               'name' => 'Fathimath Nisha Fahmy',
+              'email' => '',
               'number' => '7906150',
               'gender' => 'female',
               'password' => '4647',
@@ -382,6 +432,7 @@ class UsersTableSeeder extends Seeder
             51 =>
             array(
               'name' => 'Aishath Eiman Latheef',
+              'email' => '',
               'number' => '7687658',
               'gender' => 'female',
               'password' => '8974',
@@ -389,6 +440,7 @@ class UsersTableSeeder extends Seeder
             52 =>
             array(
               'name' => 'Jiva Amir',
+              'email' => '',
               'number' => '9551101',
               'gender' => 'female',
               'password' => '3520',
@@ -396,6 +448,7 @@ class UsersTableSeeder extends Seeder
             53 =>
             array(
               'name' => 'Abdulla Fathih',
+              'email' => '',
               'number' => '9666745',
               'gender' => 'male',
               'password' => '9566',
@@ -403,6 +456,7 @@ class UsersTableSeeder extends Seeder
             54 =>
             array(
               'name' => 'Shaula Ibrahim',
+              'email' => '',
               'number' => '7962414',
               'gender' => 'female',
               'password' => '9633',
@@ -410,6 +464,7 @@ class UsersTableSeeder extends Seeder
             55 =>
             array(
               'name' => 'Ibrahim Naail Najmee',
+              'email' => '',
               'number' => '7925571',
               'gender' => 'male',
               'password' => '1369',
@@ -417,6 +472,7 @@ class UsersTableSeeder extends Seeder
             56 =>
             array(
               'name' => 'Aishath Raya',
+              'email' => '',
               'number' => '7591619',
               'gender' => 'female',
               'password' => '3466',
@@ -424,6 +480,7 @@ class UsersTableSeeder extends Seeder
             57 =>
             array(
               'name' => 'Mohamed Anoof Ibrahim',
+              'email' => '',
               'number' => '7901772',
               'gender' => 'male',
               'password' => '6844',
@@ -431,6 +488,7 @@ class UsersTableSeeder extends Seeder
             58 =>
             array(
               'name' => 'Aminath Zakiya Adam',
+              'email' => '',
               'number' => '9781500',
               'gender' => 'female',
               'password' => '2500',
@@ -438,6 +496,7 @@ class UsersTableSeeder extends Seeder
             59 =>
             array(
               'name' => 'Haasina Abdul Azeez',
+              'email' => '',
               'number' => '9476847',
               'gender' => 'female',
               'password' => '1312',
@@ -445,6 +504,7 @@ class UsersTableSeeder extends Seeder
             60 =>
             array(
               'name' => 'Mohamed Zakin Zahid',
+              'email' => '',
               'number' => '7994463',
               'gender' => 'male',
               'password' => '2774',
@@ -452,6 +512,7 @@ class UsersTableSeeder extends Seeder
             61 =>
             array(
               'name' => 'Hassan Anim Ali',
+              'email' => '',
               'number' => '7447880',
               'gender' => 'male',
               'password' => '6216',
@@ -459,6 +520,7 @@ class UsersTableSeeder extends Seeder
             62 =>
             array(
               'name' => 'Aishath Alma Ahmed Shareef',
+              'email' => '',
               'number' => '7512919',
               'gender' => 'female',
               'password' => '7225',
@@ -466,6 +528,7 @@ class UsersTableSeeder extends Seeder
             63 =>
             array(
               'name' => 'Aishath Malsa Moosa Jameel',
+              'email' => '',
               'number' => '7457416',
               'gender' => 'female',
               'password' => '8145',
@@ -473,6 +536,7 @@ class UsersTableSeeder extends Seeder
             64 =>
             array(
               'name' => 'Maryam Abdul Nasir',
+              'email' => '',
               'number' => '7987899',
               'gender' => 'female',
               'password' => '5633',
@@ -480,6 +544,7 @@ class UsersTableSeeder extends Seeder
             65 =>
             array(
               'name' => 'Athifa Ali',
+              'email' => '',
               'number' => '7785144',
               'gender' => 'female',
               'password' => '3349',
@@ -487,6 +552,7 @@ class UsersTableSeeder extends Seeder
             66 =>
             array(
               'name' => 'Shifaza Wajeeh',
+              'email' => '',
               'number' => '7787873',
               'gender' => 'female',
               'password' => '3710',
@@ -494,6 +560,7 @@ class UsersTableSeeder extends Seeder
             67 =>
             array(
               'name' => 'Fathimath Abdulla Kamaaluddeen',
+              'email' => '',
               'number' => '7794200',
               'gender' => 'female',
               'password' => '3717',
@@ -501,6 +568,7 @@ class UsersTableSeeder extends Seeder
             68 =>
             array(
               'name' => 'Uza. Laila Manik',
+              'email' => '',
               'number' => '7998005',
               'gender' => 'female',
               'password' => '6417',
@@ -508,6 +576,7 @@ class UsersTableSeeder extends Seeder
             69 =>
             array(
               'name' => 'Abdul Haleem Abdul Latheef',
+              'email' => '',
               'number' => '7771868',
               'gender' => 'male',
               'password' => '9478',
@@ -515,6 +584,7 @@ class UsersTableSeeder extends Seeder
             70 =>
             array(
               'name' => 'Abdul Majeedh Ali',
+              'email' => '',
               'number' => '7779608',
               'gender' => 'male',
               'password' => '9832',
@@ -522,6 +592,7 @@ class UsersTableSeeder extends Seeder
             71 =>
             array(
               'name' => 'Mohamed Ghaly Murthala',
+              'email' => '',
               'number' => '7949549',
               'gender' => 'male',
               'password' => '8781',

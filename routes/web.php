@@ -2,16 +2,6 @@
 
 use App\Http\Livewire\StaffVote as StaffVoteView;
 use App\Http\Livewire\VoteResult;
-use App\Models\Course;
-use App\Models\File;
-use App\Models\Gallery;
-use App\Models\Institute;
-use App\Models\Post;
-use App\Models\QuickLinks;
-use App\Models\Staff;
-use App\Models\StaffVote as ModelsStaffVote;
-use App\Models\User;
-use App\Nova\Institute as NovaInstitute;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -32,14 +22,9 @@ use Illuminate\Support\Facades\Redis;
 */
 
 Route::get('/login', function () {
-    //dd(Auth::user()->getAllPermissions()->pluck('name')->toArray());
-    //$latestposts = Post::orderBy('id', 'desc')->take(3)->get();
     return view('login');
 })->name('login');
 
-// Route::get('login', function () {
-//     return view('login');
-// });
 
 Route::post('login', function (Request $request) {
     $rules = array(
@@ -67,26 +52,13 @@ Route::post('login', function (Request $request) {
 });
 
 Route::get('/', StaffVoteView::class)->middleware('auth');
+
 Route::get('/results', VoteResult::class)->middleware('auth');
-
-
-// Route::get('/staff', function () {
-//     Route::get('/post', ShowPosts::class);
-//     $staff = Staff::all();
-//     return view('page.staff', compact('staff'));
-// });
-
-
 
 Route::get('/blacklisted', function () {
     //$institute = Institute::where('blacklisted', 1)->get();
     return view('page.blacklisted');
 });
-
-
-
-
-
 
 Route::get('/contact', function () {
     //dd(nova_get_pages_structure());

@@ -81,7 +81,7 @@
             </x-slot>
 
             <x-slot name="content">
-                Are you sure you want to vote <b>{{$selectedMaleStaff['name']}}</b>?
+                Are you sure you want to vote for <b>{{$selectedMaleStaff['name']}}</b>?
             </x-slot>
 
             <x-slot name="footer">
@@ -102,7 +102,7 @@
             </x-slot>
 
             <x-slot name="content">
-                Are you sure you want to vote <b>{{$selectedFemaleStaff['name']}}</b>?
+                Are you sure you want to vote for <b>{{$selectedFemaleStaff['name']}}</b>?
             </x-slot>
 
             <x-slot name="footer">
