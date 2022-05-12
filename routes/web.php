@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Livewire\StaffVote as StaffVoteView;
+use App\Http\Livewire\VoteResult;
 use App\Models\Course;
 use App\Models\File;
 use App\Models\Gallery;
@@ -7,6 +9,7 @@ use App\Models\Institute;
 use App\Models\Post;
 use App\Models\QuickLinks;
 use App\Models\Staff;
+use App\Models\StaffVote as ModelsStaffVote;
 use App\Models\User;
 use App\Nova\Institute as NovaInstitute;
 use Illuminate\Http\Request;
@@ -28,63 +31,50 @@ use Illuminate\Support\Facades\Redis;
 |
 */
 
-Route::get('/', function () {
+Route::get('/login', function () {
     //dd(Auth::user()->getAllPermissions()->pluck('name')->toArray());
     //$latestposts = Post::orderBy('id', 'desc')->take(3)->get();
-    return view('welcome');
-});
-
-Route::get('login', function () {
     return view('login');
-});
+})->name('login');
 
-Route::post('logincheck', function (Request $request) {
+// Route::get('login', function () {
+//     return view('login');
+// });
 
+Route::post('login', function (Request $request) {
     $rules = array(
         'mobile' => 'required|min:7|max:7',
+        'password' => 'required|min:4|max:4',
     );
 
     $v = Validator::make($request->all(), $rules);
 
     if ($v->fails()) {
-       
+
         // return to login page with errors
         return Redirect::to('login')
             ->withInput()
             ->withErrors($v->errors());
     } else {
-        if ($request->mobile != null ){
-            dd('test');
-            $user = Staff::where('mobile', $request->mobile)->first();
-            if ($user != null) {
-                $userdata = array(
-                    'mobile' => $request->mobile,
-                );
-        
-                Redis::set('user:'.$request->mobile, [
-                    'login_date' =>now()
-                ]);
-                return Redirect::to('staff');
-            } else {
-                return Redirect::to('login')
-                    ->withInput()
-                    ->withErrors(['mobile' => 'Mobile number not registered']);
-            }
-        } else {
-            return Redirect::to('login')
-                ->withInput()
-                ->withErrors(['mobile' => 'Mobile number is required']);
+        if (Auth::attempt(['mobile' => $request->mobile, 'password' =>  $request->password])) {
+            return Redirect::to('/');
         }
-        
-        
+
+        return Redirect::to('login')
+        ->withInput()
+        ->withErrors($v->errors());
     }
 });
 
+Route::get('/', StaffVoteView::class)->middleware('auth');
+Route::get('/results', VoteResult::class)->middleware('auth');
 
-Route::get('/staff', function () {
-    $staff = Staff::all();
-    return view('page.staff', compact('staff'));
-});
+
+// Route::get('/staff', function () {
+//     Route::get('/post', ShowPosts::class);
+//     $staff = Staff::all();
+//     return view('page.staff', compact('staff'));
+// });
 
 
 
@@ -101,4 +91,14 @@ Route::get('/blacklisted', function () {
 Route::get('/contact', function () {
     //dd(nova_get_pages_structure());
     return view('page.contact');
+});
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
 });

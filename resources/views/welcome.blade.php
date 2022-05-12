@@ -13,6 +13,7 @@
                 <div class="mt-8">
                     <div class="mt-6">
                         <form action="{{ url('/logincheck') }}" method="POST" class="space-y-6">
+
                             <div>
                                 <label for="mobile" class="block text-sm font-medium text-gray-700"> Mobile Number
                                 </label>

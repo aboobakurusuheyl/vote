@@ -25,6 +25,10 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+        Gate::define('viewResult', function ($user) {
+            return in_array($user->mobile, [
+                '9190645'
+            ]);
+        });
     }
 }

@@ -14,12 +14,12 @@ class CoursesTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('courses')->delete();
-        
+
         \DB::table('courses')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'name' => 'CERTIFICATE I IN FIBERGLASS BOAT BUILDING',
@@ -32,7 +32,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2,
                 'name' => 'CERTIFICATE I IN PEARL JEWELLERY',
@@ -45,7 +45,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 3,
                 'name' => 'CERTIFICATE I IN COUNSELING',
@@ -58,7 +58,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 4,
                 'name' => 'SAANAVEE ISLAM MUDHARISSUN THAZA KURAA COURSE',
@@ -71,7 +71,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 5,
                 'name' => 'CERTIFICATE  1 IN ARABIC LANGUAGE',
@@ -84,7 +84,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 6,
                 'name' => 'CERTIFICATE 1 IN ARABIC FOR TRAVEL AND TOURISM',
@@ -97,7 +97,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 7,
                 'name' => 'CERTIFICATE 1 IN QIRAAATH',
@@ -110,7 +110,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 8,
                 'name' => 'VAAHAKADHEHKUNTHERIKAMUGE HUNARUVERIKAN DHASKOHDHEY COURSE LEVEL 1',
@@ -123,7 +123,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 9,
                 'name' => 'CERTIFICATE 1 IN BASIC ENGLISH',
@@ -136,7 +136,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 10,
                 'name' => 'CERTIFICATE 1 IN ENGLISH FOR GENERAL PURPOSE',
@@ -149,7 +149,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 11,
                 'name' => 'CERTIFICATE I IN MARKETING',
@@ -162,7 +162,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 12,
                 'name' => 'CERTIFICATE I IN LEADERSHIP AND OFFICE MANAGEMENT',
@@ -175,7 +175,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 13,
                 'name' => 'CERTIFICATE I IN ORGANISATIONAL BEHAVIOUR',
@@ -188,7 +188,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 14,
                 'name' => 'CERTIFICATE I IN MANAGEMENT',
@@ -201,7 +201,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 15,
                 'name' => 'CERTIFICATE I IN CUSTOMER SERVICES',
@@ -214,7 +214,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 16,
                 'name' => 'CERTIFICATE I IN KEY CONCEPTS IN PERSONNEL MANAGEMENT',
@@ -227,7 +227,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 17,
                 'name' => 'CERTIFICATE I IN OFFICE ADMINISTRATION',
@@ -240,7 +240,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 18,
                 'name' => 'CERTIFICATE I IN OFFICE COMPUTING',
@@ -253,7 +253,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 19,
                 'name' => 'CERTIFICATE I IN OFFICE COMPUTING',
@@ -266,7 +266,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            19 => 
+            19 =>
             array (
                 'id' => 20,
                 'name' => 'CERTIFICATE I IN CUSTOMER SERVICE',
@@ -279,7 +279,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            20 => 
+            20 =>
             array (
                 'id' => 21,
                 'name' => 'CERTIFICATE I IN OFFICE ADMINISTRATION',
@@ -292,7 +292,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            21 => 
+            21 =>
             array (
                 'id' => 22,
                 'name' => 'CERTIFICATE I IN SUPPLY CHAIN MANAGEMENT',
@@ -305,7 +305,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            22 => 
+            22 =>
             array (
                 'id' => 23,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -318,7 +318,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            23 => 
+            23 =>
             array (
                 'id' => 24,
                 'name' => 'CERTIFICATE I IN OFFICE MANAGEMENT & ADMINISTRATION',
@@ -331,7 +331,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            24 => 
+            24 =>
             array (
                 'id' => 25,
                 'name' => 'CERTIFICATE I IN LIFE SKILLS AND CITIZENSHIP VALUES',
@@ -344,7 +344,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            25 => 
+            25 =>
             array (
                 'id' => 26,
                 'name' => 'SECURITY OFFICER TRAINING COURSE',
@@ -357,7 +357,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            26 => 
+            26 =>
             array (
                 'id' => 27,
                 'name' => 'CERTIFICATE 1 IN HAZ MAT RESPONDER',
@@ -370,7 +370,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            27 => 
+            27 =>
             array (
                 'id' => 28,
                 'name' => 'CERTIFICATE I IN HUMAN RESOURCE MANAGEMENT',
@@ -383,7 +383,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            28 => 
+            28 =>
             array (
                 'id' => 29,
                 'name' => 'CERTIFICATE I IN ENGLISH FOR LIFE',
@@ -396,7 +396,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            29 => 
+            29 =>
             array (
                 'id' => 30,
                 'name' => 'FIRST CERTIFICATE IN COMPUTER APPLICATIONS',
@@ -409,7 +409,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            30 => 
+            30 =>
             array (
                 'id' => 31,
                 'name' => 'FIRST CERTIFICATE IN GRAPHIC DESIGN',
@@ -422,7 +422,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            31 => 
+            31 =>
             array (
                 'id' => 32,
                 'name' => 'CERTIFICATE I IN BOOK KEEPING',
@@ -435,7 +435,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            32 => 
+            32 =>
             array (
                 'id' => 33,
                 'name' => 'CERTIFICATE I IN MARKETING',
@@ -448,7 +448,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            33 => 
+            33 =>
             array (
                 'id' => 34,
                 'name' => 'FIRST CERTIFICATE IN COMPUTER APPLICATIONS',
@@ -461,7 +461,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            34 => 
+            34 =>
             array (
                 'id' => 35,
             'name' => 'CERTIFICATE I IN BUSINESS (HOSPITALITY AND TOURISM)',
@@ -474,7 +474,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            35 => 
+            35 =>
             array (
                 'id' => 36,
                 'name' => 'BASIC COMPUTING',
@@ -487,7 +487,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            36 => 
+            36 =>
             array (
                 'id' => 37,
                 'name' => 'CERTIFICATE I IN CUSTOMER CARE',
@@ -500,7 +500,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            37 => 
+            37 =>
             array (
                 'id' => 38,
                 'name' => 'CERTIFICATE I IN EMPLOYEE MOTIVATION',
@@ -513,7 +513,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            38 => 
+            38 =>
             array (
                 'id' => 39,
                 'name' => 'CERTIFICATE I IN EVENT MANAGEMENT',
@@ -526,7 +526,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            39 => 
+            39 =>
             array (
                 'id' => 40,
                 'name' => 'CERTIFICATE I IN LEADERSHIP SKILLS',
@@ -539,7 +539,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            40 => 
+            40 =>
             array (
                 'id' => 41,
                 'name' => 'CERTIFICATE IN CHANGE MANAGEMENT',
@@ -552,7 +552,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            41 => 
+            41 =>
             array (
                 'id' => 42,
                 'name' => 'CERTIFICATE I INFORMATION TECHNOLOGY',
@@ -565,7 +565,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            42 => 
+            42 =>
             array (
                 'id' => 43,
                 'name' => 'CERTIFICATE 1 IN INFORMATION TECHNOLOGY',
@@ -578,7 +578,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            43 => 
+            43 =>
             array (
                 'id' => 44,
                 'name' => 'ACCA FIA - CERTIFICATE IN FOUNDATIONS IN TAXATION',
@@ -591,7 +591,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            44 => 
+            44 =>
             array (
                 'id' => 45,
                 'name' => 'ACCA FIA - CERTIFICATE IN FOUNATIONS IN FINANCIAL MANAGEMENT',
@@ -604,7 +604,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            45 => 
+            45 =>
             array (
                 'id' => 46,
                 'name' => 'ACCA INTRODUCTORY CERTIFICATE IN FINANCIAL AND MANAGEMENT',
@@ -617,7 +617,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            46 => 
+            46 =>
             array (
                 'id' => 47,
                 'name' => 'ACCA FIA - CERTIFICATE IN FOUNDATIONS IN AUDIT',
@@ -630,7 +630,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            47 => 
+            47 =>
             array (
                 'id' => 48,
                 'name' => 'CERTIFICATE I IN COMPUTER HARDWARE',
@@ -643,7 +643,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            48 => 
+            48 =>
             array (
                 'id' => 49,
                 'name' => 'CERTIFICATE I IN ARABIC LANGUAGE ',
@@ -656,7 +656,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            49 => 
+            49 =>
             array (
                 'id' => 50,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -669,7 +669,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            50 => 
+            50 =>
             array (
                 'id' => 51,
                 'name' => 'CERTIFICATE IN RED HAT LINUX',
@@ -682,7 +682,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            51 => 
+            51 =>
             array (
                 'id' => 52,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -695,7 +695,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            52 => 
+            52 =>
             array (
                 'id' => 53,
                 'name' => 'CERTIFICATE LEVEL 1 IN DRIVING',
@@ -708,7 +708,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            53 => 
+            53 =>
             array (
                 'id' => 54,
                 'name' => 'CERTIFICATE I IN GYM INSTRUCTOR COURSE',
@@ -721,7 +721,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            54 => 
+            54 =>
             array (
                 'id' => 55,
                 'name' => 'CERTIFICATE I IN SEAFOOD PROCESSING',
@@ -734,7 +734,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            55 => 
+            55 =>
             array (
                 'id' => 56,
                 'name' => 'CERTIFICATE I IN BASIC AGRICULTURE FARMING',
@@ -747,7 +747,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            56 => 
+            56 =>
             array (
                 'id' => 57,
                 'name' => 'CERTIFICATE I IN COMPUTER HARDWARE',
@@ -760,7 +760,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            57 => 
+            57 =>
             array (
                 'id' => 58,
                 'name' => 'CERTIFICATE I IN DRESS MAKING AND DESIGNING ',
@@ -773,7 +773,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            58 => 
+            58 =>
             array (
                 'id' => 59,
                 'name' => 'CERTIFICATE I IN ELECTRICAL WIRING ',
@@ -786,7 +786,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            59 => 
+            59 =>
             array (
                 'id' => 60,
                 'name' => 'CERTIFICATE I IN ENGINE REPAIR AND MAINTENANCE',
@@ -799,7 +799,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            60 => 
+            60 =>
             array (
                 'id' => 61,
                 'name' => 'CERTIFICATE I IN ENGLISH LANGUAGE ',
@@ -812,7 +812,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            61 => 
+            61 =>
             array (
                 'id' => 62,
                 'name' => 'CERTIFICATE I IN FRONT OFFICE ',
@@ -825,7 +825,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            62 => 
+            62 =>
             array (
                 'id' => 63,
                 'name' => 'CERTIFICATE I IN HOUSEKEEPING ',
@@ -838,7 +838,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            63 => 
+            63 =>
             array (
                 'id' => 64,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY ',
@@ -851,7 +851,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            64 => 
+            64 =>
             array (
                 'id' => 65,
                 'name' => 'CERTIFICATE I IN MASONARY',
@@ -864,7 +864,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            65 => 
+            65 =>
             array (
                 'id' => 66,
                 'name' => 'CERTIFICATE I IN NETWORK ADMINISTRATION',
@@ -877,7 +877,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            66 => 
+            66 =>
             array (
                 'id' => 67,
                 'name' => 'CERTIFICATE I IN POLE AND LINE FISHING',
@@ -890,7 +890,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            67 => 
+            67 =>
             array (
                 'id' => 68,
                 'name' => 'CERTIFICATE I IN WELDING ',
@@ -903,7 +903,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            68 => 
+            68 =>
             array (
                 'id' => 69,
                 'name' => 'CERTIFICATE II IN DHIVEHI TEXT PRODUCTION AND COMPUTING ',
@@ -916,7 +916,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            69 => 
+            69 =>
             array (
                 'id' => 70,
                 'name' => 'CERTIFICATE I IN PRINTING',
@@ -929,7 +929,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            70 => 
+            70 =>
             array (
                 'id' => 71,
                 'name' => 'CERTIFICATE I IN COMPUTER HARDWARE',
@@ -942,7 +942,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            71 => 
+            71 =>
             array (
                 'id' => 72,
                 'name' => 'CERTIFICATE I IN FRONT OFFICE',
@@ -955,7 +955,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            72 => 
+            72 =>
             array (
                 'id' => 73,
                 'name' => 'CERTIFICATE I IN AGRICULTURE',
@@ -968,7 +968,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            73 => 
+            73 =>
             array (
                 'id' => 74,
                 'name' => 'CERTIFICATE I IN ELECTRICAL WIRING',
@@ -981,7 +981,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            74 => 
+            74 =>
             array (
                 'id' => 75,
                 'name' => 'CERTIFICATE I IN DRESS MAKING AND DESIGNING',
@@ -994,7 +994,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            75 => 
+            75 =>
             array (
                 'id' => 76,
                 'name' => 'LEVEL 1 FOR IMAAM ',
@@ -1007,7 +1007,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            76 => 
+            76 =>
             array (
                 'id' => 77,
                 'name' => 'Certificate I in Qira\'ath',
@@ -1020,7 +1020,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            77 => 
+            77 =>
             array (
                 'id' => 78,
             'name' => 'QAAREE COURSE (CERTIFICATE LEVEL 1)',
@@ -1033,7 +1033,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            78 => 
+            78 =>
             array (
                 'id' => 79,
                 'name' => 'TRAIN THE TRAINER',
@@ -1046,7 +1046,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            79 => 
+            79 =>
             array (
                 'id' => 80,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -1059,7 +1059,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            80 => 
+            80 =>
             array (
                 'id' => 81,
                 'name' => 'CERTIFICATE I IN PORT OPERATIONS',
@@ -1072,7 +1072,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            81 => 
+            81 =>
             array (
                 'id' => 82,
             'name' => 'NATIONAL CERTIFICATE I IN FISH PROCESSING AND QUALITY CONTROL (NCS - FISH PROCESSING AND QUALITY CONTROL)',
@@ -1085,7 +1085,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            82 => 
+            82 =>
             array (
                 'id' => 83,
             'name' => 'NATIONAL CERTIFICATE I IN MARINE MECHANIC (NCS - MARINE MECHANIC)',
@@ -1098,7 +1098,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            83 => 
+            83 =>
             array (
                 'id' => 84,
                 'name' => 'NATIONAL CERTIFICATE I IN RETAIL SERVICES',
@@ -1111,7 +1111,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            84 => 
+            84 =>
             array (
                 'id' => 85,
                 'name' => 'CERTIFICATE I IN COACHING',
@@ -1124,7 +1124,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            85 => 
+            85 =>
             array (
                 'id' => 86,
                 'name' => 'CERTIFICATE I IN FABRIC PAINTING COURSE',
@@ -1137,7 +1137,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            86 => 
+            86 =>
             array (
                 'id' => 87,
                 'name' => 'CERTIFICATE I IN FITNESS INSTRUCTORS TRAINING',
@@ -1150,7 +1150,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            87 => 
+            87 =>
             array (
                 'id' => 88,
                 'name' => 'CERTIFICATE I IN HAIR DRESSING AND BEAUTY CARE',
@@ -1163,7 +1163,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            88 => 
+            88 =>
             array (
                 'id' => 89,
                 'name' => 'CERTIFICATE I IN NATIONAL ATHLETICS COACHES TRAINING COURSE',
@@ -1176,7 +1176,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            89 => 
+            89 =>
             array (
                 'id' => 90,
                 'name' => 'CERTIFICATE I IN SPORTS INJURIES',
@@ -1189,7 +1189,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            90 => 
+            90 =>
             array (
                 'id' => 91,
                 'name' => 'CERTIFICATE I IN SPORTS MASSAGE',
@@ -1202,7 +1202,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            91 => 
+            91 =>
             array (
                 'id' => 92,
                 'name' => 'CERTIFICATE I IN SPORTS NUTRITION',
@@ -1215,7 +1215,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            92 => 
+            92 =>
             array (
                 'id' => 93,
                 'name' => 'CERTIFICATE I IN SPORTS OFFICERS COURSE',
@@ -1228,7 +1228,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            93 => 
+            93 =>
             array (
                 'id' => 94,
                 'name' => 'CERTIFICATE I IN SPORTS SCIENCE',
@@ -1241,7 +1241,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            94 => 
+            94 =>
             array (
                 'id' => 95,
                 'name' => 'CERTIFICATE I IN VOLLEYBALL COACHES TRAINING COURSE',
@@ -1254,7 +1254,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            95 => 
+            95 =>
             array (
                 'id' => 96,
                 'name' => 'BASKETBALL COACHING',
@@ -1267,7 +1267,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            96 => 
+            96 =>
             array (
                 'id' => 97,
                 'name' => 'CERTIFICATE I IN COACHING ATHLETICS',
@@ -1280,7 +1280,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            97 => 
+            97 =>
             array (
                 'id' => 98,
                 'name' => 'LEVEL I CERTIFICATE IN COACHING SWIMMING',
@@ -1293,7 +1293,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            98 => 
+            98 =>
             array (
                 'id' => 99,
                 'name' => 'CERTIFICATE I IN COACHING VOLLEYBALL',
@@ -1306,7 +1306,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            99 => 
+            99 =>
             array (
                 'id' => 100,
                 'name' => 'CERTIFICATE I IN COACHING NETBALL',
@@ -1319,7 +1319,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            100 => 
+            100 =>
             array (
                 'id' => 101,
                 'name' => 'CERTIFICATE I IN FITNESS INSTRUCTORS TRAINING',
@@ -1332,7 +1332,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            101 => 
+            101 =>
             array (
                 'id' => 102,
                 'name' => 'CERTIFICATE I IN LIFEGUARDING',
@@ -1345,7 +1345,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            102 => 
+            102 =>
             array (
                 'id' => 103,
                 'name' => 'CERTIFICATE I IN COACHING TABLE TENNIS',
@@ -1358,7 +1358,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            103 => 
+            103 =>
             array (
                 'id' => 104,
                 'name' => 'CERTIFICATE I IN COACHING BADMINTON',
@@ -1371,7 +1371,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            104 => 
+            104 =>
             array (
                 'id' => 105,
             'name' => 'PARA-PROFESSIONAL ADDICTION COUNSELOR (PAC) TRAINING COURSE',
@@ -1384,7 +1384,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            105 => 
+            105 =>
             array (
                 'id' => 106,
                 'name' => 'CERTIFICATE I IN CUSTODIAL SUPERVISION',
@@ -1397,7 +1397,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            106 => 
+            106 =>
             array (
                 'id' => 107,
                 'name' => 'CERTIFICATE I IN SEWING',
@@ -1410,7 +1410,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            107 => 
+            107 =>
             array (
                 'id' => 108,
                 'name' => 'CERTIFICATE I IN STARTING AGRICULTURE',
@@ -1423,7 +1423,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            108 => 
+            108 =>
             array (
                 'id' => 109,
                 'name' => 'CERTIFICATE I IN COMPUTER APPLICATION',
@@ -1436,7 +1436,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            109 => 
+            109 =>
             array (
                 'id' => 110,
                 'name' => 'CERTIFICATE I IN PASTRY & BAKERY',
@@ -1449,7 +1449,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            110 => 
+            110 =>
             array (
                 'id' => 111,
                 'name' => 'CERTIFICATE I HOUSE WIRING & ELECTRICIAN',
@@ -1462,7 +1462,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            111 => 
+            111 =>
             array (
                 'id' => 112,
                 'name' => 'CERTIFICATE I IN SILKSCREEN PRINTING',
@@ -1475,7 +1475,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            112 => 
+            112 =>
             array (
                 'id' => 113,
                 'name' => 'BASIC COMPUTER APPLICATION',
@@ -1488,7 +1488,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            113 => 
+            113 =>
             array (
                 'id' => 114,
                 'name' => 'CERTIFICATE I IN COMPUTER APPLICATION',
@@ -1501,7 +1501,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            114 => 
+            114 =>
             array (
                 'id' => 115,
                 'name' => 'BASIC COMPUTING AND COMMUNICATION COURSE',
@@ -1514,7 +1514,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            115 => 
+            115 =>
             array (
                 'id' => 116,
                 'name' => 'BASIC COURSE IN COMPUTER APPLICATION',
@@ -1527,7 +1527,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            116 => 
+            116 =>
             array (
                 'id' => 117,
                 'name' => 'CERTIFICATE I IN COMPUTER APPLICATION',
@@ -1540,7 +1540,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            117 => 
+            117 =>
             array (
                 'id' => 118,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -1553,7 +1553,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            118 => 
+            118 =>
             array (
                 'id' => 119,
                 'name' => 'DIABETICS EDUCATOR TRAINING COURSE',
@@ -1566,7 +1566,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            119 => 
+            119 =>
             array (
                 'id' => 120,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -1579,7 +1579,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            120 => 
+            120 =>
             array (
                 'id' => 121,
                 'name' => 'CERTIFICATE I IN MS OFFICE',
@@ -1592,7 +1592,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            121 => 
+            121 =>
             array (
                 'id' => 122,
                 'name' => 'CERTIFICATE I IN WEB DESIGNING',
@@ -1605,7 +1605,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            122 => 
+            122 =>
             array (
                 'id' => 123,
                 'name' => 'CERTIFICATE IN PRACTICAL ICT SKILLS LEVEL 1',
@@ -1618,7 +1618,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            123 => 
+            123 =>
             array (
                 'id' => 124,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -1631,7 +1631,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            124 => 
+            124 =>
             array (
                 'id' => 125,
                 'name' => 'CERTIFICATE I IN WEB DESIGNING',
@@ -1644,7 +1644,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            125 => 
+            125 =>
             array (
                 'id' => 126,
                 'name' => 'CERTIFICATE I IN GRAPHICS AND DESIGN',
@@ -1657,7 +1657,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            126 => 
+            126 =>
             array (
                 'id' => 127,
                 'name' => 'CERTIFICATE I IN HUMAN RESOURCE MANAGEMENT',
@@ -1670,7 +1670,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            127 => 
+            127 =>
             array (
                 'id' => 128,
                 'name' => 'CERTIFICATE I IN MANAGERIAL SKILLS',
@@ -1683,7 +1683,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            128 => 
+            128 =>
             array (
                 'id' => 129,
                 'name' => 'CERTIFICATE I IN PERSONALITY DEVELOPMENT',
@@ -1696,7 +1696,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            129 => 
+            129 =>
             array (
                 'id' => 130,
                 'name' => 'CERTIFICATE IN BASIC OFFICE MANAGEMENT',
@@ -1709,7 +1709,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            130 => 
+            130 =>
             array (
                 'id' => 131,
                 'name' => 'CERTIFICATE IN OFFICE APPLICATION',
@@ -1722,7 +1722,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            131 => 
+            131 =>
             array (
                 'id' => 132,
                 'name' => 'FOUNDATION COURSE IN COMPUTING',
@@ -1735,7 +1735,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            132 => 
+            132 =>
             array (
                 'id' => 133,
                 'name' => 'CERTIFICATE I IN BUSINESS MANAGEMENT',
@@ -1748,7 +1748,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            133 => 
+            133 =>
             array (
                 'id' => 134,
                 'name' => 'CERTIFICATE I IN HUMAN RESOURCE MANAGEMENT',
@@ -1761,7 +1761,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            134 => 
+            134 =>
             array (
                 'id' => 135,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -1774,7 +1774,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            135 => 
+            135 =>
             array (
                 'id' => 136,
                 'name' => 'CERTIFICATE I IN MARKETING SKILLS',
@@ -1787,7 +1787,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            136 => 
+            136 =>
             array (
                 'id' => 137,
                 'name' => 'CERTIFICATE I IN PROFESSIONAL OFFICE SECRETARY',
@@ -1800,7 +1800,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            137 => 
+            137 =>
             array (
                 'id' => 138,
                 'name' => 'CERTIFICATE I IN TOURISM AND TRAVEL MANAGEMENT',
@@ -1813,7 +1813,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            138 => 
+            138 =>
             array (
                 'id' => 139,
                 'name' => 'GRAPHIC SPECIALIST',
@@ -1826,7 +1826,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            139 => 
+            139 =>
             array (
                 'id' => 140,
                 'name' => 'IAB LEVEL 2 CERTIFICATE IN BOOK KEEPING',
@@ -1839,7 +1839,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            140 => 
+            140 =>
             array (
                 'id' => 141,
                 'name' => 'IAB LEVEL 3 CERTIFICATE IN BOOK KEEPING',
@@ -1852,7 +1852,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            141 => 
+            141 =>
             array (
                 'id' => 142,
                 'name' => 'IAB LEVEL 3 DIPLOMA IN ACCOUNTING AND ADVANCED BOOK KEEPING',
@@ -1865,7 +1865,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            142 => 
+            142 =>
             array (
                 'id' => 143,
                 'name' => 'PC NETWORKING USING MICROSOFT WINDOWS 2000',
@@ -1878,7 +1878,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            143 => 
+            143 =>
             array (
                 'id' => 144,
                 'name' => 'PC TROUBLESHOOTING AND CONFIGURATION',
@@ -1891,7 +1891,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            144 => 
+            144 =>
             array (
                 'id' => 145,
                 'name' => 'CERTIFICATE I IN PC TROUBLESHOOTING AND CONFIGURATION',
@@ -1904,7 +1904,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            145 => 
+            145 =>
             array (
                 'id' => 146,
                 'name' => 'CERTIFICATE I IN PC NETWORKING',
@@ -1917,7 +1917,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            146 => 
+            146 =>
             array (
                 'id' => 147,
                 'name' => 'CERTIFICATE I IN GRAPHIC SPECIAILST COURSE',
@@ -1930,7 +1930,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            147 => 
+            147 =>
             array (
                 'id' => 148,
                 'name' => 'CERTIFICATE I IN COMPUTER APPLICATION',
@@ -1943,7 +1943,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            148 => 
+            148 =>
             array (
                 'id' => 149,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -1956,7 +1956,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            149 => 
+            149 =>
             array (
                 'id' => 150,
                 'name' => 'CERTIFICATE I BASIC COMPUTING',
@@ -1969,7 +1969,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            150 => 
+            150 =>
             array (
                 'id' => 151,
                 'name' => 'CERTIFICATE II OFFICE INFORMATION TECHNOLOGY',
@@ -1982,7 +1982,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            151 => 
+            151 =>
             array (
                 'id' => 152,
                 'name' => 'CERTIFICATE I IN WOOD CARVING',
@@ -1995,7 +1995,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            152 => 
+            152 =>
             array (
                 'id' => 153,
                 'name' => 'CERTIFICATE I IN WOOD TURNING AND LACQUER',
@@ -2008,7 +2008,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            153 => 
+            153 =>
             array (
                 'id' => 154,
                 'name' => 'CERTIFICATE I IN AUTO CAD',
@@ -2021,7 +2021,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            154 => 
+            154 =>
             array (
                 'id' => 155,
                 'name' => 'CERTIFICATE I IN AUTO CAD 3D',
@@ -2034,7 +2034,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            155 => 
+            155 =>
             array (
                 'id' => 156,
                 'name' => 'DRAFTING RESIDENTIAL BUILDINGS WITH AUTO CAD',
@@ -2047,7 +2047,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            156 => 
+            156 =>
             array (
                 'id' => 157,
                 'name' => 'CERTIFICATE I IN AGRICULTURE',
@@ -2060,7 +2060,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            157 => 
+            157 =>
             array (
                 'id' => 158,
                 'name' => 'PERSONALITY AND LEADERSHIP DEVELOPMENT ',
@@ -2073,7 +2073,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            158 => 
+            158 =>
             array (
                 'id' => 159,
                 'name' => 'CERTIFICATE I IN OFFICE MANAGEMENT SKILLS',
@@ -2086,7 +2086,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            159 => 
+            159 =>
             array (
                 'id' => 160,
                 'name' => 'CERTIFICATE I IN PERSONAL MANAGEMENT AND LEADERSHIP',
@@ -2099,7 +2099,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            160 => 
+            160 =>
             array (
                 'id' => 161,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -2112,7 +2112,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            161 => 
+            161 =>
             array (
                 'id' => 162,
                 'name' => 'CERTIFICATE I IN EMBROIDERY ',
@@ -2125,7 +2125,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            162 => 
+            162 =>
             array (
                 'id' => 163,
             'name' => 'EMERGENCY MEDICAL TECHNICIAN - BASIC (EMT B)',
@@ -2138,7 +2138,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            163 => 
+            163 =>
             array (
                 'id' => 164,
                 'name' => 'CERTIFICATE I IN HOME COMPUTING',
@@ -2151,7 +2151,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            164 => 
+            164 =>
             array (
                 'id' => 165,
                 'name' => 'DATABASE CONCEPTS AND STATISTICAL ANALYSIS',
@@ -2164,7 +2164,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            165 => 
+            165 =>
             array (
                 'id' => 166,
                 'name' => 'CERTIFICATE I IN COMPUTER APPLICATION',
@@ -2177,7 +2177,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            166 => 
+            166 =>
             array (
                 'id' => 167,
                 'name' => 'COASTAL NAVIGATION',
@@ -2190,7 +2190,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            167 => 
+            167 =>
             array (
                 'id' => 168,
                 'name' => 'BASIC SAFETY TRAINING',
@@ -2203,7 +2203,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            168 => 
+            168 =>
             array (
                 'id' => 169,
                 'name' => 'CERTIFICATE IN MARITIME CATERING',
@@ -2216,7 +2216,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            169 => 
+            169 =>
             array (
                 'id' => 170,
                 'name' => 'CERTIFICATE 1 IN LIVEABOARD SAFETY',
@@ -2229,7 +2229,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            170 => 
+            170 =>
             array (
                 'id' => 171,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -2242,7 +2242,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            171 => 
+            171 =>
             array (
                 'id' => 172,
                 'name' => 'CERTIFICATE I IN SECURITY STUDIES',
@@ -2255,7 +2255,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            172 => 
+            172 =>
             array (
                 'id' => 173,
                 'name' => 'OFFICE DHIVEHI I : LETTER WRITING',
@@ -2268,7 +2268,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            173 => 
+            173 =>
             array (
                 'id' => 174,
                 'name' => 'CERTIFICATE I IN COMPUTER APPLICATION',
@@ -2281,7 +2281,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            174 => 
+            174 =>
             array (
                 'id' => 175,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -2294,7 +2294,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            175 => 
+            175 =>
             array (
                 'id' => 176,
                 'name' => 'LEVEL 1 IN MS OFFICE APPLICATION',
@@ -2307,7 +2307,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            176 => 
+            176 =>
             array (
                 'id' => 177,
                 'name' => 'CERTIFICATE I IN COMPUTER APPLICATION',
@@ -2320,7 +2320,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            177 => 
+            177 =>
             array (
                 'id' => 178,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -2333,7 +2333,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            178 => 
+            178 =>
             array (
                 'id' => 179,
                 'name' => 'CERTIFICATE I IN DEVELOPMENT MANAGEMENT',
@@ -2346,7 +2346,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            179 => 
+            179 =>
             array (
                 'id' => 180,
                 'name' => 'QARI COURSE CERTIFICATE LEVEL 1',
@@ -2359,7 +2359,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            180 => 
+            180 =>
             array (
                 'id' => 181,
                 'name' => 'ARABIC LANGUAGE CERTIFIFCATE COURSE LEVEL 1',
@@ -2372,7 +2372,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            181 => 
+            181 =>
             array (
                 'id' => 182,
                 'name' => 'CERTIFICATE 1 FOR IMAAM',
@@ -2385,7 +2385,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            182 => 
+            182 =>
             array (
                 'id' => 183,
                 'name' => 'CERTIFICATE LEVEL I IN ICT OFFICE MANAGEMENT',
@@ -2398,7 +2398,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            183 => 
+            183 =>
             array (
                 'id' => 184,
                 'name' => 'CERTIFICATE 1 IN QIRA\'ATH',
@@ -2411,7 +2411,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            184 => 
+            184 =>
             array (
                 'id' => 185,
                 'name' => 'CERTIFICATE 1 IN ARABIC LANGUAGE',
@@ -2424,7 +2424,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            185 => 
+            185 =>
             array (
                 'id' => 186,
                 'name' => 'CERTIFICATE 1 IN BASIC COMPUTING AND DHIVEHI TEXT PRODUCTION',
@@ -2437,7 +2437,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            186 => 
+            186 =>
             array (
                 'id' => 187,
                 'name' => 'CORE COURSE FOR FITNESS PROFESSIONALS',
@@ -2450,7 +2450,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            187 => 
+            187 =>
             array (
                 'id' => 188,
                 'name' => 'AEROBICS AND GROUP FITNESS COURSE',
@@ -2463,7 +2463,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            188 => 
+            188 =>
             array (
                 'id' => 189,
                 'name' => 'CERTIFICATE 1 IN QIRAAT',
@@ -2476,7 +2476,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            189 => 
+            189 =>
             array (
                 'id' => 190,
                 'name' => 'CERTIFICATE I: INTRODUCTION TO BEHAVIOUR SKILLS TRAINING',
@@ -2489,7 +2489,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            190 => 
+            190 =>
             array (
                 'id' => 191,
                 'name' => 'CERTIFICATE 1 IN SEWING',
@@ -2502,7 +2502,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            191 => 
+            191 =>
             array (
                 'id' => 192,
                 'name' => 'CERTIFICATE 1 IN TAXATION IN MALDIVES',
@@ -2515,7 +2515,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            192 => 
+            192 =>
             array (
                 'id' => 193,
                 'name' => 'CERTIFICATE I IN COMPUTER APPLICATION',
@@ -2528,7 +2528,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            193 => 
+            193 =>
             array (
                 'id' => 194,
                 'name' => 'CERTIFICATE IN GRAPHIC DESIGNING',
@@ -2541,7 +2541,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            194 => 
+            194 =>
             array (
                 'id' => 195,
                 'name' => 'CERTIFICATE IN INTERNET AND WEB DESIGNING',
@@ -2554,7 +2554,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            195 => 
+            195 =>
             array (
                 'id' => 196,
                 'name' => 'CERTIFICATE I IN BASIC SECURITY OFFICER TRAINING',
@@ -2567,7 +2567,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            196 => 
+            196 =>
             array (
                 'id' => 197,
                 'name' => 'Certificate I in Arabic Language',
@@ -2580,7 +2580,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            197 => 
+            197 =>
             array (
                 'id' => 198,
                 'name' => 'CERTIFICATCE I IN TELEVISION PRODUCTION',
@@ -2593,7 +2593,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            198 => 
+            198 =>
             array (
                 'id' => 199,
                 'name' => 'CERTIFICATE I IN PRESENTING AND NEWS READING',
@@ -2606,7 +2606,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            199 => 
+            199 =>
             array (
                 'id' => 200,
                 'name' => 'CERTIFICATE I IN GYM INSTRUCTOR COURSE',
@@ -2619,7 +2619,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            200 => 
+            200 =>
             array (
                 'id' => 201,
                 'name' => 'CERTIFICATE I IN BASIC FIRST AID',
@@ -2632,7 +2632,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            201 => 
+            201 =>
             array (
                 'id' => 202,
                 'name' => 'Certificate I in Qaaree',
@@ -2645,7 +2645,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            202 => 
+            202 =>
             array (
                 'id' => 203,
                 'name' => 'CERTIFICATE I IN QURAN MEMORIZATION ',
@@ -2658,7 +2658,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            203 => 
+            203 =>
             array (
                 'id' => 204,
                 'name' => 'CERTIFICATE 1 IN ICT OFFICE MANAGEMENT ',
@@ -2671,7 +2671,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            204 => 
+            204 =>
             array (
                 'id' => 205,
                 'name' => 'CERTIFICATE I IN AUTOCAD',
@@ -2684,7 +2684,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            205 => 
+            205 =>
             array (
                 'id' => 206,
                 'name' => 'CERTIFICATE I IN QIRAATH',
@@ -2697,7 +2697,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            206 => 
+            206 =>
             array (
                 'id' => 207,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -2710,7 +2710,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            207 => 
+            207 =>
             array (
                 'id' => 208,
                 'name' => 'CERTIFICATE II IN EMERGENCY MEDICAL TREATMENT',
@@ -2723,7 +2723,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            208 => 
+            208 =>
             array (
                 'id' => 209,
                 'name' => 'CERTIFICATE II IN HUMAN NUTRITION',
@@ -2736,7 +2736,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            209 => 
+            209 =>
             array (
                 'id' => 210,
                 'name' => 'CERTIFICATE II IN ACCOMODATION OPERATIONS',
@@ -2749,7 +2749,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            210 => 
+            210 =>
             array (
                 'id' => 211,
                 'name' => 'CERTIFICATE II IN FOOD AND DRINKS SERVICE',
@@ -2762,7 +2762,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            211 => 
+            211 =>
             array (
                 'id' => 212,
                 'name' => 'CERTIFICATE II IN FOOD PREPARATION',
@@ -2775,7 +2775,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            212 => 
+            212 =>
             array (
                 'id' => 213,
                 'name' => 'CERTIFICATE II IN FRONT OFFICE OPERATIONS',
@@ -2788,7 +2788,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            213 => 
+            213 =>
             array (
                 'id' => 214,
                 'name' => 'CERTIFICATE II IN PASTRY AND BAKERY',
@@ -2801,7 +2801,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            214 => 
+            214 =>
             array (
                 'id' => 215,
                 'name' => 'CERTIFICATE  2 IN ARABIC LANGUAGE',
@@ -2814,7 +2814,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            215 => 
+            215 =>
             array (
                 'id' => 216,
                 'name' => 'CERTIFICATE 2 IN QIRAAATH',
@@ -2827,7 +2827,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            216 => 
+            216 =>
             array (
                 'id' => 217,
                 'name' => 'CERTIFICATE II IN HUMAN RESOURCE MANAGEMENT',
@@ -2840,7 +2840,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            217 => 
+            217 =>
             array (
                 'id' => 218,
                 'name' => 'CERTIFICATE II IN MARKETING',
@@ -2853,7 +2853,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            218 => 
+            218 =>
             array (
                 'id' => 219,
                 'name' => 'CERTIFICATE II IN OFFICE COMPUTING',
@@ -2866,7 +2866,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            219 => 
+            219 =>
             array (
                 'id' => 220,
                 'name' => 'CERTIFICATE II IN OFFICE COMPUTING',
@@ -2879,7 +2879,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            220 => 
+            220 =>
             array (
                 'id' => 221,
                 'name' => 'CERTIFICATE II IN GRAPHICS DESIGNING',
@@ -2892,7 +2892,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            221 => 
+            221 =>
             array (
                 'id' => 222,
             'name' => 'CERTIFICATE II IN INFORMATION TECHNOLOGY (OFFICE MANAGEMENT)',
@@ -2905,7 +2905,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            222 => 
+            222 =>
             array (
                 'id' => 223,
                 'name' => 'CERTIFICATE II IN WEB DESIGNING AND HOSTING',
@@ -2918,7 +2918,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            223 => 
+            223 =>
             array (
                 'id' => 224,
                 'name' => 'CERTIFICATE II IN INFORMATION TECHNOLOGY',
@@ -2931,7 +2931,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            224 => 
+            224 =>
             array (
                 'id' => 225,
                 'name' => 'CERTIFICATE II IN OFFICE MANAGEMENT & ADMINISTRATION',
@@ -2944,7 +2944,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            225 => 
+            225 =>
             array (
                 'id' => 226,
                 'name' => 'CERTIFICATE II IN MICROSOFT OFFICE',
@@ -2957,7 +2957,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            226 => 
+            226 =>
             array (
                 'id' => 227,
                 'name' => 'CERTIFICATE II IN PROFESSIONAL SECRETARIAL AND ADMINISTRATION SKILLS',
@@ -2970,7 +2970,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            227 => 
+            227 =>
             array (
                 'id' => 228,
                 'name' => 'CERTIFICATE II IN INTERNATIONAL PURCHASING AND SUPPLY CHAIN MANAGEMENT',
@@ -2983,7 +2983,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            228 => 
+            228 =>
             array (
                 'id' => 229,
                 'name' => 'CERTIFICATE II IN PROFESSIONAL SECRETARIAL AND ADMINISTRATION SKILL',
@@ -2996,7 +2996,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            229 => 
+            229 =>
             array (
                 'id' => 230,
                 'name' => 'CERTIFICATE II IN BOOK KEEPING',
@@ -3009,7 +3009,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            230 => 
+            230 =>
             array (
                 'id' => 231,
                 'name' => 'CERTIFICATE II IN BUSINESS ADMINISTRATION',
@@ -3022,7 +3022,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            231 => 
+            231 =>
             array (
                 'id' => 232,
                 'name' => 'CERTIFICATE II IN TRAVEL AND TOURISM',
@@ -3035,7 +3035,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            232 => 
+            232 =>
             array (
                 'id' => 233,
                 'name' => 'CERTIFICATE II IN ENGLISH FOR BUSINESS',
@@ -3048,7 +3048,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            233 => 
+            233 =>
             array (
                 'id' => 234,
                 'name' => 'CERTIFICATE II INFORMATION TECHNOLOGY',
@@ -3061,7 +3061,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            234 => 
+            234 =>
             array (
                 'id' => 235,
                 'name' => 'CERTIFICATE 2 IN INFORMATION TECHNOLOGY',
@@ -3074,7 +3074,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            235 => 
+            235 =>
             array (
                 'id' => 236,
                 'name' => 'ACCA INTERMEDIATE CERTIFICATE FINANCIAL AND MANAGEMENT ACCOUNTING',
@@ -3087,7 +3087,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            236 => 
+            236 =>
             array (
                 'id' => 237,
                 'name' => 'CERTIFICATE II IN INFORMATION TECHNOLOGY',
@@ -3100,7 +3100,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            237 => 
+            237 =>
             array (
                 'id' => 238,
                 'name' => 'CERTIFICATE II IN POLICING',
@@ -3113,7 +3113,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            238 => 
+            238 =>
             array (
                 'id' => 239,
                 'name' => 'CERTIFICATE II IN COMPUTER HARDWARE',
@@ -3126,7 +3126,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            239 => 
+            239 =>
             array (
                 'id' => 240,
                 'name' => 'CERTIFICATE II DRESS MAKING AND DESIGNING ',
@@ -3139,7 +3139,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            240 => 
+            240 =>
             array (
                 'id' => 241,
                 'name' => 'CERTIFICATE II IN ELECTRICAL WIRING ',
@@ -3152,7 +3152,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            241 => 
+            241 =>
             array (
                 'id' => 242,
                 'name' => 'CERTIFICATE II IN ENGINE REPAIR AND MAINTENANCE ',
@@ -3165,7 +3165,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            242 => 
+            242 =>
             array (
                 'id' => 243,
                 'name' => 'CERTIFICATE II IN ENGLISH BY DISTANCE EDUCATION',
@@ -3178,7 +3178,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            243 => 
+            243 =>
             array (
                 'id' => 244,
                 'name' => 'CERTIFICATE II IN ENGLISH LANGUAGE ',
@@ -3191,7 +3191,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            244 => 
+            244 =>
             array (
                 'id' => 245,
                 'name' => 'CERTIFICATE II IN FRONT OFFICE',
@@ -3204,7 +3204,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            245 => 
+            245 =>
             array (
                 'id' => 246,
                 'name' => 'CERTIFICATE II IN HOUSEKEEPING',
@@ -3217,7 +3217,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            246 => 
+            246 =>
             array (
                 'id' => 247,
                 'name' => 'CERTIFICATE II IN NETWORK ADMINISTRATION',
@@ -3230,7 +3230,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            247 => 
+            247 =>
             array (
                 'id' => 248,
                 'name' => 'CERTIFICATE II IN POLE AND LINE FISHING',
@@ -3243,7 +3243,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            248 => 
+            248 =>
             array (
                 'id' => 249,
                 'name' => 'CERTIFICATE II IN TEXT PRODUCTION AND COMPUTING ',
@@ -3256,7 +3256,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            249 => 
+            249 =>
             array (
                 'id' => 250,
                 'name' => 'CERTIFICATE II IN ENGLISH LANGUAGE ',
@@ -3269,7 +3269,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            250 => 
+            250 =>
             array (
                 'id' => 251,
                 'name' => 'BASIC COMPUTING AND THAANA TYPING',
@@ -3282,7 +3282,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            251 => 
+            251 =>
             array (
                 'id' => 252,
                 'name' => 'CERTIFICATE II IN PRINTING',
@@ -3295,7 +3295,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            252 => 
+            252 =>
             array (
                 'id' => 253,
                 'name' => 'CERTIFICATE II IN COMPUTER HARDWARE',
@@ -3308,7 +3308,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            253 => 
+            253 =>
             array (
                 'id' => 254,
                 'name' => 'CERTIFICATE II IN FRONT OFFICE',
@@ -3321,7 +3321,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            254 => 
+            254 =>
             array (
                 'id' => 255,
                 'name' => 'CERTIFICATE II IN AGRICULTURE',
@@ -3334,7 +3334,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            255 => 
+            255 =>
             array (
                 'id' => 256,
                 'name' => 'CERTIFICATE II IN ELECTRICAL WIRING',
@@ -3347,7 +3347,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            256 => 
+            256 =>
             array (
                 'id' => 257,
                 'name' => 'CERTIFICATE II IN DRESS MAKING AND DESIGNING',
@@ -3360,7 +3360,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            257 => 
+            257 =>
             array (
                 'id' => 258,
                 'name' => 'LEVEL 2 FOR IMAAM ',
@@ -3373,7 +3373,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            258 => 
+            258 =>
             array (
                 'id' => 259,
                 'name' => 'Certificate II in Qira\'ath',
@@ -3386,7 +3386,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            259 => 
+            259 =>
             array (
                 'id' => 260,
             'name' => 'QAAREE COURSE (CERTIFICATE LEVEL 2)',
@@ -3399,7 +3399,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            260 => 
+            260 =>
             array (
                 'id' => 261,
                 'name' => 'CERTIFICATE II IN CUSTOMS STUDIES',
@@ -3412,7 +3412,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            261 => 
+            261 =>
             array (
                 'id' => 262,
                 'name' => 'CUSTOMS STUDIES COURSE',
@@ -3425,7 +3425,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            262 => 
+            262 =>
             array (
                 'id' => 263,
             'name' => 'NATIONAL CERTIFICATE II IN AUTOMATIVE MAINTENANCE (NCS - AUTOMOTIVE MAINTENANCE)',
@@ -3438,7 +3438,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            263 => 
+            263 =>
             array (
                 'id' => 264,
             'name' => 'NATIONAL CERTIFICATE II IN FISH PROCESSING AND QUALITY CONTROL (NCS - FISH PROCESSING AND QUALITY CONTROL)',
@@ -3451,7 +3451,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            264 => 
+            264 =>
             array (
                 'id' => 265,
             'name' => 'NATIONAL CERTIFICATE II IN FOOD BEVERAGE SERVICES PERSONNEL (NCS - FOOD AND BEVERAGE SERVICES PERSONNEL)',
@@ -3464,7 +3464,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            265 => 
+            265 =>
             array (
                 'id' => 266,
             'name' => 'NATIONAL CERTIFICATE II IN FOOD PREPARATION (NCS - FOOD PREPARATION)',
@@ -3477,7 +3477,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            266 => 
+            266 =>
             array (
                 'id' => 267,
             'name' => 'NATIONAL CERTIFICATE II IN FRONT OFFICE (NCS - FRONT OFFICE)',
@@ -3490,7 +3490,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            267 => 
+            267 =>
             array (
                 'id' => 268,
             'name' => 'NATIONAL CERTIFICATE II IN MARINE MECHANIC (NCS - MARINE MECHANIC)',
@@ -3503,7 +3503,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            268 => 
+            268 =>
             array (
                 'id' => 269,
             'name' => 'NATIONAL CERTIFICATE II IN PASTRY AND BAKERY CHEF (NCS - PASTRY AND BAKERY CHEF)',
@@ -3516,7 +3516,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            269 => 
+            269 =>
             array (
                 'id' => 270,
             'name' => 'NATIONAL CERTIFICATE II IN ROOM ATTENDENT (NCS - ROOM ATTENDANT)',
@@ -3529,7 +3529,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            270 => 
+            270 =>
             array (
                 'id' => 271,
                 'name' => 'NATIONAL CERTIFICATE II IN SHUTTERING CARPENTER',
@@ -3542,7 +3542,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            271 => 
+            271 =>
             array (
                 'id' => 272,
                 'name' => 'NATIONAL CERTIFICATE II IN BAR BENDER',
@@ -3555,7 +3555,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            272 => 
+            272 =>
             array (
                 'id' => 273,
             'name' => 'NATIONAL CERTIFICATE II IN PAINTER (BUILDINGS)',
@@ -3568,7 +3568,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            273 => 
+            273 =>
             array (
                 'id' => 274,
                 'name' => 'NATIONAL CERTIFICATE II IN IT TECHNICIAN',
@@ -3581,7 +3581,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            274 => 
+            274 =>
             array (
                 'id' => 275,
                 'name' => 'NATIONAL CERTIFICATE II IN RETAIL SERVICES',
@@ -3594,7 +3594,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            275 => 
+            275 =>
             array (
                 'id' => 276,
                 'name' => 'CERTIFICATE II IN COMPUTER CONCEPTS AND APPLICATIONS',
@@ -3607,7 +3607,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            276 => 
+            276 =>
             array (
                 'id' => 277,
                 'name' => 'CERTIFICATE II IN DRESS MAKING',
@@ -3620,7 +3620,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            277 => 
+            277 =>
             array (
                 'id' => 278,
                 'name' => 'CERTIFICATE II IN EMBROIDERY',
@@ -3633,7 +3633,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            278 => 
+            278 =>
             array (
                 'id' => 279,
                 'name' => 'CERTIFICATE II IN HAIR DRESSING AND BEAUTY CARE',
@@ -3646,7 +3646,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            279 => 
+            279 =>
             array (
                 'id' => 280,
                 'name' => 'CERTIFICATE II IN NATIONAL ATHLETICS COACHES TRAINING COURSE',
@@ -3659,7 +3659,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            280 => 
+            280 =>
             array (
                 'id' => 281,
                 'name' => 'CERTIFICATE II IN NATIONAL SWIMMING COACHES TRAINING COURSE',
@@ -3672,7 +3672,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            281 => 
+            281 =>
             array (
                 'id' => 282,
                 'name' => 'CERTIFICATE II IN PHOTOGRAPHY',
@@ -3685,7 +3685,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            282 => 
+            282 =>
             array (
                 'id' => 283,
                 'name' => 'BASKETBALL COACHING',
@@ -3698,7 +3698,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            283 => 
+            283 =>
             array (
                 'id' => 284,
                 'name' => 'LEVEL II CERTIFICATE IN COACHING ATHLETICS',
@@ -3711,7 +3711,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            284 => 
+            284 =>
             array (
                 'id' => 285,
                 'name' => 'LEVEL II CERTIFICATE IN COACHING SWIMMING',
@@ -3724,7 +3724,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            285 => 
+            285 =>
             array (
                 'id' => 286,
                 'name' => 'CERTIFICATE II IN COACHING VOLLEYBALL',
@@ -3737,7 +3737,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            286 => 
+            286 =>
             array (
                 'id' => 287,
                 'name' => 'CERTIFICATE II IN COACHING NETBALL',
@@ -3750,7 +3750,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            287 => 
+            287 =>
             array (
                 'id' => 288,
                 'name' => 'CERTIFICATE II IN COACHING TABLE TENNIS',
@@ -3763,7 +3763,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            288 => 
+            288 =>
             array (
                 'id' => 289,
                 'name' => 'CERTIFICATE II IN COACHING BADMINTON',
@@ -3776,7 +3776,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            289 => 
+            289 =>
             array (
                 'id' => 290,
                 'name' => 'CERTIFICATE II IN CUSTODIAL SUPERVISION',
@@ -3789,7 +3789,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            290 => 
+            290 =>
             array (
                 'id' => 291,
                 'name' => 'CERTIFICATE II IN COMPUTER APPLICATION',
@@ -3802,7 +3802,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            291 => 
+            291 =>
             array (
                 'id' => 292,
                 'name' => 'CERTIFICATE II IN SEWING',
@@ -3815,7 +3815,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            292 => 
+            292 =>
             array (
                 'id' => 293,
                 'name' => 'CERTIFICATE II IN ESSENTIALS AGRICULTURE',
@@ -3828,7 +3828,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            293 => 
+            293 =>
             array (
                 'id' => 294,
                 'name' => 'CERTIFICATE II IN DISABILITY MANAGEMENT',
@@ -3841,7 +3841,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            294 => 
+            294 =>
             array (
                 'id' => 295,
                 'name' => 'CERTIFICATE II IN OFFICE PACKAGE',
@@ -3854,7 +3854,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            295 => 
+            295 =>
             array (
                 'id' => 296,
                 'name' => 'CERTIFICATE II IN OFFICE PACKAGE',
@@ -3867,7 +3867,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            296 => 
+            296 =>
             array (
                 'id' => 297,
                 'name' => 'CERTIFICATE II IN DEVELOPING COMPUTER SKILLS FOR WORK ENVIRONMENT',
@@ -3880,7 +3880,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            297 => 
+            297 =>
             array (
                 'id' => 298,
                 'name' => 'INTRODUCATION TO PC HARDWARE AND TROUBLESHOOTING SKILLS',
@@ -3893,7 +3893,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            298 => 
+            298 =>
             array (
                 'id' => 299,
                 'name' => 'CERTIFICATE COURSE IN COMPUTER APPLICATION',
@@ -3906,7 +3906,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            299 => 
+            299 =>
             array (
                 'id' => 300,
                 'name' => 'CERTIFICATE II IN COMPUTER APPLICATION',
@@ -3919,7 +3919,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            300 => 
+            300 =>
             array (
                 'id' => 301,
                 'name' => 'CERTIFICATE II IN MICROSOFT OFFICE MANAGEMENT',
@@ -3932,7 +3932,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            301 => 
+            301 =>
             array (
                 'id' => 302,
             'name' => 'CERTIFICATE OF SECRETARIAT SKILLS (Previously known as CERTIFICATE IN OFFICE SKILLS)',
@@ -3945,7 +3945,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            302 => 
+            302 =>
             array (
                 'id' => 303,
                 'name' => 'CERTIFICATE IN PC COMPETENCE',
@@ -3958,7 +3958,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            303 => 
+            303 =>
             array (
                 'id' => 304,
                 'name' => 'CERTIFICATE II IN HUMAN RESOURCE MANAGEMENT',
@@ -3971,7 +3971,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            304 => 
+            304 =>
             array (
                 'id' => 305,
                 'name' => 'CERTIFICATE II IN INFORMATION TECHNOLOGY ',
@@ -3984,7 +3984,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            305 => 
+            305 =>
             array (
                 'id' => 306,
                 'name' => 'CERTIFICATE II IN INTERNATIONAL COMPUTER DRIVING LICENSE',
@@ -3997,7 +3997,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            306 => 
+            306 =>
             array (
                 'id' => 307,
                 'name' => 'CERTIFICATE II IN MARKETING MANAGEMENT',
@@ -4010,7 +4010,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            307 => 
+            307 =>
             array (
                 'id' => 308,
                 'name' => 'CERTIFICATE II IN MICROSOFT OFFICE',
@@ -4023,7 +4023,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            308 => 
+            308 =>
             array (
                 'id' => 309,
                 'name' => 'CERTIFICATE II IN WEB PROGRAMMING AND DESIGNING',
@@ -4036,7 +4036,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            309 => 
+            309 =>
             array (
                 'id' => 310,
                 'name' => 'CERTIFICATE II IN WEB PROGRAMMING AND DESIGNING',
@@ -4049,7 +4049,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            310 => 
+            310 =>
             array (
                 'id' => 311,
                 'name' => 'CERTIFICATE II IN COMPUTER APPLICATION',
@@ -4062,7 +4062,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            311 => 
+            311 =>
             array (
                 'id' => 312,
                 'name' => 'CERTIFICATE II IN INFORMATION TECHNOLOGY',
@@ -4075,7 +4075,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            312 => 
+            312 =>
             array (
                 'id' => 313,
                 'name' => 'CERTIFICATE II IN ESSENTIALS OF AGRICULTURE',
@@ -4088,7 +4088,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            313 => 
+            313 =>
             array (
                 'id' => 314,
                 'name' => 'CERTIFICATE II IN MICROSOFT OFFICE',
@@ -4101,7 +4101,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            314 => 
+            314 =>
             array (
                 'id' => 315,
                 'name' => 'ROOM ATTENDENT SERVICE PERSONNEL LEVEL 2',
@@ -4114,7 +4114,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            315 => 
+            315 =>
             array (
                 'id' => 316,
                 'name' => 'FOOD & BEVERAGE SERVICE PERSONNEL LEVEL 2',
@@ -4127,7 +4127,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            316 => 
+            316 =>
             array (
                 'id' => 317,
                 'name' => 'FRONT OFFICE SERVICE PERSONNEL LEVEL 2',
@@ -4140,7 +4140,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            317 => 
+            317 =>
             array (
                 'id' => 318,
                 'name' => 'CERTIFICATE II IN INFORMATION TECHNOLOGY',
@@ -4153,7 +4153,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            318 => 
+            318 =>
             array (
                 'id' => 319,
                 'name' => 'CERTIFICATE II IN INFORMATION TECHNOLOGY',
@@ -4166,7 +4166,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            319 => 
+            319 =>
             array (
                 'id' => 320,
                 'name' => 'CERTIFICATE II IN INFORMATION TECHNOLOGY',
@@ -4179,7 +4179,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            320 => 
+            320 =>
             array (
                 'id' => 321,
                 'name' => 'LEVEL 2 IN MS OFFICE APPLICATION',
@@ -4192,7 +4192,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            321 => 
+            321 =>
             array (
                 'id' => 322,
                 'name' => 'CERTIFICATE II IN CUSTOMER SERVICE MANAGEMENT',
@@ -4205,7 +4205,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            322 => 
+            322 =>
             array (
                 'id' => 323,
                 'name' => 'CERTIFICATE II IN COMPUTER APPLICATION',
@@ -4218,7 +4218,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            323 => 
+            323 =>
             array (
                 'id' => 324,
                 'name' => 'SILK SCREEN PRINTING',
@@ -4231,7 +4231,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            324 => 
+            324 =>
             array (
                 'id' => 325,
                 'name' => 'CERTIFICATE II IN DRAWING AND PAINTING',
@@ -4244,7 +4244,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            325 => 
+            325 =>
             array (
                 'id' => 326,
                 'name' => 'QARI COURSE CERTIFICATE LEVEL 2',
@@ -4257,7 +4257,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            326 => 
+            326 =>
             array (
                 'id' => 327,
                 'name' => 'ARABIC LANGUAGE CERTIFIFCATE COURSE LEVEL 2',
@@ -4270,7 +4270,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            327 => 
+            327 =>
             array (
                 'id' => 328,
                 'name' => 'CERTIFICATE 2 FOR IMAAM',
@@ -4283,7 +4283,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            328 => 
+            328 =>
             array (
                 'id' => 329,
                 'name' => 'CERTIFICATE LEVEL II IN ICT OFFICE MANAGEMENT',
@@ -4296,7 +4296,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            329 => 
+            329 =>
             array (
                 'id' => 330,
                 'name' => 'CERTIFICATE 2 IN QIRAATH',
@@ -4309,7 +4309,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            330 => 
+            330 =>
             array (
                 'id' => 331,
                 'name' => 'CERTIFICATE 2 IN ARABIC LANGUAGE',
@@ -4322,7 +4322,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            331 => 
+            331 =>
             array (
                 'id' => 332,
                 'name' => 'CERTIFICATE 2 IN ENGLISH LANGUAGE',
@@ -4335,7 +4335,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            332 => 
+            332 =>
             array (
                 'id' => 333,
                 'name' => 'CERTIFICATE 2 IN QIRAAT',
@@ -4348,7 +4348,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            333 => 
+            333 =>
             array (
                 'id' => 334,
                 'name' => 'CERTIFICATE IN OFFICE ADMINISTRATION',
@@ -4361,7 +4361,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            334 => 
+            334 =>
             array (
                 'id' => 335,
                 'name' => 'Certificate 2 in English for General Purpose',
@@ -4374,7 +4374,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            335 => 
+            335 =>
             array (
                 'id' => 336,
                 'name' => 'CERTIFICATE II IN QURAN MEMORIZATION ',
@@ -4387,7 +4387,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            336 => 
+            336 =>
             array (
                 'id' => 337,
                 'name' => 'CERTIFICATE II IN QIRAATH',
@@ -4400,7 +4400,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            337 => 
+            337 =>
             array (
                 'id' => 338,
                 'name' => 'CERTIFICATE III IN MARINE ENGINEERING',
@@ -4413,7 +4413,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            338 => 
+            338 =>
             array (
                 'id' => 339,
                 'name' => 'CERTIFICATE III IN MARINE OPERATIONS',
@@ -4426,7 +4426,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            339 => 
+            339 =>
             array (
                 'id' => 340,
                 'name' => 'CERTIFICATE III IN WOODEN AND FIBER GLASS BOARD BUILDING',
@@ -4439,7 +4439,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            340 => 
+            340 =>
             array (
                 'id' => 341,
                 'name' => 'CERTIFICATE III IN FURNITURE CARPENTRY AND JOINERY',
@@ -4452,7 +4452,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            341 => 
+            341 =>
             array (
                 'id' => 342,
                 'name' => 'CERTIFICATE III IN WELDING AND SHEET METAL',
@@ -4465,7 +4465,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            342 => 
+            342 =>
             array (
                 'id' => 343,
                 'name' => 'CERTIFICATE III IN ENGINE REPAIR AND MAINTENANCE',
@@ -4478,7 +4478,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            343 => 
+            343 =>
             array (
                 'id' => 344,
                 'name' => 'CERTIFICATE III IN MACHINING',
@@ -4491,7 +4491,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            344 => 
+            344 =>
             array (
                 'id' => 345,
                 'name' => 'CERTIFICATE III IN FURNITURE CARPENTRY AND WOOD CURVING',
@@ -4504,7 +4504,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            345 => 
+            345 =>
             array (
                 'id' => 346,
                 'name' => 'CERTIFICATE III IN RENEWABLE ENERGY SYSTEMS & MAINTENANCE',
@@ -4517,7 +4517,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            346 => 
+            346 =>
             array (
                 'id' => 347,
                 'name' => 'CERTIFICATE III IN FLUID POWER',
@@ -4530,7 +4530,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            347 => 
+            347 =>
             array (
                 'id' => 348,
                 'name' => 'CERTIFICATE III IN ENGINE REPAIR AND MAINTENANCE',
@@ -4543,7 +4543,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            348 => 
+            348 =>
             array (
                 'id' => 349,
                 'name' => 'CERTIFICATE III IN WELDING AND SHEET METAL',
@@ -4556,7 +4556,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            349 => 
+            349 =>
             array (
                 'id' => 350,
                 'name' => 'CERTIFICATE III IN DRINKING WATER SYSTEM OPERATIONS AND MAINTENANCE',
@@ -4569,7 +4569,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            350 => 
+            350 =>
             array (
                 'id' => 351,
                 'name' => 'FOUNDATION STUDIES LEVEL 1',
@@ -4582,7 +4582,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            351 => 
+            351 =>
             array (
                 'id' => 352,
                 'name' => 'CERTIFICATE 3 IN ARABIC LANGUAGE',
@@ -4595,7 +4595,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            352 => 
+            352 =>
             array (
                 'id' => 353,
                 'name' => 'CERTIFICATE III IN PHARMACY',
@@ -4608,7 +4608,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            353 => 
+            353 =>
             array (
                 'id' => 354,
                 'name' => 'CERTIFICATE III IN SOCIAL SERVICE WORK',
@@ -4621,7 +4621,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            354 => 
+            354 =>
             array (
                 'id' => 355,
                 'name' => 'CERTIFCATE III IN ACCOMODATION OPERATIONS',
@@ -4634,7 +4634,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            355 => 
+            355 =>
             array (
                 'id' => 356,
                 'name' => 'CERTIFICATE III IN FOOD AND DRINK SERVICES',
@@ -4647,7 +4647,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            356 => 
+            356 =>
             array (
                 'id' => 357,
                 'name' => 'CERTIFICATE III IN FRONT OFFICE OPERATIONS',
@@ -4660,7 +4660,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            357 => 
+            357 =>
             array (
                 'id' => 358,
                 'name' => 'CERTIFICATE III IN PASTRY AND BAKERY',
@@ -4673,7 +4673,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            358 => 
+            358 =>
             array (
                 'id' => 359,
                 'name' => 'CERTIFICATE III IN CULINARY ARTS',
@@ -4686,7 +4686,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            359 => 
+            359 =>
             array (
                 'id' => 360,
                 'name' => 'CERTIFICATE III IN FRONT OFFICE OPERATIONS',
@@ -4699,7 +4699,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            360 => 
+            360 =>
             array (
                 'id' => 361,
                 'name' => 'CERTIFICATE III IN FOOD AND BEVERAGE OPERATIONS',
@@ -4712,7 +4712,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            361 => 
+            361 =>
             array (
                 'id' => 362,
                 'name' => 'CERTIFICATE III IN HOUSEKEEPING',
@@ -4725,7 +4725,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            362 => 
+            362 =>
             array (
                 'id' => 363,
                 'name' => 'SHIPS COOK CERTIFICATE III',
@@ -4738,7 +4738,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            363 => 
+            363 =>
             array (
                 'id' => 364,
                 'name' => 'CERTIFICATE III IN TOUR GUIDING',
@@ -4751,7 +4751,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            364 => 
+            364 =>
             array (
                 'id' => 365,
                 'name' => 'CERTIFICATE III IN FRONT OFFICE OPERATIONS',
@@ -4764,7 +4764,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            365 => 
+            365 =>
             array (
                 'id' => 366,
                 'name' => 'CERTIFICATE III FOOD AND BEVERAGE OPERATIONS',
@@ -4777,7 +4777,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            366 => 
+            366 =>
             array (
                 'id' => 367,
                 'name' => 'CERTIFICATE III IN HOUSEKEEPING OPERATIONS',
@@ -4790,7 +4790,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            367 => 
+            367 =>
             array (
                 'id' => 368,
                 'name' => 'CERTIFICATE III IN CULINARY ARTS',
@@ -4803,7 +4803,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            368 => 
+            368 =>
             array (
                 'id' => 369,
                 'name' => 'CERTIFICATE III IN PATISSERIE',
@@ -4816,7 +4816,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            369 => 
+            369 =>
             array (
                 'id' => 370,
                 'name' => 'CERTIFICATE III IN CLERICAL STUDIES',
@@ -4829,7 +4829,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            370 => 
+            370 =>
             array (
                 'id' => 371,
                 'name' => 'CERTIFICATE III IN PUBLIC ACCOUNTING',
@@ -4842,7 +4842,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            371 => 
+            371 =>
             array (
                 'id' => 372,
                 'name' => 'CERTIFICATE III IN WATER QUALITY LABORATORY PROCEDURES',
@@ -4855,7 +4855,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            372 => 
+            372 =>
             array (
                 'id' => 373,
                 'name' => 'CERTIFICATE III FOR IMAAM',
@@ -4868,7 +4868,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            373 => 
+            373 =>
             array (
                 'id' => 374,
                 'name' => 'CERTIFICATE III IN ARABIC LANGUAGE PROGRAME',
@@ -4881,7 +4881,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            374 => 
+            374 =>
             array (
                 'id' => 375,
                 'name' => 'CERTIFICATE 3 IN QIRATH',
@@ -4894,7 +4894,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            375 => 
+            375 =>
             array (
                 'id' => 376,
                 'name' => 'CERTIFICATE  3 IN ARABIC LANGUAGE',
@@ -4907,7 +4907,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            376 => 
+            376 =>
             array (
                 'id' => 377,
                 'name' => 'CERTIFICATE 3 IN ENGLISH FOR GENERAL PURPOSE',
@@ -4920,7 +4920,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            377 => 
+            377 =>
             array (
                 'id' => 378,
                 'name' => 'CERTIFICATE III IN MANAGEMENT',
@@ -4933,7 +4933,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            378 => 
+            378 =>
             array (
                 'id' => 379,
                 'name' => 'CERTIFICATE III IN WAITER TRAINING',
@@ -4946,7 +4946,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            379 => 
+            379 =>
             array (
                 'id' => 380,
                 'name' => 'CERTIFICATE III IN HUMAN RESOURCE MANAGEMENT',
@@ -4959,7 +4959,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            380 => 
+            380 =>
             array (
                 'id' => 381,
                 'name' => 'CERTIFICATE III IN EARLY CHILDHOOD EDUCATION',
@@ -4972,7 +4972,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            381 => 
+            381 =>
             array (
                 'id' => 382,
                 'name' => 'ABE CERTIFICATE IN BUSINESS ADMINISTRATION',
@@ -4985,7 +4985,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            382 => 
+            382 =>
             array (
                 'id' => 383,
                 'name' => 'ABE CERTIFICATE IN BUSINESS INFORMATION SYSTEMS',
@@ -4998,7 +4998,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            383 => 
+            383 =>
             array (
                 'id' => 384,
                 'name' => 'ABE CERTIFICATE IN TRAVEL TOURISM AND HOSPITALITY',
@@ -5011,7 +5011,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            384 => 
+            384 =>
             array (
                 'id' => 385,
                 'name' => 'CERTIFICATE III IN JUDICIAL ADMINISTRATION',
@@ -5024,7 +5024,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            385 => 
+            385 =>
             array (
                 'id' => 386,
                 'name' => 'CERTIFICATE III IN MARKETING MANAGEMENT',
@@ -5037,7 +5037,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            386 => 
+            386 =>
             array (
                 'id' => 387,
                 'name' => 'CERTIFICATE IN BUSINESS ACCOUNTING',
@@ -5050,7 +5050,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            387 => 
+            387 =>
             array (
                 'id' => 388,
             'name' => 'CERTIFIED ACCOUNTING TECHNICIAN (CAT)',
@@ -5063,7 +5063,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            388 => 
+            388 =>
             array (
                 'id' => 389,
             'name' => 'ABE LEVEL 4 DIPLOMA IN BUSINESS MANAGEMENT (Awarded by ABE, UK)',
@@ -5076,7 +5076,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            389 => 
+            389 =>
             array (
                 'id' => 390,
                 'name' => 'ABE LEVEL 4 DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -5089,7 +5089,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            390 => 
+            390 =>
             array (
                 'id' => 391,
                 'name' => 'ABE LEVEL 4 DIPLOMA IN MARKETING MANAGEMENT',
@@ -5102,7 +5102,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            391 => 
+            391 =>
             array (
                 'id' => 392,
                 'name' => 'CERTIFIED III JUDICIAL ADMINISTRATION',
@@ -5115,7 +5115,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            392 => 
+            392 =>
             array (
                 'id' => 393,
                 'name' => 'AAT LEVEL 2',
@@ -5128,7 +5128,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            393 => 
+            393 =>
             array (
                 'id' => 394,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -5141,7 +5141,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            394 => 
+            394 =>
             array (
                 'id' => 395,
             'name' => 'CERTIFICATE III IN CYRYX CERTIFIED ADMINISTRATOR NETWORKS (CCAN)',
@@ -5154,7 +5154,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            395 => 
+            395 =>
             array (
                 'id' => 396,
                 'name' => 'CERTIFICATE III IN CYRYX CERTIFIED ADMINISTRATOR SYSTEMS',
@@ -5167,7 +5167,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            396 => 
+            396 =>
             array (
                 'id' => 397,
                 'name' => 'CERTIFICATE III IN MULTIMEDIA AND ANIMATION',
@@ -5180,7 +5180,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            397 => 
+            397 =>
             array (
                 'id' => 398,
                 'name' => 'CERTIFICATE III IN OFFICE MANAGEMENT AND ADMINISTRATION',
@@ -5193,7 +5193,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            398 => 
+            398 =>
             array (
                 'id' => 399,
                 'name' => 'CERTIFICATE III IN OFFICE SECRETARY & CUSTOMER SERVICES',
@@ -5206,7 +5206,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            399 => 
+            399 =>
             array (
                 'id' => 400,
                 'name' => 'CERTIFICATE III IN OFFICE MANAGEMENT AND ADMINISTRATION',
@@ -5219,7 +5219,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            400 => 
+            400 =>
             array (
                 'id' => 401,
                 'name' => 'CERTIFICATE III IN DIGITAL ANIMATION',
@@ -5232,7 +5232,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            401 => 
+            401 =>
             array (
                 'id' => 402,
                 'name' => 'CERTIFICATE III IN CUSTOMER SUPPORT AND SERVICE ENGINEER',
@@ -5245,7 +5245,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            402 => 
+            402 =>
             array (
                 'id' => 403,
                 'name' => 'CERTIFICATE III ORGANIZATIONAL PSYCHOLOGY',
@@ -5258,7 +5258,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            403 => 
+            403 =>
             array (
                 'id' => 404,
                 'name' => 'CERTIFICATE III IN RETAIL AND SALES MANAGEMENT',
@@ -5271,7 +5271,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            404 => 
+            404 =>
             array (
                 'id' => 405,
                 'name' => 'CERTIFICATE III IN ACCOUNTING AND OFFICE MANAGEMENT ',
@@ -5284,7 +5284,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            405 => 
+            405 =>
             array (
                 'id' => 406,
                 'name' => 'CERTIFICATE III IN TOURISM AND HOSPITALITY MANAGEMENT',
@@ -5297,7 +5297,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            406 => 
+            406 =>
             array (
                 'id' => 407,
                 'name' => 'CERTIFICATE III IN BASIC PSYCHOLOGY',
@@ -5310,7 +5310,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            407 => 
+            407 =>
             array (
                 'id' => 408,
                 'name' => 'CERTIFICATE III IN N+ NETWORKING',
@@ -5323,7 +5323,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            408 => 
+            408 =>
             array (
                 'id' => 409,
                 'name' => 'CERTIFICATE III IN EDUCATIONAL PSYCHOLOGY',
@@ -5336,7 +5336,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            409 => 
+            409 =>
             array (
                 'id' => 410,
                 'name' => 'CERTIFICATE III WEB ESSENTIALS',
@@ -5349,7 +5349,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            410 => 
+            410 =>
             array (
                 'id' => 411,
                 'name' => 'CERTIFICATE III IN GRAPHIC ESSENTIALS',
@@ -5362,7 +5362,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            411 => 
+            411 =>
             array (
                 'id' => 412,
                 'name' => 'CERTIFICATE III IN MARKETING MANAGEMENT',
@@ -5375,7 +5375,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            412 => 
+            412 =>
             array (
                 'id' => 413,
                 'name' => 'CERTIFICATE III IN HUMAN RESOURCE MANAGEMENT',
@@ -5388,7 +5388,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            413 => 
+            413 =>
             array (
                 'id' => 414,
                 'name' => 'CERTIFICATE III IN LOGISTICS AND SUPPLY CHAIN MANAGEMENT',
@@ -5401,7 +5401,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            414 => 
+            414 =>
             array (
                 'id' => 415,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -5414,7 +5414,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            415 => 
+            415 =>
             array (
                 'id' => 416,
                 'name' => 'CERTIFICATE III IN FOOD AND BEVERAGE SERVICES',
@@ -5427,7 +5427,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            416 => 
+            416 =>
             array (
                 'id' => 417,
                 'name' => 'CERTIFICATE III IN E-MARKETING TECHNIQUES',
@@ -5440,7 +5440,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            417 => 
+            417 =>
             array (
                 'id' => 418,
                 'name' => 'CERTIFICATE III IN EARLY CHILDHOOD EDUCATION AND CARE',
@@ -5453,7 +5453,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            418 => 
+            418 =>
             array (
                 'id' => 419,
                 'name' => 'CERTIFIED PARLIAMENTARY PROFESSIONAL',
@@ -5466,7 +5466,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            419 => 
+            419 =>
             array (
                 'id' => 420,
                 'name' => 'CERTIFICATE III IN COASTAL SKIPPER',
@@ -5479,7 +5479,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            420 => 
+            420 =>
             array (
                 'id' => 421,
                 'name' => 'SERVICE CORPS BASIC COURSE',
@@ -5492,7 +5492,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            421 => 
+            421 =>
             array (
                 'id' => 422,
                 'name' => 'MILITARY POLICE BASIC COURSE',
@@ -5505,7 +5505,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            422 => 
+            422 =>
             array (
                 'id' => 423,
                 'name' => 'FIREFIGHTER TRAINING COURSE',
@@ -5518,7 +5518,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            423 => 
+            423 =>
             array (
                 'id' => 424,
                 'name' => 'MILITARY INTELLIGENCE BASIC COURSE',
@@ -5531,7 +5531,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            424 => 
+            424 =>
             array (
                 'id' => 425,
                 'name' => 'COAST GUARD BASIC COURSE',
@@ -5544,7 +5544,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            425 => 
+            425 =>
             array (
                 'id' => 426,
                 'name' => 'MARINE CORPS BASIC ',
@@ -5557,7 +5557,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            426 => 
+            426 =>
             array (
                 'id' => 427,
                 'name' => 'CERTIFICATE III IN BASIC BANDSMAN ',
@@ -5570,7 +5570,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            427 => 
+            427 =>
             array (
                 'id' => 428,
                 'name' => 'CERTIFICATE III IN ELECTRICAL ENGINEERING',
@@ -5583,7 +5583,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            428 => 
+            428 =>
             array (
                 'id' => 429,
                 'name' => 'CERTIFICATE III IN MULTIMEDIA & WEB DESIGNING',
@@ -5596,7 +5596,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            429 => 
+            429 =>
             array (
                 'id' => 430,
                 'name' => 'CERTIFICATE III IN HUMAN RESOURCE MANAGEMENT',
@@ -5609,7 +5609,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            430 => 
+            430 =>
             array (
                 'id' => 431,
                 'name' => 'CERTIFICATE III IN INTERNATIONAL PURCHASING AND SUPPLY CHAIN MANAGEMENT',
@@ -5622,7 +5622,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            431 => 
+            431 =>
             array (
                 'id' => 432,
                 'name' => 'CERTIFICATE III IN OFFICE MANAGEMENT',
@@ -5635,7 +5635,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            432 => 
+            432 =>
             array (
                 'id' => 433,
                 'name' => 'CERTIFICATE III IN INTERNATIONAL PURCHASING AND SUPPLY CHAIN MANAGEMENT',
@@ -5648,7 +5648,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            433 => 
+            433 =>
             array (
                 'id' => 434,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -5661,7 +5661,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            434 => 
+            434 =>
             array (
                 'id' => 435,
                 'name' => 'CERTIFICATE III IN 2D ANIMATION AND GAME DESIGNING',
@@ -5674,7 +5674,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            435 => 
+            435 =>
             array (
                 'id' => 436,
                 'name' => 'CERTIFICATE III IN GRAPHICS AND DIGITAL DESIGNING',
@@ -5687,7 +5687,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            436 => 
+            436 =>
             array (
                 'id' => 437,
                 'name' => 'CERTIFICATE III IN WEB DEVELOPMENT WITH DREAMWEAVER CS6 AND PHP',
@@ -5700,7 +5700,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            437 => 
+            437 =>
             array (
                 'id' => 438,
                 'name' => 'CERTIFICATE III IN WINDOWS APPS DEVELOPMENT',
@@ -5713,7 +5713,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            438 => 
+            438 =>
             array (
                 'id' => 439,
                 'name' => 'CERTIFICATE III IN WEB APPS DEVELOPMENT',
@@ -5726,7 +5726,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            439 => 
+            439 =>
             array (
                 'id' => 440,
                 'name' => 'CERTIFICATE III IN EARLY CHILDHOOD EDUCATION',
@@ -5739,7 +5739,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            440 => 
+            440 =>
             array (
                 'id' => 441,
                 'name' => 'CERTIFICATE III IN ACCOMODATION SERVICE ',
@@ -5752,7 +5752,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            441 => 
+            441 =>
             array (
                 'id' => 442,
                 'name' => 'CERTIFICATE III IN RECEPTION SERVICE ',
@@ -5765,7 +5765,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            442 => 
+            442 =>
             array (
                 'id' => 443,
                 'name' => 'CERTIFICATE III IN CUSTOMER SERVICE',
@@ -5778,7 +5778,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            443 => 
+            443 =>
             array (
                 'id' => 444,
                 'name' => 'CERTIFICATE LEVEL 3 IN BUSINESS',
@@ -5791,7 +5791,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            444 => 
+            444 =>
             array (
                 'id' => 445,
                 'name' => 'CERTIFICATE III IN ENGLISH FOR ACADEMIC PURPOSE',
@@ -5804,7 +5804,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            445 => 
+            445 =>
             array (
                 'id' => 446,
                 'name' => 'CERTIFICATE III IN BOOK KEEPING AND ACCOUNTS',
@@ -5817,7 +5817,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            446 => 
+            446 =>
             array (
                 'id' => 447,
                 'name' => 'CERTIFICATE III IN MARKETING',
@@ -5830,7 +5830,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            447 => 
+            447 =>
             array (
                 'id' => 448,
                 'name' => 'CERTIFICATE III IN CUSTOMER SERVICE',
@@ -5843,7 +5843,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            448 => 
+            448 =>
             array (
                 'id' => 449,
                 'name' => 'CERTIFICATE III IN PUBLIC RELATIONS',
@@ -5856,7 +5856,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            449 => 
+            449 =>
             array (
                 'id' => 450,
                 'name' => 'FOUNDATION COURSE FOR DIPLOMA LEVEL STUDIES',
@@ -5869,7 +5869,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            450 => 
+            450 =>
             array (
                 'id' => 451,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -5882,7 +5882,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            451 => 
+            451 =>
             array (
                 'id' => 452,
             'name' => 'CERTIFICATE III IN BUSINESS (BUSINESS MANAGEMENT)',
@@ -5895,7 +5895,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            452 => 
+            452 =>
             array (
                 'id' => 453,
             'name' => 'CERTIFICATE III IN BUSINESS (TOURISM AND HOSPITALITY)',
@@ -5908,7 +5908,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            453 => 
+            453 =>
             array (
                 'id' => 454,
                 'name' => 'ABE CERTIFICATE IN BUSINESS MANAGEMENT',
@@ -5921,7 +5921,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            454 => 
+            454 =>
             array (
                 'id' => 455,
                 'name' => 'ABE CERTIFICATE IN MARKETING',
@@ -5934,7 +5934,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            455 => 
+            455 =>
             array (
                 'id' => 456,
                 'name' => 'ABE CERTIFICATE IN HUMAN RESOURCE MANAGEMENT',
@@ -5947,7 +5947,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            456 => 
+            456 =>
             array (
                 'id' => 457,
                 'name' => 'ABE CERTIFICATE IN FINANCIAL MANAGEMENT',
@@ -5960,7 +5960,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            457 => 
+            457 =>
             array (
                 'id' => 458,
                 'name' => 'ABE CERTIFICATE IN BUSINESS INFORMATION SYSTEM',
@@ -5973,7 +5973,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            458 => 
+            458 =>
             array (
                 'id' => 459,
                 'name' => 'CERTIFICATE III INFORMATION TECHNOLOGY',
@@ -5986,7 +5986,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            459 => 
+            459 =>
             array (
                 'id' => 460,
                 'name' => 'CERTIFICATE 3 IN INFORMATION TECHNOLOGY',
@@ -5999,7 +5999,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            460 => 
+            460 =>
             array (
                 'id' => 461,
                 'name' => 'ABE LEVEL 4 DIPLOMA IN BUSINESS MANAGEMENT WITH SPECIALISM IN FINANCIAL MANAGEMENT',
@@ -6012,7 +6012,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            461 => 
+            461 =>
             array (
                 'id' => 462,
                 'name' => 'ABE LEVEL 4 DIPLOMA IN BUSINESS MANAGEMENT WITH SPECIALISM IN MANAGEMENT INFORMATION SYSTEMS',
@@ -6025,7 +6025,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            462 => 
+            462 =>
             array (
                 'id' => 463,
             'name' => 'ACCA - INTRODUCTORY CERTIFICATE IN FINANCIAL AND MANAGEMENT ACCOUNTING - FOUNDATIONS IN ACCOUNTING (FIA)',
@@ -6038,7 +6038,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            463 => 
+            463 =>
             array (
                 'id' => 464,
                 'name' => 'CERTIFICATE III IN INFORMATION AND COMMUNICATION TECHNOLOGY',
@@ -6051,7 +6051,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            464 => 
+            464 =>
             array (
                 'id' => 465,
                 'name' => 'CERTIFICATE III IN SHARIAH AND ISLAMIC STUDIES',
@@ -6064,7 +6064,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            465 => 
+            465 =>
             array (
                 'id' => 466,
                 'name' => 'CERTIFICATE III IN ACCOUNTING',
@@ -6077,7 +6077,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            466 => 
+            466 =>
             array (
                 'id' => 467,
                 'name' => 'CERTIFICATE III IN BUSINESS STUDIES',
@@ -6090,7 +6090,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            467 => 
+            467 =>
             array (
                 'id' => 468,
                 'name' => 'CERTIFICATE III IN HUMAN RESOURCE MANAGEMENT',
@@ -6103,7 +6103,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            468 => 
+            468 =>
             array (
                 'id' => 469,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -6116,7 +6116,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            469 => 
+            469 =>
             array (
                 'id' => 470,
                 'name' => 'CERTIFICATE III IN HOSPITALITY OPERATIONS',
@@ -6129,7 +6129,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            470 => 
+            470 =>
             array (
                 'id' => 471,
                 'name' => 'CERTIFICATE IN CRIMINAL INVESTIGATION',
@@ -6142,7 +6142,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            471 => 
+            471 =>
             array (
                 'id' => 472,
                 'name' => 'CERTIFICATE III IN MARINE SCIENCE',
@@ -6155,7 +6155,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            472 => 
+            472 =>
             array (
                 'id' => 473,
                 'name' => 'CERTIFICATE III IN LIBRARY SERVICES',
@@ -6168,7 +6168,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            473 => 
+            473 =>
             array (
                 'id' => 474,
                 'name' => 'CERTIFICATE III IN AQUATIC RECREATION ',
@@ -6181,7 +6181,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            474 => 
+            474 =>
             array (
                 'id' => 475,
                 'name' => 'CERTIFICATE III IN INSTRUCTOR DEVELOPMENT ',
@@ -6194,7 +6194,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            475 => 
+            475 =>
             array (
                 'id' => 476,
             'name' => 'CERTIFICATE III IN POLICE MANAGEMENT (Previously known as STATION MANAGEMENT COURSE approved on 20.02.2013)',
@@ -6207,7 +6207,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            476 => 
+            476 =>
             array (
                 'id' => 477,
                 'name' => 'CERTIFICATE III IN INTELLIGENCE FOUNDATION COURSE',
@@ -6220,7 +6220,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            477 => 
+            477 =>
             array (
                 'id' => 478,
                 'name' => 'CERTIFICATE III IN DRUG ENFORCEMENT OFFICERTRAINING COURSE',
@@ -6233,7 +6233,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            478 => 
+            478 =>
             array (
                 'id' => 479,
             'name' => 'CERTIFICATE III IN INFORMATION COMMUNICATION TECHNOLOGY (ICT)',
@@ -6246,7 +6246,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            479 => 
+            479 =>
             array (
                 'id' => 480,
                 'name' => 'CERTIFICATE III IN EVENT MANAGEMENT',
@@ -6259,7 +6259,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            480 => 
+            480 =>
             array (
                 'id' => 481,
                 'name' => 'CERTIFICATE III IN COMPUTER HARDWARE',
@@ -6272,7 +6272,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            481 => 
+            481 =>
             array (
                 'id' => 482,
                 'name' => 'CERTIFICATE III IN DRESS MAKING AND DESIGNING',
@@ -6285,7 +6285,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            482 => 
+            482 =>
             array (
                 'id' => 483,
                 'name' => 'CERTIFICATE III IN EARLY CHILDHOOD CARE AND DEVELOPMENT',
@@ -6298,7 +6298,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            483 => 
+            483 =>
             array (
                 'id' => 484,
                 'name' => 'CERTIFICATE III IN EDUCATIONAL MANAGEMENT AND SUPERVISION',
@@ -6311,7 +6311,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            484 => 
+            484 =>
             array (
                 'id' => 485,
                 'name' => 'CERTIFICATE III IN ENGINE REPAIR AND MAINTENANCE ',
@@ -6324,7 +6324,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            485 => 
+            485 =>
             array (
                 'id' => 486,
                 'name' => 'CERTIFICATE III IN ENGLISH LANGUAGE ',
@@ -6337,7 +6337,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            486 => 
+            486 =>
             array (
                 'id' => 487,
             'name' => 'CERTIFICATE III IN ENGLISH LANGUAGE AND METHODOLOGY (LOWER PRIMARY)',
@@ -6350,7 +6350,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            487 => 
+            487 =>
             array (
                 'id' => 488,
                 'name' => 'CERTIFICATE III IN FRONT OFFICE ',
@@ -6363,7 +6363,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            488 => 
+            488 =>
             array (
                 'id' => 489,
                 'name' => 'CERTIFICATE III IN HOUSEKEEPING ',
@@ -6376,7 +6376,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            489 => 
+            489 =>
             array (
                 'id' => 490,
                 'name' => 'CERTIFICATE III IN NETWORK ADMINISTRATION',
@@ -6389,7 +6389,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            490 => 
+            490 =>
             array (
                 'id' => 491,
                 'name' => 'CERTIFICATE III IN POLE AND LINE TUNA FISHING',
@@ -6402,7 +6402,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            491 => 
+            491 =>
             array (
                 'id' => 492,
                 'name' => 'CERTIFICATE III IN SCHOOL LEADERSHIP',
@@ -6415,7 +6415,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            492 => 
+            492 =>
             array (
                 'id' => 493,
                 'name' => 'CERTIFICATE III IN SOCIAL SERVICE WORK',
@@ -6428,7 +6428,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            493 => 
+            493 =>
             array (
                 'id' => 494,
                 'name' => 'CERTIFICATE III IN SPECIAL EDUCATION',
@@ -6441,7 +6441,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            494 => 
+            494 =>
             array (
                 'id' => 495,
                 'name' => 'CERTIFICATE III IN ENGLISH BY DISTANCE EDUCATION',
@@ -6454,7 +6454,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            495 => 
+            495 =>
             array (
                 'id' => 496,
                 'name' => 'CERTIFICATE III IN PRINTING',
@@ -6467,7 +6467,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            496 => 
+            496 =>
             array (
                 'id' => 497,
             'name' => 'CERTIFICATE III IN ENGLISH LANGUAGE AND METHODOLOGY (LOWER PRIMARY)',
@@ -6480,7 +6480,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            497 => 
+            497 =>
             array (
                 'id' => 498,
                 'name' => 'CERTIFICATE III IN SPECIAL EDUCATION',
@@ -6493,7 +6493,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            498 => 
+            498 =>
             array (
                 'id' => 499,
                 'name' => 'CERTIFICATE III IN EDUCATIONAL MANAGEMENT AND SUPERVISION',
@@ -6506,7 +6506,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            499 => 
+            499 =>
             array (
                 'id' => 500,
                 'name' => 'CERTIFICATE III IN TECHNICAL SUPPORT FOR COMPUTERS',
@@ -6521,7 +6521,7 @@ class CoursesTableSeeder extends Seeder
             ),
         ));
         \DB::table('courses')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 501,
                 'name' => 'CERTIFICATE III IN COMPUTER ASSEMBLY AND SERVICE',
@@ -6534,7 +6534,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 502,
                 'name' => 'CERTIFICATE III IN NETWORK SUPPORT',
@@ -6547,7 +6547,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 503,
                 'name' => 'CERTIFICATE III IN PRINTER AND SCANNER MAINTENANCE',
@@ -6560,7 +6560,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 504,
                 'name' => 'CERTIFICATE III IN SOFTWARE DEVELOPMENT AND TESTING',
@@ -6573,7 +6573,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 505,
                 'name' => 'CERTIFICATE III IN PROGRAMMING WEBSITES AND APPLICATIONS',
@@ -6586,7 +6586,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 506,
                 'name' => 'CERTIFICATE III IN DESIGNING E-LEARNING FOR STUDENTS',
@@ -6599,7 +6599,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 507,
                 'name' => 'CERTIFICATE III IN LEARNING CREATION USING ICT TOOLS',
@@ -6612,7 +6612,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 508,
                 'name' => 'CERTIFICATE III IN COMPUTER AIDED LEARNING - GETTING STARTED',
@@ -6625,7 +6625,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 509,
                 'name' => 'CERTIFICATE III IN TOOLS FOR ASSESSSMENT AND COLLABORATION',
@@ -6638,7 +6638,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 510,
                 'name' => 'CERTIFICATE III IN WEBSITE DEVELOPMENT USING FLASH AND DREAMWEAVER',
@@ -6651,7 +6651,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 511,
                 'name' => 'CERTIFICATE III IN DIGITAL PRINTING AND PUBLISHING',
@@ -6664,7 +6664,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 512,
                 'name' => 'CERTIFICATE III IN DIGITAL INTERACTIVE MULTIMEDIA',
@@ -6677,7 +6677,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 513,
                 'name' => 'CERTIFICATE III IN COMPUTER HARDWARE',
@@ -6690,7 +6690,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 514,
                 'name' => 'CERTIFICATE III IN FRONT OFFICE',
@@ -6703,7 +6703,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 515,
                 'name' => 'CERTIFICATE III IN AGRICULTURE',
@@ -6716,7 +6716,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 516,
                 'name' => 'CERTIFICATE III IN DRESS MAKING AND DESIGNING',
@@ -6729,7 +6729,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 517,
                 'name' => 'CERTIFICATE III IN ELECTRICAL WIRING',
@@ -6742,7 +6742,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 518,
                 'name' => 'QAAREE COURSE',
@@ -6755,7 +6755,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 519,
                 'name' => 'LEVEL III FOR IMAAM',
@@ -6768,7 +6768,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            19 => 
+            19 =>
             array (
                 'id' => 520,
                 'name' => 'Certificate III in Qira\'ath',
@@ -6781,7 +6781,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            20 => 
+            20 =>
             array (
                 'id' => 521,
             'name' => 'QAAREE COURSE (CERTIFICATE LEVEL 3)',
@@ -6794,7 +6794,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            21 => 
+            21 =>
             array (
                 'id' => 522,
                 'name' => 'CERTIFICATE III IN HARMONIZED COMMODITY DESCRIPTION AND CODING SYSTEM',
@@ -6807,7 +6807,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            22 => 
+            22 =>
             array (
                 'id' => 523,
                 'name' => 'CUSTOMS BROKERS COURSE',
@@ -6820,7 +6820,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            23 => 
+            23 =>
             array (
                 'id' => 524,
                 'name' => 'CERTIFICATE III IN HARMONIZED COMMODITY DESCRIPTION AND CODING SYSTEM',
@@ -6833,7 +6833,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            24 => 
+            24 =>
             array (
                 'id' => 525,
                 'name' => 'CERTIFICATE 3 IN PASSENGER PROCESSING AND BORDER ENFORCEMENT',
@@ -6846,7 +6846,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            25 => 
+            25 =>
             array (
                 'id' => 526,
                 'name' => 'CUSTOMS BROKERS TRAINING COURSE',
@@ -6859,7 +6859,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            26 => 
+            26 =>
             array (
                 'id' => 527,
                 'name' => 'CERTIFICATE III IN PORT OPERATION',
@@ -6872,7 +6872,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            27 => 
+            27 =>
             array (
                 'id' => 528,
             'name' => 'NATIONAL CERTIFICATE III IN ELECTRICIAN (NCS - ELECTRICIAN)',
@@ -6885,7 +6885,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            28 => 
+            28 =>
             array (
                 'id' => 529,
             'name' => 'NATIONAL CERTIFICATE III IN FISH PROCESSING AND QUALITY CONTROL (NCS - FISH PROCESSING AND QUALITY CONTROL)',
@@ -6898,7 +6898,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            29 => 
+            29 =>
             array (
                 'id' => 530,
             'name' => 'NATIONAL CERTIFICATE III IN REFRIGERATION AND AIR-CONDITIONING MECHANIC (NCS - REFRIGERATION AND AIR-CONDITIONING MECHANIC)',
@@ -6911,7 +6911,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            30 => 
+            30 =>
             array (
                 'id' => 531,
                 'name' => 'NATIONAL CERTIFICATE III IN MASON',
@@ -6924,7 +6924,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            31 => 
+            31 =>
             array (
                 'id' => 532,
                 'name' => 'NATIONAL CERTIFICATE III IN PLUMBER',
@@ -6937,7 +6937,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            32 => 
+            32 =>
             array (
                 'id' => 533,
             'name' => 'NATIONAL CERTIFICATE III IN CARPENTER (FURNITURE)',
@@ -6950,7 +6950,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            33 => 
+            33 =>
             array (
                 'id' => 534,
                 'name' => 'NATIONAL CERTIFICATE III IN TOUR GUIDE',
@@ -6963,7 +6963,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            34 => 
+            34 =>
             array (
                 'id' => 535,
                 'name' => 'NATIONAL CERTIFICATE III IN PHARMACY',
@@ -6976,7 +6976,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            35 => 
+            35 =>
             array (
                 'id' => 536,
                 'name' => 'NATIONAL CERTIFICATE III IN JEWELLRY DESIGN AND MAKING',
@@ -6989,7 +6989,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            36 => 
+            36 =>
             array (
                 'id' => 537,
                 'name' => 'NATIONAL CERTIFICATE III IN RETAIL SERVICES',
@@ -7002,7 +7002,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            37 => 
+            37 =>
             array (
                 'id' => 538,
                 'name' => 'NATIONAL CERTIFICATE III IN FRONT OFFICE',
@@ -7015,7 +7015,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            38 => 
+            38 =>
             array (
                 'id' => 539,
                 'name' => 'NATIONAL CERTIFICATE III IN INFORMATION TECHNOLOGY TECHNICIAN',
@@ -7028,7 +7028,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            39 => 
+            39 =>
             array (
                 'id' => 540,
                 'name' => 'NATIONAL CERTIFICATE III IN OFFICE ADMINISTRATION ',
@@ -7041,7 +7041,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            40 => 
+            40 =>
             array (
                 'id' => 541,
                 'name' => 'NATIONAL CERTIFICATE III IN ROOM ATTENDANT ',
@@ -7054,7 +7054,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            41 => 
+            41 =>
             array (
                 'id' => 542,
                 'name' => 'NATIONAL CERTIFICATE III IN MARINE MECHANIC',
@@ -7067,7 +7067,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            42 => 
+            42 =>
             array (
                 'id' => 543,
                 'name' => 'NATIONAL CERTIFICATE III IN RESERVATION AND TICKETING',
@@ -7080,7 +7080,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            43 => 
+            43 =>
             array (
                 'id' => 544,
                 'name' => 'NATIONAL CERTIFICATE III IN ART AND DESIGN',
@@ -7093,7 +7093,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            44 => 
+            44 =>
             array (
                 'id' => 545,
                 'name' => 'CERTIFICATE III IN DRESS MAKING',
@@ -7106,7 +7106,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            45 => 
+            45 =>
             array (
                 'id' => 546,
                 'name' => 'CERTIFICATE III IN HAIR DRESSING AND BEAUTY CARE',
@@ -7119,7 +7119,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            46 => 
+            46 =>
             array (
                 'id' => 547,
                 'name' => 'CERTIFICATE 3 IN ACCOUNTING AND FINANCIAL ADMINISTRATION',
@@ -7132,7 +7132,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            47 => 
+            47 =>
             array (
                 'id' => 548,
                 'name' => 'CERTIFICATE 3 IN OFFICE ADMINISTRATION',
@@ -7145,7 +7145,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            48 => 
+            48 =>
             array (
                 'id' => 549,
                 'name' => 'CERTIFICATE 3 IN PROJECT MANAGEMENT',
@@ -7158,7 +7158,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            49 => 
+            49 =>
             array (
                 'id' => 550,
                 'name' => 'CERTIFICATE III IN ICT FOR OFFICE ADMINISTRATION',
@@ -7171,7 +7171,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            50 => 
+            50 =>
             array (
                 'id' => 551,
                 'name' => 'CERTIFICATE III IN CUSTODIAL MANAGEMENT AND SECURITY ',
@@ -7184,7 +7184,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            51 => 
+            51 =>
             array (
                 'id' => 552,
                 'name' => 'CERTIFICATE III IN CUSTODIAL SUPERVISION',
@@ -7197,7 +7197,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            52 => 
+            52 =>
             array (
                 'id' => 553,
                 'name' => 'CERTIFICATE III IN COMPUTER APPLICATION ',
@@ -7210,7 +7210,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            53 => 
+            53 =>
             array (
                 'id' => 554,
                 'name' => 'DISABILITY MANAGEMENT TRAINING',
@@ -7223,7 +7223,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            54 => 
+            54 =>
             array (
                 'id' => 555,
                 'name' => 'CERTIFICATE III IN OFFICE MANAGEMENT',
@@ -7236,7 +7236,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            55 => 
+            55 =>
             array (
                 'id' => 556,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -7249,7 +7249,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            56 => 
+            56 =>
             array (
                 'id' => 557,
                 'name' => 'ADVANCED COMPUTER COURSE IN OFFICE MANAGEMENT',
@@ -7262,7 +7262,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            57 => 
+            57 =>
             array (
                 'id' => 558,
                 'name' => 'CERTIFICATE COURSE IN WEB DESIGNING AND HOSTING',
@@ -7275,7 +7275,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            58 => 
+            58 =>
             array (
                 'id' => 559,
                 'name' => 'CERTIFICATE III IN OFFICE MANAGEMENT',
@@ -7288,7 +7288,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            59 => 
+            59 =>
             array (
                 'id' => 560,
                 'name' => 'CERTIFICATE III IN GRAPHIC DESIGNING',
@@ -7301,7 +7301,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            60 => 
+            60 =>
             array (
                 'id' => 561,
                 'name' => 'CERTIFICATE III IN HUMAN RESOURCE MANAGEMENT',
@@ -7314,7 +7314,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            61 => 
+            61 =>
             array (
                 'id' => 562,
                 'name' => 'CERTIFICATE III IN ICT',
@@ -7327,7 +7327,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            62 => 
+            62 =>
             array (
                 'id' => 563,
                 'name' => 'CERTIFICATE III IN GRAPHIC DESIGN',
@@ -7340,7 +7340,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            63 => 
+            63 =>
             array (
                 'id' => 564,
                 'name' => 'CERTIFICATE III IN DRAFTSMAN WITH AUTOCAD',
@@ -7353,7 +7353,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            64 => 
+            64 =>
             array (
                 'id' => 565,
                 'name' => 'CERTIFICATE III IN ADMINISTRATIVE SKILLS',
@@ -7366,7 +7366,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            65 => 
+            65 =>
             array (
                 'id' => 566,
                 'name' => 'PRELIMINARY CERTIFICATE IN MARKETING',
@@ -7379,7 +7379,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            66 => 
+            66 =>
             array (
                 'id' => 567,
                 'name' => 'CERTIFICATE III IN CUSTOMER SERVICE',
@@ -7392,7 +7392,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            67 => 
+            67 =>
             array (
                 'id' => 568,
                 'name' => 'CERTIFICATE III IN BUSINESS ADMINISTRATION',
@@ -7405,7 +7405,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            68 => 
+            68 =>
             array (
                 'id' => 569,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -7418,7 +7418,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            69 => 
+            69 =>
             array (
                 'id' => 570,
                 'name' => 'ICCT CERTIFIED DESKTOP AND WEB ENGINEER',
@@ -7431,7 +7431,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            70 => 
+            70 =>
             array (
                 'id' => 571,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -7444,7 +7444,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            71 => 
+            71 =>
             array (
                 'id' => 572,
                 'name' => 'CERTIFICATE III IN COUNSELING SKILLS COURSE',
@@ -7457,7 +7457,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            72 => 
+            72 =>
             array (
                 'id' => 573,
                 'name' => 'CERTIFICATE III IN MACHINING',
@@ -7470,7 +7470,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            73 => 
+            73 =>
             array (
                 'id' => 574,
                 'name' => 'CERTIFICATE III IN WELDING AND SHEET METAL',
@@ -7483,7 +7483,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            74 => 
+            74 =>
             array (
                 'id' => 575,
                 'name' => 'CERTIFICATE III IN WOODEN AND FIBERGLASS BOAT BUILDING',
@@ -7496,7 +7496,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            75 => 
+            75 =>
             array (
                 'id' => 576,
                 'name' => 'CERTIFICATE III IN FURNITURE CARPENTRY AND WOOD CARVING',
@@ -7509,7 +7509,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            76 => 
+            76 =>
             array (
                 'id' => 577,
                 'name' => 'CERTIFICATE III IN RENEWABLE ENERGY SYSTEMS AND MAINTENANCE',
@@ -7522,7 +7522,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            77 => 
+            77 =>
             array (
                 'id' => 578,
                 'name' => 'CERTIFICATE III IN FURNITURE CARPENTRY AND JOINERY',
@@ -7535,7 +7535,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            78 => 
+            78 =>
             array (
                 'id' => 579,
                 'name' => 'CERTIFICATE III IN WELDING AND SHEET METAL',
@@ -7548,7 +7548,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            79 => 
+            79 =>
             array (
                 'id' => 580,
                 'name' => 'CERTIFICATE III IN MACHINING',
@@ -7561,7 +7561,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            80 => 
+            80 =>
             array (
                 'id' => 581,
                 'name' => 'CERTIFICATE III IN FLUID POWER',
@@ -7574,7 +7574,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            81 => 
+            81 =>
             array (
                 'id' => 582,
                 'name' => 'CERTIFICATE III IN JEWELRY DESIGN AND MAKING',
@@ -7587,7 +7587,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            82 => 
+            82 =>
             array (
                 'id' => 583,
                 'name' => 'CERTIFICATE III IN ELECTRICIAN',
@@ -7600,7 +7600,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            83 => 
+            83 =>
             array (
                 'id' => 584,
                 'name' => 'CERTIFICATE III IN SMALL BUSINESS',
@@ -7613,7 +7613,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            84 => 
+            84 =>
             array (
                 'id' => 585,
                 'name' => 'CERTIFICATE III IN REFRIGERATION AND AIR CONDITIONING',
@@ -7626,7 +7626,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            85 => 
+            85 =>
             array (
                 'id' => 586,
                 'name' => 'CERTIFICATE III IN WELDING AND MACHINING',
@@ -7639,7 +7639,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            86 => 
+            86 =>
             array (
                 'id' => 587,
                 'name' => 'CERTIFICATE III IN IMMIGRATION ENFORCEMENT STUDIES',
@@ -7652,7 +7652,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            87 => 
+            87 =>
             array (
                 'id' => 588,
                 'name' => 'CERTIFICATE III IN WOODEN AND FIBER GLASS BOAT BUILDING',
@@ -7665,7 +7665,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            88 => 
+            88 =>
             array (
                 'id' => 589,
                 'name' => 'CERTIFICATE III IN ENGINE REPAIR AND MAINTENANCE',
@@ -7678,7 +7678,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            89 => 
+            89 =>
             array (
                 'id' => 590,
                 'name' => 'CERTIFICATE III IN HAIR AND BEAUTY THERAPY',
@@ -7691,7 +7691,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            90 => 
+            90 =>
             array (
                 'id' => 591,
                 'name' => 'PHYSIOTHERAPY ASSISTANT TRAINING',
@@ -7704,7 +7704,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            91 => 
+            91 =>
             array (
                 'id' => 592,
                 'name' => 'CERTIFICATE III IN MICROSOFT OFFICE MANAGEMENT',
@@ -7717,7 +7717,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            92 => 
+            92 =>
             array (
                 'id' => 593,
                 'name' => 'PRE SEA TRAINING',
@@ -7730,7 +7730,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            93 => 
+            93 =>
             array (
                 'id' => 594,
                 'name' => 'CERTIFICATE III IN BUSINESS AND MARKETING',
@@ -7743,7 +7743,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            94 => 
+            94 =>
             array (
                 'id' => 595,
                 'name' => 'CERTIFICATE III IN BUSINESS MANAGEMENT',
@@ -7756,7 +7756,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            95 => 
+            95 =>
             array (
                 'id' => 596,
                 'name' => 'CERTIFICATE III IN HUMAN RESOURCE MANAGEMENT',
@@ -7769,7 +7769,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            96 => 
+            96 =>
             array (
                 'id' => 597,
                 'name' => 'CERTIFICATE III IN BUSINESS AND ACCOUNTING',
@@ -7782,7 +7782,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            97 => 
+            97 =>
             array (
                 'id' => 598,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -7795,7 +7795,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            98 => 
+            98 =>
             array (
                 'id' => 599,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -7808,7 +7808,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            99 => 
+            99 =>
             array (
                 'id' => 600,
                 'name' => 'CERTIFICATE III IN BUSINESS STUDIES',
@@ -7821,7 +7821,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            100 => 
+            100 =>
             array (
                 'id' => 601,
                 'name' => 'CERTIFICATE 3 IN MS-OFFICE APPLICATION',
@@ -7834,7 +7834,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            101 => 
+            101 =>
             array (
                 'id' => 602,
                 'name' => 'CERTIFICATE III IN ACCOUNTING AND BUSINESS MANAGEMENT',
@@ -7847,7 +7847,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            102 => 
+            102 =>
             array (
                 'id' => 603,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -7860,7 +7860,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            103 => 
+            103 =>
             array (
                 'id' => 604,
                 'name' => 'CERTIFICATE III IN OFFICE MANAGEMENT ',
@@ -7873,7 +7873,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            104 => 
+            104 =>
             array (
                 'id' => 605,
                 'name' => 'CERTIFICATE III IN BUSINESS ADMINISTRATION ',
@@ -7886,7 +7886,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            105 => 
+            105 =>
             array (
                 'id' => 606,
                 'name' => 'CERTIFICATE III IN DRAWING AND PAINTING',
@@ -7899,7 +7899,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            106 => 
+            106 =>
             array (
                 'id' => 607,
                 'name' => 'CERTIFICATE III IN AN INTRODUCTION TO HAIR AND BEAUTY SECTOR',
@@ -7912,7 +7912,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            107 => 
+            107 =>
             array (
                 'id' => 608,
                 'name' => 'LEVEL III IN FOOD PREPARATION AND COOKING',
@@ -7925,7 +7925,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            108 => 
+            108 =>
             array (
                 'id' => 609,
                 'name' => 'LEVEL III IN FOOD AND BEVERAGE SERVICES',
@@ -7938,7 +7938,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            109 => 
+            109 =>
             array (
                 'id' => 610,
                 'name' => 'LEVEL III IN RECEPTION SERVICES',
@@ -7951,7 +7951,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            110 => 
+            110 =>
             array (
                 'id' => 611,
                 'name' => 'LEVEL III IN ACCOMMODATION SERVICES',
@@ -7964,7 +7964,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            111 => 
+            111 =>
             array (
                 'id' => 612,
                 'name' => 'LEVEL 3 IN ELECTRONICS TECHNOLOGY',
@@ -7977,7 +7977,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            112 => 
+            112 =>
             array (
                 'id' => 613,
             'name' => 'CERTIFICATE III IN MUSIC (PIANO)',
@@ -7990,7 +7990,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            113 => 
+            113 =>
             array (
                 'id' => 614,
                 'name' => 'QAREE COURSE CERTIFICATE LEVEL 3',
@@ -8003,7 +8003,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            114 => 
+            114 =>
             array (
                 'id' => 616,
                 'name' => 'ARABIC LANGUAGE CERTIFIFCATE COURSE LEVEL 3',
@@ -8016,7 +8016,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            115 => 
+            115 =>
             array (
                 'id' => 617,
                 'name' => 'CERTIFICATE 3 IN ISLAMIC STUDIES',
@@ -8029,7 +8029,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            116 => 
+            116 =>
             array (
                 'id' => 618,
                 'name' => 'CERTIFICATE 3 IN QIRAATH',
@@ -8042,7 +8042,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            117 => 
+            117 =>
             array (
                 'id' => 619,
                 'name' => 'CERTIFICATE 3 IN QIRAAT',
@@ -8055,7 +8055,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            118 => 
+            118 =>
             array (
                 'id' => 620,
                 'name' => 'CERTIFICATE 3 FOR IMAMS',
@@ -8068,7 +8068,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            119 => 
+            119 =>
             array (
                 'id' => 621,
                 'name' => 'CERTIFICATE III IN THE MALDIVES FOREIGN POLICY',
@@ -8081,7 +8081,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            120 => 
+            120 =>
             array (
                 'id' => 622,
                 'name' => 'CERTIFICATE III IN BASIC TRAINING IN DIPLOMATIC PRACTICE',
@@ -8094,7 +8094,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            121 => 
+            121 =>
             array (
                 'id' => 623,
                 'name' => 'CERTIFICATE 3 IN BUSINESS MANAGEMENT',
@@ -8107,7 +8107,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            122 => 
+            122 =>
             array (
                 'id' => 624,
                 'name' => 'CERTIFICATE III IN PSYCHOLOGY AND COUNSELING',
@@ -8120,7 +8120,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            123 => 
+            123 =>
             array (
                 'id' => 625,
                 'name' => 'CERTIFICATE III IN INCLUSIVE EDUCATION',
@@ -8133,7 +8133,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            124 => 
+            124 =>
             array (
                 'id' => 626,
                 'name' => 'CERTIFICATE III IN OFFICE ADMINISTRATION',
@@ -8146,7 +8146,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            125 => 
+            125 =>
             array (
                 'id' => 627,
                 'name' => 'CERTIFICATE III IN SALES AND MARKETING',
@@ -8159,7 +8159,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            126 => 
+            126 =>
             array (
                 'id' => 628,
                 'name' => 'CERTIFICATE III IN TRAVEL AND TOURISM',
@@ -8172,7 +8172,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            127 => 
+            127 =>
             array (
                 'id' => 629,
                 'name' => 'CERTIFICATE III IN PROJECT MANAGEMENT & ADMINISTRATION',
@@ -8185,7 +8185,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            128 => 
+            128 =>
             array (
                 'id' => 630,
                 'name' => 'CERTIFICATE III IN CUSTOMER RELATIONS & FRONT OFFICE',
@@ -8198,7 +8198,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            129 => 
+            129 =>
             array (
                 'id' => 631,
                 'name' => 'CERTIFICATE III IN OFFICE MANAGEMENT & ADMINISTRATION',
@@ -8211,7 +8211,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            130 => 
+            130 =>
             array (
                 'id' => 632,
                 'name' => 'CERTIFICATE III IN AUTOMOTIVE REPAIR AND MAINTENANCE',
@@ -8224,7 +8224,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            131 => 
+            131 =>
             array (
                 'id' => 633,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -8237,7 +8237,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            132 => 
+            132 =>
             array (
                 'id' => 634,
                 'name' => 'CERTIFICATE III IN INTERNAL AUDIT',
@@ -8250,7 +8250,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            133 => 
+            133 =>
             array (
                 'id' => 635,
                 'name' => 'CERTIFICATE III IN PUBLIC FINANCE MANAGEMENT',
@@ -8263,7 +8263,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            134 => 
+            134 =>
             array (
                 'id' => 636,
                 'name' => 'NATIONAL CERTIFICATE III IN FOOD AND BEVERAGE SERVICES',
@@ -8276,7 +8276,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            135 => 
+            135 =>
             array (
                 'id' => 637,
                 'name' => 'NATIONAL CERTIFICATE III IN FITNESS INSTRUCTOR',
@@ -8289,7 +8289,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            136 => 
+            136 =>
             array (
                 'id' => 638,
                 'name' => 'NATIONAL CERTIFICATE III IN FASHION AND TAILORING DESIGN',
@@ -8302,7 +8302,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            137 => 
+            137 =>
             array (
                 'id' => 639,
                 'name' => 'CERTIFICATE III IN SECURITY OPERATIONS',
@@ -8315,7 +8315,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            138 => 
+            138 =>
             array (
                 'id' => 640,
                 'name' => 'CERTIFICATE III IN TRAFFIC MANAGEMENT',
@@ -8328,7 +8328,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            139 => 
+            139 =>
             array (
                 'id' => 641,
                 'name' => 'CERTIFICATE III IN BUSINESS AND OFFICE ADMINISTRATION',
@@ -8341,7 +8341,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            140 => 
+            140 =>
             array (
                 'id' => 642,
                 'name' => 'CERTIFICATE III IN TEACHING PRIMARY AND MIDDLE SCHOOL',
@@ -8354,7 +8354,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            141 => 
+            141 =>
             array (
                 'id' => 643,
                 'name' => 'CERTIFICATE 3 IN HOSPITALITY',
@@ -8367,7 +8367,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            142 => 
+            142 =>
             array (
                 'id' => 644,
                 'name' => 'CERTIFICATE III IN MASS COMMUNICATION',
@@ -8380,7 +8380,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            143 => 
+            143 =>
             array (
                 'id' => 645,
                 'name' => 'CERTIFICATE III IN JOURNALISM',
@@ -8393,7 +8393,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            144 => 
+            144 =>
             array (
                 'id' => 646,
                 'name' => 'CERTIFICATE III IN BROADCASTING AND MEDIA MANAGEMENT',
@@ -8406,7 +8406,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            145 => 
+            145 =>
             array (
                 'id' => 647,
                 'name' => 'CERTIFICATE III IN MANAGEMENT',
@@ -8419,7 +8419,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            146 => 
+            146 =>
             array (
                 'id' => 648,
                 'name' => 'Certificate III in Financial Accounting',
@@ -8432,7 +8432,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            147 => 
+            147 =>
             array (
                 'id' => 649,
                 'name' => 'Certificate III in Marketing Management ',
@@ -8445,7 +8445,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            148 => 
+            148 =>
             array (
                 'id' => 650,
                 'name' => 'Certificate III in Human Resource Management',
@@ -8458,7 +8458,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            149 => 
+            149 =>
             array (
                 'id' => 651,
                 'name' => 'Certificate III in Research Methodology in Education',
@@ -8471,7 +8471,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            150 => 
+            150 =>
             array (
                 'id' => 652,
                 'name' => 'Certificate III in Arabic Language for Tourism',
@@ -8484,7 +8484,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            151 => 
+            151 =>
             array (
                 'id' => 653,
                 'name' => 'Certificate III in Arabic Language for Business',
@@ -8497,7 +8497,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            152 => 
+            152 =>
             array (
                 'id' => 654,
             'name' => 'FOUNDATIONS STUDIES (CERTIFICATE LEVEL 3)',
@@ -8510,7 +8510,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            153 => 
+            153 =>
             array (
                 'id' => 655,
                 'name' => 'Certificate III in Accounting',
@@ -8523,7 +8523,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            154 => 
+            154 =>
             array (
                 'id' => 656,
                 'name' => 'Certificate III in Finance',
@@ -8536,7 +8536,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            155 => 
+            155 =>
             array (
                 'id' => 657,
             'name' => 'Certificate III in Information Technology (Computer Applications)',
@@ -8549,7 +8549,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            156 => 
+            156 =>
             array (
                 'id' => 658,
             'name' => 'Certificate III in Business (Tourism and Hospitality)',
@@ -8562,7 +8562,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            157 => 
+            157 =>
             array (
                 'id' => 659,
                 'name' => 'CERTIFICATE III IN DRUG ENFORCEMENT OFFICER TRAINING COURSE',
@@ -8575,7 +8575,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            158 => 
+            158 =>
             array (
                 'id' => 660,
                 'name' => 'Certificate III in Dhivehi Beysverikan',
@@ -8588,7 +8588,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            159 => 
+            159 =>
             array (
                 'id' => 661,
                 'name' => 'Certificate III in Accounting',
@@ -8601,7 +8601,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            160 => 
+            160 =>
             array (
                 'id' => 662,
                 'name' => 'Certificate III in Business Administration ',
@@ -8614,7 +8614,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            161 => 
+            161 =>
             array (
                 'id' => 663,
                 'name' => 'CERTIFICATE III IN PLANNING AND MANAGEMENT OF NGOS',
@@ -8627,7 +8627,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            162 => 
+            162 =>
             array (
                 'id' => 664,
                 'name' => 'CERTIFICATE III IN CUSTOMER CARE',
@@ -8640,7 +8640,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            163 => 
+            163 =>
             array (
                 'id' => 665,
                 'name' => 'CERTIFICATE III IN CAKE DECORATION',
@@ -8653,7 +8653,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            164 => 
+            164 =>
             array (
                 'id' => 666,
                 'name' => 'NATIONAL CERTIFICATE III IN IT TECHNICIAN ',
@@ -8666,7 +8666,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            165 => 
+            165 =>
             array (
                 'id' => 667,
                 'name' => 'CERTIFICATE III IN IMAAM COURSE',
@@ -8679,7 +8679,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            166 => 
+            166 =>
             array (
                 'id' => 668,
                 'name' => 'CERTIFICATE III IN QURAN MEMORIZATION',
@@ -8692,7 +8692,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            167 => 
+            167 =>
             array (
                 'id' => 669,
                 'name' => 'CERTIFICATE III IN HUMAN RECOURSE MANAGEMENT',
@@ -8705,7 +8705,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            168 => 
+            168 =>
             array (
                 'id' => 670,
                 'name' => 'CERTIFICATE III IN MARKETING',
@@ -8718,7 +8718,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            169 => 
+            169 =>
             array (
                 'id' => 671,
                 'name' => 'CERTIFICATE III IN TRAVEL AND TOURISM',
@@ -8731,7 +8731,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            170 => 
+            170 =>
             array (
                 'id' => 672,
                 'name' => 'CERTIFICATE III IN BUSINESS MANAGEMENT ',
@@ -8744,7 +8744,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            171 => 
+            171 =>
             array (
                 'id' => 673,
                 'name' => 'NATIONAL CERTIFICATE III IN FIBERGLASS BOAT BUILDING',
@@ -8757,7 +8757,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            172 => 
+            172 =>
             array (
                 'id' => 674,
                 'name' => 'NATIONAL CERTIFICATE III IN CASHIER',
@@ -8770,7 +8770,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            173 => 
+            173 =>
             array (
                 'id' => 675,
                 'name' => 'CERTIFICATE 3 IN ICT OFFICE MANAGEMENT ',
@@ -8783,7 +8783,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            174 => 
+            174 =>
             array (
                 'id' => 676,
                 'name' => 'CERTIFICATE III IN ISLAMIC BANKING AND FINANCE',
@@ -8796,7 +8796,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            175 => 
+            175 =>
             array (
                 'id' => 677,
                 'name' => 'CERTIFICATE III IN RESEARCH ',
@@ -8809,7 +8809,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            176 => 
+            176 =>
             array (
                 'id' => 678,
                 'name' => 'CERTIFICATE III IN FINANCIAL MANAGEMENT AND STATISTICS',
@@ -8822,7 +8822,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            177 => 
+            177 =>
             array (
                 'id' => 679,
                 'name' => 'CERTIFICATE III IN PROCUREMENT',
@@ -8835,7 +8835,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            178 => 
+            178 =>
             array (
                 'id' => 680,
                 'name' => 'CERTIFICATE III IN MARKETING',
@@ -8848,7 +8848,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            179 => 
+            179 =>
             array (
                 'id' => 681,
                 'name' => 'CERTIFICATE III IN HOSPITALITY MANAGEMENT',
@@ -8861,7 +8861,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            180 => 
+            180 =>
             array (
                 'id' => 682,
                 'name' => 'CERTIFICATE III IN PROJECT MANAGEMENT',
@@ -8874,7 +8874,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            181 => 
+            181 =>
             array (
                 'id' => 683,
                 'name' => 'CERTIFICATE III IN HUMAN RESOURCE DEVELOPMENT',
@@ -8887,7 +8887,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            182 => 
+            182 =>
             array (
                 'id' => 684,
                 'name' => 'CERTIFICATE III IN ENTREPRENEURSHIP ',
@@ -8900,7 +8900,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            183 => 
+            183 =>
             array (
                 'id' => 685,
                 'name' => 'CERTIFICATE III IN HOSPITALITY FIELDS',
@@ -8913,7 +8913,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            184 => 
+            184 =>
             array (
                 'id' => 686,
                 'name' => 'CERTIFICATE III IN FINANCIAL MANAGEMENT',
@@ -8926,7 +8926,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            185 => 
+            185 =>
             array (
                 'id' => 687,
                 'name' => 'CERTIFICATE III IN STRATEGIC HUMAN RESOURCE MANAGEMENT',
@@ -8939,7 +8939,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            186 => 
+            186 =>
             array (
                 'id' => 688,
                 'name' => 'CERTIFICATE III IN QIRAATH',
@@ -8952,7 +8952,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            187 => 
+            187 =>
             array (
                 'id' => 689,
                 'name' => 'CERTIFICATE III IN MARINE ENGINEERING',
@@ -8965,7 +8965,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            188 => 
+            188 =>
             array (
                 'id' => 690,
                 'name' => 'CERTIFICATE III IN REFRIGERATION AND AIR CONDITIONING ',
@@ -8978,7 +8978,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            189 => 
+            189 =>
             array (
                 'id' => 691,
                 'name' => 'CERTIFICATE III IN WELDING AND METAL FEBRICATION ',
@@ -8991,7 +8991,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            190 => 
+            190 =>
             array (
                 'id' => 692,
                 'name' => 'CERTIFICATE III IN AUTO MOBILE ENGINEERING',
@@ -9004,7 +9004,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            191 => 
+            191 =>
             array (
                 'id' => 693,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -9017,7 +9017,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            192 => 
+            192 =>
             array (
                 'id' => 694,
                 'name' => 'ADVANCED CERTIFICATE IN MARINE OPERATIONS',
@@ -9030,7 +9030,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            193 => 
+            193 =>
             array (
                 'id' => 695,
                 'name' => 'CERTIFICATE IV IN MARINE OPERATIONS',
@@ -9043,7 +9043,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            194 => 
+            194 =>
             array (
                 'id' => 696,
                 'name' => 'ADVANCED CERTIFICATE IN ELECTRICAL AND ELECTRONICS ENGINEERING',
@@ -9056,7 +9056,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            195 => 
+            195 =>
             array (
                 'id' => 697,
                 'name' => 'ADVANCED CERTIFICATE IN ELECTRICAL ENGINEERING',
@@ -9069,7 +9069,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            196 => 
+            196 =>
             array (
                 'id' => 698,
                 'name' => 'ADVANCED CERTIFICATE IN REFREGIRATION AND AIRCONDITIONING',
@@ -9082,7 +9082,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            197 => 
+            197 =>
             array (
                 'id' => 699,
                 'name' => 'ADVANCED CERTIFICATE IN WELDING AND METAL FABRICATION',
@@ -9095,7 +9095,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            198 => 
+            198 =>
             array (
                 'id' => 700,
                 'name' => 'ADVANCED CERTIFICATE IN FURNITURE CARPENTRY AND JOINERY',
@@ -9108,7 +9108,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            199 => 
+            199 =>
             array (
                 'id' => 701,
                 'name' => 'ADVANCED CERTIFICATE IN WOODEN AND FIBER GLASS BOARD BUILDING',
@@ -9121,7 +9121,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            200 => 
+            200 =>
             array (
                 'id' => 702,
                 'name' => 'ADVANCED CERTIFICATE IN FURNITURE CARPENTRY AND WOOD CURVING',
@@ -9134,7 +9134,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            201 => 
+            201 =>
             array (
                 'id' => 703,
                 'name' => 'ADVANCED CERTIFICATE IN MACHINING AND MECHANICAL FITTING',
@@ -9147,7 +9147,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            202 => 
+            202 =>
             array (
                 'id' => 704,
                 'name' => 'ADVANCED CERTIFICATE IN ELECTRICAL ELECTRONICS ENGINEERING',
@@ -9160,7 +9160,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            203 => 
+            203 =>
             array (
                 'id' => 705,
                 'name' => 'ADVANCED CERTIFICATE IN ENGINE REPAIR AND MAINTENANCE',
@@ -9173,7 +9173,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            204 => 
+            204 =>
             array (
                 'id' => 706,
                 'name' => 'ADVANCED CERTIFICATE IN HUMAN RESOURCE MANAGEMENT',
@@ -9186,7 +9186,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            205 => 
+            205 =>
             array (
                 'id' => 707,
                 'name' => 'ADVANCED CERTIFICATE IN PRIMARY TEACHING',
@@ -9199,7 +9199,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            206 => 
+            206 =>
             array (
                 'id' => 708,
                 'name' => 'ADVANCED CERTIFICATE IN PRIMARY TEACHING',
@@ -9212,7 +9212,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            207 => 
+            207 =>
             array (
                 'id' => 709,
                 'name' => 'ADVANCED CERTIFICATE IN HUMAN RESOURCE MANAGEMENT',
@@ -9225,7 +9225,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            208 => 
+            208 =>
             array (
                 'id' => 710,
                 'name' => 'FOUNDATION STUDIES LEVEL 2',
@@ -9238,7 +9238,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            209 => 
+            209 =>
             array (
                 'id' => 711,
                 'name' => 'ADVANCED CERTIFICATE IN ISLAMIC STUDIES',
@@ -9251,7 +9251,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            210 => 
+            210 =>
             array (
                 'id' => 712,
                 'name' => 'ADVANCED CERTIFICATE IN LIBRARY AND INFORMATION SERVICES',
@@ -9264,7 +9264,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            211 => 
+            211 =>
             array (
                 'id' => 713,
                 'name' => 'ADVANCED CERTIFICATE IN LANGUAGE USE',
@@ -9277,7 +9277,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            212 => 
+            212 =>
             array (
                 'id' => 714,
                 'name' => 'ADVANCED CERTIFICATE IN PSYCHOLOGY',
@@ -9290,7 +9290,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            213 => 
+            213 =>
             array (
                 'id' => 715,
                 'name' => 'ADVANCED CERTIFICATE IN VISUAL ARTS',
@@ -9303,7 +9303,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            214 => 
+            214 =>
             array (
                 'id' => 716,
             'name' => 'ADVANCED CERTIFICATE OF TEACHING (PRIMARY)',
@@ -9316,7 +9316,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            215 => 
+            215 =>
             array (
                 'id' => 717,
                 'name' => 'ADVANCED CERTIFICATE IN EDUCATION ',
@@ -9329,7 +9329,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            216 => 
+            216 =>
             array (
                 'id' => 718,
                 'name' => 'ADVANCED CERTIFICATE IN COUNSELING',
@@ -9342,7 +9342,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            217 => 
+            217 =>
             array (
                 'id' => 719,
                 'name' => 'ADVANCED CERTIFICATE IN FAMILY HEALTH',
@@ -9355,7 +9355,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            218 => 
+            218 =>
             array (
                 'id' => 720,
                 'name' => 'ADVANCED CERTIFICATE IN MIDWIFERY',
@@ -9368,7 +9368,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            219 => 
+            219 =>
             array (
                 'id' => 721,
                 'name' => 'ADVANCED CERTIFICATE IN NURSING',
@@ -9381,7 +9381,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            220 => 
+            220 =>
             array (
                 'id' => 722,
                 'name' => 'ADVANCED CERTIFICATE IN PHARMACY',
@@ -9394,7 +9394,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            221 => 
+            221 =>
             array (
                 'id' => 723,
                 'name' => 'ADVANCED CERTIFICATE IN PRIMARY HEALTH CARE',
@@ -9407,7 +9407,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            222 => 
+            222 =>
             array (
                 'id' => 724,
                 'name' => 'ADVANCED CERTIFICATE IN SOCIAL SERVICE WORK',
@@ -9420,7 +9420,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            223 => 
+            223 =>
             array (
                 'id' => 725,
                 'name' => 'ADVANCED CERTIFICATE IN TRADITIONAL AND COMPLEMENTARY MEDICINE',
@@ -9433,7 +9433,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            224 => 
+            224 =>
             array (
                 'id' => 726,
                 'name' => 'ADVANCE CERTIFICATE IN PRIMARY HEALTH CARE',
@@ -9446,7 +9446,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            225 => 
+            225 =>
             array (
                 'id' => 727,
                 'name' => 'ADVANCE CERTIFICATE IN NURSING',
@@ -9459,7 +9459,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            226 => 
+            226 =>
             array (
                 'id' => 728,
                 'name' => 'ADVANCED CERTIFICATE IN PHARMACY',
@@ -9472,7 +9472,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            227 => 
+            227 =>
             array (
                 'id' => 729,
                 'name' => 'ADVANCED CERTIFICATE IN COMMERCIAL COOKERY',
@@ -9485,7 +9485,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            228 => 
+            228 =>
             array (
                 'id' => 730,
                 'name' => 'ADVANCE CERTIFICATE IN HOSPITALITY AND TOURISM',
@@ -9498,7 +9498,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            229 => 
+            229 =>
             array (
                 'id' => 731,
                 'name' => 'ADVANCED CERTIFICATE IN ACCOUNTING',
@@ -9511,7 +9511,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            230 => 
+            230 =>
             array (
                 'id' => 732,
                 'name' => 'ADVANCED CERTIFICATE IN INFORMATION TECHNOLOGY',
@@ -9524,7 +9524,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            231 => 
+            231 =>
             array (
                 'id' => 733,
                 'name' => 'ADVANCED CERTIFICATE IN ISLAND ADMINISTRATION',
@@ -9537,7 +9537,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            232 => 
+            232 =>
             array (
                 'id' => 734,
                 'name' => 'ADVANCED CERTIFICATE IN MANAGEMENT',
@@ -9550,7 +9550,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            233 => 
+            233 =>
             array (
                 'id' => 735,
                 'name' => 'ADVANCE CERTIFICATE IN MANAGEMENT',
@@ -9563,7 +9563,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            234 => 
+            234 =>
             array (
                 'id' => 736,
                 'name' => 'ADVANCE CERTIFICATE IN INFORMATION TECHNOLOGY',
@@ -9576,7 +9576,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            235 => 
+            235 =>
             array (
                 'id' => 737,
                 'name' => 'ADVANCED CERTIFICATE IN SHARIAH AND LAW',
@@ -9589,7 +9589,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            236 => 
+            236 =>
             array (
                 'id' => 738,
                 'name' => 'ADVANCED CERTIFICATE IN JUSTICE STUDIES',
@@ -9602,7 +9602,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            237 => 
+            237 =>
             array (
                 'id' => 739,
                 'name' => 'ADVANCED CERTIFICATE IN SHARIAH AND LAW',
@@ -9615,7 +9615,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            238 => 
+            238 =>
             array (
                 'id' => 740,
                 'name' => 'QAARI COURSE',
@@ -9628,7 +9628,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            239 => 
+            239 =>
             array (
                 'id' => 741,
                 'name' => 'ADVANCED CERTIFICATE IN ARABIC LANGUAGE PROGRAME',
@@ -9641,7 +9641,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            240 => 
+            240 =>
             array (
                 'id' => 742,
                 'name' => 'CERTIFICATE 4 IN QIRATH',
@@ -9654,7 +9654,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            241 => 
+            241 =>
             array (
                 'id' => 743,
                 'name' => 'CERTIFICATE 4 IN ARABIC LANGUAGE',
@@ -9667,7 +9667,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            242 => 
+            242 =>
             array (
                 'id' => 744,
                 'name' => 'FOUNDATION STUDIES',
@@ -9680,7 +9680,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            243 => 
+            243 =>
             array (
                 'id' => 745,
                 'name' => 'ADVANCED CERTIFICATE IN BUSINESS ADMINISTRATION',
@@ -9693,7 +9693,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            244 => 
+            244 =>
             array (
                 'id' => 746,
                 'name' => 'CERTIFICATE IV IN BUSINESS ADMINISTRATION',
@@ -9706,7 +9706,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            245 => 
+            245 =>
             array (
                 'id' => 747,
                 'name' => 'CERTIFICATE IV IN FOUNDATION STUDIES',
@@ -9719,7 +9719,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            246 => 
+            246 =>
             array (
                 'id' => 748,
                 'name' => 'CERTIFICATE IV IN JUDICIAL ADMINISTRATION',
@@ -9732,7 +9732,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            247 => 
+            247 =>
             array (
                 'id' => 749,
                 'name' => 'AAT LEVEL 3',
@@ -9745,7 +9745,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            248 => 
+            248 =>
             array (
                 'id' => 750,
                 'name' => 'CERTIFICATE 4 IN INFORMATION TECHNOLOGY',
@@ -9758,7 +9758,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            249 => 
+            249 =>
             array (
                 'id' => 751,
                 'name' => 'CERTIFICATE IN IN JUDICIAL ADMINISTRATION',
@@ -9771,7 +9771,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            250 => 
+            250 =>
             array (
                 'id' => 752,
                 'name' => 'ADVANCED CERTIFICATE IN INFORMATION TECHNOLOGY',
@@ -9784,7 +9784,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            251 => 
+            251 =>
             array (
                 'id' => 753,
                 'name' => 'ADVANCED CERTIFICATE IN MULTIMEDIA TECHNOLOGY',
@@ -9797,7 +9797,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            252 => 
+            252 =>
             array (
                 'id' => 754,
                 'name' => 'ADVANCED CERTIFICATE IN OFFICE MANAGEMENT AND ADMINISTRATION',
@@ -9810,7 +9810,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            253 => 
+            253 =>
             array (
                 'id' => 755,
                 'name' => 'CERTIFICATE IV IN INFORMATION TECHNOLOGY',
@@ -9823,7 +9823,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            254 => 
+            254 =>
             array (
                 'id' => 756,
                 'name' => 'CERTIFICATE IV IN OFFICE MANAGEMENT AND ADMINISTRATION',
@@ -9836,7 +9836,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            255 => 
+            255 =>
             array (
                 'id' => 757,
                 'name' => 'CERTIFICATE IV IN EDITING & COMPOSITING',
@@ -9849,7 +9849,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            256 => 
+            256 =>
             array (
                 'id' => 758,
                 'name' => 'CERTIFICATE IV IN ARCHITECTURAL MODELING',
@@ -9862,7 +9862,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            257 => 
+            257 =>
             array (
                 'id' => 759,
                 'name' => 'CERTIFICATE IV IN WEB GRAPHICS',
@@ -9875,7 +9875,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            258 => 
+            258 =>
             array (
                 'id' => 760,
                 'name' => 'CERTIFICATE IV IN GAME MODELING',
@@ -9888,7 +9888,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            259 => 
+            259 =>
             array (
                 'id' => 761,
                 'name' => 'CERTIFICATE IV IN HARDWARE AND NETWORK ADMINISTRATION',
@@ -9901,7 +9901,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            260 => 
+            260 =>
             array (
                 'id' => 762,
             'name' => 'ADVANCED CERTIFICATE IN BUSINESS ADMINISTRATION (Previously known as CERTIFICATE IV IN BUSINESS ADMINISTRATION)',
@@ -9914,7 +9914,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            261 => 
+            261 =>
             array (
                 'id' => 763,
                 'name' => 'CERTIFICATE IV IN BUSINESS ADMINISTRATION',
@@ -9927,7 +9927,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            262 => 
+            262 =>
             array (
                 'id' => 764,
                 'name' => 'ADVANCED CERTIFICATE IN INFORMATION TECHNOLOGY',
@@ -9940,7 +9940,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            263 => 
+            263 =>
             array (
                 'id' => 765,
             'name' => 'CERTIFICATE LEVEL IV IN MANAGEMENT (MILITARY STUDIES)',
@@ -9953,7 +9953,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            264 => 
+            264 =>
             array (
                 'id' => 766,
             'name' => 'CERTIFICATE IV IN MANAGEMENT (MILITARY STUDIES)',
@@ -9966,7 +9966,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            265 => 
+            265 =>
             array (
                 'id' => 767,
                 'name' => 'CERTIFICATE IV IN SPECIAL OPERATIONS',
@@ -9979,7 +9979,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            266 => 
+            266 =>
             array (
                 'id' => 768,
                 'name' => 'CERTIFCATE IV IN ACCOUNTING FOR PROFESSIONALS',
@@ -9992,7 +9992,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            267 => 
+            267 =>
             array (
                 'id' => 769,
             'name' => 'ADVANCED CERTIFICATE IN BUSINESS ADMINISTRATION (PREVIOUSLY KNOWN AS CERTIFICATE IV IN BUSINESS ADMINISTRATION)',
@@ -10005,7 +10005,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            268 => 
+            268 =>
             array (
                 'id' => 770,
                 'name' => 'CERTIFICATE IV IN EARLY CHILDHOOD EDUCATION',
@@ -10018,7 +10018,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            269 => 
+            269 =>
             array (
                 'id' => 771,
                 'name' => 'CERTIFICATE IV IN BUSINESS',
@@ -10031,7 +10031,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            270 => 
+            270 =>
             array (
                 'id' => 772,
                 'name' => 'CERTIFICATE IV IN INFORMATION TECHNOLOGY',
@@ -10044,7 +10044,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            271 => 
+            271 =>
             array (
                 'id' => 775,
                 'name' => 'ADVANCED CERTIFICATE IN BUSINESS STUDIES',
@@ -10057,7 +10057,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            272 => 
+            272 =>
             array (
                 'id' => 776,
                 'name' => 'ADVANCED CERTIFICATE IN EARLY CHILDHOOD CARE AND DEVELOPMENT',
@@ -10070,7 +10070,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            273 => 
+            273 =>
             array (
                 'id' => 777,
                 'name' => 'ADVANCED CERTIFICATE IN INFORMATION TECHNOLOGY',
@@ -10083,7 +10083,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            274 => 
+            274 =>
             array (
                 'id' => 778,
                 'name' => 'ADVANCED CERTIFICATE IN MATHEMATICS',
@@ -10096,7 +10096,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            275 => 
+            275 =>
             array (
                 'id' => 779,
                 'name' => 'ADVANCED CERTIFICATE IN OFFICE MANAGEMENT',
@@ -10109,7 +10109,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            276 => 
+            276 =>
             array (
                 'id' => 780,
                 'name' => 'CERTIFIED ACCOUNTING TECHNICIANS - CAT',
@@ -10122,7 +10122,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            277 => 
+            277 =>
             array (
                 'id' => 781,
                 'name' => 'CTH CERTIFICATE IN HOSPITALITY AND TOURISM MANAGEMENT',
@@ -10135,7 +10135,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            278 => 
+            278 =>
             array (
                 'id' => 782,
                 'name' => 'ADVANCED CERTIFICATE IN INFORMATION TECHNOLOGY',
@@ -10148,7 +10148,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            279 => 
+            279 =>
             array (
                 'id' => 783,
             'name' => 'ADVANCED CERTIFICATE IN BUSINESS ADMINISTRATION (Previously Known as Foundation Studies in Business) name changed from 28.12.2016',
@@ -10161,7 +10161,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            280 => 
+            280 =>
             array (
                 'id' => 784,
                 'name' => 'ADVANCED CERTIFICATE IN BUSINESS ADMINISTRATION',
@@ -10174,7 +10174,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            281 => 
+            281 =>
             array (
                 'id' => 785,
                 'name' => 'ADVANCED CERTIFICATE IN INFORMATION TECHNOLOGY',
@@ -10187,7 +10187,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            282 => 
+            282 =>
             array (
                 'id' => 786,
             'name' => 'INTERNATIONAL CERTIFICATE IN COMPUTER STUDIES (ICCS)',
@@ -10200,7 +10200,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            283 => 
+            283 =>
             array (
                 'id' => 787,
                 'name' => 'CERTIFICATE IV IN INFORMATION TECHNOLOGY',
@@ -10213,7 +10213,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            284 => 
+            284 =>
             array (
                 'id' => 788,
             'name' => 'CERTIFICATE IV IN HUMAN RESOURCE MANAGEMENT (programme name changed from "Advanced Certificate in Human Resource Management")',
@@ -10226,7 +10226,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            285 => 
+            285 =>
             array (
                 'id' => 789,
                 'name' => 'CERTIFICATE IV IN BUSINESS ADMINISTRATION',
@@ -10239,7 +10239,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            286 => 
+            286 =>
             array (
                 'id' => 790,
                 'name' => 'FOUNDATION IN TEACHING',
@@ -10252,7 +10252,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            287 => 
+            287 =>
             array (
                 'id' => 791,
                 'name' => 'CERTIFICATE IV IN MULTIMEDIA TECHNOLOGY',
@@ -10265,7 +10265,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            288 => 
+            288 =>
             array (
                 'id' => 792,
                 'name' => 'CERTIFICATE IV IN ACCOUNTING',
@@ -10278,7 +10278,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            289 => 
+            289 =>
             array (
                 'id' => 793,
                 'name' => 'CERTIFICATE IV IN SHARIAH',
@@ -10291,7 +10291,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            290 => 
+            290 =>
             array (
                 'id' => 794,
                 'name' => 'CERTIFICATE IV IN MARINE STUDIES',
@@ -10304,7 +10304,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            291 => 
+            291 =>
             array (
                 'id' => 795,
                 'name' => 'FOUNDATION IN LAW',
@@ -10317,7 +10317,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            292 => 
+            292 =>
             array (
                 'id' => 796,
                 'name' => 'CIMA CERTIFICATE IN BUSINESS ACCOUNTING',
@@ -10330,7 +10330,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            293 => 
+            293 =>
             array (
                 'id' => 797,
                 'name' => 'ADVANCED CERTIFICATE COURSE IN EARLY CHILDHOOD CARE',
@@ -10343,7 +10343,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            294 => 
+            294 =>
             array (
                 'id' => 798,
                 'name' => 'ADVANCED CERTIFICATE IN ENGLISH LANGUAGE ',
@@ -10356,7 +10356,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            295 => 
+            295 =>
             array (
                 'id' => 799,
                 'name' => 'ADVANCED CERTIFICATE IN MANAGEMENT AND ADMINISTRATION',
@@ -10369,7 +10369,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            296 => 
+            296 =>
             array (
                 'id' => 800,
                 'name' => 'ADVANCE CERTIFICATE IN SECRETARIAL TRAINING',
@@ -10382,7 +10382,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            297 => 
+            297 =>
             array (
                 'id' => 801,
                 'name' => 'ADVANCE CERTIFICATE IN SECRETARIAL AND TEXT PRODICTION SKILLS',
@@ -10395,7 +10395,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            298 => 
+            298 =>
             array (
                 'id' => 802,
                 'name' => 'ADVANCED CERTIFICATE IN EARLY CHILDHOOD CARE AND DEVELOPMENT',
@@ -10408,7 +10408,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            299 => 
+            299 =>
             array (
                 'id' => 803,
                 'name' => 'QAAREE COURSE',
@@ -10421,7 +10421,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            300 => 
+            300 =>
             array (
                 'id' => 804,
                 'name' => 'QURAN MUDHARISKAMUGE ADVANCE CERTIFICATE COURSE',
@@ -10434,7 +10434,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            301 => 
+            301 =>
             array (
                 'id' => 805,
                 'name' => 'CERTIFICATE  4 IN TEACHING QURAN',
@@ -10447,7 +10447,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            302 => 
+            302 =>
             array (
                 'id' => 806,
                 'name' => 'CERTIFICATE IV IN QAAREE',
@@ -10460,7 +10460,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            303 => 
+            303 =>
             array (
                 'id' => 807,
             'name' => 'QAAREE COURSE (CERTIFICATE LEVEL 4)',
@@ -10473,7 +10473,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            304 => 
+            304 =>
             array (
                 'id' => 808,
                 'name' => 'ADVANCE CERTIFICATE IN IMMIGRATION ENFORCEMENT STUDIES',
@@ -10486,7 +10486,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            305 => 
+            305 =>
             array (
                 'id' => 809,
                 'name' => 'ADVANCED CERTIFICATE IN CUSTOMS MANAGEMENT',
@@ -10499,7 +10499,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            306 => 
+            306 =>
             array (
                 'id' => 810,
                 'name' => 'MODERN PORT MANAGEMENT',
@@ -10512,7 +10512,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            307 => 
+            307 =>
             array (
                 'id' => 811,
             'name' => 'NATIONAL ADVANCED CERTIFICATE IN DRIVING INSTRUCTOR (LIGHT VEHICLE)(NCS - DRIVING INSTRUCTOR (LIGHT VEHICLE))',
@@ -10525,7 +10525,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            308 => 
+            308 =>
             array (
                 'id' => 812,
                 'name' => 'NATIONAL ADVANCED CERTIFICATE IN ELECTRICIAN',
@@ -10538,7 +10538,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            309 => 
+            309 =>
             array (
                 'id' => 813,
             'name' => 'NATIONAL ADVANCED CERTIFICATE IN REGRIGERATION AND AIR-CONDITIONING MECHANICS (NCS - REFRIGERATION AND AIR-CONDITIONING MECHANIC)',
@@ -10551,7 +10551,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            310 => 
+            310 =>
             array (
                 'id' => 814,
             'name' => 'NATIONAL ADVANCED CERTIFICATE IN MASON (PLASTER)',
@@ -10564,7 +10564,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            311 => 
+            311 =>
             array (
                 'id' => 815,
                 'name' => 'NATIONAL CERTIFICATE IV IN PHARMACY',
@@ -10577,7 +10577,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            312 => 
+            312 =>
             array (
                 'id' => 816,
                 'name' => 'NATIONAL CERTIFICATE IV IN JEWELLRY DESIGN AND MAKING',
@@ -10590,7 +10590,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            313 => 
+            313 =>
             array (
                 'id' => 817,
                 'name' => 'ADVANCED CERTIFICATE IN SPORTS MANAGEMENT',
@@ -10603,7 +10603,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            314 => 
+            314 =>
             array (
                 'id' => 818,
                 'name' => 'ADVANCED CERTIFICATE IN YOUTH CONSELING',
@@ -10616,7 +10616,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            315 => 
+            315 =>
             array (
                 'id' => 819,
                 'name' => 'ADVANCED CERTIFICATE IN YOUTH DEVELOPMENT',
@@ -10629,7 +10629,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            316 => 
+            316 =>
             array (
                 'id' => 820,
                 'name' => 'CERTIFICATE IV IN SPORT MANAGEMENT',
@@ -10642,7 +10642,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            317 => 
+            317 =>
             array (
                 'id' => 821,
                 'name' => 'ADVANCED COURSE IN SPECIAL EDUCATION',
@@ -10655,7 +10655,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            318 => 
+            318 =>
             array (
                 'id' => 823,
                 'name' => 'CERTIFICATE IV IN INFORMATION TECHNOLOGY',
@@ -10668,7 +10668,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            319 => 
+            319 =>
             array (
                 'id' => 824,
                 'name' => 'ADVANCED CERTIFICATE IN ARCHITECTURAL DRAWING WITH AUTOCAD',
@@ -10681,7 +10681,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            320 => 
+            320 =>
             array (
                 'id' => 825,
                 'name' => 'ADVANCED CERTIFICATE IN HAIR & BEAUTY CARE',
@@ -10694,7 +10694,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            321 => 
+            321 =>
             array (
                 'id' => 826,
             'name' => 'CERTIFICATE IN COMPUTING (Previously known as ADVANCED CERTIFICATE IN COMPUTER STUDIES)',
@@ -10707,7 +10707,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            322 => 
+            322 =>
             array (
                 'id' => 827,
                 'name' => 'ADVANCED CERTIFICATE IN PROJECT MANAGEMENT',
@@ -10720,7 +10720,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            323 => 
+            323 =>
             array (
                 'id' => 828,
                 'name' => 'FOCUS APPRENTICESHIP PROGRAM',
@@ -10733,7 +10733,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            324 => 
+            324 =>
             array (
                 'id' => 829,
             'name' => 'CERTIFICATE IV IN BUSINESS ADMINISTRATION (23.03.2017) (Previously known as CERTIFICATE IV IN OFFICE PRACTICE approved on 26.02.2014)',
@@ -10746,7 +10746,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            325 => 
+            325 =>
             array (
                 'id' => 830,
                 'name' => 'CERTIFICATE IV IN ACCOUNTING AND FINANCE',
@@ -10759,7 +10759,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            326 => 
+            326 =>
             array (
                 'id' => 831,
                 'name' => 'ADVANCED CERTIFICATE IN COMPUTER PROGRAMMING',
@@ -10772,7 +10772,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            327 => 
+            327 =>
             array (
                 'id' => 832,
                 'name' => 'ADVANCED CERTIFICATE IN SOFTWARE ENGINEERING',
@@ -10785,7 +10785,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            328 => 
+            328 =>
             array (
                 'id' => 833,
                 'name' => 'CERTIFICATE IV IN INFORMATION TECHNOLOGY',
@@ -10798,7 +10798,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            329 => 
+            329 =>
             array (
                 'id' => 834,
                 'name' => 'CERTIFICATE IV IN INFORMATION TECHNOLOGY',
@@ -10811,7 +10811,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            330 => 
+            330 =>
             array (
                 'id' => 835,
                 'name' => 'ADVANCED CERTIFICATE IN ELECTRICAL ENGINEERING',
@@ -10824,7 +10824,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            331 => 
+            331 =>
             array (
                 'id' => 836,
                 'name' => 'ADVANCED CERTIFICATE IN WOODEN AND FIBREGLASS BOAT BUILDING',
@@ -10837,7 +10837,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            332 => 
+            332 =>
             array (
                 'id' => 837,
                 'name' => 'CERTIFICATE IV IN BUILDING CONSTRUCTION',
@@ -10850,7 +10850,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            333 => 
+            333 =>
             array (
                 'id' => 838,
                 'name' => 'CERTIFICATE IV IN FURNITURE CARPENTRY AND WOOD CARVING',
@@ -10863,7 +10863,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            334 => 
+            334 =>
             array (
                 'id' => 839,
                 'name' => 'CERTIFICATE IV IN FURNITURE CARPENTRY AND JOINERY',
@@ -10876,7 +10876,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            335 => 
+            335 =>
             array (
                 'id' => 840,
                 'name' => 'ADVANCED CERTIFICATE IN RESIDENTIAL DRAFTING',
@@ -10889,7 +10889,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            336 => 
+            336 =>
             array (
                 'id' => 841,
                 'name' => 'ADVANCED CERTIFICATE IN HUMAN RESOURCE MANAGEMENT',
@@ -10902,7 +10902,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            337 => 
+            337 =>
             array (
                 'id' => 842,
                 'name' => 'ADVANCE CERTIFICATE IN INFORMATION TECHNOLOGY',
@@ -10915,7 +10915,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            338 => 
+            338 =>
             array (
                 'id' => 843,
             'name' => 'ADVANCED CERTIFICATE IN INFORMATION TECHNOLOGY (Name changed from CERTIFICATE IV IN COMPUTER APPLICATION on 14.05.2018)',
@@ -10928,7 +10928,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            339 => 
+            339 =>
             array (
                 'id' => 844,
                 'name' => 'CERTIFICATE 4 IN OFFICE MANAGEMENT',
@@ -10941,7 +10941,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            340 => 
+            340 =>
             array (
                 'id' => 845,
                 'name' => 'QAREE COURSE CERTIFICATE LEVEL 4',
@@ -10954,7 +10954,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            341 => 
+            341 =>
             array (
                 'id' => 846,
                 'name' => 'CERTIFICATE IV IN TEACHING QURAN',
@@ -10967,7 +10967,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            342 => 
+            342 =>
             array (
                 'id' => 847,
                 'name' => 'CERTIFICATE 4 IN ISLAMIC STUDIES ',
@@ -10980,7 +10980,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            343 => 
+            343 =>
             array (
                 'id' => 848,
                 'name' => 'CERTIFICATE LEVEL 4 FOR IMAAM ',
@@ -10993,7 +10993,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            344 => 
+            344 =>
             array (
                 'id' => 849,
                 'name' => 'FOUNDATION DIPLOMA IN ART AND DESIGN',
@@ -11006,7 +11006,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            345 => 
+            345 =>
             array (
                 'id' => 850,
                 'name' => 'CERTIFICATE 4 IN QIRAAT',
@@ -11019,7 +11019,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            346 => 
+            346 =>
             array (
                 'id' => 851,
                 'name' => 'CERTIFICATE 4 IN TEACHING QURAN',
@@ -11032,7 +11032,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            347 => 
+            347 =>
             array (
                 'id' => 852,
                 'name' => 'CERTIFICATE IV IN BUSINESS MANAGEMENT',
@@ -11045,7 +11045,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            348 => 
+            348 =>
             array (
                 'id' => 853,
                 'name' => 'CERTIFICATE IV IN HUMAN RESOURCE MANAGEMENT',
@@ -11058,7 +11058,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            349 => 
+            349 =>
             array (
                 'id' => 854,
                 'name' => 'CERTIFICATE IV IN ACCOUNTING',
@@ -11071,7 +11071,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            350 => 
+            350 =>
             array (
                 'id' => 855,
                 'name' => 'CERTIFICATE IV IN PSYCHOLOGY AND COUNSELLING',
@@ -11084,7 +11084,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            351 => 
+            351 =>
             array (
                 'id' => 856,
                 'name' => 'ADVANCED CERTIFICATE IN TOURISM MANAGEMENT',
@@ -11097,7 +11097,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            352 => 
+            352 =>
             array (
                 'id' => 857,
                 'name' => 'CERTIFICATE IV IN SECURITY & OPERATIONAL MANAGEMENT',
@@ -11110,7 +11110,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            353 => 
+            353 =>
             array (
                 'id' => 858,
                 'name' => 'NATIONAL CERTIFICATE IV IN FOOD AND BEVERAGE SERVICES',
@@ -11123,7 +11123,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            354 => 
+            354 =>
             array (
                 'id' => 859,
                 'name' => 'CERTIFICATE IV IN CORRECTIONAL MANAGEMENT',
@@ -11136,7 +11136,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            355 => 
+            355 =>
             array (
                 'id' => 860,
                 'name' => 'CERTIFICATE IV IN INFORMATION TECHNOLOGY',
@@ -11149,7 +11149,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            356 => 
+            356 =>
             array (
                 'id' => 861,
             'name' => 'ADVANCED CERTIFICATE IN MUSIC (PIANO)',
@@ -11162,7 +11162,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            357 => 
+            357 =>
             array (
                 'id' => 862,
             'name' => 'ADVANCED CERTIFICATE IN TEACHING (PRIMARY AND MIDDLE SCHOOL)',
@@ -11175,7 +11175,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            358 => 
+            358 =>
             array (
                 'id' => 863,
                 'name' => 'CERTIFICATE IV IN HUMAN RESOURCE MANAGEMENT',
@@ -11188,7 +11188,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            359 => 
+            359 =>
             array (
                 'id' => 864,
                 'name' => 'ADVANCED CERTIFICATE IN TEACHING',
@@ -11201,7 +11201,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            360 => 
+            360 =>
             array (
                 'id' => 865,
                 'name' => 'CERTIFICATE IV IN POLICING',
@@ -11214,7 +11214,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            361 => 
+            361 =>
             array (
                 'id' => 866,
             'name' => 'FOUNDATIONS STUDIES (CERTIFICATE LEVEL 4)',
@@ -11227,7 +11227,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            362 => 
+            362 =>
             array (
                 'id' => 867,
                 'name' => 'CERTIFICATE IV IN POLICING',
@@ -11240,7 +11240,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            363 => 
+            363 =>
             array (
                 'id' => 868,
                 'name' => 'CERTIFICATE 4 IN TOURISM AND HOTEL OPERATIONS',
@@ -11253,7 +11253,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            364 => 
+            364 =>
             array (
                 'id' => 869,
                 'name' => 'Advanced Certificate in Nursing',
@@ -11266,7 +11266,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            365 => 
+            365 =>
             array (
                 'id' => 870,
                 'name' => 'CERTIFICATE IV IN HUMAN RESOURCE MANAGEMENT',
@@ -11279,7 +11279,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            366 => 
+            366 =>
             array (
                 'id' => 871,
                 'name' => 'NATIONAL CERTIFICATE IV IN IT TECHNICIAN ',
@@ -11292,7 +11292,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            367 => 
+            367 =>
             array (
                 'id' => 872,
                 'name' => 'NATIONAL CERTIFICATE IV IN CASHIER',
@@ -11305,7 +11305,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            368 => 
+            368 =>
             array (
                 'id' => 873,
                 'name' => 'CERTIFICATE IV IN PROJECT MANAGEMENT',
@@ -11318,7 +11318,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            369 => 
+            369 =>
             array (
                 'id' => 874,
                 'name' => 'FOUNDATION FOR DEGREE LEVEL STUDIES ',
@@ -11331,7 +11331,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            370 => 
+            370 =>
             array (
                 'id' => 875,
                 'name' => 'CERTIFICATE IV IN QIRAATH',
@@ -11344,7 +11344,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            371 => 
+            371 =>
             array (
                 'id' => 876,
                 'name' => 'DIPLOMA IN CIVIL ENGINEERING',
@@ -11357,7 +11357,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            372 => 
+            372 =>
             array (
                 'id' => 877,
                 'name' => 'DIPLOMA IN ELECTRONIC ENGINEERING',
@@ -11370,7 +11370,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            373 => 
+            373 =>
             array (
                 'id' => 878,
                 'name' => 'DIPLOMA IN CONSTRUCTION MANAGEMENT',
@@ -11383,7 +11383,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            374 => 
+            374 =>
             array (
                 'id' => 879,
                 'name' => 'DIPLOMA IN ELECTRICAL ENGINEERING',
@@ -11396,7 +11396,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            375 => 
+            375 =>
             array (
                 'id' => 880,
                 'name' => 'DIPLOMA IN MECHANICAL ENGINEERING',
@@ -11409,7 +11409,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            376 => 
+            376 =>
             array (
                 'id' => 881,
                 'name' => 'DIPLOMA IN BUILDING CONSTRUCTION',
@@ -11422,7 +11422,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            377 => 
+            377 =>
             array (
                 'id' => 882,
                 'name' => 'DIPLOMA IN MECHANICAL ENGINEERING',
@@ -11435,7 +11435,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            378 => 
+            378 =>
             array (
                 'id' => 883,
                 'name' => 'DIPLOMA IN ELECTRONICS ENGINEERING',
@@ -11448,7 +11448,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            379 => 
+            379 =>
             array (
                 'id' => 884,
                 'name' => 'DIPLOMA IN ELECTRICAL ENGINEERING',
@@ -11461,7 +11461,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            380 => 
+            380 =>
             array (
                 'id' => 885,
                 'name' => 'DIPLOMA IN ARCHITECTURE',
@@ -11474,7 +11474,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            381 => 
+            381 =>
             array (
                 'id' => 886,
                 'name' => 'DIPLOMA IN EARLY CHILDHOOD EDUCATION',
@@ -11487,7 +11487,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            382 => 
+            382 =>
             array (
                 'id' => 887,
                 'name' => 'DIPLOMA IN TEACHING ISLAM',
@@ -11500,7 +11500,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            383 => 
+            383 =>
             array (
                 'id' => 888,
                 'name' => 'DIPLOMA IN TEACHING ISLAM',
@@ -11513,7 +11513,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            384 => 
+            384 =>
             array (
                 'id' => 889,
                 'name' => 'DIPLOMA IN JOURNALISM',
@@ -11526,7 +11526,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            385 => 
+            385 =>
             array (
                 'id' => 890,
                 'name' => 'DIPLOMA IN LIBRARY AND INFORMATION SERVICES',
@@ -11539,7 +11539,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            386 => 
+            386 =>
             array (
                 'id' => 891,
                 'name' => 'DIPLOMA IN JOURNALISM',
@@ -11552,7 +11552,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            387 => 
+            387 =>
             array (
                 'id' => 892,
                 'name' => 'DIPLOMA IN DHIVEHI LANGUAGE',
@@ -11565,7 +11565,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            388 => 
+            388 =>
             array (
                 'id' => 893,
                 'name' => 'DHIVEHIBAS KIAVADHINUMUGE DIPLOMA COURSE',
@@ -11578,7 +11578,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            389 => 
+            389 =>
             array (
                 'id' => 894,
                 'name' => 'DIPLOMA IN ENVIRONMENT MANAGEMENT',
@@ -11591,7 +11591,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            390 => 
+            390 =>
             array (
                 'id' => 895,
                 'name' => 'DIPLOMA IN SCHOOL MANAGEMENT',
@@ -11604,7 +11604,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            391 => 
+            391 =>
             array (
                 'id' => 896,
                 'name' => 'DIPLOMA IN TEACHING ENGLISH AS A FOREIGN LANGUAGE',
@@ -11617,7 +11617,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            392 => 
+            392 =>
             array (
                 'id' => 897,
                 'name' => 'DIPLOMA OF HIGHER EDUCATION',
@@ -11630,7 +11630,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            393 => 
+            393 =>
             array (
                 'id' => 898,
             'name' => 'DIPLOMA OF TEACHING (PRIMARY)',
@@ -11643,7 +11643,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            394 => 
+            394 =>
             array (
                 'id' => 899,
             'name' => 'DIPLOMA OF TEACHING (MIDDLE SCHOOL)',
@@ -11656,7 +11656,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            395 => 
+            395 =>
             array (
                 'id' => 900,
             'name' => 'DIPLOMA OF TEACHING (SECONDARY)',
@@ -11669,7 +11669,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            396 => 
+            396 =>
             array (
                 'id' => 901,
                 'name' => 'DIPLOMA IN ENVIRONMENTAL MANAGEMENT',
@@ -11682,7 +11682,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            397 => 
+            397 =>
             array (
                 'id' => 902,
                 'name' => 'DIPLOMA IN TEACHING PRIMARY',
@@ -11695,7 +11695,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            398 => 
+            398 =>
             array (
                 'id' => 903,
                 'name' => 'DIPLOMA IN DHIVEHI LANGUAGE TEACHING',
@@ -11708,7 +11708,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            399 => 
+            399 =>
             array (
                 'id' => 904,
                 'name' => 'DIPLOMA OF TEACHING PRIMARY ',
@@ -11721,7 +11721,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            400 => 
+            400 =>
             array (
                 'id' => 905,
             'name' => 'DIPLOMA OF TEACHING PRIMARY (ISLAM/DHIVEHI/QURAN)',
@@ -11734,7 +11734,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            401 => 
+            401 =>
             array (
                 'id' => 906,
             'name' => 'DIPLOMA IN TEACHING SECONDARY (DHIVEHI LANGUAGE & LITERATURE)',
@@ -11747,7 +11747,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            402 => 
+            402 =>
             array (
                 'id' => 907,
             'name' => 'DIPLOMA IN EDUCATION (EARLY CHILDHOOD)',
@@ -11760,7 +11760,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            403 => 
+            403 =>
             array (
                 'id' => 908,
                 'name' => 'DIPLOMA IN TEACHING - SPECIAL EDUCATION ',
@@ -11773,7 +11773,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            404 => 
+            404 =>
             array (
                 'id' => 909,
                 'name' => 'DIPLOMA IN MEDICAL LABORATORY TECHNOLOGY',
@@ -11786,7 +11786,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            405 => 
+            405 =>
             array (
                 'id' => 910,
                 'name' => 'DIPLOMA IN MIDWIFERY',
@@ -11799,7 +11799,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            406 => 
+            406 =>
             array (
                 'id' => 911,
                 'name' => 'DIPLOMA IN NURSING',
@@ -11812,7 +11812,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            407 => 
+            407 =>
             array (
                 'id' => 912,
             'name' => 'DIPLOMA IN NURSING (CONVERSION)',
@@ -11825,7 +11825,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            408 => 
+            408 =>
             array (
                 'id' => 913,
                 'name' => 'DIPLOMA IN PHARMACY',
@@ -11838,7 +11838,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            409 => 
+            409 =>
             array (
                 'id' => 914,
             'name' => 'DIPLOMA IN PRIMARY HEALTH CARE (CONVERSION 2)',
@@ -11851,7 +11851,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            410 => 
+            410 =>
             array (
                 'id' => 915,
                 'name' => 'DIPLOMA IN PRIMARY HEALTH CARE',
@@ -11864,7 +11864,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            411 => 
+            411 =>
             array (
                 'id' => 916,
                 'name' => 'DIPLOMA IN NURSING',
@@ -11877,7 +11877,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            412 => 
+            412 =>
             array (
                 'id' => 917,
             'name' => 'DIPLOMA IN NURSING (CONVERSION)',
@@ -11890,7 +11890,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            413 => 
+            413 =>
             array (
                 'id' => 918,
                 'name' => 'DIPLOMA IN COUNSELING',
@@ -11903,7 +11903,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            414 => 
+            414 =>
             array (
                 'id' => 919,
                 'name' => 'BTEC NATIONAL DIPLOMA IN HOSPITALITY',
@@ -11916,7 +11916,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            415 => 
+            415 =>
             array (
                 'id' => 920,
                 'name' => 'BTEC NATIONAL DIPLOMA IN HOTEL CATERING AND INSTITUTIONAL OPERATIONS',
@@ -11929,7 +11929,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            416 => 
+            416 =>
             array (
                 'id' => 921,
                 'name' => 'NATIONAL DIPLOMA IN TRAVEL AND TOURISM',
@@ -11942,7 +11942,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            417 => 
+            417 =>
             array (
                 'id' => 922,
                 'name' => 'BTEC NATIONAL DIPLOMA IN TRAVEL AND TOURISM',
@@ -11955,7 +11955,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            418 => 
+            418 =>
             array (
                 'id' => 923,
                 'name' => 'DIPLOMA IN TOURISM MANAGEMENT',
@@ -11968,7 +11968,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            419 => 
+            419 =>
             array (
                 'id' => 924,
                 'name' => 'DIPLOMA IN HOSPITALITY MANAGEMENT',
@@ -11981,7 +11981,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            420 => 
+            420 =>
             array (
                 'id' => 925,
                 'name' => 'DIPLOMA IN ACCOUNTING',
@@ -11994,7 +11994,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            421 => 
+            421 =>
             array (
                 'id' => 926,
                 'name' => 'DIPLOMA IN BUSINESS ',
@@ -12007,7 +12007,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            422 => 
+            422 =>
             array (
                 'id' => 927,
                 'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -12020,7 +12020,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            423 => 
+            423 =>
             array (
                 'id' => 928,
                 'name' => 'DIPLOMA IN BUSINESS',
@@ -12033,7 +12033,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            424 => 
+            424 =>
             array (
                 'id' => 929,
                 'name' => 'DIPLOMA IN NETWORKING',
@@ -12046,7 +12046,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            425 => 
+            425 =>
             array (
                 'id' => 930,
                 'name' => 'DIPLOMA IN JUSTICE STUDIES',
@@ -12059,7 +12059,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            426 => 
+            426 =>
             array (
                 'id' => 931,
                 'name' => 'DIPLOMA IN SHARIAH AND LAW',
@@ -12072,7 +12072,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            427 => 
+            427 =>
             array (
                 'id' => 932,
                 'name' => 'DIPLOMA IN ISLAMIC STUDIES',
@@ -12085,7 +12085,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            428 => 
+            428 =>
             array (
                 'id' => 933,
                 'name' => 'DIPLOMA IN TEACHING QURAN',
@@ -12098,7 +12098,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            429 => 
+            429 =>
             array (
                 'id' => 934,
                 'name' => 'DIPLOMA IN ISLAMIC COUNSELLING',
@@ -12111,7 +12111,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            430 => 
+            430 =>
             array (
                 'id' => 935,
                 'name' => 'DIPLOMA IN TEACHING ISLAMIC STUDIES ',
@@ -12124,7 +12124,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            431 => 
+            431 =>
             array (
                 'id' => 936,
                 'name' => 'DIPLOMA FOR IMAAMS',
@@ -12137,7 +12137,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            432 => 
+            432 =>
             array (
                 'id' => 937,
                 'name' => 'MAGISTRATE DIPLOMA',
@@ -12150,7 +12150,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            433 => 
+            433 =>
             array (
                 'id' => 938,
                 'name' => 'DIPLOMA IN SHARIAH AND LAW',
@@ -12163,7 +12163,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            434 => 
+            434 =>
             array (
                 'id' => 939,
                 'name' => 'DIPLOMA IN ARABIC LANGUAGE',
@@ -12176,7 +12176,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            435 => 
+            435 =>
             array (
                 'id' => 940,
                 'name' => 'DIPLOMA IN TEACHING ARABIC LANGUAGE',
@@ -12189,7 +12189,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            436 => 
+            436 =>
             array (
                 'id' => 941,
                 'name' => 'DIPLOMA IN EARLY CHILDHOOD EDUCATION ',
@@ -12202,7 +12202,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            437 => 
+            437 =>
             array (
                 'id' => 942,
                 'name' => 'DIPLOMA IN BUSINESS ADMINISTRATION',
@@ -12215,7 +12215,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            438 => 
+            438 =>
             array (
                 'id' => 943,
                 'name' => 'DIPLOMA IN EARLY CHILDHOOD EDUCATION',
@@ -12228,7 +12228,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            439 => 
+            439 =>
             array (
                 'id' => 944,
                 'name' => 'DIPLOMA IN COUNSELLING',
@@ -12241,7 +12241,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            440 => 
+            440 =>
             array (
                 'id' => 945,
                 'name' => 'DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -12254,7 +12254,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            441 => 
+            441 =>
             array (
                 'id' => 946,
             'name' => 'DIPLOMA IN TEACHING - PRIMARY (NAME CHANGED ON 21.11.2017) - PREVIOUSLY KNOWN AS DIPLOMA IN TEACHING (PRIMARY & MIDDLE SCHOOL) & DIPLOMA IN TEACHING (PRIMARY AND MIDDLE SCHOOL) approved on 17.09.2013)',
@@ -12267,7 +12267,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            442 => 
+            442 =>
             array (
                 'id' => 947,
                 'name' => 'DIPLOMA IN EDUCATIONAL MANAGEMENT',
@@ -12280,7 +12280,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            443 => 
+            443 =>
             array (
                 'id' => 948,
                 'name' => 'DIPLOMA IN PROJECT MANAGEMENT',
@@ -12293,7 +12293,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            444 => 
+            444 =>
             array (
                 'id' => 949,
             'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY (SOFTWARE ENGINEERING)',
@@ -12306,7 +12306,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            445 => 
+            445 =>
             array (
                 'id' => 950,
                 'name' => 'ABE DIPLOMA IN BUSINESS ADMINISTRATION',
@@ -12319,7 +12319,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            446 => 
+            446 =>
             array (
                 'id' => 951,
                 'name' => 'ABE DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -12332,7 +12332,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            447 => 
+            447 =>
             array (
                 'id' => 952,
                 'name' => 'ABE DIPLOMA IN TRAVEL TOURISM AND HOSPITALITY',
@@ -12345,7 +12345,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            448 => 
+            448 =>
             array (
                 'id' => 954,
             'name' => 'CERTIFIED ACCOUNTING TECHNICIAN (CAT)',
@@ -12358,7 +12358,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            449 => 
+            449 =>
             array (
                 'id' => 955,
             'name' => 'ABE LEVEL 5 DIPLOMA IN BUSINESS MANAGEMENT (Awarded by ABE, UK)',
@@ -12371,7 +12371,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            450 => 
+            450 =>
             array (
                 'id' => 956,
                 'name' => 'ABE LEVEL 5 DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -12384,7 +12384,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            451 => 
+            451 =>
             array (
                 'id' => 957,
                 'name' => 'ABE LEVEL 5 DIPLOMA IN MARKETING MANAGEMENT',
@@ -12397,7 +12397,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            452 => 
+            452 =>
             array (
                 'id' => 958,
                 'name' => 'DIPLOMA IN JUDICIAL ADMINISTRATION',
@@ -12410,7 +12410,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            453 => 
+            453 =>
             array (
                 'id' => 960,
             'name' => 'CERTIFIED ACCOUNTING TECHNICIAN (CAT)',
@@ -12423,7 +12423,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            454 => 
+            454 =>
             array (
                 'id' => 962,
             'name' => 'DIPLOMA IN ACCOUNTANCY AND BUSINESS (ACCA KNOWLEDGE LEVEL)',
@@ -12436,7 +12436,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            455 => 
+            455 =>
             array (
                 'id' => 963,
                 'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -12449,7 +12449,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            456 => 
+            456 =>
             array (
                 'id' => 964,
                 'name' => 'DIPLOMA IN MULTIMEDIA TECHNOLOGY',
@@ -12462,7 +12462,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            457 => 
+            457 =>
             array (
                 'id' => 965,
                 'name' => 'DIPLOMA IN OFFICE MANAGEMENT AND ADMINISTRATION',
@@ -12475,7 +12475,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            458 => 
+            458 =>
             array (
                 'id' => 966,
                 'name' => 'DIPLOMA IN SOFTWARE ENGINEERING',
@@ -12488,7 +12488,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            459 => 
+            459 =>
             array (
                 'id' => 967,
                 'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -12501,7 +12501,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            460 => 
+            460 =>
             array (
                 'id' => 968,
                 'name' => 'DIPLOMA IN OFFICE MANAGEMENT AND ADMINISTRATION',
@@ -12514,7 +12514,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            461 => 
+            461 =>
             array (
                 'id' => 969,
                 'name' => 'DIPLOMA IN WEB ART AND TECHNOLOGIES',
@@ -12527,7 +12527,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            462 => 
+            462 =>
             array (
                 'id' => 970,
                 'name' => 'DIPLOMA IN GAME DESIGN AND DEVELOPMENT',
@@ -12540,7 +12540,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            463 => 
+            463 =>
             array (
                 'id' => 971,
                 'name' => 'DIPLOMA IN EDITING AND VISUAL EFFECTS',
@@ -12553,7 +12553,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            464 => 
+            464 =>
             array (
                 'id' => 972,
                 'name' => 'DIPLOMA IN 3D MODELING AND ANIMATION',
@@ -12566,7 +12566,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            465 => 
+            465 =>
             array (
                 'id' => 973,
                 'name' => 'DIPLOMA IN VISUAL EFFECTS',
@@ -12579,7 +12579,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            466 => 
+            466 =>
             array (
                 'id' => 974,
                 'name' => 'DIPLOMA IN BUSINESS MANAGEMENT',
@@ -12592,7 +12592,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            467 => 
+            467 =>
             array (
                 'id' => 975,
                 'name' => 'DIPLOMA IN 3D ANIMATION',
@@ -12605,7 +12605,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            468 => 
+            468 =>
             array (
                 'id' => 976,
                 'name' => 'DIPLOMA IN WEB TECHNOLOGIES',
@@ -12618,7 +12618,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            469 => 
+            469 =>
             array (
                 'id' => 977,
                 'name' => 'DIPLOMA IN ENTREPRENEUSHIP & MANAGEMENT',
@@ -12631,7 +12631,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            470 => 
+            470 =>
             array (
                 'id' => 978,
                 'name' => 'DIPLOMA IN HARDWARE AND NETWORK ADMINISTRATION',
@@ -12644,7 +12644,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            471 => 
+            471 =>
             array (
                 'id' => 979,
                 'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -12657,7 +12657,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            472 => 
+            472 =>
             array (
                 'id' => 980,
                 'name' => 'DIPLOMA IN ACCOUNTING AND FINANCE',
@@ -12670,7 +12670,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            473 => 
+            473 =>
             array (
                 'id' => 981,
                 'name' => 'DIPLOMA IN BUSINESS ADMINISTRATION',
@@ -12683,7 +12683,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            474 => 
+            474 =>
             array (
                 'id' => 982,
                 'name' => 'DIPLOMA IN BUSINESS MANAGEMENT',
@@ -12696,7 +12696,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            475 => 
+            475 =>
             array (
                 'id' => 983,
                 'name' => 'DIPLOMA IN PRIMARY EDUCATION',
@@ -12709,7 +12709,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            476 => 
+            476 =>
             array (
                 'id' => 984,
                 'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -12722,7 +12722,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            477 => 
+            477 =>
             array (
                 'id' => 985,
                 'name' => 'DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -12735,7 +12735,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            478 => 
+            478 =>
             array (
                 'id' => 986,
                 'name' => 'DIPLOMA IN PSYCHOLOGY',
@@ -12748,7 +12748,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            479 => 
+            479 =>
             array (
                 'id' => 987,
             'name' => 'DIPLOMA IN MANAGEMENT (MILITARY STUDIES)',
@@ -12761,7 +12761,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            480 => 
+            480 =>
             array (
                 'id' => 988,
             'name' => 'DIPLOMA IN MILITARY STUDIES (MANAGEMENT)',
@@ -12774,7 +12774,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            481 => 
+            481 =>
             array (
                 'id' => 989,
                 'name' => 'DIPLOMA IN DEFENCE MANAGEMENT',
@@ -12787,7 +12787,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            482 => 
+            482 =>
             array (
                 'id' => 990,
                 'name' => 'DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -12800,7 +12800,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            483 => 
+            483 =>
             array (
                 'id' => 991,
                 'name' => 'CAMBRIDGE INTERNATIONAL DIPLOMA IN BUSINESS',
@@ -12813,7 +12813,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            484 => 
+            484 =>
             array (
                 'id' => 992,
                 'name' => 'DIPLOMA IN ACCOUNTING',
@@ -12826,7 +12826,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            485 => 
+            485 =>
             array (
                 'id' => 993,
             'name' => 'DIPLOMA IN EARLY CHILDHOOD EDUCATION (2 YRS)',
@@ -12839,7 +12839,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            486 => 
+            486 =>
             array (
                 'id' => 994,
                 'name' => 'DIPLOMA IN EARLY CHILDHOOD EDUCATION',
@@ -12852,7 +12852,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            487 => 
+            487 =>
             array (
                 'id' => 995,
                 'name' => 'DIPLOMA IN PRIMARY TEACHING',
@@ -12865,7 +12865,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            488 => 
+            488 =>
             array (
                 'id' => 996,
                 'name' => 'DIPLOMA IN BUSINESS ADMINISTRATION',
@@ -12878,7 +12878,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            489 => 
+            489 =>
             array (
                 'id' => 997,
             'name' => 'DIPLOMA IN GRAPHICS AND MULTIMEDIA (Awarded by Aptech Limited, Mumbai, India)',
@@ -12891,7 +12891,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            490 => 
+            490 =>
             array (
                 'id' => 998,
                 'name' => 'DIPLOMA IN SOFTWARE ENGINEERING',
@@ -12904,7 +12904,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            491 => 
+            491 =>
             array (
                 'id' => 999,
                 'name' => 'DIPLOMA IN PRIMARY TEACHING',
@@ -12917,7 +12917,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            492 => 
+            492 =>
             array (
                 'id' => 1000,
                 'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -12930,7 +12930,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            493 => 
+            493 =>
             array (
                 'id' => 1001,
                 'name' => 'DIPLOMA IN BANKING AND FINANCE',
@@ -12943,7 +12943,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            494 => 
+            494 =>
             array (
                 'id' => 1002,
             'name' => 'DIPLOMA IN BUSINESS ADMINISTRATION (PREVIOUSLY KNOWN AS DIPLOMA IN BUSINESS MANAGEMENT - NAME CHANGED FROM 21.07.2016)',
@@ -12956,7 +12956,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            495 => 
+            495 =>
             array (
                 'id' => 1003,
                 'name' => 'DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -12969,7 +12969,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            496 => 
+            496 =>
             array (
                 'id' => 1004,
                 'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -12982,7 +12982,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            497 => 
+            497 =>
             array (
                 'id' => 1005,
             'name' => 'DIPLOMA IN PROFESSIONAL MULTIMEDIA & ADVERTISING (PREVIOUSLY KNOWN AS DIPLOMA IN GRAPHIC DESIGN AND ADVERTISING)',
@@ -12995,7 +12995,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            498 => 
+            498 =>
             array (
                 'id' => 1006,
                 'name' => 'DIPLOMA IN BUSINESS MARKETING',
@@ -13008,7 +13008,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            499 => 
+            499 =>
             array (
                 'id' => 1007,
                 'name' => 'DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -13023,7 +13023,7 @@ class CoursesTableSeeder extends Seeder
             ),
         ));
         \DB::table('courses')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1008,
                 'name' => 'DIPLOMA IN BUSINESS MARKETING',
@@ -13036,7 +13036,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 1009,
                 'name' => 'DIPLOMA IN BANKING AND FINANCE',
@@ -13049,7 +13049,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 1010,
                 'name' => 'DIPLOMA IN PROFESSIONAL MULTIMEDIA AND ADVERTISING ',
@@ -13062,7 +13062,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 1011,
                 'name' => 'DIPLOMA IN INFORMATION TECHNLOGY',
@@ -13075,7 +13075,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 1012,
                 'name' => 'DIPLOMA IN EARLY CHILDHOOD CARE AND DEVELOPMENT',
@@ -13088,7 +13088,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 1013,
                 'name' => 'DIPLOMA IN ENGLISH LANGUAGE AND LINGUISTICS',
@@ -13101,7 +13101,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 1014,
             'name' => 'DIPLOMA IN TEACHING (PRIMARY)',
@@ -13114,7 +13114,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 1015,
             'name' => 'DIPLOMA IN TEACHING (SECONDARY UG1)',
@@ -13127,7 +13127,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 1016,
             'name' => 'DIPLOMA IN TEACHING (SECONDARY UG2)',
@@ -13140,7 +13140,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 1017,
                 'name' => 'INTERNATIONAL DIPLOMA  IN BUSINESS ADMINISTRATION / DIPLOMA IN BUSINESS ADMINISTRATION',
@@ -13153,7 +13153,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 1018,
                 'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -13166,7 +13166,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 1019,
             'name' => 'DIPLOMA IN TEACHING (PRIMARY AND MIDDLE SCHOOL)',
@@ -13179,7 +13179,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 1020,
                 'name' => 'ABE DIPLOMA IN BUSINESS INFORMATION SYSTEMS',
@@ -13192,7 +13192,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 1021,
                 'name' => 'ABE DIPLOMA IN BUSINESS MANAGEMENT',
@@ -13205,7 +13205,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 1022,
                 'name' => 'ABE DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -13218,7 +13218,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 1023,
                 'name' => 'CERTIFIED ACCOUNTING TECHNICIANS - CAT',
@@ -13231,7 +13231,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 1024,
                 'name' => 'DIPLOMA IN BUSINESS',
@@ -13244,7 +13244,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 1025,
                 'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -13257,7 +13257,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 1026,
                 'name' => 'ABE LEVEL 4 DIPLOMA IN BUSINESS MANAGEMENT (PROGRAMME DETAILS CHANGED ON 22.11.2017 - CHANGES EFFECTIVE FROM JANUARY 2018 INTAKE',
@@ -13270,7 +13270,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                19 => 
+                19 =>
                 array (
                     'id' => 1027,
                 'name' => 'ABE LEVEL 4 DIPLOMA IN BUSINESS MARKETING AND MANAGEMENT (PREVIOUSLY KNOWN AS ABE LEVEL 4 DIPLOMA IN MARKETING MANAGEMENT) - CHANGES EFFECTIVE FROM JANUARY 2018 INTAKE',
@@ -13283,7 +13283,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                20 => 
+                20 =>
                 array (
                     'id' => 1028,
                 'name' => 'ABE LEVEL 4 DIPLOMA IN BUSINESS MANAGEMENT AND HUMAN RESOURCES (PREVIOUSLY KNOWN AS ABE LEVEL 4 DIPLOMA IN HUMAN RESOURCE MANAGEMENT) - CHANGES EFFECTIVE FROM JANUARY 2018 INTAKE',
@@ -13296,7 +13296,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                21 => 
+                21 =>
                 array (
                     'id' => 1029,
                     'name' => 'ABE LEVEL 5 DIPLOMA IN BUSINESS MANAGEMENT WITH SPECIALISM IN MANAGEMENT OF INFORMATION SYSTEMS',
@@ -13309,7 +13309,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                22 => 
+                22 =>
                 array (
                     'id' => 1030,
                     'name' => 'ABE LEVEL 5 DIPLOMA IN BUSINESS MANAGEMENT WITH SPECIALISM IN FINANCIAL MANAGEMENT',
@@ -13322,7 +13322,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                23 => 
+                23 =>
                 array (
                     'id' => 1031,
                     'name' => 'CTH DIPLOMA IN TOURISM MANAGEMENT',
@@ -13335,7 +13335,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                24 => 
+                24 =>
                 array (
                     'id' => 1032,
                     'name' => 'CTH DIPLOMA IN HOTEL MANAGEMENT',
@@ -13348,7 +13348,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                25 => 
+                25 =>
                 array (
                     'id' => 1033,
                     'name' => 'ACCA FIA - CERTIFIED ACCOUNTING TECHNICIAN',
@@ -13361,7 +13361,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                26 => 
+                26 =>
                 array (
                     'id' => 1034,
                     'name' => 'ACCA FIA - DIPLOMA IN ACCOUNTING AND BUSINESS',
@@ -13374,7 +13374,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                27 => 
+                27 =>
                 array (
                     'id' => 1035,
                     'name' => 'AIBS DIPLOMA OF MANAGEMENT',
@@ -13387,7 +13387,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                28 => 
+                28 =>
                 array (
                     'id' => 1036,
                     'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -13400,7 +13400,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                29 => 
+                29 =>
                 array (
                     'id' => 1037,
                 'name' => 'DIPLOMA IN EDUCATION (ECONOMICS)',
@@ -13413,7 +13413,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                30 => 
+                30 =>
                 array (
                     'id' => 1038,
                 'name' => 'DIPLOMA IN EDUCATION (ACCOUNTING)',
@@ -13426,7 +13426,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                31 => 
+                31 =>
                 array (
                     'id' => 1039,
                 'name' => 'DIPLOMA IN EDUCATION (BUSINESS STUDIES)',
@@ -13439,7 +13439,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                32 => 
+                32 =>
                 array (
                     'id' => 1040,
                     'name' => 'DIPLOMA IN BUSINESS ADMINISTRATION',
@@ -13452,7 +13452,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                33 => 
+                33 =>
                 array (
                     'id' => 1041,
                     'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -13465,7 +13465,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                34 => 
+                34 =>
                 array (
                     'id' => 1042,
                     'name' => 'INTERNATIONAL DIPLOMA IN BUSINESS',
@@ -13478,7 +13478,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                35 => 
+                35 =>
                 array (
                     'id' => 1043,
                 'name' => 'INTERNATIONAL DIPLOMA IN COMPUTER STUDIES (IDCS)',
@@ -13491,7 +13491,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                36 => 
+                36 =>
                 array (
                     'id' => 1044,
                     'name' => 'DIPLOMA IN SHARIA AND ISLAMIC STUDIES WITH TEACHING',
@@ -13504,7 +13504,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                37 => 
+                37 =>
                 array (
                     'id' => 1045,
                     'name' => 'DIPLOMA IN SHARIA',
@@ -13517,7 +13517,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                38 => 
+                38 =>
                 array (
                     'id' => 1046,
                     'name' => 'DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -13530,7 +13530,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                39 => 
+                39 =>
                 array (
                     'id' => 1047,
                     'name' => 'DIPLOMA IN BUSINESS ADMINISTRATION',
@@ -13543,7 +13543,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                40 => 
+                40 =>
                 array (
                     'id' => 1048,
                     'name' => 'DIPLOMA IN PRIMARY TEACHING',
@@ -13556,7 +13556,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                41 => 
+                41 =>
                 array (
                     'id' => 1049,
                     'name' => 'DIPLOMA IN EARLY CHILDHOOD EDUCATION',
@@ -13569,7 +13569,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                42 => 
+                42 =>
                 array (
                     'id' => 1050,
                     'name' => 'DIPLOMA IN MULTIMEDIA TECHNOLOGY - AWARDED BY OPEN UNIVERSITY MALAYSIA',
@@ -13582,7 +13582,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                43 => 
+                43 =>
                 array (
                     'id' => 1051,
                     'name' => 'DIPLOMA IN ACCOUNTING',
@@ -13595,7 +13595,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                44 => 
+                44 =>
                 array (
                     'id' => 1052,
                     'name' => 'EDEXCEL BTEC LEVEL 5 HNC DIPLOMA IN BUSINESS',
@@ -13608,7 +13608,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                45 => 
+                45 =>
                 array (
                     'id' => 1053,
                     'name' => 'DIPLOMA IN THE COMMON LAW',
@@ -13621,7 +13621,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                46 => 
+                46 =>
                 array (
                     'id' => 1054,
                     'name' => 'DIPLOMA IN MULTIMEDIA TECHNOLOGY',
@@ -13634,7 +13634,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                47 => 
+                47 =>
                 array (
                     'id' => 1055,
                     'name' => 'ACCA KNOWLEDGE LEVEL - AWARDED BY ACCA',
@@ -13647,7 +13647,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                48 => 
+                48 =>
                 array (
                     'id' => 1056,
                     'name' => 'DIPLOMA IN TEACHING DHIVEHI LANGUAGE',
@@ -13660,7 +13660,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                49 => 
+                49 =>
                 array (
                     'id' => 1057,
                     'name' => 'DIPLOMA IN TEACHING ISLAMIC STUDIES ',
@@ -13673,7 +13673,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                50 => 
+                50 =>
                 array (
                     'id' => 1058,
                     'name' => 'DIPLOMA IN ACCOUNTING AND FINANCE',
@@ -13686,7 +13686,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                51 => 
+                51 =>
                 array (
                     'id' => 1059,
                     'name' => 'DIPLOMA IN BUSINESS MANAGEMENT',
@@ -13699,7 +13699,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                52 => 
+                52 =>
                 array (
                     'id' => 1060,
                     'name' => 'DIPLOMA IN COMPUTER SCIENCE',
@@ -13712,7 +13712,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                53 => 
+                53 =>
                 array (
                     'id' => 1061,
                     'name' => 'DIPLOMA IN POLICE MANAGEMENT',
@@ -13725,7 +13725,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                54 => 
+                54 =>
                 array (
                     'id' => 1062,
                 'name' => 'DIPLOMA IN SECURITY AND LAW ENFORCEMENT STUDIES (ALSO PRESENTED AS YEAR 1 OF BSC IN SECURITY AND LAW ENFORCEMENT STUDIES)',
@@ -13738,7 +13738,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                55 => 
+                55 =>
                 array (
                     'id' => 1063,
                     'name' => 'DIPLOMA IN CRIMINAL INVESTIGATION',
@@ -13751,7 +13751,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                56 => 
+                56 =>
                 array (
                     'id' => 1064,
                     'name' => 'DIPLOMA IN FORENSIC INVESTIGATION',
@@ -13764,7 +13764,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                57 => 
+                57 =>
                 array (
                     'id' => 1065,
                     'name' => 'DIPLOMA IN POLICING',
@@ -13777,7 +13777,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                58 => 
+                58 =>
                 array (
                     'id' => 1066,
                     'name' => 'DIPLOMA IN TEACHING',
@@ -13790,7 +13790,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                59 => 
+                59 =>
                 array (
                     'id' => 1067,
                     'name' => 'DIPLOMA IN TEACHING INCLUSIVE EDUCATION',
@@ -13803,7 +13803,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                60 => 
+                60 =>
                 array (
                     'id' => 1068,
                     'name' => 'QURAN MUDHARISKAMUGE DIPLOMA COURSE',
@@ -13816,7 +13816,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                61 => 
+                61 =>
                 array (
                     'id' => 1069,
                     'name' => 'DIPLOMA IN TEACHING QURAN',
@@ -13829,7 +13829,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                62 => 
+                62 =>
                 array (
                     'id' => 1070,
                     'name' => 'DIPLOMA IN TEACHING QURAN',
@@ -13842,7 +13842,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                63 => 
+                63 =>
                 array (
                     'id' => 1071,
                     'name' => 'DIPLOMA IN CUSTOMS MANAGEMENT',
@@ -13855,7 +13855,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                64 => 
+                64 =>
                 array (
                     'id' => 1072,
                     'name' => 'DIPLOMA IN CUSTOMS MANAGEMENT',
@@ -13868,7 +13868,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                65 => 
+                65 =>
                 array (
                     'id' => 1073,
                     'name' => 'DIPLOMA IN MODERN PORT MANAGEMENT',
@@ -13881,7 +13881,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                66 => 
+                66 =>
                 array (
                     'id' => 1074,
                     'name' => 'DIPLOMA IN SPORTS MANAGEMENT',
@@ -13894,7 +13894,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                67 => 
+                67 =>
                 array (
                     'id' => 1075,
                     'name' => 'DIPLOMA IN PUBLIC ADMINISTRATION AND MANAGEMENT',
@@ -13907,7 +13907,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                68 => 
+                68 =>
                 array (
                     'id' => 1076,
                     'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -13920,7 +13920,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                69 => 
+                69 =>
                 array (
                     'id' => 1077,
                     'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -13933,7 +13933,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                70 => 
+                70 =>
                 array (
                     'id' => 1078,
                     'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -13946,7 +13946,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                71 => 
+                71 =>
                 array (
                     'id' => 1079,
                     'name' => 'CAREER DIPLOMA PROGRAMME - INTERIOR DECORATOR',
@@ -13959,7 +13959,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                72 => 
+                72 =>
                 array (
                     'id' => 1080,
                     'name' => 'CAREER DIPLOMA PROGRAMME - PROFESSIONAL SECRETARY',
@@ -13972,7 +13972,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                73 => 
+                73 =>
                 array (
                     'id' => 1081,
                     'name' => 'DIPLOMA IN ICT SYSTEM SUPPORT',
@@ -13985,7 +13985,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                74 => 
+                74 =>
                 array (
                     'id' => 1082,
                 'name' => 'DIPLOMA IN BUSINESS ADMINISTRATION  (28.01.2014) (Previously known as DIPLOMA IN OFFICE PRACTICE AND MANAGEMENT approved on 09.08.2012) ',
@@ -13998,7 +13998,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                75 => 
+                75 =>
                 array (
                     'id' => 1083,
                     'name' => 'DIPLOMA IN PROJECT MANAGEMENT',
@@ -14011,7 +14011,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                76 => 
+                76 =>
                 array (
                     'id' => 1084,
                     'name' => 'DIPLOMA IN HUMAN RESOURCE DEVELOPMENT',
@@ -14024,7 +14024,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                77 => 
+                77 =>
                 array (
                     'id' => 1085,
                     'name' => 'DIPLOMA IN BUSINESS ADMINISTRATION',
@@ -14037,7 +14037,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                78 => 
+                78 =>
                 array (
                     'id' => 1086,
                     'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -14050,7 +14050,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                79 => 
+                79 =>
                 array (
                     'id' => 1087,
                     'name' => 'DIPLOMA IN SOFTWARE ENGINEERING',
@@ -14063,7 +14063,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                80 => 
+                80 =>
                 array (
                     'id' => 1088,
                     'name' => 'DIPLOMA IN ARCHITECTURE',
@@ -14076,7 +14076,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                81 => 
+                81 =>
                 array (
                     'id' => 1089,
                     'name' => 'DIPLOMA IN CIVIL ENGINEERING',
@@ -14089,7 +14089,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                82 => 
+                82 =>
                 array (
                     'id' => 1090,
                     'name' => 'DIPLOMA IN CONSTRUCTION MANAGEMENT',
@@ -14102,7 +14102,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                83 => 
+                83 =>
                 array (
                     'id' => 1091,
                     'name' => 'DIPLOMA IN ELECTRICAL ENGINEERING',
@@ -14115,7 +14115,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                84 => 
+                84 =>
                 array (
                     'id' => 1092,
                     'name' => 'DIPLOMA IN ELECTRONICS ENGINEERING',
@@ -14128,7 +14128,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                85 => 
+                85 =>
                 array (
                     'id' => 1093,
                     'name' => 'DIPLOMA IN MECHANICAL ENGINEERING',
@@ -14141,7 +14141,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                86 => 
+                86 =>
                 array (
                     'id' => 1094,
                     'name' => 'DIPLOMA IN SMALL BUSINESS MANAGEMENT',
@@ -14154,7 +14154,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                87 => 
+                87 =>
                 array (
                     'id' => 1095,
                     'name' => 'DIPLOMA IN ARCHITECTURE',
@@ -14167,7 +14167,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                88 => 
+                88 =>
                 array (
                     'id' => 1096,
                     'name' => 'DIPLOMA IN CIVIL ENGINEERING',
@@ -14180,7 +14180,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                89 => 
+                89 =>
                 array (
                     'id' => 1097,
                     'name' => 'DIPLOMA IN BUILDING CONSTRUCTION',
@@ -14193,7 +14193,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                90 => 
+                90 =>
                 array (
                     'id' => 1098,
                     'name' => 'DIPLOMA IN MARINE OPERATIONS',
@@ -14206,7 +14206,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                91 => 
+                91 =>
                 array (
                     'id' => 1099,
                     'name' => 'DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -14219,7 +14219,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                92 => 
+                92 =>
                 array (
                     'id' => 1100,
                     'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -14232,7 +14232,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                93 => 
+                93 =>
                 array (
                     'id' => 1101,
                     'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -14245,7 +14245,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                94 => 
+                94 =>
                 array (
                     'id' => 1102,
                     'name' => 'DIPLOMA IN REFRIGERATION AND AIR CONDITIONING',
@@ -14258,7 +14258,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                95 => 
+                95 =>
                 array (
                     'id' => 1103,
                     'name' => 'DIPLOMA IN ELECTRICAL INSTALLATION',
@@ -14271,7 +14271,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                96 => 
+                96 =>
                 array (
                     'id' => 1104,
                     'name' => 'DIPLOMA IN QURAN TEACHING COURSE',
@@ -14284,7 +14284,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                97 => 
+                97 =>
                 array (
                     'id' => 1105,
                     'name' => 'DIPLOMA FOR IMAAM',
@@ -14297,7 +14297,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                98 => 
+                98 =>
                 array (
                     'id' => 1106,
                     'name' => 'DIPLOMA IN QIRAAT',
@@ -14310,7 +14310,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                99 => 
+                99 =>
                 array (
                     'id' => 1107,
                     'name' => 'DIPLOMA IN TEACHING QURAN',
@@ -14323,7 +14323,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                100 => 
+                100 =>
                 array (
                     'id' => 1108,
                     'name' => 'DIPLOMA IN TEACHING ISLAM',
@@ -14336,7 +14336,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                101 => 
+                101 =>
                 array (
                     'id' => 1109,
                     'name' => 'DIPLOMA IN COUNSELING PSYCHOLOGY',
@@ -14349,7 +14349,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                102 => 
+                102 =>
                 array (
                     'id' => 1110,
                     'name' => 'DIPLOMA IN SPECIAL EDUCATION',
@@ -14362,7 +14362,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                103 => 
+                103 =>
                 array (
                     'id' => 1111,
                     'name' => 'DIPLOMA IN BUSINESS MANAGEMENT',
@@ -14375,7 +14375,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                104 => 
+                104 =>
                 array (
                     'id' => 1112,
                     'name' => 'DIPLOMA IN PRIMARY TEACHING',
@@ -14388,7 +14388,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                105 => 
+                105 =>
                 array (
                     'id' => 1113,
                     'name' => 'DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -14401,7 +14401,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                106 => 
+                106 =>
                 array (
                     'id' => 1114,
                     'name' => 'DIPLOMA IN AUTOMOTIVE ENGINEERING',
@@ -14414,7 +14414,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                107 => 
+                107 =>
                 array (
                     'id' => 1115,
                     'name' => 'DIPLOMA IN TEACHING ISLAM',
@@ -14427,7 +14427,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                108 => 
+                108 =>
                 array (
                     'id' => 1116,
                     'name' => 'DIPLOMA IN BANKING',
@@ -14440,7 +14440,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                109 => 
+                109 =>
                 array (
                     'id' => 1117,
                     'name' => 'DIPLOMA IN CORRECTIONAL MANAGEMENT ',
@@ -14453,7 +14453,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                110 => 
+                110 =>
                 array (
                     'id' => 1118,
                     'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -14466,7 +14466,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                111 => 
+                111 =>
                 array (
                     'id' => 1119,
                     'name' => 'DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -14479,7 +14479,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                112 => 
+                112 =>
                 array (
                     'id' => 1120,
                     'name' => 'DIPLOMA IN SOFTWARE ENGINEERING ',
@@ -14492,7 +14492,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                113 => 
+                113 =>
                 array (
                     'id' => 1121,
                     'name' => 'DIPLOMA IN BUSINESS AND OFFICE ADMINISTRATION',
@@ -14505,7 +14505,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                114 => 
+                114 =>
                 array (
                     'id' => 1122,
                     'name' => 'DIPLOMA IN BUSINESS',
@@ -14518,7 +14518,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                115 => 
+                115 =>
                 array (
                     'id' => 1123,
                     'name' => 'DIPLOMA IN PSYCHOLOGY AND COUNCELLING',
@@ -14531,7 +14531,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                116 => 
+                116 =>
                 array (
                     'id' => 1124,
                     'name' => 'Diploma in Psychology and Counseling',
@@ -14544,7 +14544,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                117 => 
+                117 =>
                 array (
                     'id' => 1125,
                     'name' => 'CIMA Diploma in Islamic Finance',
@@ -14557,7 +14557,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                118 => 
+                118 =>
                 array (
                     'id' => 1126,
                     'name' => 'DIPLOMA IN EDUCATIONAL LEADERSHIP AND MANAGEMENT',
@@ -14570,7 +14570,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                119 => 
+                119 =>
                 array (
                     'id' => 1127,
                     'name' => 'Diploma in Classroom Management: Intervention',
@@ -14583,7 +14583,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                120 => 
+                120 =>
                 array (
                     'id' => 1128,
                     'name' => 'Diploma in Imamship and Local Governance ',
@@ -14596,7 +14596,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                121 => 
+                121 =>
                 array (
                     'id' => 1129,
                     'name' => 'DIPLOMA IN JUDICIAL ADMINISTRATION ',
@@ -14609,7 +14609,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                122 => 
+                122 =>
                 array (
                     'id' => 1130,
                     'name' => 'DIPLOMA IN SHARIAH AND LAW',
@@ -14622,7 +14622,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                123 => 
+                123 =>
                 array (
                     'id' => 1131,
                     'name' => 'DIPLOMA IN LAW',
@@ -14635,7 +14635,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                124 => 
+                124 =>
                 array (
                     'id' => 1132,
                     'name' => 'Diploma in Accounting and Finance',
@@ -14648,7 +14648,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                125 => 
+                125 =>
                 array (
                     'id' => 1133,
                     'name' => 'DIPLOMA IN FORENSIC PSYCHOLOGY',
@@ -14661,7 +14661,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                126 => 
+                126 =>
                 array (
                     'id' => 1135,
                     'name' => 'CERTIFICATE III IN WELDING TECHNICIAN',
@@ -14674,7 +14674,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                127 => 
+                127 =>
                 array (
                     'id' => 1136,
                     'name' => 'DIPLOMA IN HUMAN RESOURCE MANAGEMENT AND DEVELOPMENT',
@@ -14687,7 +14687,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                128 => 
+                128 =>
                 array (
                     'id' => 1137,
                     'name' => 'DIPLOMA IN BUSINESS MANAGEMENT AND ECONOMICS',
@@ -14700,7 +14700,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                129 => 
+                129 =>
                 array (
                     'id' => 1138,
                     'name' => 'DIPLOMA IN COMPUTING',
@@ -14713,7 +14713,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                130 => 
+                130 =>
                 array (
                     'id' => 1139,
                     'name' => 'Diploma in Early Childhood Education',
@@ -14726,7 +14726,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                131 => 
+                131 =>
                 array (
                     'id' => 1140,
                 'name' => 'DIPLOMA IN LEADERSHIP AND MANAGEMENT (Conducting in Dhivehi and English Language)',
@@ -14739,7 +14739,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                132 => 
+                132 =>
                 array (
                     'id' => 1142,
                     'name' => 'DIPLOMA IN BUSINESS AND MANAGEMENT',
@@ -14752,7 +14752,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                133 => 
+                133 =>
                 array (
                     'id' => 1143,
                 'name' => 'DIPLOMA IN TEACHING (QURAN AND ISLAM)',
@@ -14765,7 +14765,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                134 => 
+                134 =>
                 array (
                     'id' => 1144,
                     'name' => 'Diploma in Early Childhood Education',
@@ -14778,7 +14778,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                135 => 
+                135 =>
                 array (
                     'id' => 1145,
                     'name' => 'DIPLOMA IN TRAVEL AND TOURISM MANAGEMENT',
@@ -14791,7 +14791,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                136 => 
+                136 =>
                 array (
                     'id' => 1146,
                     'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -14804,7 +14804,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                137 => 
+                137 =>
                 array (
                     'id' => 1147,
                     'name' => 'Diploma in Office Management ',
@@ -14817,7 +14817,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                138 => 
+                138 =>
                 array (
                     'id' => 1148,
                     'name' => 'Diploma in Educational and Leadership Management',
@@ -14830,7 +14830,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                139 => 
+                139 =>
                 array (
                     'id' => 1149,
                     'name' => 'Diploma in Primary Teaching and Inclusive Education',
@@ -14843,7 +14843,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                140 => 
+                140 =>
                 array (
                     'id' => 1150,
                     'name' => 'DIPLOMA IN ISLAMIC BANKING AND FINANCE',
@@ -14856,7 +14856,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                141 => 
+                141 =>
                 array (
                     'id' => 1151,
                     'name' => 'DIPLOMA IN CAKE DECORATION',
@@ -14869,7 +14869,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                142 => 
+                142 =>
                 array (
                     'id' => 1152,
                     'name' => 'DIPLOMA IN PUBLIC ADMINISTRATION',
@@ -14882,7 +14882,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                143 => 
+                143 =>
                 array (
                     'id' => 1153,
                     'name' => 'DIPLOMA IN OFFICE MANAGEMENT',
@@ -14895,7 +14895,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                144 => 
+                144 =>
                 array (
                     'id' => 1154,
                     'name' => 'DIPLOMA IN STRATEGIC SALES AND MARKETING MANAGEMENT',
@@ -14908,7 +14908,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                145 => 
+                145 =>
                 array (
                     'id' => 1155,
                 'name' => 'DIPLOMA OF TEACHING (EARLY CHILDHOOD)',
@@ -14921,7 +14921,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                146 => 
+                146 =>
                 array (
                     'id' => 1156,
                 'name' => 'DIPLOMA OF TEACHING (PRIMARY)',
@@ -14934,7 +14934,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                147 => 
+                147 =>
                 array (
                     'id' => 1157,
                     'name' => 'DIPLOMA IN ARABIC LANGUAGE',
@@ -14947,7 +14947,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                148 => 
+                148 =>
                 array (
                     'id' => 1158,
                     'name' => 'DIPLOMA IN ARABIC LANGUAGE FOR ISLAMIC STUDIES',
@@ -14960,7 +14960,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                149 => 
+                149 =>
                 array (
                     'id' => 1159,
                     'name' => 'DIPLOMA IN ARABIC LANGUAGE FOR DIPLOMACY',
@@ -14973,7 +14973,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                150 => 
+                150 =>
                 array (
                     'id' => 1160,
                     'name' => 'DIPLOMA IN ARABIC LANGUAGE FOR HOSPITALITY AND TOURISM ',
@@ -14986,7 +14986,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                151 => 
+                151 =>
                 array (
                     'id' => 1161,
                     'name' => 'DIPLOMA IN ARABIC LANGUAGE FOR BUSINESS AND MARKETING',
@@ -14999,7 +14999,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                152 => 
+                152 =>
                 array (
                     'id' => 1162,
                     'name' => 'DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -15012,7 +15012,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                153 => 
+                153 =>
                 array (
                     'id' => 1163,
                     'name' => 'DIPLOMA IN PROJECT MANAGEMENT',
@@ -15025,7 +15025,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                154 => 
+                154 =>
                 array (
                     'id' => 1164,
                     'name' => 'DIPLOMA IN ARABIC LANGUAGE FOR JOURNALISM AND MEDIA',
@@ -15038,7 +15038,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                155 => 
+                155 =>
                 array (
                     'id' => 1165,
                     'name' => 'DIPLOMA IN BUSINESS MANAGEMENT',
@@ -15051,7 +15051,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                156 => 
+                156 =>
                 array (
                     'id' => 1166,
                     'name' => 'DIPLOMA IN OFFICE MANAGEMENT',
@@ -15064,7 +15064,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                157 => 
+                157 =>
                 array (
                     'id' => 1167,
                     'name' => 'DIPLOMA IN BUSINESS MANAGEMENT',
@@ -15077,7 +15077,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                158 => 
+                158 =>
                 array (
                     'id' => 1168,
                     'name' => 'DIPLOMA IN TOURISM AND HOTEL MANAGEMENT',
@@ -15090,7 +15090,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                159 => 
+                159 =>
                 array (
                     'id' => 1169,
                     'name' => 'ADVANCED DIPLOMA IN CIVIL ENGINEERING',
@@ -15103,7 +15103,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                160 => 
+                160 =>
                 array (
                     'id' => 1170,
                     'name' => 'ADVANCED DIPLOMA IN CONSTRUCTION MANAGEMENT',
@@ -15116,7 +15116,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                161 => 
+                161 =>
                 array (
                     'id' => 1171,
                     'name' => 'ADVANCED DIPLOMA IN ELECTRONIC ENGINEERING',
@@ -15129,7 +15129,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                162 => 
+                162 =>
                 array (
                     'id' => 1172,
                     'name' => 'ADVANCED DIPLOMA IN ELECTRICAL ENGINEERING',
@@ -15142,7 +15142,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                163 => 
+                163 =>
                 array (
                     'id' => 1173,
                     'name' => 'ADVANCED DIPLOMA IN MECHANICAL ENGINEERING',
@@ -15155,7 +15155,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                164 => 
+                164 =>
                 array (
                     'id' => 1174,
                     'name' => 'ADVANCED DIPLOMA IN ENGLISH LANGUAGE AND COMMUNICATION',
@@ -15168,7 +15168,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                165 => 
+                165 =>
                 array (
                     'id' => 1175,
                     'name' => 'ADVANCED DIPLOMA IN APPLIED STATISTICS',
@@ -15181,7 +15181,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                166 => 
+                166 =>
                 array (
                     'id' => 1176,
                     'name' => 'ADVANCED DIPLOMA IN ENVIRONMENT MANAGEMENT',
@@ -15194,7 +15194,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                167 => 
+                167 =>
                 array (
                     'id' => 1177,
                     'name' => 'ADVANCED DIPLOMA IN TEACHING ENGLISH AS A FOREIGN LANGUAGE',
@@ -15207,7 +15207,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                168 => 
+                168 =>
                 array (
                     'id' => 1178,
                 'name' => 'ADVANCED DIPLOMA OF TEACHING (SECONDARY)',
@@ -15220,7 +15220,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                169 => 
+                169 =>
                 array (
                     'id' => 1179,
                     'name' => 'ADVANCED DIPLOMA IN ENVIRONMENTAL MANAGEMENT',
@@ -15233,7 +15233,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                170 => 
+                170 =>
                 array (
                     'id' => 1180,
                     'name' => 'ADVANCED DIPLOMA IN TEACHING PRIMARY',
@@ -15246,7 +15246,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                171 => 
+                171 =>
                 array (
                     'id' => 1181,
                     'name' => 'ADVANCED DIPLOMA IN TEACHING SECONDARY',
@@ -15259,7 +15259,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                172 => 
+                172 =>
                 array (
                     'id' => 1182,
                     'name' => 'DIPLOMA IN SPECIAL EDUCATION',
@@ -15272,7 +15272,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                173 => 
+                173 =>
                 array (
                     'id' => 1183,
                     'name' => 'ADVANCED DIPLOMA IN SPECIAL EDUCATION',
@@ -15285,7 +15285,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                174 => 
+                174 =>
                 array (
                     'id' => 1184,
                     'name' => 'ADVANCED DIPLOMA IN TEACHING PRIMARY',
@@ -15298,7 +15298,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                175 => 
+                175 =>
                 array (
                     'id' => 1185,
                 'name' => 'ADVANCED DIPLOMA IN TEACHING SECONDARY (DHIVEHI LANGUAGE & LITERATURE)',
@@ -15311,7 +15311,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                176 => 
+                176 =>
                 array (
                     'id' => 1186,
                 'name' => 'ADVANCED DIPLOMA IN EDUCATION (EARLY CHILDHOOD)',
@@ -15324,7 +15324,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                177 => 
+                177 =>
                 array (
                     'id' => 1187,
                     'name' => 'ADVANCED DIPLOMA IN TEACHING - SPECIAL EDUCATION ',
@@ -15337,7 +15337,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                178 => 
+                178 =>
                 array (
                     'id' => 1188,
                     'name' => 'ADVANCED DIPLOMA IN HEALTH AND PHYSICAL EDUCATION',
@@ -15350,7 +15350,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                179 => 
+                179 =>
                 array (
                     'id' => 1189,
                 'name' => 'ADVANCED DIPLOMA IN TEACHING SECONDARY (MATHEMATICS)',
@@ -15363,7 +15363,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                180 => 
+                180 =>
                 array (
                     'id' => 1190,
                     'name' => 'ADVANCED DIPLOMA IN CRITICAL CARE NURSING',
@@ -15376,7 +15376,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                181 => 
+                181 =>
                 array (
                     'id' => 1191,
                     'name' => 'ADVANCED DIPLOMA IN SOCIAL WORK',
@@ -15389,7 +15389,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                182 => 
+                182 =>
                 array (
                     'id' => 1192,
                     'name' => 'HIGHER DIPLOMA IN TOURISM MANAGEMENT',
@@ -15402,7 +15402,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                183 => 
+                183 =>
                 array (
                     'id' => 1193,
                     'name' => 'HIGHER DIPLOMA IN HOSPITALITY MANAGEMENT',
@@ -15415,7 +15415,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                184 => 
+                184 =>
                 array (
                     'id' => 1194,
                     'name' => 'ADVANCED DIPLOMA IN ACCOUNTING',
@@ -15428,7 +15428,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                185 => 
+                185 =>
                 array (
                     'id' => 1195,
                     'name' => 'ADVANCED DIPLOMA IN BUSINESS AND COMMERCE',
@@ -15441,7 +15441,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                186 => 
+                186 =>
                 array (
                     'id' => 1196,
                     'name' => 'ADVANCED DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -15454,7 +15454,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                187 => 
+                187 =>
                 array (
                     'id' => 1197,
                     'name' => 'ADVANCED DIPLOMA IN SHARIAH AND LAW',
@@ -15467,7 +15467,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                188 => 
+                188 =>
                 array (
                     'id' => 1198,
                     'name' => 'ADVANCED DIPLOMA IN ISLAMIC STUDIES',
@@ -15480,7 +15480,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                189 => 
+                189 =>
                 array (
                     'id' => 1199,
                     'name' => 'ABE ADVANCED DIPLOMA IN BUSINESS ADMINISTRATION',
@@ -15493,7 +15493,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                190 => 
+                190 =>
                 array (
                     'id' => 1200,
                     'name' => 'ADVANCED DIPLOMA IN TRAVEL TOURISM AND HOSPITALITY',
@@ -15506,7 +15506,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                191 => 
+                191 =>
                 array (
                     'id' => 1201,
                     'name' => 'NATIONAL DIPLOMA IN TRAVEL AND TOURISM',
@@ -15519,7 +15519,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                192 => 
+                192 =>
                 array (
                     'id' => 1202,
                     'name' => 'ABE LEVEL 6 DIPLOMA IN BUSINESS MANAGEMENT AND MARKETING',
@@ -15532,7 +15532,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                193 => 
+                193 =>
                 array (
                     'id' => 1203,
                     'name' => 'ABE LEVEL 6 DIPLOMA IN BUSINESS MANAGEMENT AND HUMAN RESOURCES',
@@ -15545,7 +15545,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                194 => 
+                194 =>
                 array (
                     'id' => 1204,
                     'name' => 'ABE LEVEL 6 DIPLOMA IN BUSINESS MANAGEMENT',
@@ -15558,7 +15558,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                195 => 
+                195 =>
                 array (
                     'id' => 1205,
                     'name' => 'ADVANCED DIPLOMA IN INFORMATION TECHNOLOGY',
@@ -15571,7 +15571,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                196 => 
+                196 =>
                 array (
                     'id' => 1206,
                 'name' => 'ADVANCED DIPLOMA IN MANAGEMENT (MILITARY STTUDIES)',
@@ -15584,7 +15584,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                197 => 
+                197 =>
                 array (
                     'id' => 1207,
                     'name' => 'ADVANCED DIPLOMA IN MULTIMEDIA AND ANIMATION',
@@ -15597,7 +15597,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                198 => 
+                198 =>
                 array (
                     'id' => 1208,
                     'name' => 'ADVANCED DIPLOMA IN MARKETING MANAGEMENT',
@@ -15610,7 +15610,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                199 => 
+                199 =>
                 array (
                     'id' => 1209,
                     'name' => 'ADVANCED DIPLOMA IN SOFTWARE ENGINEERING',
@@ -15623,7 +15623,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                200 => 
+                200 =>
                 array (
                     'id' => 1210,
                 'name' => 'ADVANCED DIPLOMA IN TEACHING (PRIMARY)',
@@ -15636,7 +15636,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                201 => 
+                201 =>
                 array (
                     'id' => 1211,
                     'name' => 'INTERNATIONAL ADVANCED DIPLOMA IN BUSSINESS ADMINISTRATION / ASSOCIATE DEGREE IN BUSINESS ADMINISTRATION',
@@ -15649,7 +15649,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                202 => 
+                202 =>
                 array (
                     'id' => 1212,
                     'name' => 'ADVANCED DIPLOMA IN INFORMATION TECHNOLOGY OR ASSOCIATE DEGREE IN INFORMATION TECHNOLOGY',
@@ -15662,7 +15662,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                203 => 
+                203 =>
                 array (
                     'id' => 1213,
                     'name' => 'ABE ADVANCED DIPLOMA IN BUSINESS MANAGEMENT',
@@ -15675,7 +15675,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                204 => 
+                204 =>
                 array (
                     'id' => 1214,
                     'name' => 'EDEXCEL BTEC HIGHER NATIONAL DIPLOMA IN ACCOUNTING',
@@ -15688,7 +15688,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                205 => 
+                205 =>
                 array (
                     'id' => 1215,
                 'name' => 'ABE LEVEL 5 DIPLOMA IN BUSINESS MANAGEMENT AND HUMAN RESOURCES (PREVIOUSLY KNOWN AS ABE LEVEL 5 DIPLOMA IN HUMAN RESOURCE MANAGEMENT) - CHANGES EFFECTIVE FROM JANUARY 2018 INTAKE',
@@ -15701,7 +15701,7 @@ class CoursesTableSeeder extends Seeder
                     'created_at' => NULL,
                     'updated_at' => NULL,
                 ),
-                206 => 
+                206 =>
                 array (
                     'id' => 1216,
                     'name' => 'ABE LEVEL 5 DIPLOMA IN BUSINESS MANAGEMENT (PROGRAMME DETAILS CHANGED ON 22.11.2017 - CHANGES EFFECTIVE FROM JANUARY 2018 INTAKE',
@@ -15714,7 +15714,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    207 => 
+                    207 =>
                     array (
                         'id' => 1217,
                     'name' => 'ABE LEVEL 5 DIPLOMA IN BUSINESS MARKETING AND MANAGEMENT (PREVIOUSLY KNOWN AS ABE LEVEL 5 DIPLOMA IN MARKETING MANAGEMENT) - CHANGES EFFECTIVE FROM JANUARY 2018 INTAKE',
@@ -15727,7 +15727,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    208 => 
+                    208 =>
                     array (
                         'id' => 1218,
                         'name' => 'ABE LEVEL 6 DIPLOMA IN BUSINESS MANAGEMENT WITH SPECIALISM IN FINANCIAL MANAGEMENT',
@@ -15740,7 +15740,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    209 => 
+                    209 =>
                     array (
                         'id' => 1219,
                         'name' => 'ABE LEVEL 6 DIPLOMA IN TRAVEL. TOURISM AND HOSPITALITY MANAGEMENT',
@@ -15753,7 +15753,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    210 => 
+                    210 =>
                     array (
                         'id' => 1220,
                         'name' => 'ABE LEVEL 6 DIPLOMA IN BUSINESS MANAGEMENT WITH SPECIALISM IN MANAGEMENT INFORMATION SYSTEMS',
@@ -15766,7 +15766,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    211 => 
+                    211 =>
                     array (
                         'id' => 1221,
                         'name' => 'CTH ADVANCED DIPLOMA IN TOURISM MANAGEMENT',
@@ -15779,7 +15779,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    212 => 
+                    212 =>
                     array (
                         'id' => 1222,
                         'name' => 'CTH ADVANCED DIPLOMA IN HOTEL MANAGEMENT',
@@ -15792,7 +15792,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    213 => 
+                    213 =>
                     array (
                         'id' => 1223,
                         'name' => 'ACCA FIA - ADVANCED DIPLOMA IN ACCOUNTING AND BUSINESS QUALIFICATION',
@@ -15805,7 +15805,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    214 => 
+                    214 =>
                     array (
                         'id' => 1224,
                         'name' => 'INTERNATIONAL ADVANCE DIPLOMA IN BUSINESS',
@@ -15818,7 +15818,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    215 => 
+                    215 =>
                     array (
                         'id' => 1225,
                         'name' => 'EDEXCEL BTEC LEVEL 5 HND DIPLOMA IN BUSINESS',
@@ -15831,7 +15831,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    216 => 
+                    216 =>
                     array (
                         'id' => 1226,
                         'name' => 'ADVANCED DIPLOMA IN MANAGERIAL SKILLS',
@@ -15844,7 +15844,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    217 => 
+                    217 =>
                     array (
                         'id' => 1227,
                         'name' => 'BTEC HIGHER NATIONAL DIPLOMA IN BUSINESS',
@@ -15857,7 +15857,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    218 => 
+                    218 =>
                     array (
                         'id' => 1228,
                         'name' => 'BTEC HIGHER NATIONAL DIPLOMA IN COMPUTING',
@@ -15870,7 +15870,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    219 => 
+                    219 =>
                     array (
                         'id' => 1229,
                         'name' => 'BTEC HIGHER NATIONAL DIPLOMA IN INTERNATIONAL BUSINESS MANAGEMENT',
@@ -15883,7 +15883,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    220 => 
+                    220 =>
                     array (
                         'id' => 1230,
                         'name' => 'ADVANCED DIPLOMA IN CIVIL ENGINEERING',
@@ -15896,7 +15896,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    221 => 
+                    221 =>
                     array (
                         'id' => 1231,
                         'name' => 'ADVANCED DIPLOMA IN CONSTRUCTION MANAGEMENT',
@@ -15909,7 +15909,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    222 => 
+                    222 =>
                     array (
                         'id' => 1232,
                         'name' => 'ADVANCED DIPLOMA IN ELECTRICAL ENGINEERING',
@@ -15922,7 +15922,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    223 => 
+                    223 =>
                     array (
                         'id' => 1233,
                         'name' => 'ADVANCED DIPLOMA IN ELECTRONICS ENGINEERING',
@@ -15935,7 +15935,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    224 => 
+                    224 =>
                     array (
                         'id' => 1234,
                         'name' => 'ADVANCED DIPLOMA IN MEHCANICAL ENGINEERING',
@@ -15948,7 +15948,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    225 => 
+                    225 =>
                     array (
                         'id' => 1235,
                     'name' => 'PEARSON BTECH LEVEL 5 HND DIPLOMA IN BUSINESS (ACCOUNTING AND FINANCE)',
@@ -15961,7 +15961,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    226 => 
+                    226 =>
                     array (
                         'id' => 1236,
                     'name' => 'ADVANCED DIPLOMA IN TEACHING PRIMARY (ISLAM/DHIVEHI/QURAN)',
@@ -15974,7 +15974,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    227 => 
+                    227 =>
                     array (
                         'id' => 1237,
                         'name' => 'ADVANCED DIPLOMA IN DHIVEHI LANGUAGE AND HISTORY',
@@ -15987,7 +15987,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    228 => 
+                    228 =>
                     array (
                         'id' => 1238,
                     'name' => 'ADVANCED DIPLOMA IN ACCOUNTING AND BUSINESS (ACCA SKILLS LEVEL)',
@@ -16000,7 +16000,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    229 => 
+                    229 =>
                     array (
                         'id' => 1239,
                         'name' => 'Advanced Diploma in Accounting and Business',
@@ -16013,7 +16013,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    230 => 
+                    230 =>
                     array (
                         'id' => 1240,
                         'name' => 'Advanced Diploma in Teaching Quran',
@@ -16026,7 +16026,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    231 => 
+                    231 =>
                     array (
                         'id' => 1241,
                     'name' => 'ADVANCED DIPLOMA IN TEACHING (QURAN AND ISLAM)',
@@ -16039,7 +16039,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    232 => 
+                    232 =>
                     array (
                         'id' => 1242,
                     'name' => 'ADVANCED DIPLOMA OF TEACHING (EARLY CHILDHOOD)',
@@ -16052,7 +16052,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    233 => 
+                    233 =>
                     array (
                         'id' => 1243,
                     'name' => 'ADVANCED DIPLOMA OF TEACHING (PRIMARY)',
@@ -16065,7 +16065,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    234 => 
+                    234 =>
                     array (
                         'id' => 1244,
                         'name' => 'ADVANCED DIPLOMA IN BUSINESS MANAGEMENT',
@@ -16078,7 +16078,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    235 => 
+                    235 =>
                     array (
                         'id' => 1245,
                     'name' => 'ADVANCED CERTIFICATE IN EARLY CHILDHOOD EDUCATION (28.01.2014) (Previously known as CERTIFICATE IV IN EARLY CHILDHOOD EDUCATION approved on 05.03.2012)',
@@ -16091,7 +16091,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    236 => 
+                    236 =>
                     array (
                         'id' => 1246,
                         'name' => 'ADVANCED CERTIFICATE IN POLICING',
@@ -16104,7 +16104,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    237 => 
+                    237 =>
                     array (
                         'id' => 1247,
                     'name' => 'ADVANCED CERTIFICATE IN WELDING AND METAL FABRICATION (NAME CHANGED FROM CERTIFICATE IV IN  WELDING AND METAL FABRICATION ON 20.12.2016)',
@@ -16117,7 +16117,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    238 => 
+                    238 =>
                     array (
                         'id' => 1248,
                     'name' => 'ADVANCED CERTIFICATE IN MACHINING AND MECHANICAL FITTING (NAME CHANGED FROM CERTIFICATE IV IN MACHINING AND MECHANICAL FITTING ON 20.12.2016)',
@@ -16130,7 +16130,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    239 => 
+                    239 =>
                     array (
                         'id' => 1249,
                     'name' => 'ADVANCED CERTIFICATE IN WOODEN & FIBER GLASS BOAT BUILDING (NAME CHANGED FROM CERTIFICATE IV IN WOODEN & FIBER GLASS BOAT BUILDING ON 20.12.2016)',
@@ -16143,7 +16143,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    240 => 
+                    240 =>
                     array (
                         'id' => 1250,
                     'name' => 'ADVANCED CERTIFICATE IN ENGINE REPAIR AND MAINTENANCE (NAME CHANGED FROM CERTIFICATE IV IN ENGINE REPAIR AND MAINTENANCE 20.12.2016)',
@@ -16156,7 +16156,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    241 => 
+                    241 =>
                     array (
                         'id' => 1251,
                     'name' => 'ADVANCED CERTIFICATE IN REFRIGERATION AND AIR CONDITIONING (NAME CHANGED FROM CERTIFICATE IV IN REFRIGERATION AND AIR CONDITIONING ON 20.12.2016)',
@@ -16169,7 +16169,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    242 => 
+                    242 =>
                     array (
                         'id' => 1252,
                     'name' => 'ADVANCED CERTIFICATE IN ELECTRICAL AND ELECTRONICS ENGINEERING (NAME CHANGED FROM CERTIFICATE IV  ELECTRICAL AND ELECTRONICS ENGINEERING ON 20.12.2016)',
@@ -16182,7 +16182,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    243 => 
+                    243 =>
                     array (
                         'id' => 1253,
                     'name' => 'ADVANCED CERTIFICATE IN SMALL BUSINESS (NAME CHANGED FROM CERTIFICATE IV IN SMALL BUSINESS ON 20.12.2016)',
@@ -16195,7 +16195,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    244 => 
+                    244 =>
                     array (
                         'id' => 1254,
                         'name' => 'ADVANCED CERTIFICATE IN ELECTRICIAN',
@@ -16208,7 +16208,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    245 => 
+                    245 =>
                     array (
                         'id' => 1255,
                         'name' => 'ADVANCED CERTIFICATE IN REFRIGERATION AND AIR CONDITIONING MECHANICS',
@@ -16221,7 +16221,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    246 => 
+                    246 =>
                     array (
                         'id' => 1256,
                         'name' => 'ADVANCED CERTIFICATE IN CONSTRUCTION TECHNOLOGY',
@@ -16234,7 +16234,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    247 => 
+                    247 =>
                     array (
                         'id' => 1257,
                         'name' => 'ADVANCED CERTIFICATE IN AUTOMOTIVE TECHNOLOGY',
@@ -16247,7 +16247,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    248 => 
+                    248 =>
                     array (
                         'id' => 1258,
                         'name' => 'ADVANCED CERTIFICATE IN BUSINESS AND OFFICE ADMINISTRATION',
@@ -16260,7 +16260,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    249 => 
+                    249 =>
                     array (
                         'id' => 1259,
                         'name' => 'ADVANCED CERTIFICATE FOR BUSINESS & INFORMATION TECHNOLOGY',
@@ -16273,7 +16273,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    250 => 
+                    250 =>
                     array (
                         'id' => 1260,
                         'name' => 'ADVANCED CERTIFICATE IN SHARI’AH AND LAW ',
@@ -16286,7 +16286,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    251 => 
+                    251 =>
                     array (
                         'id' => 1261,
                         'name' => 'Advanced Certificate Foundation in Teaching',
@@ -16299,7 +16299,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    252 => 
+                    252 =>
                     array (
                         'id' => 1262,
                         'name' => 'Advanced Certificate in Shariah and Law',
@@ -16312,7 +16312,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    253 => 
+                    253 =>
                     array (
                         'id' => 1263,
                         'name' => 'Advanced Certificate in Office Management',
@@ -16325,7 +16325,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    254 => 
+                    254 =>
                     array (
                         'id' => 1264,
                         'name' => 'Advanced Certificate in Imamship and Local Governance ',
@@ -16338,7 +16338,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    255 => 
+                    255 =>
                     array (
                         'id' => 1265,
                         'name' => 'Advanced Certificate in Tourism Management ',
@@ -16351,7 +16351,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    256 => 
+                    256 =>
                     array (
                         'id' => 1266,
                         'name' => 'ADVANCED CERTIFICATE IN LEADERSHIP AND MANAGEMENT ',
@@ -16364,7 +16364,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    257 => 
+                    257 =>
                     array (
                         'id' => 1267,
                         'name' => 'Advanced Certificate in Leadership and Management',
@@ -16377,7 +16377,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    258 => 
+                    258 =>
                     array (
                         'id' => 1268,
                         'name' => 'ADVANCED CERTIFICATE IN BUSINESS AND MANAGEMENT',
@@ -16390,7 +16390,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    259 => 
+                    259 =>
                     array (
                         'id' => 1269,
                         'name' => 'ADVANCED CERTIFICATE IN INFORMATION TECHNOLOGY',
@@ -16403,7 +16403,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    260 => 
+                    260 =>
                     array (
                         'id' => 1270,
                         'name' => 'National Certificate IV in Office Administration ',
@@ -16416,7 +16416,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    261 => 
+                    261 =>
                     array (
                         'id' => 1271,
                         'name' => 'National Certificate IV in Photography',
@@ -16429,7 +16429,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    262 => 
+                    262 =>
                     array (
                         'id' => 1272,
                         'name' => 'ADVANCED CERTIFICATE IN CAKE DECORATION',
@@ -16442,7 +16442,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    263 => 
+                    263 =>
                     array (
                         'id' => 1273,
                         'name' => 'ADVANCED CERTIFICATE IN PRIMARY TEACHING',
@@ -16455,7 +16455,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    264 => 
+                    264 =>
                     array (
                         'id' => 1274,
                         'name' => 'ADVANCED CERTIFICATE IN STRATEGIC SALES AND MARKETING MANAGEMENT',
@@ -16468,7 +16468,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    265 => 
+                    265 =>
                     array (
                         'id' => 1275,
                         'name' => 'ADVANCED CERTIFICATE IN ISLAM AND QURAN',
@@ -16481,7 +16481,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    266 => 
+                    266 =>
                     array (
                         'id' => 1276,
                         'name' => 'ADVANCED CERTIFICATE IN QURAN MEMORIZATION',
@@ -16494,7 +16494,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    267 => 
+                    267 =>
                     array (
                         'id' => 1277,
                         'name' => 'ADVANCED CERTIFICATE IN HUMAN RESOURCE MANAGEMENT ',
@@ -16507,7 +16507,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    268 => 
+                    268 =>
                     array (
                         'id' => 1278,
                         'name' => 'ADVANCED CERTIFICATE IN MARKETING',
@@ -16520,7 +16520,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    269 => 
+                    269 =>
                     array (
                         'id' => 1279,
                         'name' => 'ADVANCED CERTIFICATE IN TRAVEL AND TOURISM ',
@@ -16533,7 +16533,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    270 => 
+                    270 =>
                     array (
                         'id' => 1280,
                         'name' => 'ADVANCED CERTIFICATE IN BUSINESS MANAGEMENT ',
@@ -16546,7 +16546,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    271 => 
+                    271 =>
                     array (
                         'id' => 1281,
                         'name' => 'ADVANCED CERTIFICATE IN HUMAN RESOURCE MANAGEMENT ',
@@ -16559,7 +16559,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    272 => 
+                    272 =>
                     array (
                         'id' => 1283,
                         'name' => 'ADVANCED CERTIFICATE IN INFORMATION TECHNOLOGY',
@@ -16572,7 +16572,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    273 => 
+                    273 =>
                     array (
                         'id' => 1284,
                         'name' => 'ADVANCED CERTIFICATE FOR IMAMS',
@@ -16585,7 +16585,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    274 => 
+                    274 =>
                     array (
                         'id' => 1285,
                         'name' => 'ADVANCED CERTIFICATE IN BUSINESS MANAGEMENT ',
@@ -16598,7 +16598,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    275 => 
+                    275 =>
                     array (
                         'id' => 1286,
                         'name' => 'ADVANCED CERTIFICATE IN ISLAMIC BANKING AND FINANCE',
@@ -16611,7 +16611,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    276 => 
+                    276 =>
                     array (
                         'id' => 1287,
                         'name' => 'ADVANCED CERTIFICATE IN ACCOUNTING AND FINANCE',
@@ -16624,7 +16624,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    277 => 
+                    277 =>
                     array (
                         'id' => 1288,
                         'name' => 'BACHELOR OF ARCHITECTURAL DESIGN',
@@ -16637,7 +16637,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    278 => 
+                    278 =>
                     array (
                         'id' => 1289,
                     'name' => 'BACHELOR OF ARCHITECTURAL DESIGN (BA)',
@@ -16650,7 +16650,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    279 => 
+                    279 =>
                     array (
                         'id' => 1290,
                         'name' => 'BACHELOR OF ISLAMIC STUDIES',
@@ -16663,7 +16663,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    280 => 
+                    280 =>
                     array (
                         'id' => 1291,
                         'name' => 'BACHELOR OF ARTS IN DHIVEHI LANGUAGE',
@@ -16676,7 +16676,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    281 => 
+                    281 =>
                     array (
                         'id' => 1292,
                         'name' => 'BACHELOR OF PSYCHOLOGY',
@@ -16689,7 +16689,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    282 => 
+                    282 =>
                     array (
                         'id' => 1293,
                         'name' => 'BACHELOR OF ARTS IN JOURNALISM',
@@ -16702,7 +16702,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    283 => 
+                    283 =>
                     array (
                         'id' => 1294,
                         'name' => 'BACHELOR OF ARTS IN POLITICAL SCIENCE AND INTERNATIONAL RELATIONS',
@@ -16715,7 +16715,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    284 => 
+                    284 =>
                     array (
                         'id' => 1295,
                         'name' => 'BACHELOR OF ARTS IN ENGLISH LANGUAGE AND COMMUNICATION',
@@ -16728,7 +16728,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    285 => 
+                    285 =>
                     array (
                         'id' => 1296,
                         'name' => 'BACHELOR OF ARTS IN TEACHING ENGLISH AS A FOREIGN LANGUAGE',
@@ -16741,7 +16741,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    286 => 
+                    286 =>
                     array (
                         'id' => 1297,
                     'name' => 'BACHELOR OF EDUCATION (PRIMARY)',
@@ -16754,7 +16754,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    287 => 
+                    287 =>
                     array (
                         'id' => 1298,
                         'name' => 'BACHELOR OF ENVIRONMENT MANAGEMENT',
@@ -16767,7 +16767,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    288 => 
+                    288 =>
                     array (
                         'id' => 1299,
                     'name' => 'BACHELOR OF TEACHING (SECONDARY)',
@@ -16780,7 +16780,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    289 => 
+                    289 =>
                     array (
                         'id' => 1300,
                         'name' => 'BACHELOR OF ENVIRONMENTAL MANAGEMENT',
@@ -16793,7 +16793,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    290 => 
+                    290 =>
                     array (
                         'id' => 1301,
                         'name' => 'BACHELOR OF TEACHING',
@@ -16806,7 +16806,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    291 => 
+                    291 =>
                     array (
                         'id' => 1302,
                         'name' => 'BACHELOR OF TEACHING PRIMARY ',
@@ -16819,7 +16819,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    292 => 
+                    292 =>
                     array (
                         'id' => 1303,
                     'name' => 'BACHELOR OF TEACHING SECONDARY (DHIVEHI LANGUAGE & LITERATURE)',
@@ -16832,7 +16832,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    293 => 
+                    293 =>
                     array (
                         'id' => 1304,
                         'name' => 'BACHELOR OF ARTS IN TEACHING ENGLISH AS A FOREIGN LANGUAGE',
@@ -16845,7 +16845,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    294 => 
+                    294 =>
                     array (
                         'id' => 1305,
                     'name' => 'BACHELOR OF TEACHING (EARLY CHILDHOOD)',
@@ -16858,7 +16858,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    295 => 
+                    295 =>
                     array (
                         'id' => 1306,
                         'name' => 'BACHELOR OF TEACHING PRIMARY - SPECIAL EDUCATION',
@@ -16871,7 +16871,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    296 => 
+                    296 =>
                     array (
                         'id' => 1307,
                         'name' => 'BACHELOR OF TEACHING IN HEALTH AND PHYSICAL EDUCATION',
@@ -16884,7 +16884,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    297 => 
+                    297 =>
                     array (
                         'id' => 1308,
                     'name' => 'BACHELOR OF TEACHING SECONDARY (MATHEMATICS)',
@@ -16897,7 +16897,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    298 => 
+                    298 =>
                     array (
                         'id' => 1309,
                         'name' => 'BACHELOR OF HEALTH SERVICES MANAGEMENT',
@@ -16910,7 +16910,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    299 => 
+                    299 =>
                     array (
                         'id' => 1310,
                     'name' => 'BACHELOR OF NURSING (CONVERSION)',
@@ -16923,7 +16923,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    300 => 
+                    300 =>
                     array (
                         'id' => 1311,
                         'name' => 'BACHELOR IN PRIMARY HEALTH CARE',
@@ -16936,7 +16936,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    301 => 
+                    301 =>
                     array (
                         'id' => 1312,
                         'name' => 'BACHELOR OF NURSING',
@@ -16949,7 +16949,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    302 => 
+                    302 =>
                     array (
                         'id' => 1313,
                         'name' => 'BACHELOR OF SOCIAL WORK',
@@ -16962,7 +16962,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    303 => 
+                    303 =>
                     array (
                         'id' => 1314,
                         'name' => 'BACHELOR OF SCIENCE IN CULINARY ARTS MANAGEMENT',
@@ -16975,7 +16975,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    304 => 
+                    304 =>
                     array (
                         'id' => 1315,
                         'name' => 'BACHELOR OF SCIENCE IN RESTAURANT MANAGEMENT',
@@ -16988,7 +16988,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    305 => 
+                    305 =>
                     array (
                         'id' => 1316,
                         'name' => 'BACHELOR OF SCIENCE IN HOTEL AND RESORT MANAGEMENT',
@@ -17001,7 +17001,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    306 => 
+                    306 =>
                     array (
                         'id' => 1317,
                         'name' => 'BACHELOR OF BUSINESS IN TOURISM MANAGEMENT',
@@ -17014,7 +17014,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    307 => 
+                    307 =>
                     array (
                         'id' => 1318,
                     'name' => 'BACHELOR OF HOSPITALITY MANAGEMENT (OPERATIONS)',
@@ -17027,7 +17027,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    308 => 
+                    308 =>
                     array (
                         'id' => 1319,
                     'name' => 'BACHELOR OF HOSPITALITY MANAGEMENT (CULINARY ARTS AND FOOD SERVICE)',
@@ -17040,7 +17040,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    309 => 
+                    309 =>
                     array (
                         'id' => 1320,
                     'name' => 'BACHELOR OF HOSPITALITY MANAGEMENT (HUMAN RESOURCE)',
@@ -17053,7 +17053,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    310 => 
+                    310 =>
                     array (
                         'id' => 1321,
                     'name' => 'BACHELOR OF HOSPITALITY MANAGEMENT (STRATEGY INNOVATION AND ENTREPRENEURSHIP)',
@@ -17066,7 +17066,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    311 => 
+                    311 =>
                     array (
                         'id' => 1322,
                     'name' => 'BACHELOR OF TOURISM MANAGEMENT (STRATEGY INNOVATION AND ENTREPRENEURSHIP)',
@@ -17079,7 +17079,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    312 => 
+                    312 =>
                     array (
                         'id' => 1323,
                     'name' => 'BACHELOR OF TOURISM MANAGEMENT (MARKETING)',
@@ -17092,7 +17092,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    313 => 
+                    313 =>
                     array (
                         'id' => 1324,
                     'name' => 'BACHELOR OF TOURISM MANAGEMENT (EVENTS)',
@@ -17105,7 +17105,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    314 => 
+                    314 =>
                     array (
                         'id' => 1325,
                         'name' => 'BACHELOR OF INTERNATIONAL HOSPITALITY AND MANAGEMENT ',
@@ -17118,7 +17118,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    315 => 
+                    315 =>
                     array (
                         'id' => 1326,
                         'name' => 'BACHELOR OF INTERNATIONAL TOURISM MANAGEMENT ',
@@ -17131,7 +17131,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    316 => 
+                    316 =>
                     array (
                         'id' => 1327,
                         'name' => 'BACHELOR OF BUSINESS',
@@ -17144,7 +17144,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    317 => 
+                    317 =>
                     array (
                         'id' => 1328,
                         'name' => 'BACHELOR OF INFORMATION TECHNOLOGY',
@@ -17157,7 +17157,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    318 => 
+                    318 =>
                     array (
                         'id' => 1329,
                         'name' => 'DHIVEHI BAHUGE DEGREE COURSE',
@@ -17170,7 +17170,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    319 => 
+                    319 =>
                     array (
                         'id' => 1330,
                         'name' => 'BACHELOR OF BUSINESS',
@@ -17183,7 +17183,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    320 => 
+                    320 =>
                     array (
                         'id' => 1331,
                         'name' => 'BACHELOR OF INFORMATION TECHNOLOGY',
@@ -17196,7 +17196,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    321 => 
+                    321 =>
                     array (
                         'id' => 1332,
                         'name' => 'BACHELOR OF ACCOUNTING AND FINANCE',
@@ -17209,7 +17209,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    322 => 
+                    322 =>
                     array (
                         'id' => 1333,
                         'name' => 'BACHELOR OF HUMAN RESOURCE MANAGEMENT',
@@ -17222,7 +17222,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    323 => 
+                    323 =>
                     array (
                         'id' => 1334,
                         'name' => 'BACHELOR OF MARKETING',
@@ -17235,7 +17235,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    324 => 
+                    324 =>
                     array (
                         'id' => 1335,
                         'name' => 'BACHELOR OF SHARI’AH AND LAW',
@@ -17248,7 +17248,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    325 => 
+                    325 =>
                     array (
                         'id' => 1336,
                         'name' => 'BACHELOR OF ISLAMIC STUDIES ',
@@ -17261,7 +17261,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    326 => 
+                    326 =>
                     array (
                         'id' => 1337,
                         'name' => 'SHAREATHAA GAANOONUGE DEGREE COURSE',
@@ -17274,7 +17274,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    327 => 
+                    327 =>
                     array (
                         'id' => 1338,
                         'name' => 'BACHELORS OF HISTORY AND CIVILISATION',
@@ -17287,7 +17287,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    328 => 
+                    328 =>
                     array (
                         'id' => 1339,
                         'name' => 'BACHELOR OF SHARIAH AND LAW',
@@ -17300,7 +17300,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    329 => 
+                    329 =>
                     array (
                         'id' => 1340,
                         'name' => 'BACHELOR OF QURANIC STUDIES',
@@ -17313,7 +17313,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    330 => 
+                    330 =>
                     array (
                         'id' => 1341,
                         'name' => 'BACHELOR OF EARLY CHILDHOOD EDUCATION',
@@ -17326,7 +17326,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    331 => 
+                    331 =>
                     array (
                         'id' => 1342,
                         'name' => 'BACHELOR OF BUSINESS ADMINISTRATION',
@@ -17339,7 +17339,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    332 => 
+                    332 =>
                     array (
                         'id' => 1343,
                     'name' => 'BACHELOR OF TEACHING - PRIMARY (NAME CHANGED ON 21.11.2017) PREVIOUSLY KNOWN NAMES - BACHELOR OF TEACHING (PRIMARY AND MIDDLE SCHOOL) & BACHELOR OF PRIMARY AND MIDDLE SCHOOL TEACHING approved on 10.01.2016)',
@@ -17352,7 +17352,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    333 => 
+                    333 =>
                     array (
                         'id' => 1344,
                         'name' => 'BACHELOR OF PROJECT MANAGEMENT',
@@ -17365,7 +17365,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    334 => 
+                    334 =>
                     array (
                         'id' => 1345,
                         'name' => 'BACHELOR OF HUMAN RESOURCE MANAGEMENT',
@@ -17378,7 +17378,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    335 => 
+                    335 =>
                     array (
                         'id' => 1346,
                     'name' => 'BACHELOR OF INFORMATION TECHNOLOGY (SOFTWARE ENGINEERING)',
@@ -17391,7 +17391,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    336 => 
+                    336 =>
                     array (
                         'id' => 1347,
                     'name' => 'BACHELOR OF ARTS IN MANAGEMENT (AWARDING BODY - HERIOT WATT UNIVERSITY) TOP-UP',
@@ -17404,7 +17404,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    337 => 
+                    337 =>
                     array (
                         'id' => 1348,
                     'name' => 'BACHELOR OF BUSINESS ADMINISTRATION (TOP-UP) - AWARDING BODY - HERIOT - WATT UNIVERSITY',
@@ -17417,7 +17417,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    338 => 
+                    338 =>
                     array (
                         'id' => 1349,
                     'name' => 'BACHELOR OF ARTS (BA) IN ACCOUNTANCY AND FINANCE',
@@ -17430,7 +17430,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    339 => 
+                    339 =>
                     array (
                         'id' => 1350,
                         'name' => 'BACHELOR OF INFORMATION TECHNOLOGY',
@@ -17443,7 +17443,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    340 => 
+                    340 =>
                     array (
                         'id' => 1351,
                     'name' => 'BACHELOR OF ARTS IN ACCOUNTANCY - (Awarded by - HERIOT - WATT UNIVERSITY)',
@@ -17456,7 +17456,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    341 => 
+                    341 =>
                     array (
                         'id' => 1352,
                     'name' => 'BACHELOR OF HUMAN RESOURCE MANAGEMENT (HONS)',
@@ -17469,7 +17469,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    342 => 
+                    342 =>
                     array (
                         'id' => 1353,
                     'name' => 'BACHELOR OF INFORMATION TECHNOLOGY (HONS)',
@@ -17482,7 +17482,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    343 => 
+                    343 =>
                     array (
                         'id' => 1354,
                     'name' => 'BACHELORS IN BUSINESS (HUMAN RESOURCES)',
@@ -17495,7 +17495,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    344 => 
+                    344 =>
                     array (
                         'id' => 1355,
                     'name' => 'BACHELOR OF INFORMATION TECHNOLOGY (DATABASE ADMINISTRATION)',
@@ -17508,7 +17508,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    345 => 
+                    345 =>
                     array (
                         'id' => 1356,
                     'name' => 'BACHELOR OF INFORMATION TECHNOLOGY (WEB PROGRAMMING)',
@@ -17521,7 +17521,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    346 => 
+                    346 =>
                     array (
                         'id' => 1357,
                     'name' => 'BACHELOR OF INFORMATION TECHNOLOGY (SOFTWARE DESIGN & DEVELOPMENT)',
@@ -17534,7 +17534,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    347 => 
+                    347 =>
                     array (
                         'id' => 1358,
                     'name' => 'BACHELOR OF BUSINESS (MARKETING)',
@@ -17547,7 +17547,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    348 => 
+                    348 =>
                     array (
                         'id' => 1359,
                     'name' => 'BACHELOR OF BUSINESS (FINANCE)',
@@ -17560,7 +17560,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    349 => 
+                    349 =>
                     array (
                         'id' => 1360,
                     'name' => 'BACHELOR OF INFORMATION TECHNOLOGY (SYSTEM ADMINISTRATION)',
@@ -17573,7 +17573,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    350 => 
+                    350 =>
                     array (
                         'id' => 1361,
                     'name' => 'BACHELOR OF BUSINESS (HUMAN RESOURCE MANAGEMENT) (HONS) - AWARDED BY HELP UNIVERSITY',
@@ -17586,7 +17586,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    351 => 
+                    351 =>
                     array (
                         'id' => 1362,
                     'name' => 'BACHELOR OF INFORMATION TECHNOLOGY (HONS) - AWARDED BY HELP UNIVERSITY',
@@ -17599,7 +17599,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    352 => 
+                    352 =>
                     array (
                         'id' => 1363,
                     'name' => 'BACHELORS IN HUMAN RESOURCE MANAGEMENT (previously BACHELORS OF BUSINESS ADMINISTRATION (HUMAN RESOURCE MANAGEMENT)',
@@ -17612,7 +17612,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    353 => 
+                    353 =>
                     array (
                         'id' => 1364,
                         'name' => 'BACHELOR OF BUSINESS ADMINISTRATION',
@@ -17625,7 +17625,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    354 => 
+                    354 =>
                     array (
                         'id' => 1365,
                     'name' => 'BACHELOR OF EDUCATION (EARLY  CHILDHOOD EDUCATION)',
@@ -17638,7 +17638,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    355 => 
+                    355 =>
                     array (
                         'id' => 1366,
                         'name' => 'BACHELOR IN SOFTWARE ENGINEERING',
@@ -17651,7 +17651,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    356 => 
+                    356 =>
                     array (
                         'id' => 1367,
                         'name' => 'BACHELOR OF PRIMARY TEACHING',
@@ -17664,7 +17664,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    357 => 
+                    357 =>
                     array (
                         'id' => 1368,
                         'name' => 'BACHELOR OF HUMAN RESOURCES MANAGEMENT',
@@ -17677,7 +17677,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    358 => 
+                    358 =>
                     array (
                         'id' => 1369,
                         'name' => 'BACHELOR OF BUSINESS MANAGEMENT',
@@ -17690,7 +17690,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    359 => 
+                    359 =>
                     array (
                         'id' => 1370,
                         'name' => 'BACHELOR OF MARKETING',
@@ -17703,7 +17703,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    360 => 
+                    360 =>
                     array (
                         'id' => 1371,
                     'name' => 'BACHELOR OF BUSINESS ADMINISTRATION (FINAL YEAR) (AWARDING BODY - UNIVERSITY OF BUSINESS AND INTERNATIONAL STUDIES)',
@@ -17716,7 +17716,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    361 => 
+                    361 =>
                     array (
                         'id' => 1372,
                     'name' => 'BACHELORS OF EDUCATION (PRIMARY AND MIDDLE SCHOOL)',
@@ -17729,7 +17729,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    362 => 
+                    362 =>
                     array (
                         'id' => 1373,
                     'name' => 'BACHELOR OF EDUCATION (SECONDARY)',
@@ -17742,7 +17742,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    363 => 
+                    363 =>
                     array (
                         'id' => 1374,
                         'name' => 'BACHELOR OF BUSINESS',
@@ -17755,7 +17755,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    364 => 
+                    364 =>
                     array (
                         'id' => 1375,
                         'name' => 'ABE DIPLOMA 7 IN BUSINESS MANAGEMENT',
@@ -17768,7 +17768,7 @@ class CoursesTableSeeder extends Seeder
                         'created_at' => NULL,
                         'updated_at' => NULL,
                     ),
-                    365 => 
+                    365 =>
                     array (
                         'id' => 1376,
                         'name' => 'ABE LEVEL 6 DIPLOMA IN BUSINESS MANAGEMENT (PROGRAMME DETAILS CHANGED ON 22.11.2017 - CHANGES EFFECTIVE FROM JANUARY 2018 INTAKE',
@@ -17781,7 +17781,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        366 => 
+                        366 =>
                         array (
                             'id' => 1377,
                         'name' => 'ABE LEVEL 6 DIPLOMA IN BUSINESS MANAGEMENT AND HUMAN RESOURCES (PREVIOUSLY KNOWN AS ABE LEVEL 6 DIPLOMA IN HUMAN RESOURCE MANAGEMENT) - CHANGES EFFECTIVE FROM JANUARY 2018 INTAKE',
@@ -17794,7 +17794,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        367 => 
+                        367 =>
                         array (
                             'id' => 1378,
                         'name' => 'ABE LEVEL 6 DIPLOMA IN BUSINESS MANAGEMENT AND MARKETING (PREVIOUSLY KNOWN AS ABE LEVEL 6 DIPLOMA IN MARKETING MANAGEMENT) - CHANGES EFFECTIVE FROM JANUARY 2018 INTAKE',
@@ -17807,7 +17807,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        368 => 
+                        368 =>
                         array (
                             'id' => 1379,
                         'name' => 'BSC (HONS) IN APPLIED ACCOUNTING',
@@ -17820,7 +17820,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        369 => 
+                        369 =>
                         array (
                             'id' => 1380,
                         'name' => 'BSC IN INFORMATION TECHNOLOGY (SOFTWARE DEVELOPMENT / NETWORK MANAGEMENT)',
@@ -17833,7 +17833,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        370 => 
+                        370 =>
                         array (
                             'id' => 1381,
                         'name' => 'AIBS BACHELOR OF BUSINESS ADMINISTRATION (BBA)',
@@ -17846,7 +17846,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        371 => 
+                        371 =>
                         array (
                             'id' => 1382,
                         'name' => 'AIBS BACHELOR OF BUSINESS ADMINISTRATION (HUMAN RESOURCE MANAGEMENT)',
@@ -17859,7 +17859,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        372 => 
+                        372 =>
                         array (
                             'id' => 1383,
                         'name' => 'BACHELOR OF ARTS IN EDUCATION (ECONOMICS)',
@@ -17872,7 +17872,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        373 => 
+                        373 =>
                         array (
                             'id' => 1384,
                         'name' => 'BACHELOR OF ARTS IN EDUCATION (BUSINESS STUDIES)',
@@ -17885,7 +17885,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        374 => 
+                        374 =>
                         array (
                             'id' => 1385,
                         'name' => 'BACHELOR OF BUSINESS ADMINISTRATION (HONOURS)',
@@ -17898,7 +17898,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        375 => 
+                        375 =>
                         array (
                             'id' => 1386,
                         'name' => 'BACHELOR OF INFORMATION TECHNOLOGY (HONOURS)',
@@ -17911,7 +17911,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        376 => 
+                        376 =>
                         array (
                             'id' => 1387,
                         'name' => 'BACHELOR OF EDUCATIONAL ADMINISTRATION (HONOURS)',
@@ -17924,7 +17924,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        377 => 
+                        377 =>
                         array (
                             'id' => 1388,
                         'name' => 'BACHELOR OF EDUCATION (TEACHING ENGLISH AS A SECOND LANGUAGE) - HONORS',
@@ -17937,7 +17937,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        378 => 
+                        378 =>
                         array (
                             'id' => 1389,
                             'name' => 'BACHELOR OF BUSINESS ADMINISTRATION WITH HONOURS',
@@ -17950,7 +17950,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        379 => 
+                        379 =>
                         array (
                             'id' => 1390,
                             'name' => 'BACHELOR OF EARLY CHILDHOOD EDUCATION',
@@ -17963,7 +17963,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        380 => 
+                        380 =>
                         array (
                             'id' => 1391,
                         'name' => 'BACHELOR OF TEACHING (PRIMARY)',
@@ -17976,7 +17976,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        381 => 
+                        381 =>
                         array (
                             'id' => 1392,
                             'name' => 'BACHELOR OF LAWS',
@@ -17989,7 +17989,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        382 => 
+                        382 =>
                         array (
                             'id' => 1393,
                             'name' => 'BACHELOR OF ARTS IN TOURISM MANAGEMENT',
@@ -18002,7 +18002,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        383 => 
+                        383 =>
                         array (
                             'id' => 1394,
                             'name' => 'ACCA PROFESSIONAL LEVEL -  AWARDED BY ACCA',
@@ -18015,7 +18015,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        384 => 
+                        384 =>
                         array (
                             'id' => 1395,
                         'name' => 'BA (HONS) BUSINESS MANAGEMENT WITH MARKETING - AWARDED BY UNIVERSITY OF THE WEST OF ENGLAND',
@@ -18028,7 +18028,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        385 => 
+                        385 =>
                         array (
                             'id' => 1396,
                         'name' => 'BACHELOR OF ARTS IN ACCOUNTING AND FINANCE (HONS) - AWARDED BY UNIVERSITY OF THE WEST OF ENGLAND',
@@ -18041,7 +18041,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        386 => 
+                        386 =>
                         array (
                             'id' => 1397,
                         'name' => 'BACHELOR OF ARTS IN BUSINESS AND HUMAN RESOURCE MANAGEMENT (HONS) - AWARDED BY UNIVERSITY OF THE WEST OF ENGLAND',
@@ -18054,7 +18054,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        387 => 
+                        387 =>
                         array (
                             'id' => 1398,
                         'name' => 'BACHELOR OF ARTS IN BUSINESS MANAGEMENT (HONS) - AWARDED BY UNIVERSITY OF THE WEST OF ENGLAND',
@@ -18067,7 +18067,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        388 => 
+                        388 =>
                         array (
                             'id' => 1399,
                             'name' => 'BSC IN BUSINESS INFORMATION TECHNOLOGY',
@@ -18080,7 +18080,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        389 => 
+                        389 =>
                         array (
                             'id' => 1400,
                             'name' => 'BSC IN COMPUTER SCIENCE',
@@ -18093,7 +18093,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        390 => 
+                        390 =>
                         array (
                             'id' => 1401,
                             'name' => 'BACHELOR OF TEACHING MATHEMATICS',
@@ -18106,7 +18106,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        391 => 
+                        391 =>
                         array (
                             'id' => 1402,
                         'name' => 'BACHELOR OF TEACHING (TEACHING ENGLISH TO SPEAKERS OF OTHER LANGUAGES)',
@@ -18119,7 +18119,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        392 => 
+                        392 =>
                         array (
                             'id' => 1403,
                             'name' => 'BACHELOR OF SHARIAH AND LAW',
@@ -18132,7 +18132,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        393 => 
+                        393 =>
                         array (
                             'id' => 1404,
                             'name' => 'BA IN DHIVEHI LANGUAGE AND HISTORY',
@@ -18145,7 +18145,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        394 => 
+                        394 =>
                         array (
                             'id' => 1405,
                         'name' => 'BSC (HONS) COMPUTER SCIENCE - AWARDED BY UNIVERSITY OF THE WEST OF ENGLAND',
@@ -18158,7 +18158,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        395 => 
+                        395 =>
                         array (
                             'id' => 1406,
                         'name' => 'LLB (HONS) - AWARDED BY UNIVERSITY OF THE WEST OF ENGLAND',
@@ -18171,7 +18171,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        396 => 
+                        396 =>
                         array (
                             'id' => 1407,
                             'name' => 'BSC IN SECURITY AND LAW ENFORCEMENT STUDIES',
@@ -18184,7 +18184,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        397 => 
+                        397 =>
                         array (
                             'id' => 1408,
                             'name' => 'BACHELOR OF GRAPHICS AND MULTIMEDIA',
@@ -18197,7 +18197,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        398 => 
+                        398 =>
                         array (
                             'id' => 1409,
                         'name' => 'BACHELOR OF ARTS (HONS) IN ACCOUNTING (UNIVERSITY OF BEDFORDSHIRE)',
@@ -18210,7 +18210,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        399 => 
+                        399 =>
                         array (
                             'id' => 1410,
                         'name' => 'BACHELOR OF ARTS (HONS) IN BUSINESS ADMINISTRATION (UNIVERSITY OF BEDFORDSHIRE) - TOP-UP',
@@ -18223,7 +18223,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        400 => 
+                        400 =>
                         array (
                             'id' => 1411,
                         'name' => 'BACHELOR OF ARTS IN EDUCATION (ACCOUNTING) ',
@@ -18236,7 +18236,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        401 => 
+                        401 =>
                         array (
                             'id' => 1412,
                         'name' => 'Bachelor of Occupational Safety and Health (Awarded by Cyberjaya University College)',
@@ -18249,7 +18249,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        402 => 
+                        402 =>
                         array (
                             'id' => 1413,
                             'name' => 'BACHELOR OF HUMAN RESOURCE MANAGEMENT',
@@ -18262,7 +18262,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        403 => 
+                        403 =>
                         array (
                             'id' => 1414,
                             'name' => 'BACHELOR OF PRIMARY TEACHING',
@@ -18275,7 +18275,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        404 => 
+                        404 =>
                         array (
                             'id' => 1415,
                             'name' => 'BACHELOR OF BUSINESS MANAGEMENT',
@@ -18288,7 +18288,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        405 => 
+                        405 =>
                         array (
                             'id' => 1416,
                             'name' => 'Bachelor of Laws',
@@ -18301,7 +18301,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        406 => 
+                        406 =>
                         array (
                             'id' => 1417,
                         'name' => 'Bachelor of Education (Secondary)',
@@ -18314,7 +18314,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        407 => 
+                        407 =>
                         array (
                             'id' => 1418,
                             'name' => 'Bachelor of Business',
@@ -18327,7 +18327,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        408 => 
+                        408 =>
                         array (
                             'id' => 1419,
                             'name' => 'Bachelor of Imamship and Local Governance',
@@ -18340,7 +18340,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        409 => 
+                        409 =>
                         array (
                             'id' => 1420,
                         'name' => 'BACHELOR OF EDUCATION PRIMARY (ISLAM/DHIVEHI/QURAN)',
@@ -18353,7 +18353,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        410 => 
+                        410 =>
                         array (
                             'id' => 1421,
                         'name' => 'BACHELOR OF TEACHING PRIMARY (ISLAM/DHIVEHI/QURAN)',
@@ -18366,7 +18366,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        411 => 
+                        411 =>
                         array (
                             'id' => 1422,
                             'name' => 'BACHELOR OF TEACHING ISLAM',
@@ -18379,7 +18379,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        412 => 
+                        412 =>
                         array (
                             'id' => 1423,
                             'name' => 'BACHELOR OF MEDICAL LABORATORY SCIENCE',
@@ -18392,7 +18392,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        413 => 
+                        413 =>
                         array (
                             'id' => 1424,
                             'name' => 'Bachelors Degree in Accounting and Finance',
@@ -18405,7 +18405,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        414 => 
+                        414 =>
                         array (
                             'id' => 1425,
                             'name' => 'BACHELOR OF TEACHING ISLAMIC STUDIES',
@@ -18418,7 +18418,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        415 => 
+                        415 =>
                         array (
                             'id' => 1426,
                             'name' => 'BA IN HUMAN RESOURCE MANAGEMENT AND DEVELOPMENT',
@@ -18431,7 +18431,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        416 => 
+                        416 =>
                         array (
                             'id' => 1427,
                         'name' => 'BA (HONS) BUSINESS MANAGEMENT AND ECONOMICS  (AWARDING BODY - UNIVERSITY OF THE WEST OF ENGLAND)',
@@ -18444,7 +18444,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        417 => 
+                        417 =>
                         array (
                             'id' => 1428,
                             'name' => 'Bachelor of Early Childhood Education',
@@ -18457,7 +18457,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        418 => 
+                        418 =>
                         array (
                             'id' => 1429,
                             'name' => 'BACHELOR OF HUMAN RESOURCE MANAGEMENT',
@@ -18470,7 +18470,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        419 => 
+                        419 =>
                         array (
                             'id' => 1430,
                         'name' => 'BSc (HONS) NURSING (INTERNATIONAL) (TOP-UP) (Awarded by University of the West of England)',
@@ -18483,7 +18483,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        420 => 
+                        420 =>
                         array (
                             'id' => 1431,
                             'name' => 'BACHELOR OF TEACHING DHIVEHI LANGUAGE',
@@ -18496,7 +18496,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        421 => 
+                        421 =>
                         array (
                             'id' => 1432,
                         'name' => 'BACHELOR OF TEACHING (ISLAM AND DHIVHEI)',
@@ -18509,7 +18509,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        422 => 
+                        422 =>
                         array (
                             'id' => 1433,
                         'name' => 'BA (HONS) EARLY CHILDHOOD (AWARDING BODY - UNIVERSITY OF THE WEST OF ENGLAND)',
@@ -18522,7 +18522,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        423 => 
+                        423 =>
                         array (
                             'id' => 1434,
                         'name' => 'BA (HONS) PRIMARY EDUCATION (ITE) (AWARDING BODY - UNIVERSITY OF THE WEST OF ENGLAND)',
@@ -18535,7 +18535,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        424 => 
+                        424 =>
                         array (
                             'id' => 1435,
                         'name' => 'BACHELOR OF EDUCATION (PRIMARY)',
@@ -18548,7 +18548,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        425 => 
+                        425 =>
                         array (
                             'id' => 1436,
                             'name' => 'BACHELOR OF ACCOUNTING AND FINANCE',
@@ -18561,7 +18561,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        426 => 
+                        426 =>
                         array (
                             'id' => 1437,
                             'name' => 'BACHELORS OF EDUCATION IN TEACHING INCLUSIVE EDUCATION',
@@ -18574,7 +18574,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        427 => 
+                        427 =>
                         array (
                             'id' => 1438,
                             'name' => 'BACHELOR OF INFORMATION TECHNOLOGY',
@@ -18587,7 +18587,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        428 => 
+                        428 =>
                         array (
                             'id' => 1439,
                         'name' => 'BACHELOR OF EDUCATION (PRIMARY AND MIDDLE SCHOOL)',
@@ -18600,7 +18600,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        429 => 
+                        429 =>
                         array (
                             'id' => 1440,
                             'name' => 'BACHELOR OF SCIENCE IN PSYCHOLOGY AND COUNSELING ',
@@ -18613,7 +18613,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        430 => 
+                        430 =>
                         array (
                             'id' => 1441,
                         'name' => 'BACHELOR OF CIVIL ENGINEERING (HONOURS)',
@@ -18626,7 +18626,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        431 => 
+                        431 =>
                         array (
                             'id' => 1442,
                         'name' => 'ISLAM MUDHARRIS DEGREE (HONOURS)',
@@ -18639,7 +18639,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        432 => 
+                        432 =>
                         array (
                             'id' => 1443,
                         'name' => 'BACHELOR OF ISLAMIC STUDIES (HONS)',
@@ -18652,7 +18652,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        433 => 
+                        433 =>
                         array (
                             'id' => 1444,
                         'name' => 'BACHELOR OF TEACHING ISLAM (HONS)',
@@ -18665,7 +18665,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        434 => 
+                        434 =>
                         array (
                             'id' => 1445,
                         'name' => 'BACHELOR OF TEACHING ISLAM (HONS)',
@@ -18678,7 +18678,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        435 => 
+                        435 =>
                         array (
                             'id' => 1446,
                         'name' => 'BACHELOR OF EDUCATION PRIMARY (HONS)',
@@ -18691,7 +18691,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        436 => 
+                        436 =>
                         array (
                             'id' => 1447,
                         'name' => 'BACHELOR OF EDUCATION (SECONDARY MATHEMATICS)',
@@ -18704,7 +18704,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        437 => 
+                        437 =>
                         array (
                             'id' => 1448,
                         'name' => 'BACHELOR OF EDUCATION (HEALTH AND PHYSICAL EDUCATION)',
@@ -18717,7 +18717,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        438 => 
+                        438 =>
                         array (
                             'id' => 1449,
                         'name' => 'BACHELOR OF EDUCATION IN DHIVEHI LANGUAGE & LITERATURE (HONOURS)',
@@ -18730,7 +18730,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        439 => 
+                        439 =>
                         array (
                             'id' => 1450,
                         'name' => 'BACHELOR OF EDUCATION (ENGLISH)(HONOURS)',
@@ -18743,7 +18743,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        440 => 
+                        440 =>
                         array (
                             'id' => 1451,
                         'name' => 'BACHELOR OF EDUCATION IN EARLY CHILDHOOD (HONOURS)',
@@ -18756,7 +18756,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        441 => 
+                        441 =>
                         array (
                             'id' => 1452,
                         'name' => 'BACHELOR OF EDUCATION (HONOURS) PRIMARY - SPECIAL EDUCATION',
@@ -18769,7 +18769,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        442 => 
+                        442 =>
                         array (
                             'id' => 1453,
                         'name' => 'BACHELOR OF EDUCATION SECONDARY (HONOURS) MATHEMATICS',
@@ -18782,7 +18782,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        443 => 
+                        443 =>
                         array (
                             'id' => 1454,
                         'name' => 'BACHELOR OF SHARIAH AND LAW (HONOURS)',
@@ -18795,7 +18795,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        444 => 
+                        444 =>
                         array (
                             'id' => 1455,
                             'name' => 'BACHELOR OF SHARI’AH WITH HONOURS',
@@ -18808,7 +18808,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        445 => 
+                        445 =>
                         array (
                             'id' => 1456,
                             'name' => 'BACHELOR OF TEACHING ISLAMIC STUDIES WITH HONOURS',
@@ -18821,7 +18821,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        446 => 
+                        446 =>
                         array (
                             'id' => 1457,
                             'name' => 'BACHELOR OF TEACHING QURAN WITH HONOURS',
@@ -18834,7 +18834,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        447 => 
+                        447 =>
                         array (
                             'id' => 1458,
                             'name' => 'BACHELOR OF SHARIAH AND LAW WITH HONOURS',
@@ -18847,7 +18847,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        448 => 
+                        448 =>
                         array (
                             'id' => 1459,
                             'name' => 'BACHELOR OF ISLAMIC STUDIES WITH HONOURS',
@@ -18860,7 +18860,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        449 => 
+                        449 =>
                         array (
                             'id' => 1460,
                         'name' => 'BACHELOR OF TEACHING ARABIC LANGUAGE WITH HONOURS  (Previously known as BACHELOR OF TEACHING ARABIC LANGUAGE AND LITERATURE WITH HONOURS approved on 29.04.2015)',
@@ -18873,7 +18873,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        450 => 
+                        450 =>
                         array (
                             'id' => 1461,
                         'name' => 'BACHELOR OF EDUCATION (EARLY  CHILDHOOD EDUCATION) WITH HONOURS',
@@ -18886,7 +18886,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        451 => 
+                        451 =>
                         array (
                             'id' => 1462,
                         'name' => 'BACHELOR OF EDUCATION (HONOURS)',
@@ -18899,7 +18899,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        452 => 
+                        452 =>
                         array (
                             'id' => 1463,
                             'name' => 'BACHELORS OF SHARIAH',
@@ -18912,7 +18912,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        453 => 
+                        453 =>
                         array (
                             'id' => 1464,
                             'name' => 'BACHELOR OF ACCOUNTING WITH HONOURS',
@@ -18925,7 +18925,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        454 => 
+                        454 =>
                         array (
                             'id' => 1465,
                         'name' => 'BACHELOR OF EDUCATION (EDUCATIONAL ADMINISTRATION) WITH HONOURS',
@@ -18938,7 +18938,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        455 => 
+                        455 =>
                         array (
                             'id' => 1466,
                             'name' => 'BACHELOR OF INFORMATION TECHNOLOGY WITH HONOURS',
@@ -18951,7 +18951,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        456 => 
+                        456 =>
                         array (
                             'id' => 1467,
                             'name' => 'BACHELOR OF BUSINESS ADMINISTRATION WITH HONOURS',
@@ -18964,7 +18964,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        457 => 
+                        457 =>
                         array (
                             'id' => 1468,
                             'name' => 'BACHELOR OF MULTIMEDIA TECHNOLOGY WITH HONOURS',
@@ -18977,7 +18977,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        458 => 
+                        458 =>
                         array (
                             'id' => 1469,
                             'name' => 'BACHELOR OF HUMAN RESOURCE MANAGEMENT WITH HONOURS',
@@ -18990,7 +18990,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        459 => 
+                        459 =>
                         array (
                             'id' => 1470,
                             'name' => 'POSTGRADUATE DIPLOMA OF TEACHING',
@@ -19003,7 +19003,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        460 => 
+                        460 =>
                         array (
                             'id' => 1471,
                         'name' => 'BACHELOR OF EDUCATION (TESL) WITH HONOURS - AWARDED BY OPEN UNIVERSITY MALAYSIA',
@@ -19016,7 +19016,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        461 => 
+                        461 =>
                         array (
                             'id' => 1472,
                         'name' => 'BACHELOR OF EDUCATION (MATHEMATICS) WITH HONOURS',
@@ -19029,7 +19029,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        462 => 
+                        462 =>
                         array (
                             'id' => 1473,
                             'name' => 'BACHELOR OF BUSINESS ADMINISTRATION WITH HONOURS',
@@ -19042,7 +19042,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        463 => 
+                        463 =>
                         array (
                             'id' => 1474,
                         'name' => 'BACHELOR OF SHARIAH AND LAW (HONOURS)',
@@ -19055,7 +19055,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        464 => 
+                        464 =>
                         array (
                             'id' => 1475,
                         'name' => 'QURAN MUDHARRIS KAMUGE DEGREE COURSE (HONOURS)',
@@ -19068,7 +19068,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        465 => 
+                        465 =>
                         array (
                             'id' => 1476,
                             'name' => 'POSTGRADUATE DIPLOMA IN EDUCATION',
@@ -19081,7 +19081,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        466 => 
+                        466 =>
                         array (
                             'id' => 1477,
                             'name' => 'POSTGRADUATE DIPLOMA IN PUBLIC HEALTH',
@@ -19094,7 +19094,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        467 => 
+                        467 =>
                         array (
                             'id' => 1478,
                             'name' => 'POSTGRADUATE DIPLOMA IN BUSINESS ADMINISTRTION',
@@ -19107,7 +19107,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        468 => 
+                        468 =>
                         array (
                             'id' => 1479,
                             'name' => 'POSTGRADUATE DIPLOMA IN TEACHING',
@@ -19120,7 +19120,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        469 => 
+                        469 =>
                         array (
                             'id' => 1480,
                         'name' => 'POSTGRADUATE DIPLOMA IN TEACHING ENGLISH TO SPEAKERS OF OTHER LANGUAGES (PGD IN TESOL)',
@@ -19133,7 +19133,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        470 => 
+                        470 =>
                         array (
                             'id' => 1482,
                             'name' => 'POSTGRADUATE DIPLOMA IN DEFENCE MANAGEMENT',
@@ -19146,7 +19146,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        471 => 
+                        471 =>
                         array (
                             'id' => 1483,
                             'name' => 'POSTGRADUATE DIPLOMA IN EDUCATION ',
@@ -19159,7 +19159,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        472 => 
+                        472 =>
                         array (
                             'id' => 1484,
                             'name' => 'POSTGRADUATE DIPLOMA IN STRATEGIC MANAGEMENT AND LEADERSHIP',
@@ -19172,7 +19172,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        473 => 
+                        473 =>
                         array (
                             'id' => 1485,
                             'name' => 'CTH POSTGRADUATE DIPLOMA IN HOSPITALITY AND TOURISM MANAGEMENT',
@@ -19185,7 +19185,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        474 => 
+                        474 =>
                         array (
                             'id' => 1486,
                             'name' => 'POSTGRADUATE DIPLOMA IN RESEARCH STUDIES',
@@ -19198,7 +19198,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        475 => 
+                        475 =>
                         array (
                             'id' => 1487,
                         'name' => 'POSTGRADUATE DIPLOMA IN PUBLIC HEALTH (Awarded by University of the West of England)',
@@ -19211,7 +19211,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        476 => 
+                        476 =>
                         array (
                             'id' => 1488,
                         'name' => 'POSTGRADUATE DIPLOMA EDUCATION (Awarded by University of the West of England)',
@@ -19224,7 +19224,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        477 => 
+                        477 =>
                         array (
                             'id' => 1489,
                         'name' => 'POSTGRADUATE DIPLOMA IN BUSINESS ADMINISTRATION (Awarded by University of the West of England)',
@@ -19237,7 +19237,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        478 => 
+                        478 =>
                         array (
                             'id' => 1490,
                             'name' => 'POSTGRADUATE DIPLOMA IN EDUCATIONAL MANAGEMENT AND LEADERSHIP ',
@@ -19250,7 +19250,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        479 => 
+                        479 =>
                         array (
                             'id' => 1491,
                             'name' => 'POSTGRADUATE DIPLOMA IN BUSINESS ADMINISTRATION',
@@ -19263,7 +19263,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        480 => 
+                        480 =>
                         array (
                             'id' => 1492,
                             'name' => 'POSTGRADUATE DIPLOMA IN EDUCATION',
@@ -19276,7 +19276,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        481 => 
+                        481 =>
                         array (
                             'id' => 1493,
                             'name' => 'ADVANCED DIPLOMA IN SHARIAH AND LAW',
@@ -19289,7 +19289,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        482 => 
+                        482 =>
                         array (
                             'id' => 1494,
                             'name' => 'ASSOCIATE DEGREE IN SHARIAH AND LAW',
@@ -19302,7 +19302,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        483 => 
+                        483 =>
                         array (
                             'id' => 1495,
                             'name' => 'ASSOCIATE DEGREE IN EARLY CHILDHOOD EDUCATION',
@@ -19315,7 +19315,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        484 => 
+                        484 =>
                         array (
                             'id' => 1496,
                             'name' => 'ASSOCIATE DEGREE IN COUNSELLING',
@@ -19328,7 +19328,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        485 => 
+                        485 =>
                         array (
                             'id' => 1497,
                         'name' => 'ASSOCIATE DEGREE IN TEACHING - PRIMARY (NAME CHANGED ON 21.11.2017) - PREVIOUSLY KNOWN AS ASSOCIATE DEGREE IN TEACHING (PRIMARY & MIDDLE SCHOOL) & ASSOCIATE DEGREE IN TEACHING (PRIMARY AND MIDDLE SCHOOL) approved on 18.09.2013)',
@@ -19341,7 +19341,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        486 => 
+                        486 =>
                         array (
                             'id' => 1498,
                             'name' => 'ASSOCIATE DEGREE IN BUSINESS ADMINISTRATION',
@@ -19354,7 +19354,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        487 => 
+                        487 =>
                         array (
                             'id' => 1499,
                             'name' => 'ASSOCIATE DEGREE IN PROJECT MANAGEMENT',
@@ -19367,7 +19367,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        488 => 
+                        488 =>
                         array (
                             'id' => 1500,
                             'name' => 'ASSOCIATE DEGREE IN HUMAN RESOURCE MANAGEMENT',
@@ -19380,7 +19380,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        489 => 
+                        489 =>
                         array (
                             'id' => 1501,
                         'name' => 'ASSOCIATE DEGREE IN INFORMATION TECHNOLOGY (SOFTWARE ENGINEERING)',
@@ -19393,7 +19393,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        490 => 
+                        490 =>
                         array (
                             'id' => 1502,
                             'name' => 'ASSOCIATE DEGREE IN BUSINESS',
@@ -19406,7 +19406,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        491 => 
+                        491 =>
                         array (
                             'id' => 1503,
                             'name' => 'ASSOCIATE DEGREE IN INFORMATION TECHNOLOGY',
@@ -19419,7 +19419,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        492 => 
+                        492 =>
                         array (
                             'id' => 1504,
                             'name' => 'ASSOCIATE DEGREE IN HUMAN RESOURCE MANAGEMENT',
@@ -19432,7 +19432,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        493 => 
+                        493 =>
                         array (
                             'id' => 1505,
                             'name' => 'ASSOCIATE DEGREE IN BUSINESS MANAGEMENT',
@@ -19445,7 +19445,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        494 => 
+                        494 =>
                         array (
                             'id' => 1506,
                             'name' => 'ASSOCIATE DEGREE IN SOFTWARE ENGINEERING',
@@ -19458,7 +19458,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        495 => 
+                        495 =>
                         array (
                             'id' => 1507,
                             'name' => 'ASSOCIATE DEGREE IN PRIMARY TEACHING',
@@ -19471,7 +19471,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        496 => 
+                        496 =>
                         array (
                             'id' => 1508,
                             'name' => 'ASSOCIATE DEGREE IN BUSINESS ADMINISTRATION',
@@ -19484,7 +19484,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        497 => 
+                        497 =>
                         array (
                             'id' => 1509,
                             'name' => 'ASSOCIATE DEGREE IN HUMAN RESOURCE MANAGEMENT',
@@ -19497,7 +19497,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        498 => 
+                        498 =>
                         array (
                             'id' => 1510,
                             'name' => 'ASSOCIATE DEGREE IN INFORMATION TECHNOLOGY',
@@ -19510,7 +19510,7 @@ class CoursesTableSeeder extends Seeder
                             'created_at' => NULL,
                             'updated_at' => NULL,
                         ),
-                        499 => 
+                        499 =>
                         array (
                             'id' => 1511,
                             'name' => 'ASSOCIATE DEGREE IN BANKING AND FINANCE',
@@ -19525,7 +19525,7 @@ class CoursesTableSeeder extends Seeder
                         ),
                     ));
         \DB::table('courses')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1512,
                 'name' => 'ASSOCIATE DEGREE IN PROFESSIONAL MULTIMEDIA AND ADVERTISING',
@@ -19538,7 +19538,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 1513,
                 'name' => 'ASSOCIATE DEGREE IN BUSINESS MARKETING',
@@ -19551,7 +19551,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 1514,
                 'name' => 'ASSOCIATES DEGREE IN IT',
@@ -19564,7 +19564,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 1515,
                 'name' => 'ASSOCIATES DEGREE GRAPHIC DESIGN AND ADVERTISING',
@@ -19577,7 +19577,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 1516,
                 'name' => 'ASSOCIATES DEGREE IN BUSINESS MANAGEMENT',
@@ -19590,7 +19590,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 1517,
                 'name' => 'ASSOCIATES DEGREE IN HUMAN RESOURCE MANAGEMENT',
@@ -19603,7 +19603,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 1518,
                 'name' => 'ASSOCIATES DEGREE IN BUSINESS MARKETING',
@@ -19616,7 +19616,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 1519,
                 'name' => 'ASSOCIATES DEGREE IN BANKING AND FINANCE',
@@ -19629,7 +19629,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 1520,
                 'name' => 'ASSOCIATE DEGREE IN BUSINESS ADMINISTRATION',
@@ -19642,7 +19642,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 1521,
             'name' => 'ASSOSIATE DEGREE IN TEACHING (PRIMARY AND MIDDLE SCHOOL)',
@@ -19655,7 +19655,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 1522,
                 'name' => 'ASSOCIATES DEGREE IN ACCOUNTING',
@@ -19668,7 +19668,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 1523,
                 'name' => 'ASSOCIATES DEGREE IN BUSINESS MANAGEMENT',
@@ -19681,7 +19681,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 1524,
                 'name' => 'ASSOCIATES DEGREE IN HUMAN RESOURCE MANAGEMENT',
@@ -19694,7 +19694,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 1525,
                 'name' => 'ASSOCIATES DEGREE IN MARKETING',
@@ -19707,7 +19707,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 1526,
                 'name' => 'ASSOCIATE DEGREE IN BUSINESS ADMINISTRATION',
@@ -19720,7 +19720,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 1527,
                 'name' => 'AIBS ASSOCIATE DEGREE IN MANAGEMENT',
@@ -19733,7 +19733,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 1528,
                 'name' => 'ASSOCIATES DEGREE IN INFORMATION TECHNOLOGY',
@@ -19746,7 +19746,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 1529,
             'name' => 'ASSOCIATE DEGREE IN EDUCATION (ECONOMICS)',
@@ -19759,7 +19759,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 1530,
             'name' => 'ASSOCIATE DEGREE IN EDUCATION (ACCOUNTING)',
@@ -19772,7 +19772,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            19 => 
+            19 =>
             array (
                 'id' => 1531,
             'name' => 'ASSOCIATE DEGREE IN EDUCATION (BUSINESS STUDIES)',
@@ -19785,7 +19785,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            20 => 
+            20 =>
             array (
                 'id' => 1532,
             'name' => 'ASSOCIATE DEGREE IN SECURITY AND LAW ENFORCEMENT STUDIES (ALSO PRESENTED AS YEAR 2 OF THE BACHELOR DEGREE IN SECURITY AND LAW ENFORCMENT)',
@@ -19798,7 +19798,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            21 => 
+            21 =>
             array (
                 'id' => 1533,
                 'name' => 'ASSOCIATE DEGREE IN INFORMATION TECHNOLOGY',
@@ -19811,7 +19811,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            22 => 
+            22 =>
             array (
                 'id' => 1534,
                 'name' => 'ASSOCIATE DEGREE IN PRIMARY TEACHING',
@@ -19824,7 +19824,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            23 => 
+            23 =>
             array (
                 'id' => 1535,
                 'name' => 'ASSOCIATE DEGREE IN HUMAN RESOURCE MANAGEMENT',
@@ -19837,7 +19837,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            24 => 
+            24 =>
             array (
                 'id' => 1536,
                 'name' => 'ASSOCIATE DEGREE IN BUSINESS MANAGEMENT',
@@ -19850,7 +19850,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            25 => 
+            25 =>
             array (
                 'id' => 1537,
                 'name' => 'ASSOCIATE DEGREE IN BANKING',
@@ -19863,7 +19863,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            26 => 
+            26 =>
             array (
                 'id' => 1538,
                 'name' => 'ASSOCIATE DEGREE IN HUMAN RESOURCE MANAGEMENT',
@@ -19876,7 +19876,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            27 => 
+            27 =>
             array (
                 'id' => 1539,
                 'name' => 'Associate Degree in Business',
@@ -19889,7 +19889,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            28 => 
+            28 =>
             array (
                 'id' => 1540,
             'name' => 'Associate Degree in Teaching (Primary and Middle School)',
@@ -19902,7 +19902,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            29 => 
+            29 =>
             array (
                 'id' => 1541,
                 'name' => 'Associate Degree in Imamship and Local Governance',
@@ -19915,7 +19915,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            30 => 
+            30 =>
             array (
                 'id' => 1542,
                 'name' => 'Associate Degree in Accounting and Finance',
@@ -19928,7 +19928,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            31 => 
+            31 =>
             array (
                 'id' => 1543,
                 'name' => 'ASSOCIATE DEGREE IN EARLY CHILDHOOD EDUCATION',
@@ -19941,7 +19941,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            32 => 
+            32 =>
             array (
                 'id' => 1544,
                 'name' => 'Associate Degree in Inclusive Education',
@@ -19954,7 +19954,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            33 => 
+            33 =>
             array (
                 'id' => 1546,
                 'name' => 'ASSOCIATE DEGREE IN INFORMATION TECHNOLOGY',
@@ -19967,7 +19967,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            34 => 
+            34 =>
             array (
                 'id' => 1547,
                 'name' => 'ASSOCIATE DEGREE IN BUSINESS AND MANAGEMENT',
@@ -19980,7 +19980,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            35 => 
+            35 =>
             array (
                 'id' => 1548,
                 'name' => 'ASSOCIATE DEGREE IN PROJECT MANAGEMENT',
@@ -19993,7 +19993,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            36 => 
+            36 =>
             array (
                 'id' => 1549,
                 'name' => 'ASSOCIATE DEGREE IN BUSINESS ADMINISTRATION',
@@ -20006,7 +20006,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            37 => 
+            37 =>
             array (
                 'id' => 1550,
             'name' => 'GRADUATE CERTIFICATE IN SHARIAH (GCS)',
@@ -20019,7 +20019,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            38 => 
+            38 =>
             array (
                 'id' => 1551,
             'name' => 'GRADUATE CERTIFICATE IN LAW (GCL)',
@@ -20032,7 +20032,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            39 => 
+            39 =>
             array (
                 'id' => 1552,
                 'name' => 'AIBS GRADUATE CERTIFICATE IN MANAGEMENT',
@@ -20045,7 +20045,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            40 => 
+            40 =>
             array (
                 'id' => 1553,
                 'name' => 'POSTGRADUATE CERTIFICATE IN E-LEARNING',
@@ -20058,7 +20058,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            41 => 
+            41 =>
             array (
                 'id' => 1554,
                 'name' => 'POSTGRADUATE CERTIFICATE IN BUSINESS ADMINISTRATION',
@@ -20071,7 +20071,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            42 => 
+            42 =>
             array (
                 'id' => 1555,
             'name' => 'POSTGRADUATE CERTIFICATE IN TEACHING ENGLISH TO SPEAKERS OF OTHER LANGUAGES (PGC IN TESOL)',
@@ -20084,7 +20084,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            43 => 
+            43 =>
             array (
                 'id' => 1556,
                 'name' => 'POSTGRADUATE CERTIFICATE IN RESEARCH STUDIES',
@@ -20097,7 +20097,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            44 => 
+            44 =>
             array (
                 'id' => 1557,
                 'name' => 'POSTGRADUATE CERTIFICATE IN BUSINESS ADMINISTRATION ',
@@ -20110,7 +20110,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            45 => 
+            45 =>
             array (
                 'id' => 1558,
             'name' => 'POSTGRADUATE CERTIFICATE EDUCATION (Awarded by University of the West of England)',
@@ -20123,7 +20123,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            46 => 
+            46 =>
             array (
                 'id' => 1559,
             'name' => 'POSTGRADUATE CERTIFICATE IN BUSINESS ADMINISTRATION (Awarded by University of the West of England)',
@@ -20136,7 +20136,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            47 => 
+            47 =>
             array (
                 'id' => 1560,
                 'name' => 'POSTGRADUATE CERTIFICATE IN EDUCATION',
@@ -20149,7 +20149,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            48 => 
+            48 =>
             array (
                 'id' => 1561,
                 'name' => 'POSTGRADUATE CERTIFICATE IN STRATEGIC MANAGEMENT AND LEADERSHIP',
@@ -20162,7 +20162,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            49 => 
+            49 =>
             array (
                 'id' => 1562,
                 'name' => 'POSTGRADUATE CERTIFICATE IN SHARIAH AND LAW',
@@ -20175,7 +20175,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            50 => 
+            50 =>
             array (
                 'id' => 1563,
                 'name' => 'POSTGRADUATE DIPLOMA IN EDUCATION',
@@ -20188,7 +20188,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            51 => 
+            51 =>
             array (
                 'id' => 1564,
                 'name' => 'POSTGRADUATE DIPLOMA IN PUBLIC HEALTH',
@@ -20201,7 +20201,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            52 => 
+            52 =>
             array (
                 'id' => 1565,
                 'name' => 'POSTGRADUATE DIPLOMA IN BUSINESS ADMINISTRTION',
@@ -20214,7 +20214,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            53 => 
+            53 =>
             array (
                 'id' => 1566,
                 'name' => 'POSTGRADUATE DIPLOMA IN TEACHING',
@@ -20227,7 +20227,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            54 => 
+            54 =>
             array (
                 'id' => 1567,
             'name' => 'POSTGRADUATE DIPLOMA IN TEACHING ENGLISH TO SPEAKERS OF OTHER LANGUAGES (PGD IN TESOL)',
@@ -20240,7 +20240,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            55 => 
+            55 =>
             array (
                 'id' => 1568,
                 'name' => 'POST GRADUATE DIPLOMA IN LEADERSHIP AND MANAGEMENT',
@@ -20253,7 +20253,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            56 => 
+            56 =>
             array (
                 'id' => 1569,
                 'name' => 'POSTGRADUATE DIPLOMA IN DEFENCE MANAGEMENT',
@@ -20266,7 +20266,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            57 => 
+            57 =>
             array (
                 'id' => 1570,
                 'name' => 'POSTGRADUATE DIPLOMA IN EDUCATION ',
@@ -20279,7 +20279,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            58 => 
+            58 =>
             array (
                 'id' => 1571,
                 'name' => 'POSTGRADUATE DIPLOMA IN STRATEGIC MANAGEMENT AND LEADERSHIP',
@@ -20292,7 +20292,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            59 => 
+            59 =>
             array (
                 'id' => 1572,
                 'name' => 'CTH POSTGRADUATE DIPLOMA IN HOSPITALITY AND TOURISM MANAGEMENT',
@@ -20305,7 +20305,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            60 => 
+            60 =>
             array (
                 'id' => 1573,
                 'name' => 'POSTGRADUATE DIPLOMA IN RESEARCH STUDIES',
@@ -20318,7 +20318,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            61 => 
+            61 =>
             array (
                 'id' => 1574,
                 'name' => 'POSTGRADUATE DIPLOMA IN PUBLIC HEALTH',
@@ -20331,7 +20331,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            62 => 
+            62 =>
             array (
                 'id' => 1575,
                 'name' => 'POSTGRADUATE DIPLOMA EDUCATION',
@@ -20344,7 +20344,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            63 => 
+            63 =>
             array (
                 'id' => 1576,
                 'name' => 'POSTGRADUATE DIPLOMA IN BUSINESS ADMINISTRATION',
@@ -20357,7 +20357,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            64 => 
+            64 =>
             array (
                 'id' => 1577,
                 'name' => 'POSTGRADUATE DIPLOMA IN EDUCATIONAL MANAGEMENT AND LEADERSHIP ',
@@ -20370,7 +20370,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            65 => 
+            65 =>
             array (
                 'id' => 1578,
                 'name' => 'POSTGRADUATE DIPLOMA IN BUSINESS ADMINISTRATION',
@@ -20383,7 +20383,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            66 => 
+            66 =>
             array (
                 'id' => 1579,
                 'name' => 'POSTGRADUATE DIPLOMA IN EDUCATION',
@@ -20396,7 +20396,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            67 => 
+            67 =>
             array (
                 'id' => 1580,
                 'name' => 'DOCTOR OF PHILOSOPHY IN ISLAMIC JUDICIAL SCIENCES AND LEGISLATIVE POLICY',
@@ -20409,7 +20409,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            68 => 
+            68 =>
             array (
                 'id' => 1581,
                 'name' => 'DOCTOR OF PHILOSOPHY IN FIQH AND USUL-AL-FIQH',
@@ -20422,7 +20422,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            69 => 
+            69 =>
             array (
                 'id' => 1582,
                 'name' => 'MASTER OF DHIVEHI LANGUAGE AND CULTURE',
@@ -20435,7 +20435,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            70 => 
+            70 =>
             array (
                 'id' => 1583,
                 'name' => 'MASTER OF ARTS IN SOCIAL POLICY',
@@ -20448,7 +20448,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            71 => 
+            71 =>
             array (
                 'id' => 1584,
                 'name' => 'MASTER OF EDUCATION ',
@@ -20461,7 +20461,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            72 => 
+            72 =>
             array (
                 'id' => 1585,
             'name' => 'MASTER OF EDUCATION (EDUCATIONAL ASSESSMENT)',
@@ -20474,7 +20474,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            73 => 
+            73 =>
             array (
                 'id' => 1586,
             'name' => 'MASTER OF EDUCATION (EDUCATIONAL MANAGEMENT AND LEADERSHIP)',
@@ -20487,7 +20487,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            74 => 
+            74 =>
             array (
                 'id' => 1587,
                 'name' => 'MASTER OF EDUCATION',
@@ -20500,7 +20500,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            75 => 
+            75 =>
             array (
                 'id' => 1588,
                 'name' => 'MASTER OF NURSING',
@@ -20513,7 +20513,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            76 => 
+            76 =>
             array (
                 'id' => 1589,
                 'name' => 'MASTER IN PUBLIC HEALTH',
@@ -20526,7 +20526,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            77 => 
+            77 =>
             array (
                 'id' => 1590,
                 'name' => 'MASTER OF BUSINESS ADMINISTRATION',
@@ -20539,7 +20539,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            78 => 
+            78 =>
             array (
                 'id' => 1591,
                 'name' => 'MASTER OF ARTS IN SHARIAH ',
@@ -20552,7 +20552,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            79 => 
+            79 =>
             array (
                 'id' => 1592,
             'name' => 'MASTER OF LAWS (LLM)',
@@ -20565,7 +20565,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            80 => 
+            80 =>
             array (
                 'id' => 1593,
             'name' => 'MASTERS IN ISLAMIC FINANCE PRACTICE (AWARDED FROM INTERNATIONAL CENTRE FOR EDUCATION IN ISLAMIC FINANCE)',
@@ -20578,7 +20578,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            81 => 
+            81 =>
             array (
                 'id' => 1594,
                 'name' => 'MASTER OF ISLAMIC REVEALED KNOWLEDGE AND LEADERSHIP',
@@ -20591,7 +20591,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            82 => 
+            82 =>
             array (
                 'id' => 1595,
                 'name' => 'MASTER OF COMPARATIVE LAWS',
@@ -20604,7 +20604,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            83 => 
+            83 =>
             array (
                 'id' => 1596,
             'name' => 'MASTER OF AQIDAH AND ISLAMIC THOUGHTS (COURSEWORK MODE, COURSEWORK AND RESEARCH MODE, RESEARCH MODE)',
@@ -20617,7 +20617,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            84 => 
+            84 =>
             array (
                 'id' => 1597,
                 'name' => 'MASTER OF QIRAAATH',
@@ -20630,7 +20630,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            85 => 
+            85 =>
             array (
                 'id' => 1598,
                 'name' => 'MASTER OF ISLAMIC JUDICIAL SCIENCES AND SHARIAH POLICY',
@@ -20643,7 +20643,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            86 => 
+            86 =>
             array (
                 'id' => 1599,
             'name' => 'MASTER OF ARTS IN TEACHING ENGLISH TO SPEAKERS OF OTHER LANGUAGES (MA IN TESOL)',
@@ -20656,7 +20656,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            87 => 
+            87 =>
             array (
                 'id' => 1600,
                 'name' => 'MASTER OF EDUCATIONAL LEADERSHIP AND MANAGEMENT',
@@ -20669,7 +20669,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            88 => 
+            88 =>
             array (
                 'id' => 1601,
             'name' => 'MASTER OF BUSINESS ADMINISTRATION (STRATEGIC MANAGEMENT)',
@@ -20682,7 +20682,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            89 => 
+            89 =>
             array (
                 'id' => 1602,
                 'name' => 'MASTER OF PROJECT MANAGEMENT',
@@ -20695,7 +20695,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            90 => 
+            90 =>
             array (
                 'id' => 1603,
                 'name' => 'MASTER OF BUSINESS ADMINISTRATION',
@@ -20708,7 +20708,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            91 => 
+            91 =>
             array (
                 'id' => 1604,
                 'name' => 'MASTER OF BUSINESS ADMINISTRATION',
@@ -20721,7 +20721,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            92 => 
+            92 =>
             array (
                 'id' => 1605,
                 'name' => 'MASTER OF BUSINESS ADMINISTRATION',
@@ -20734,7 +20734,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            93 => 
+            93 =>
             array (
                 'id' => 1606,
                 'name' => 'MASTER OF EDUCATION',
@@ -20747,7 +20747,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            94 => 
+            94 =>
             array (
                 'id' => 1607,
             'name' => 'AIBS MASTER OF BUSINESS ADMINISTRATION (MBA)',
@@ -20760,7 +20760,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            95 => 
+            95 =>
             array (
                 'id' => 1608,
                 'name' => 'MASTER OF ARTS IN EDUCATION - AWARDED BY OPEN UNIVERSITY MALAYSIA',
@@ -20773,7 +20773,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            96 => 
+            96 =>
             array (
                 'id' => 1609,
                 'name' => 'MASTER OF BUSINESS ADMINISTRATION - AWARDED BY OPEN UNIVERSITY',
@@ -20786,7 +20786,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            97 => 
+            97 =>
             array (
                 'id' => 1610,
                 'name' => 'MASTER OF EDUCATION',
@@ -20799,7 +20799,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            98 => 
+            98 =>
             array (
                 'id' => 1611,
                 'name' => 'MASTER OF SHARIAH',
@@ -20812,7 +20812,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            99 => 
+            99 =>
             array (
                 'id' => 1612,
                 'name' => 'MASTER OF EDUCATION',
@@ -20825,7 +20825,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            100 => 
+            100 =>
             array (
                 'id' => 1613,
             'name' => 'MASTER OF EDUCATION (Awarded by Open University Malaysia)',
@@ -20838,7 +20838,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            101 => 
+            101 =>
             array (
                 'id' => 1614,
                 'name' => 'MASTER OF INFORMATION TECHNOLOGY - AWARDED BY OPEN UNIVERSITY MALAYSIA',
@@ -20851,7 +20851,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            102 => 
+            102 =>
             array (
                 'id' => 1615,
                 'name' => 'MASTER OF RESEARCH STUDIES',
@@ -20864,7 +20864,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            103 => 
+            103 =>
             array (
                 'id' => 1616,
                 'name' => 'MASTER OF RESEARCH IN PUBLIC HEALTH',
@@ -20877,7 +20877,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            104 => 
+            104 =>
             array (
                 'id' => 1617,
                 'name' => 'MASTER OF BUSINESS ADMINISTRATION - AWARDED BY OPEN UNIVERSITY MALAYSIA',
@@ -20890,7 +20890,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            105 => 
+            105 =>
             array (
                 'id' => 1618,
                 'name' => 'MASTER OF BUSINESS ADMINISTRATION  - AWARDED BY UNIVERSITY OF THE WEST OF ENGLAND',
@@ -20903,7 +20903,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            106 => 
+            106 =>
             array (
                 'id' => 1619,
                 'name' => 'MA EDUCATION - AWARDED BY UNIVERSITY OF THE WEST OF ENGLAND',
@@ -20916,7 +20916,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            107 => 
+            107 =>
             array (
                 'id' => 1620,
             'name' => 'MSC IN INFORMATION TECHNOLOGY (AWARDING BODY - UNIVERSITY OF THE WEST OF ENGLAND)',
@@ -20929,7 +20929,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            108 => 
+            108 =>
             array (
                 'id' => 1621,
                 'name' => 'MASTER OF TEACHING - PRIMARY',
@@ -20942,7 +20942,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            109 => 
+            109 =>
             array (
                 'id' => 1622,
                 'name' => 'MASTER OF TEACHING - SECONDARY',
@@ -20955,7 +20955,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            110 => 
+            110 =>
             array (
                 'id' => 1623,
             'name' => 'MASTER OF ARTS IN JOURNALISM AND MEDIA COMMUNICATIONS (Name changes from POSTGRADUATE DIPLOMA IN JOURNALISM AND MEDIA COMMUNICATIONS effecive from 1s January 2018)',
@@ -20968,7 +20968,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            111 => 
+            111 =>
             array (
                 'id' => 1624,
             'name' => 'MSC ACCOUNTING AND FINANCE (AWARDING BODY - UNIVERSITY OF THE WEST OF ENGLAND) - Name changed from MSC ACCOUNTING AND FINANCIAL MANAGEMENT',
@@ -20981,7 +20981,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            112 => 
+            112 =>
             array (
                 'id' => 1625,
                 'name' => 'MASTER OF BUSINESS ADMINISTRATION',
@@ -20994,7 +20994,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            113 => 
+            113 =>
             array (
                 'id' => 1626,
                 'name' => 'MASTER OF HUMAN RESOURCE MANAGEMENT',
@@ -21007,7 +21007,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            114 => 
+            114 =>
             array (
                 'id' => 1627,
                 'name' => 'MASTERS OF EDUCATION',
@@ -21020,7 +21020,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            115 => 
+            115 =>
             array (
                 'id' => 1628,
             'name' => 'MASTER OF BUSINESS ADMINISTRATION (HOSPITALITY AND HEALTH SERVICES MANAGEMENT) - UNIVERSITY OF BEDFORDSHIRE',
@@ -21033,7 +21033,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            116 => 
+            116 =>
             array (
                 'id' => 1629,
                 'name' => 'MASTER OF BUSINESS ADMINISTRATION - UNIVERSITY OF BEDFORDSHIRE',
@@ -21046,7 +21046,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            117 => 
+            117 =>
             array (
                 'id' => 1630,
             'name' => 'MASTER OF BUSINESS ADMINISTRATION (FINANCE) - UNIVERSITY OF BEDFORDSHIRE',
@@ -21059,7 +21059,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            118 => 
+            118 =>
             array (
                 'id' => 1631,
                 'name' => 'MASTER OF PUBLIC ADMINISTRATION ',
@@ -21072,7 +21072,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            119 => 
+            119 =>
             array (
                 'id' => 1632,
                 'name' => 'MASTER OF PUBLIC ADMINISTRATION ',
@@ -21085,7 +21085,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            120 => 
+            120 =>
             array (
                 'id' => 1633,
                 'name' => 'MASTER OF EDUCATION IN TEACHING',
@@ -21098,7 +21098,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            121 => 
+            121 =>
             array (
                 'id' => 1634,
                 'name' => 'MASTER OF EDUCATION IN LEADERSHIP AND MANAGEMENT',
@@ -21111,7 +21111,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            122 => 
+            122 =>
             array (
                 'id' => 1635,
             'name' => 'MSC PUBLIC HEALTH (AWARDING BODY - UNIVERSITY OF THE WEST OF ENGLAND)',
@@ -21124,7 +21124,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            123 => 
+            123 =>
             array (
                 'id' => 1636,
                 'name' => 'MASTER OF EDUCATION BY COURSE WORK',
@@ -21137,7 +21137,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            124 => 
+            124 =>
             array (
                 'id' => 1637,
                 'name' => 'MASTER OF EDUCATION',
@@ -21150,7 +21150,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            125 => 
+            125 =>
             array (
                 'id' => 1638,
             'name' => 'MASTER OF SHARIAH AND LAW (Specializaion in Criminal Law)',
@@ -21163,7 +21163,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            126 => 
+            126 =>
             array (
                 'id' => 1639,
                 'name' => 'MASTER IN BUSINESS ADMINISTRATION ',
@@ -21176,7 +21176,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            127 => 
+            127 =>
             array (
                 'id' => 1640,
             'name' => 'MASTER OF BUSINESS ADMINISTRATION (INTERNATIONAL BUSINESS) MBA(IB)',
@@ -21189,7 +21189,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            128 => 
+            128 =>
             array (
                 'id' => 1641,
                 'name' => 'CERTIFICATE IV IN PYSCHOLOGY ',
@@ -21202,7 +21202,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            129 => 
+            129 =>
             array (
                 'id' => 1642,
                 'name' => 'CERTIFICATE I IN ENGLISH FOR WORKPLACE',
@@ -21215,7 +21215,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            130 => 
+            130 =>
             array (
                 'id' => 1643,
                 'name' => 'CERTIFICATE II IN ENGLISH FOR WORKPLACE',
@@ -21228,7 +21228,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            131 => 
+            131 =>
             array (
                 'id' => 1644,
             'name' => 'BACHELOR OF TEACHING (ISLAM AND DHIVEHI)',
@@ -21241,7 +21241,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            132 => 
+            132 =>
             array (
                 'id' => 1645,
                 'name' => 'Diploma in Arabic Language for Business Marketing',
@@ -21254,7 +21254,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            133 => 
+            133 =>
             array (
                 'id' => 1646,
                 'name' => 'Certificate 1 in Quran Memorization ',
@@ -21267,7 +21267,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            134 => 
+            134 =>
             array (
                 'id' => 1647,
                 'name' => 'Certificate 2 in Quran Memorization ',
@@ -21280,7 +21280,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            135 => 
+            135 =>
             array (
                 'id' => 1648,
                 'name' => 'Certificate 3 in Quran Memorization ',
@@ -21293,7 +21293,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            136 => 
+            136 =>
             array (
                 'id' => 1649,
                 'name' => 'Certificate III in Human Resource Management',
@@ -21306,7 +21306,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            137 => 
+            137 =>
             array (
                 'id' => 1650,
                 'name' => 'Postgradute Diploma in Educational Management and Leadership',
@@ -21319,7 +21319,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            138 => 
+            138 =>
             array (
                 'id' => 1651,
                 'name' => 'Certificate 1 in Robotics and Automation',
@@ -21332,7 +21332,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            139 => 
+            139 =>
             array (
                 'id' => 1652,
                 'name' => 'Certificate III in Building Maintenance ',
@@ -21345,7 +21345,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            140 => 
+            140 =>
             array (
                 'id' => 1653,
                 'name' => 'Certificate III in Building Construction ',
@@ -21358,7 +21358,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            141 => 
+            141 =>
             array (
                 'id' => 1654,
                 'name' => 'Certificate III in Land Serveying ',
@@ -21371,7 +21371,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            142 => 
+            142 =>
             array (
                 'id' => 1655,
                 'name' => 'Certificate III in Business Management ',
@@ -21384,7 +21384,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            143 => 
+            143 =>
             array (
                 'id' => 1656,
                 'name' => 'Certificate IV in Business Management ',
@@ -21397,7 +21397,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            144 => 
+            144 =>
             array (
                 'id' => 1657,
                 'name' => 'Diploma in Business Management   ',
@@ -21410,7 +21410,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            145 => 
+            145 =>
             array (
                 'id' => 1658,
                 'name' => 'Associate Degree in Business Management',
@@ -21423,7 +21423,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            146 => 
+            146 =>
             array (
                 'id' => 1659,
                 'name' => 'Certificate III in Administration, Management and Project Management',
@@ -21436,7 +21436,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            147 => 
+            147 =>
             array (
                 'id' => 1660,
                 'name' => 'Certificate III in Procument',
@@ -21449,7 +21449,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            148 => 
+            148 =>
             array (
                 'id' => 1661,
                 'name' => 'Diploma in Arabic Language',
@@ -21462,7 +21462,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            149 => 
+            149 =>
             array (
                 'id' => 1662,
                 'name' => 'Quran Mudharriskamuge Degree Course',
@@ -21475,7 +21475,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            150 => 
+            150 =>
             array (
                 'id' => 1663,
                 'name' => 'Diploma in Human Resource Management',
@@ -21488,7 +21488,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            151 => 
+            151 =>
             array (
                 'id' => 1664,
                 'name' => 'Postgraduate Certificate in Education',
@@ -21501,7 +21501,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            152 => 
+            152 =>
             array (
                 'id' => 1665,
                 'name' => 'Certificate III in Intelligence Foundation Studies ',
@@ -21514,7 +21514,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            153 => 
+            153 =>
             array (
                 'id' => 1666,
                 'name' => 'Certificate III in Refrigeration and Air-Conditioning ',
@@ -21527,7 +21527,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            154 => 
+            154 =>
             array (
                 'id' => 1667,
                 'name' => 'Certificate III in Welding and Metal Fabrication',
@@ -21540,7 +21540,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            155 => 
+            155 =>
             array (
                 'id' => 1668,
                 'name' => 'Certificate III in AutoMobile Engineering',
@@ -21553,7 +21553,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            156 => 
+            156 =>
             array (
                 'id' => 1669,
                 'name' => 'Certificate I in Arabic Language and Communication',
@@ -21566,7 +21566,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            157 => 
+            157 =>
             array (
                 'id' => 1670,
             'name' => 'Master of Shariah and Law (Specialization in Criminal Law)',
@@ -21579,7 +21579,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            158 => 
+            158 =>
             array (
                 'id' => 1671,
                 'name' => 'Postgraduate Certificate in Shari\'ah and Law',
@@ -21592,7 +21592,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            159 => 
+            159 =>
             array (
                 'id' => 1672,
                 'name' => 'Master of Business Administration',
@@ -21605,7 +21605,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            160 => 
+            160 =>
             array (
                 'id' => 1673,
                 'name' => 'Diploma in Accounting and Finance',
@@ -21618,7 +21618,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            161 => 
+            161 =>
             array (
                 'id' => 1674,
                 'name' => 'Associate Degree in Accounting and Finance',
@@ -21631,7 +21631,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            162 => 
+            162 =>
             array (
                 'id' => 1675,
                 'name' => 'Advanced Certificate for Imaams',
@@ -21644,7 +21644,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            163 => 
+            163 =>
             array (
                 'id' => 1676,
                 'name' => 'Certificate II in Qira\'ath',
@@ -21657,7 +21657,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            164 => 
+            164 =>
             array (
                 'id' => 1677,
                 'name' => 'Master of Business Administration ',
@@ -21670,7 +21670,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            165 => 
+            165 =>
             array (
                 'id' => 1678,
                 'name' => 'Certificate 3 in Arabic for Ibaadhah',
@@ -21683,7 +21683,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            166 => 
+            166 =>
             array (
                 'id' => 1679,
                 'name' => 'Certificate III in Sewing ',
@@ -21696,7 +21696,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            167 => 
+            167 =>
             array (
                 'id' => 1680,
                 'name' => 'Certificate III in Aerobics and Group Fitness Instructor ',
@@ -21709,7 +21709,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            168 => 
+            168 =>
             array (
                 'id' => 1681,
                 'name' => 'Advanced Certificate in Fitness Instructor and Personal Trainer ',
@@ -21722,7 +21722,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            169 => 
+            169 =>
             array (
                 'id' => 1682,
                 'name' => 'Associate Degree in Leadership and Management ',
@@ -21735,7 +21735,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            170 => 
+            170 =>
             array (
                 'id' => 1683,
                 'name' => 'Certificate III in Special Education',
@@ -21748,7 +21748,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            171 => 
+            171 =>
             array (
                 'id' => 1684,
                 'name' => 'MASTER OF INCLUSIVE SPECIAL EDUCATIONAL NEEDS',
@@ -21761,7 +21761,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            172 => 
+            172 =>
             array (
                 'id' => 1685,
                 'name' => 'Certificate I in English Language and Communication ',
@@ -21774,7 +21774,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            173 => 
+            173 =>
             array (
                 'id' => 1686,
                 'name' => 'Diploma in Information Technology',
@@ -21787,7 +21787,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            174 => 
+            174 =>
             array (
                 'id' => 1687,
                 'name' => 'Advanced Certificate in Early Childhood Education ',
@@ -21800,7 +21800,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            175 => 
+            175 =>
             array (
                 'id' => 1688,
                 'name' => 'Bachelor\'s in Early Childhood Education ',
@@ -21813,7 +21813,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            176 => 
+            176 =>
             array (
                 'id' => 1689,
             'name' => 'ABE Level 4 Diploma in Business Management and Marketing (Awarded by ABE, UK)',
@@ -21826,7 +21826,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            177 => 
+            177 =>
             array (
                 'id' => 1690,
             'name' => 'ABE Level 4 Diploma in Business Management and Human Resources (Awarded by ABE, UK)',
@@ -21839,7 +21839,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            178 => 
+            178 =>
             array (
                 'id' => 1691,
             'name' => 'BSc (HONS) IN APPLIED ACCOUNTING',
@@ -21852,7 +21852,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            179 => 
+            179 =>
             array (
                 'id' => 1692,
             'name' => 'ABE Level 5 Diploma in Business Management and Marketing (Awarded by ABE, UK)',
@@ -21865,7 +21865,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            180 => 
+            180 =>
             array (
                 'id' => 1693,
             'name' => 'ABE Level 5 Diploma in Business Management and Human Resources (Awarded by ABE, UK)',
@@ -21878,7 +21878,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            181 => 
+            181 =>
             array (
                 'id' => 1694,
             'name' => 'ABE Level 6 Diploma in Business Management and Marketing (Awarded by ABE, UK)',
@@ -21891,7 +21891,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            182 => 
+            182 =>
             array (
                 'id' => 1695,
                 'name' => 'ABE Level 6 Diploma in Business Management and Human Resources',
@@ -21904,7 +21904,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            183 => 
+            183 =>
             array (
                 'id' => 1696,
                 'name' => 'DIPLOMA IN SPORTS AND EXERCISE ',
@@ -21917,7 +21917,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            184 => 
+            184 =>
             array (
                 'id' => 1697,
                 'name' => 'Master of Education ',
@@ -21930,7 +21930,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            185 => 
+            185 =>
             array (
                 'id' => 1698,
                 'name' => 'Associate Degree in Qira\'th and Quranic Sciences',
@@ -21943,7 +21943,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            186 => 
+            186 =>
             array (
                 'id' => 1699,
             'name' => 'Diploma in Islamic Banking and Finance (Awarded by SAIIF, Maldives)',
@@ -21956,7 +21956,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            187 => 
+            187 =>
             array (
                 'id' => 1700,
                 'name' => 'Certificate III in Robotics and Automation ',
@@ -21969,7 +21969,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            188 => 
+            188 =>
             array (
                 'id' => 1701,
                 'name' => 'Certificate III in Project Management',
@@ -21982,7 +21982,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            189 => 
+            189 =>
             array (
                 'id' => 1702,
                 'name' => 'Advanced Certificate in Project Management',
@@ -21995,7 +21995,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            190 => 
+            190 =>
             array (
                 'id' => 1703,
                 'name' => 'Certificate IV in Business Management',
@@ -22008,7 +22008,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            191 => 
+            191 =>
             array (
                 'id' => 1704,
                 'name' => 'Diploma in Business Management',
@@ -22021,7 +22021,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            192 => 
+            192 =>
             array (
                 'id' => 1705,
                 'name' => 'Advanced Certificate in Electrical and Electronics Engineering',
@@ -22034,7 +22034,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            193 => 
+            193 =>
             array (
                 'id' => 1706,
                 'name' => 'Advanced Diploma in Electrical and Electronics Engineering',
@@ -22047,7 +22047,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            194 => 
+            194 =>
             array (
                 'id' => 1707,
                 'name' => 'Certificate III in Ladies Dressmaking',
@@ -22060,7 +22060,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            195 => 
+            195 =>
             array (
                 'id' => 1708,
             'name' => 'Advanced Certificate in Video and Film Production (Shooting)',
@@ -22073,7 +22073,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            196 => 
+            196 =>
             array (
                 'id' => 1709,
                 'name' => 'Certificate I in Information Technology',
@@ -22086,7 +22086,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            197 => 
+            197 =>
             array (
                 'id' => 1710,
                 'name' => 'Certificate II in Information Technology',
@@ -22099,7 +22099,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            198 => 
+            198 =>
             array (
                 'id' => 1711,
                 'name' => 'Certificate III in Information Technology',
@@ -22112,7 +22112,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            199 => 
+            199 =>
             array (
                 'id' => 1712,
                 'name' => 'Advanced Certificate in Information Technology',
@@ -22125,7 +22125,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            200 => 
+            200 =>
             array (
                 'id' => 1713,
                 'name' => 'Diploma in Marketing',
@@ -22138,7 +22138,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            201 => 
+            201 =>
             array (
                 'id' => 1714,
                 'name' => 'Foundation in Psychology',
@@ -22151,7 +22151,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            202 => 
+            202 =>
             array (
                 'id' => 1715,
                 'name' => 'Certificate IV in Information Communication Technology',
@@ -22164,7 +22164,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            203 => 
+            203 =>
             array (
                 'id' => 1716,
                 'name' => 'Masters in Early Childhood Education ',
@@ -22177,7 +22177,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            204 => 
+            204 =>
             array (
                 'id' => 1717,
                 'name' => 'Diploma in Human Resource Management',
@@ -22190,7 +22190,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            205 => 
+            205 =>
             array (
                 'id' => 1718,
                 'name' => 'Diploma in Business Management',
@@ -22203,7 +22203,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            206 => 
+            206 =>
             array (
                 'id' => 1719,
                 'name' => 'Diploma in Marketing',
@@ -22216,7 +22216,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            207 => 
+            207 =>
             array (
                 'id' => 1720,
                 'name' => 'Certificate IV in Robotics and Automation',
@@ -22229,7 +22229,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            208 => 
+            208 =>
             array (
                 'id' => 1721,
                 'name' => 'Masters in Teaching Dhivehi Language',
@@ -22242,7 +22242,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            209 => 
+            209 =>
             array (
                 'id' => 1722,
                 'name' => 'Advanced Certificate in Civil Engineering',
@@ -22255,7 +22255,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            210 => 
+            210 =>
             array (
                 'id' => 1723,
                 'name' => 'Diploma in Dhiraasathul Qur\'anil Kareem',
@@ -22268,7 +22268,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            211 => 
+            211 =>
             array (
                 'id' => 1724,
             'name' => 'Bachelor of Business Administration - Marketing (Top-Up)',
@@ -22281,7 +22281,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            212 => 
+            212 =>
             array (
                 'id' => 1725,
             'name' => 'Bachelor of Business Administration - Enterprise (Top-Up)',
@@ -22294,7 +22294,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            213 => 
+            213 =>
             array (
                 'id' => 1726,
             'name' => 'Bachelor of Business Administration - Human Resource Management (Top-Up)',
@@ -22307,7 +22307,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            214 => 
+            214 =>
             array (
                 'id' => 1727,
                 'name' => 'Certificate I in Qira\'ath',
@@ -22320,7 +22320,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            215 => 
+            215 =>
             array (
                 'id' => 1728,
                 'name' => 'Certificate II in Qira\'ath',
@@ -22333,7 +22333,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            216 => 
+            216 =>
             array (
                 'id' => 1729,
                 'name' => 'Certificate III in Qira\'ath',
@@ -22346,7 +22346,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            217 => 
+            217 =>
             array (
                 'id' => 1730,
                 'name' => 'Certificate IV in Information Technology',
@@ -22359,7 +22359,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            218 => 
+            218 =>
             array (
                 'id' => 1731,
                 'name' => 'Certificate III in Hairdressing',
@@ -22372,7 +22372,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            219 => 
+            219 =>
             array (
                 'id' => 1732,
             'name' => 'Diploma in Video and Film Production (Shooting)',
@@ -22385,7 +22385,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            220 => 
+            220 =>
             array (
                 'id' => 1733,
                 'name' => 'Master of Teaching Islamic Studies',
@@ -22398,7 +22398,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            221 => 
+            221 =>
             array (
                 'id' => 1734,
                 'name' => 'Master of Teaching Dhivehi Language',
@@ -22411,7 +22411,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            222 => 
+            222 =>
             array (
                 'id' => 1735,
                 'name' => 'Certificate III - Air Conditioning and Refrigeration Mechanic',
@@ -22424,7 +22424,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            223 => 
+            223 =>
             array (
                 'id' => 1736,
                 'name' => 'Certificate III - Engine Mechanic',
@@ -22437,7 +22437,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            224 => 
+            224 =>
             array (
                 'id' => 1737,
                 'name' => 'Certificate III - Electrician',
@@ -22450,7 +22450,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            225 => 
+            225 =>
             array (
                 'id' => 1738,
             'name' => 'Master of Teaching and Learning (Coursework)',
@@ -22463,7 +22463,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            226 => 
+            226 =>
             array (
                 'id' => 1739,
             'name' => 'Master of Teaching and Learning (Coursework and Research)',
@@ -22476,7 +22476,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            227 => 
+            227 =>
             array (
                 'id' => 1740,
             'name' => 'Master of Teaching and Learning (Research)',
@@ -22489,7 +22489,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            228 => 
+            228 =>
             array (
                 'id' => 1741,
                 'name' => 'Postgraduate Diploma in Shari\'ah',
@@ -22502,7 +22502,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            229 => 
+            229 =>
             array (
                 'id' => 1742,
                 'name' => 'Postgraduate Diploma in Law',
@@ -22515,7 +22515,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            230 => 
+            230 =>
             array (
                 'id' => 1743,
                 'name' => 'Advanced Certificate in English for Travel and Tourism',
@@ -22528,7 +22528,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            231 => 
+            231 =>
             array (
                 'id' => 1744,
                 'name' => 'Certificate I in Qira\'ath-Al-Quran',
@@ -22541,7 +22541,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            232 => 
+            232 =>
             array (
                 'id' => 1745,
                 'name' => 'Certificate II in Qira\'ath-Al-Quran',
@@ -22554,7 +22554,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            233 => 
+            233 =>
             array (
                 'id' => 1746,
                 'name' => 'Certificate III in Qira\'ath-Al-Quran',
@@ -22567,7 +22567,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            234 => 
+            234 =>
             array (
                 'id' => 1747,
                 'name' => 'Diploma in Teaching Islamic Studies',
@@ -22580,7 +22580,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            235 => 
+            235 =>
             array (
                 'id' => 1748,
                 'name' => 'Associate Degree in Teaching Islamic Studies',
@@ -22593,7 +22593,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            236 => 
+            236 =>
             array (
                 'id' => 1749,
                 'name' => 'Bachelor of Teaching Islamic Studies ',
@@ -22606,7 +22606,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            237 => 
+            237 =>
             array (
                 'id' => 1750,
                 'name' => 'Associate Degree in Teaching Quran',
@@ -22619,7 +22619,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            238 => 
+            238 =>
             array (
                 'id' => 1751,
                 'name' => 'Bachelor of Teaching Quran',
@@ -22632,7 +22632,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            239 => 
+            239 =>
             array (
                 'id' => 1752,
                 'name' => 'Associate Degree in Teaching Arabic Language',
@@ -22645,7 +22645,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            240 => 
+            240 =>
             array (
                 'id' => 1753,
                 'name' => 'Bachelor of Teaching Arabic Language',
@@ -22658,7 +22658,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            241 => 
+            241 =>
             array (
                 'id' => 1754,
                 'name' => 'Advanced Certificate in Mechanical Engineering',
@@ -22671,7 +22671,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            242 => 
+            242 =>
             array (
                 'id' => 1755,
                 'name' => 'Diploma in Law Enforcement Administration and Management ',
@@ -22684,7 +22684,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            243 => 
+            243 =>
             array (
                 'id' => 1756,
                 'name' => 'Diploma in Security and Risk Management',
@@ -22697,7 +22697,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            244 => 
+            244 =>
             array (
                 'id' => 1757,
                 'name' => 'Diploma in Digital Marketing',
@@ -22710,7 +22710,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            245 => 
+            245 =>
             array (
                 'id' => 1758,
                 'name' => 'Diploma in Digital Marketing',
@@ -22723,7 +22723,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            246 => 
+            246 =>
             array (
                 'id' => 1759,
                 'name' => 'Diploma in Marketing',
@@ -22736,7 +22736,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            247 => 
+            247 =>
             array (
                 'id' => 1760,
                 'name' => 'MSc in Business and Management ',
@@ -22749,7 +22749,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            248 => 
+            248 =>
             array (
                 'id' => 1761,
             'name' => 'Advanced Diploma in Teaching (Teaching English to Speakers of Other Language)',
@@ -22762,7 +22762,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            249 => 
+            249 =>
             array (
                 'id' => 1762,
                 'name' => 'Advanced Diploma in Teaching Mathematics',
@@ -22775,7 +22775,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            250 => 
+            250 =>
             array (
                 'id' => 1763,
                 'name' => 'Certificate III in Guesthouse Management',
@@ -22788,7 +22788,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            251 => 
+            251 =>
             array (
                 'id' => 1764,
                 'name' => 'Advanced Certificate in Marine Mechanic ',
@@ -22801,7 +22801,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            252 => 
+            252 =>
             array (
                 'id' => 1765,
                 'name' => 'DIPLOMA IN MARINE ENGINEERING',
@@ -22814,7 +22814,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            253 => 
+            253 =>
             array (
                 'id' => 1766,
                 'name' => 'Advanced Certificate in Automotive Engineering ',
@@ -22827,7 +22827,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            254 => 
+            254 =>
             array (
                 'id' => 1767,
                 'name' => 'Advanced Certificate in Architectural Technology and Design',
@@ -22840,7 +22840,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            255 => 
+            255 =>
             array (
                 'id' => 1768,
                 'name' => 'Certificate I in Child Care',
@@ -22853,7 +22853,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            256 => 
+            256 =>
             array (
                 'id' => 1769,
                 'name' => 'Diploma in Human Resource Management',
@@ -22866,7 +22866,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            257 => 
+            257 =>
             array (
                 'id' => 1770,
                 'name' => 'Advanced Diploma in Marketing',
@@ -22879,7 +22879,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            258 => 
+            258 =>
             array (
                 'id' => 1771,
                 'name' => 'Certificate III in Project Management',
@@ -22892,7 +22892,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            259 => 
+            259 =>
             array (
                 'id' => 1772,
                 'name' => 'Advanced Certificate in Project Management',
@@ -22905,7 +22905,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            260 => 
+            260 =>
             array (
                 'id' => 1773,
                 'name' => 'Diploma in Project Management ',
@@ -22918,7 +22918,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            261 => 
+            261 =>
             array (
                 'id' => 1774,
                 'name' => 'Master of Inclusive Education',
@@ -22931,7 +22931,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            262 => 
+            262 =>
             array (
                 'id' => 1775,
                 'name' => 'Bachelor of Office Management',
@@ -22944,7 +22944,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            263 => 
+            263 =>
             array (
                 'id' => 1776,
                 'name' => 'Master of Business Administration ',
@@ -22957,7 +22957,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            264 => 
+            264 =>
             array (
                 'id' => 1777,
                 'name' => 'Diploma in International Tourism and Hospitality Management',
@@ -22970,7 +22970,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            265 => 
+            265 =>
             array (
                 'id' => 1778,
                 'name' => 'Bachelor of Science in Banking and International Finanace',
@@ -22983,7 +22983,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            266 => 
+            266 =>
             array (
                 'id' => 1779,
                 'name' => 'Diploma in Office Management and Human Resource ',
@@ -22996,7 +22996,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            267 => 
+            267 =>
             array (
                 'id' => 1780,
                 'name' => 'Certificate II in House Wiring and Electrician ',
@@ -23009,7 +23009,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            268 => 
+            268 =>
             array (
                 'id' => 1781,
                 'name' => 'Bachelor of Hospitality Management',
@@ -23022,7 +23022,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            269 => 
+            269 =>
             array (
                 'id' => 1782,
                 'name' => 'Associate Degree in Hospitality Management',
@@ -23035,7 +23035,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            270 => 
+            270 =>
             array (
                 'id' => 1783,
                 'name' => 'Diploma in Hospitality Management',
@@ -23048,7 +23048,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            271 => 
+            271 =>
             array (
                 'id' => 1785,
                 'name' => 'Certificate III in Information Technology',
@@ -23061,7 +23061,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            272 => 
+            272 =>
             array (
                 'id' => 1786,
                 'name' => 'Certificate IV in Hospitality and Tourism Management',
@@ -23074,7 +23074,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            273 => 
+            273 =>
             array (
                 'id' => 1787,
                 'name' => 'Diploma in Intelligence Management',
@@ -23087,7 +23087,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            274 => 
+            274 =>
             array (
                 'id' => 1788,
             'name' => 'Postgraduate Certificate in Public Health (Awarded by University of the West of England) ',
@@ -23100,7 +23100,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            275 => 
+            275 =>
             array (
                 'id' => 1789,
                 'name' => 'Bachelor of Science in Accounting and Finance ',
@@ -23113,7 +23113,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            276 => 
+            276 =>
             array (
                 'id' => 1790,
                 'name' => 'Certificate III in Business and Marketing',
@@ -23126,7 +23126,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            277 => 
+            277 =>
             array (
                 'id' => 1791,
                 'name' => 'Advanced Certificate in Business and Marketing',
@@ -23139,7 +23139,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            278 => 
+            278 =>
             array (
                 'id' => 1792,
                 'name' => 'Diploma in Business and Marketing',
@@ -23152,7 +23152,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            279 => 
+            279 =>
             array (
                 'id' => 1793,
             'name' => 'Master of Information Technology (Big Data and Data Science)',
@@ -23165,7 +23165,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            280 => 
+            280 =>
             array (
                 'id' => 1794,
                 'name' => 'Advanced Certificate in Foundation Studies',
@@ -23178,7 +23178,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            281 => 
+            281 =>
             array (
                 'id' => 1796,
                 'name' => 'Certificate IV in Marketing Management',
@@ -23191,7 +23191,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            282 => 
+            282 =>
             array (
                 'id' => 1797,
                 'name' => 'Certificate III in Professional Development',
@@ -23204,7 +23204,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            283 => 
+            283 =>
             array (
                 'id' => 1798,
                 'name' => 'Associate Degree in Digital Marketing',
@@ -23217,7 +23217,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            284 => 
+            284 =>
             array (
                 'id' => 1799,
                 'name' => 'Certificate IV in Qira\'ath',
@@ -23230,7 +23230,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            285 => 
+            285 =>
             array (
                 'id' => 1800,
                 'name' => 'Advanced Diploma in Mechanical Engineering',
@@ -23243,7 +23243,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            286 => 
+            286 =>
             array (
                 'id' => 1801,
                 'name' => 'Advanced Diploma in Business Management',
@@ -23256,7 +23256,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            287 => 
+            287 =>
             array (
                 'id' => 1802,
                 'name' => 'Diploma in Banking and Finance',
@@ -23269,7 +23269,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            288 => 
+            288 =>
             array (
                 'id' => 1803,
                 'name' => 'BA in Tourism and Hotel Management',
@@ -23282,7 +23282,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            289 => 
+            289 =>
             array (
                 'id' => 1804,
                 'name' => 'Diploma in Information Technology',
@@ -23295,7 +23295,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            290 => 
+            290 =>
             array (
                 'id' => 1805,
                 'name' => 'Certificate III in English Language',
@@ -23308,7 +23308,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            291 => 
+            291 =>
             array (
                 'id' => 1806,
                 'name' => 'Bachelor of Information Technology ',
@@ -23321,7 +23321,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            292 => 
+            292 =>
             array (
                 'id' => 1807,
                 'name' => 'Advanced Certificate in Information Technology',
@@ -23334,7 +23334,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            293 => 
+            293 =>
             array (
                 'id' => 1808,
             'name' => 'Bachelor of Vocational Education (Creative Multimedia) with Honors (Awarded by Universiti Tun Hussen Onn / Malaysia )',
@@ -23347,7 +23347,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            294 => 
+            294 =>
             array (
                 'id' => 1809,
             'name' => 'Master of Leadership and Management (Awarded by Charles Staurt University / Australia)',
@@ -23360,7 +23360,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            295 => 
+            295 =>
             array (
                 'id' => 1810,
             'name' => 'Graduate Diploma in Leadership and Management (Awarded by Charles Staurt University / Australia)',
@@ -23373,7 +23373,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            296 => 
+            296 =>
             array (
                 'id' => 1811,
             'name' => 'Graduate Certificate in Leadership and Management (Awarded by Charles Staurt University / Australia)',
@@ -23386,7 +23386,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            297 => 
+            297 =>
             array (
                 'id' => 1812,
                 'name' => 'Certificate III in Business Management',
@@ -23399,7 +23399,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            298 => 
+            298 =>
             array (
                 'id' => 1813,
                 'name' => 'ADVANCED CERTIFICATE IN BUSINESS ADMINISTRATION AND PROCUREMENT, LOGISTICS AND SUPPLY CHAIN MANAGEMENT',
@@ -23412,7 +23412,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            299 => 
+            299 =>
             array (
                 'id' => 1814,
                 'name' => 'ADVANCED CERTIFICATE IN BUSINESS ADMINISTRATION AND TOURISM MANAGEMENT',
@@ -23425,7 +23425,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            300 => 
+            300 =>
             array (
                 'id' => 1815,
                 'name' => 'ADVANCED CERTIFICATE IN BUSINESS ADMINISTRATION AND ACCOUNTING',
@@ -23438,7 +23438,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            301 => 
+            301 =>
             array (
                 'id' => 1816,
                 'name' => 'ADVANCED CERTIFICATE IN BUSINESS ADMINISTRATION AND MARKETING MANAGEMENT',
@@ -23451,7 +23451,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            302 => 
+            302 =>
             array (
                 'id' => 1817,
                 'name' => 'ADVANCED CERTIFICATE IN BUSINESS ADMINISTRATION AND HUMAN RESOURCE MANAGEMENT',
@@ -23464,7 +23464,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            303 => 
+            303 =>
             array (
                 'id' => 1818,
                 'name' => 'ADVANCED CERTIFICATE IN BUSINESS ADMINISTRATION AND PROJECT MANAGEMENT',
@@ -23477,7 +23477,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            304 => 
+            304 =>
             array (
                 'id' => 1819,
                 'name' => 'ADVANCED CERTIFICATE IN ACCOUNTING',
@@ -23490,7 +23490,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            305 => 
+            305 =>
             array (
                 'id' => 1820,
                 'name' => 'ADVANCED CERTIFICATE IN MARKETING MANAGEMENT ',
@@ -23503,7 +23503,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            306 => 
+            306 =>
             array (
                 'id' => 1821,
                 'name' => 'ADVANCED CERTIFICATE IN HUMAN RESOURCE MANAGEMENT',
@@ -23516,7 +23516,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            307 => 
+            307 =>
             array (
                 'id' => 1822,
                 'name' => 'ADVANCED CERTIFICATE IN PROCUREMENT, LOGISTICS AND SUPPLY CHAIN MANAGEMENT ',
@@ -23529,7 +23529,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            308 => 
+            308 =>
             array (
                 'id' => 1823,
                 'name' => 'ADVANCED CERTIFICATE IN PROJECT MANAGEMENT ',
@@ -23542,7 +23542,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            309 => 
+            309 =>
             array (
                 'id' => 1824,
                 'name' => 'BACHELORS DEGREE IN SHARIA AND LAW',
@@ -23555,7 +23555,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            310 => 
+            310 =>
             array (
                 'id' => 1825,
                 'name' => 'ASSOCIATE DEGREE IN SHARIA AND LAW',
@@ -23568,7 +23568,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            311 => 
+            311 =>
             array (
                 'id' => 1826,
                 'name' => 'DIPLOMA IN SHARIA AND LAW',
@@ -23581,7 +23581,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            312 => 
+            312 =>
             array (
                 'id' => 1827,
                 'name' => 'Certificate I for Imaam',
@@ -23594,7 +23594,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            313 => 
+            313 =>
             array (
                 'id' => 1828,
                 'name' => 'Certificate II for Imaam',
@@ -23607,7 +23607,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            314 => 
+            314 =>
             array (
                 'id' => 1829,
                 'name' => 'Certificate III for Imaam',
@@ -23620,7 +23620,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            315 => 
+            315 =>
             array (
                 'id' => 1830,
                 'name' => 'Certificate IV for Imaam',
@@ -23633,7 +23633,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            316 => 
+            316 =>
             array (
                 'id' => 1831,
                 'name' => 'Certificate I in Qira\'ath',
@@ -23646,7 +23646,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            317 => 
+            317 =>
             array (
                 'id' => 1832,
                 'name' => 'Certificate II in Qira\'ath',
@@ -23659,7 +23659,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            318 => 
+            318 =>
             array (
                 'id' => 1833,
                 'name' => 'Certificate III in Qira\'ath',
@@ -23672,7 +23672,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            319 => 
+            319 =>
             array (
                 'id' => 1834,
                 'name' => 'Certificate I in Arabic Language ',
@@ -23685,7 +23685,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            320 => 
+            320 =>
             array (
                 'id' => 1835,
                 'name' => 'Certificate II in Arabic Language',
@@ -23698,7 +23698,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            321 => 
+            321 =>
             array (
                 'id' => 1836,
                 'name' => 'Certificate III in Arabic Language',
@@ -23711,7 +23711,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            322 => 
+            322 =>
             array (
                 'id' => 1837,
                 'name' => 'Certificate III in Arabic Language',
@@ -23724,7 +23724,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            323 => 
+            323 =>
             array (
                 'id' => 1838,
                 'name' => 'Diploma in Teaching Quran',
@@ -23737,7 +23737,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            324 => 
+            324 =>
             array (
                 'id' => 1839,
                 'name' => 'BACHELOR OF MARKETING MANAGEMENT ',
@@ -23750,7 +23750,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            325 => 
+            325 =>
             array (
                 'id' => 1840,
                 'name' => 'DIPLOMA IN MARKETING MANAGEMENT',
@@ -23763,7 +23763,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            326 => 
+            326 =>
             array (
                 'id' => 1841,
                 'name' => 'BACHELOR OF HUMAN RESOURCE MANAGEMENT',
@@ -23776,7 +23776,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            327 => 
+            327 =>
             array (
                 'id' => 1842,
                 'name' => 'DIPLOMA IN HUMAN RESOURCE MANAGEMENT ',
@@ -23789,7 +23789,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            328 => 
+            328 =>
             array (
                 'id' => 1843,
                 'name' => 'BACHELOR OF BUSINESS ADMINISTRATION ',
@@ -23802,7 +23802,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            329 => 
+            329 =>
             array (
                 'id' => 1844,
                 'name' => 'DIPLOMA IN BUSINESS ADMINISTRATION ',
@@ -23815,7 +23815,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            330 => 
+            330 =>
             array (
                 'id' => 1845,
                 'name' => 'BACHELOR OF PROJECT MANAGEMENT ',
@@ -23828,7 +23828,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            331 => 
+            331 =>
             array (
                 'id' => 1846,
                 'name' => 'ASSOCIATE DEGREE IN PROJECT MANAGEMENT ',
@@ -23841,7 +23841,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            332 => 
+            332 =>
             array (
                 'id' => 1847,
                 'name' => 'DIPLOMA IN PROJECT MANAGEMENT ',
@@ -23854,7 +23854,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            333 => 
+            333 =>
             array (
                 'id' => 1848,
                 'name' => 'BACHELOR OF TOURISM MANAGEMENT ',
@@ -23867,7 +23867,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            334 => 
+            334 =>
             array (
                 'id' => 1849,
                 'name' => 'ASSOCIATE DEGREE IN TOURISM MANAGEMENT ',
@@ -23880,7 +23880,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            335 => 
+            335 =>
             array (
                 'id' => 1850,
                 'name' => 'DIPLOMA IN TOURISM MANAGEMENT ',
@@ -23893,7 +23893,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            336 => 
+            336 =>
             array (
                 'id' => 1851,
                 'name' => 'BACHELOR OF PROCUREMENT, LOGISTICS AND SUPPLY CHAIN MANAGEMENT ',
@@ -23906,7 +23906,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            337 => 
+            337 =>
             array (
                 'id' => 1852,
                 'name' => 'ASSOCIATE DEGREE IN PROCUREMENT, LOGISTICS AND SUPPLY CHAIN MANAGEMENT ',
@@ -23919,7 +23919,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            338 => 
+            338 =>
             array (
                 'id' => 1853,
                 'name' => 'DIPLOMA IN PROCUREMENT, LOGISTICS AND SUPPLY CHAIN MANAGEMENT ',
@@ -23932,7 +23932,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            339 => 
+            339 =>
             array (
                 'id' => 1854,
                 'name' => 'BACHELOR OF ACCOUNTING AND BUSINESS',
@@ -23945,7 +23945,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            340 => 
+            340 =>
             array (
                 'id' => 1855,
                 'name' => 'DIPLOMA IN ACCOUNTING AND BUSINESS',
@@ -23958,7 +23958,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            341 => 
+            341 =>
             array (
                 'id' => 1856,
                 'name' => 'Certificate II in Qira\'ath',
@@ -23971,7 +23971,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            342 => 
+            342 =>
             array (
                 'id' => 1857,
                 'name' => 'Diploma in Information Technology',
@@ -23984,7 +23984,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            343 => 
+            343 =>
             array (
                 'id' => 1858,
                 'name' => 'Advanced Certificate in Islamic Shari\'ah and Law',
@@ -23997,7 +23997,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            344 => 
+            344 =>
             array (
                 'id' => 1859,
                 'name' => 'Advanced Certificate in Software Development',
@@ -24010,7 +24010,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            345 => 
+            345 =>
             array (
                 'id' => 1860,
                 'name' => 'Certificate III for Imaams',
@@ -24023,7 +24023,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            346 => 
+            346 =>
             array (
                 'id' => 1861,
                 'name' => 'Certificate III in Special Education',
@@ -24036,7 +24036,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            347 => 
+            347 =>
             array (
                 'id' => 1862,
                 'name' => 'Associate Degree in Information Technology',
@@ -24049,7 +24049,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            348 => 
+            348 =>
             array (
                 'id' => 1863,
                 'name' => 'DIPLOMA IN TEACHING QURAN AND ISLAM',
@@ -24062,7 +24062,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            349 => 
+            349 =>
             array (
                 'id' => 1864,
                 'name' => 'ASSOCIATE DEGREE OF TEACHING QURAN AND ISLAM',
@@ -24075,7 +24075,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            350 => 
+            350 =>
             array (
                 'id' => 1865,
                 'name' => 'CERTIFICATE III IN SPOKEN AND WRITTEN ENGLISH',
@@ -24088,7 +24088,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            351 => 
+            351 =>
             array (
                 'id' => 1866,
                 'name' => 'BA in Banking and Finance',
@@ -24101,7 +24101,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            352 => 
+            352 =>
             array (
                 'id' => 1867,
                 'name' => 'CERTIFICATE III IN HEALTH SCIENCES',
@@ -24114,7 +24114,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            353 => 
+            353 =>
             array (
                 'id' => 1868,
                 'name' => 'CERTIFICATE III IN PUBLIC ADMINISTRATION ',
@@ -24127,7 +24127,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            354 => 
+            354 =>
             array (
                 'id' => 1869,
                 'name' => 'ADVANCED CERTIFICATE IN PUBLIC ADMINISTRATION ',
@@ -24140,7 +24140,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            355 => 
+            355 =>
             array (
                 'id' => 1870,
                 'name' => 'POSTGRADUATE CERTIFICATE OF TEACHING IN HIGHER EDUCATION ',
@@ -24153,7 +24153,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            356 => 
+            356 =>
             array (
                 'id' => 1871,
                 'name' => 'DIPLOMA IN TEACHING SPECIAL EDUCATION NEEDS',
@@ -24166,7 +24166,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            357 => 
+            357 =>
             array (
                 'id' => 1872,
             'name' => 'ASSOCIATE DEGREE IN TEACHING (SPECIAL EDUCATION NEEDS)',
@@ -24179,7 +24179,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            358 => 
+            358 =>
             array (
                 'id' => 1873,
             'name' => 'BACHELORS OF TEACHING (SPECIAL EDUCATION NEEDS)',
@@ -24192,7 +24192,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            359 => 
+            359 =>
             array (
                 'id' => 1874,
             'name' => 'MASTER OF SCIENCE (INFORMATION TECHNOLOGY ENTREPRENEURSHIP) - AWARDING BODY (UNIVERSITI TEKNOLOGI - MALAYSIA)',
@@ -24205,7 +24205,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            360 => 
+            360 =>
             array (
                 'id' => 1875,
                 'name' => 'CERTIFICATE IV IN FOUNDATION STUDIES ',
@@ -24218,7 +24218,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            361 => 
+            361 =>
             array (
                 'id' => 1876,
             'name' => 'MASTER OF EDUCATION (DHIVEHI LANGUAGE TEACHING)',
@@ -24231,7 +24231,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            362 => 
+            362 =>
             array (
                 'id' => 1877,
                 'name' => 'DIPLOMA IN PSYCHOLOGY',
@@ -24244,7 +24244,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            363 => 
+            363 =>
             array (
                 'id' => 1878,
             'name' => 'ADVANCED CERTIFICATE IN BIOLOGICAL SCIENCES (Awarded by International Institute of Health Science, Welisara, SriLanka)',
@@ -24257,7 +24257,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            364 => 
+            364 =>
             array (
                 'id' => 1879,
                 'name' => 'ADVANCED CERTIFICATE IN SPECIAL EDUCATION ',
@@ -24270,7 +24270,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            365 => 
+            365 =>
             array (
                 'id' => 1880,
                 'name' => 'DIPLOMA IN INCLUSIVE AND SPECIAL EDUCATIONAL NEEDS',
@@ -24283,7 +24283,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            366 => 
+            366 =>
             array (
                 'id' => 1881,
                 'name' => 'ASSOCIATE DEGREE IN INCLUSIVE AND SPECIAL EDUCATIONAL NEEDS',
@@ -24296,7 +24296,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            367 => 
+            367 =>
             array (
                 'id' => 1882,
                 'name' => 'BACHELORS IN INCLUSIVE AND SPECIAL EDUCATIONAL NEEDS',
@@ -24309,7 +24309,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            368 => 
+            368 =>
             array (
                 'id' => 1883,
             'name' => 'MASTER OF BUSINESS ADMINISTRATION (GENERAL MANAGEMENT) - (Awarded by SEGi University , Malaysia)',
@@ -24322,7 +24322,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            369 => 
+            369 =>
             array (
                 'id' => 1884,
             'name' => 'BACHELOR OF BUSINESS MANAGEMENT (HONS) - (Awarded by SEGi University , Malaysia) ',
@@ -24335,7 +24335,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            370 => 
+            370 =>
             array (
                 'id' => 1885,
             'name' => 'BACHELOR OF BUSINESS MANAGEMENT (HONS) HUMAN RESOURCE MANAGEMENT - (Awarded - SEGi University , Malaysia) ',
@@ -24348,7 +24348,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            371 => 
+            371 =>
             array (
                 'id' => 1886,
             'name' => 'BACHELOR OF BUSINESS MANAGEMENT (HONS) MARKETING MANAGEMENT - (Awarded by SEGi University , Malaysia) ',
@@ -24361,7 +24361,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            372 => 
+            372 =>
             array (
                 'id' => 1887,
                 'name' => 'DIPLOMA IN BUSINESS ADMINISTRATION ',
@@ -24374,7 +24374,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            373 => 
+            373 =>
             array (
                 'id' => 1888,
                 'name' => 'DIPLOMA IN ACCOUNT AND FINANCE',
@@ -24387,7 +24387,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            374 => 
+            374 =>
             array (
                 'id' => 1889,
                 'name' => 'CERTIFICATE IV IN OFFICE MANAGEMENT',
@@ -24400,7 +24400,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            375 => 
+            375 =>
             array (
                 'id' => 1890,
                 'name' => 'DIPLOMA IN OFFICE MANAGEMENT',
@@ -24413,7 +24413,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            376 => 
+            376 =>
             array (
                 'id' => 1891,
                 'name' => 'CERTIFICATE IV IN CREATIVE ARTS AND DESIGN ',
@@ -24426,7 +24426,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            377 => 
+            377 =>
             array (
                 'id' => 1892,
                 'name' => 'ADVANCED CERTIFICATE IN BUSINESS ADMINISTRATION ',
@@ -24439,7 +24439,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            378 => 
+            378 =>
             array (
                 'id' => 1893,
                 'name' => 'ASSOCIATE DEGREE IN HUMAN RESOURCE MANAGEMENT',
@@ -24452,7 +24452,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            379 => 
+            379 =>
             array (
                 'id' => 1894,
                 'name' => 'ASSOCIATE DEGREE IN MARKETING MANAGEMENT',
@@ -24465,7 +24465,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            380 => 
+            380 =>
             array (
                 'id' => 1895,
                 'name' => 'ASSOCIATE DEGREE IN ACCOUNTING AND BUSINESS',
@@ -24478,7 +24478,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            381 => 
+            381 =>
             array (
                 'id' => 1896,
                 'name' => 'CERTIFICATE III IN GUEST HOUSE MANAGEMENT ',
@@ -24491,7 +24491,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            382 => 
+            382 =>
             array (
                 'id' => 1897,
             'name' => 'BSc (Hons) ACCOUNTING AND FINANCE - Awarded by UNIVERSITY OF THE WEST OF ENGLAND - United Kingdom',
@@ -24504,7 +24504,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            383 => 
+            383 =>
             array (
                 'id' => 1898,
                 'name' => 'BACHELORS OF SHARIA AND LAW',
@@ -24517,7 +24517,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            384 => 
+            384 =>
             array (
                 'id' => 1899,
                 'name' => 'CERTIFICATE III IN EARLY CHILDHOOD EDUCATION ',
@@ -24530,7 +24530,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            385 => 
+            385 =>
             array (
                 'id' => 1900,
                 'name' => 'ADVANCED CERTIFICATE IN EARLY CHILDHOOD EDUCATION ',
@@ -24543,7 +24543,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            386 => 
+            386 =>
             array (
                 'id' => 1901,
                 'name' => 'CERTIFICATE I IN NETWORKING ',
@@ -24556,7 +24556,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            387 => 
+            387 =>
             array (
                 'id' => 1902,
                 'name' => 'DIPLOMA IN PROJECT PLANNING AND MANAGEMENT',
@@ -24569,7 +24569,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            388 => 
+            388 =>
             array (
                 'id' => 1903,
                 'name' => 'ASSOCIATE DEGREE IN PROJECT PLANNING AND MANAGEMENT',
@@ -24582,7 +24582,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            389 => 
+            389 =>
             array (
                 'id' => 1904,
                 'name' => 'BACHELOR OF BUSINESS MANAGEMENT ',
@@ -24595,7 +24595,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            390 => 
+            390 =>
             array (
                 'id' => 1905,
                 'name' => 'CERTIFICATE IV IN  ACCOUNTING AND FINANCE',
@@ -24608,7 +24608,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            391 => 
+            391 =>
             array (
                 'id' => 1906,
                 'name' => 'CERTIFICATE IV IN BUSINESS AND HUMAN RESOURCE MANAGEMENT',
@@ -24621,7 +24621,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            392 => 
+            392 =>
             array (
                 'id' => 1907,
                 'name' => 'CERTIFICATE IV IN BUSINESS AND MARKETING MANAGEMENT',
@@ -24634,7 +24634,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            393 => 
+            393 =>
             array (
                 'id' => 1908,
                 'name' => 'CERTIFICATE IV IN BUSINESS MANAGEMENT AND ADMINISTRATION',
@@ -24647,7 +24647,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            394 => 
+            394 =>
             array (
                 'id' => 1909,
                 'name' => 'CERTIFICATE I IN RULES OF JANAZAH',
@@ -24660,7 +24660,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            395 => 
+            395 =>
             array (
                 'id' => 1910,
                 'name' => 'CERTIFICATE I IN ARABIC LANGUAGE',
@@ -24673,7 +24673,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            396 => 
+            396 =>
             array (
                 'id' => 1911,
                 'name' => 'CERTIFICATE II IN ARABIC LANGUAGE',
@@ -24686,7 +24686,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            397 => 
+            397 =>
             array (
                 'id' => 1912,
                 'name' => 'CERTIFICATE III IN ARABIC LANGUAGE',
@@ -24699,7 +24699,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            398 => 
+            398 =>
             array (
                 'id' => 1913,
                 'name' => 'Advanced Certificate in Information Technology',
@@ -24712,7 +24712,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            399 => 
+            399 =>
             array (
                 'id' => 1914,
                 'name' => 'Diploma in Information Technology',
@@ -24725,7 +24725,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            400 => 
+            400 =>
             array (
                 'id' => 1915,
                 'name' => 'BACHELORS OF INFORMATION TECHNOLOGY',
@@ -24738,7 +24738,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            401 => 
+            401 =>
             array (
                 'id' => 1916,
                 'name' => 'CERTIFICATE III IN HOSPITALITY AND TOURISM STUDIES',
@@ -24751,7 +24751,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            402 => 
+            402 =>
             array (
                 'id' => 1917,
                 'name' => 'CERTIFICATE I IN QIRA\'ATH',
@@ -24764,7 +24764,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            403 => 
+            403 =>
             array (
                 'id' => 1918,
                 'name' => 'BACHELOR OF MARKETING ',
@@ -24777,7 +24777,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            404 => 
+            404 =>
             array (
                 'id' => 1919,
                 'name' => 'CERTIFICATE III IN OFFICE MANAGEMENT',
@@ -24790,7 +24790,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            405 => 
+            405 =>
             array (
                 'id' => 1920,
                 'name' => 'BACHELOR OF ACCOUNTING AND FINANCE',
@@ -24803,7 +24803,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            406 => 
+            406 =>
             array (
                 'id' => 1921,
                 'name' => 'CERTIFICATE III IN SPECIAL EDUCATION NEEDS',
@@ -24816,7 +24816,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            407 => 
+            407 =>
             array (
                 'id' => 1923,
                 'name' => 'CERTIFICATE 1 IN ARABIC LANGUAGE',
@@ -24829,7 +24829,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            408 => 
+            408 =>
             array (
                 'id' => 1924,
                 'name' => 'CERTIFICATE III IN QIRA\'AT',
@@ -24842,7 +24842,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            409 => 
+            409 =>
             array (
                 'id' => 1925,
                 'name' => 'CERTIFICATE III IN WATER PLANT OPERATION & MAINTENANCE ',
@@ -24855,7 +24855,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            410 => 
+            410 =>
             array (
                 'id' => 1926,
                 'name' => 'DIPLOMA IN BUSINESS MANAGEMENT ',
@@ -24868,7 +24868,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            411 => 
+            411 =>
             array (
                 'id' => 1927,
                 'name' => 'ASSOCIATE DEGREE IN OFFICE MANAGEMENT ',
@@ -24881,7 +24881,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            412 => 
+            412 =>
             array (
                 'id' => 1928,
                 'name' => 'ASSOCIATE DEGREE IN BUSINESS MANAGEMENT ',
@@ -24894,7 +24894,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            413 => 
+            413 =>
             array (
                 'id' => 1929,
                 'name' => 'CERTIFICATE II IN QIRA\'ATH',
@@ -24907,7 +24907,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            414 => 
+            414 =>
             array (
                 'id' => 1930,
                 'name' => 'CERTIFICATE I IN GRAPHICS AND MULTIMEDIA ',
@@ -24920,7 +24920,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            415 => 
+            415 =>
             array (
                 'id' => 1931,
                 'name' => 'CERTIFICATE I IN MOBILE APPLICATION DEVELOPMENT ',
@@ -24933,7 +24933,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            416 => 
+            416 =>
             array (
                 'id' => 1932,
                 'name' => 'BACHELOR OF TEACHING PRIMARY ',
@@ -24946,7 +24946,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            417 => 
+            417 =>
             array (
                 'id' => 1933,
                 'name' => 'ASSOCIATE DEGREE IN PSYCHOLOGY',
@@ -24959,7 +24959,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            418 => 
+            418 =>
             array (
                 'id' => 1934,
                 'name' => 'BACHELOR OF PSYCHOLOGY',
@@ -24972,7 +24972,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            419 => 
+            419 =>
             array (
                 'id' => 1935,
                 'name' => 'ASSOCIATE DEGREE IN HUMAN RESOURCE MANAGEMENT ',
@@ -24985,7 +24985,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            420 => 
+            420 =>
             array (
                 'id' => 1936,
             'name' => 'MASTER OF EDUCATION (EARLY CHILDHOOD)',
@@ -24998,7 +24998,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            421 => 
+            421 =>
             array (
                 'id' => 1937,
                 'name' => 'CERTIFICATE I IN RULES OF JANAZAH',
@@ -25011,7 +25011,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            422 => 
+            422 =>
             array (
                 'id' => 1938,
                 'name' => 'CERTIFICATE II IN RULES OF JANAZAH',
@@ -25024,7 +25024,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            423 => 
+            423 =>
             array (
                 'id' => 1939,
                 'name' => 'DIPLOMA IN EARLY CHILDHOOD EDUCATION',
@@ -25037,7 +25037,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            424 => 
+            424 =>
             array (
                 'id' => 1940,
                 'name' => 'ADVANCED DIPLOMA IN EARLY CHILDHOOD EDUCATION',
@@ -25050,7 +25050,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            425 => 
+            425 =>
             array (
                 'id' => 1941,
                 'name' => 'BACHELOR OF EARLY CHILDHOOD EDUCATION ',
@@ -25063,7 +25063,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            426 => 
+            426 =>
             array (
                 'id' => 1942,
                 'name' => 'BACHELOR OF PSYCHOLOGY',
@@ -25076,7 +25076,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            427 => 
+            427 =>
             array (
                 'id' => 1943,
                 'name' => 'ADVANCED DIPLOMA IN PSYCHOLOGY',
@@ -25089,7 +25089,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            428 => 
+            428 =>
             array (
                 'id' => 1944,
                 'name' => 'DIPLOMA IN PSYCHOLOGY',
@@ -25102,7 +25102,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            429 => 
+            429 =>
             array (
                 'id' => 1945,
                 'name' => 'CERTIFICATE I IN QIRA\'ATH',
@@ -25115,7 +25115,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            430 => 
+            430 =>
             array (
                 'id' => 1946,
                 'name' => 'CERTIFICATE II IN QIRA\'ATH',
@@ -25128,7 +25128,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            431 => 
+            431 =>
             array (
                 'id' => 1947,
             'name' => 'POSTGRADUATE DIPLOMA IN INFORMATION TECHNOLOGY (Awarded by University of the West of England)',
@@ -25141,7 +25141,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            432 => 
+            432 =>
             array (
                 'id' => 1948,
             'name' => 'POSTGRADUATE CERTIFICATE IN INFORMATION TECHNOLOGY - (Awarded by UNIVERSITY OF THE WEST OF ENGLAND, England)',
@@ -25154,7 +25154,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            433 => 
+            433 =>
             array (
                 'id' => 1949,
                 'name' => 'CERTIFICATE I IN PORT SECURITY TRAINING ',
@@ -25167,7 +25167,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            434 => 
+            434 =>
             array (
                 'id' => 1950,
                 'name' => 'CERTIFICATE II IN ARABIC LANGUAGE AND COMMUNICATION',
@@ -25180,7 +25180,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            435 => 
+            435 =>
             array (
                 'id' => 1951,
                 'name' => 'CERTIFICATE III IN PSYCHOLOGY',
@@ -25193,7 +25193,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            436 => 
+            436 =>
             array (
                 'id' => 1952,
                 'name' => 'CERTIFICATE I IN QIRA\'ATH',
@@ -25206,7 +25206,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            437 => 
+            437 =>
             array (
                 'id' => 1953,
                 'name' => 'CERTIFICATE II IN QIRA\'ATH',
@@ -25219,7 +25219,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            438 => 
+            438 =>
             array (
                 'id' => 1954,
                 'name' => 'CERTIFICATE III IN QIRA\'ATH',
@@ -25232,7 +25232,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            439 => 
+            439 =>
             array (
                 'id' => 1955,
                 'name' => 'CERTIFICATE IV IN QIRA\'ATH',
@@ -25245,7 +25245,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            440 => 
+            440 =>
             array (
                 'id' => 1956,
             'name' => 'POSTGRADUATE DIPLOMA IN EDUCATION (TEACHING)',
@@ -25258,7 +25258,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            441 => 
+            441 =>
             array (
                 'id' => 1957,
                 'name' => 'Imaamukamuge Diploma Course',
@@ -25271,7 +25271,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            442 => 
+            442 =>
             array (
                 'id' => 1958,
                 'name' => 'Imaamukamuge Advanced Certificate',
@@ -25284,7 +25284,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            443 => 
+            443 =>
             array (
                 'id' => 1959,
                 'name' => 'Qari Kamuge Advanced Certificate',
@@ -25297,7 +25297,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            444 => 
+            444 =>
             array (
                 'id' => 1960,
                 'name' => 'Bachelor of Computer Science',
@@ -25310,7 +25310,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            445 => 
+            445 =>
             array (
                 'id' => 1961,
                 'name' => 'BACHELOR OF COUNSELLING',
@@ -25323,7 +25323,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            446 => 
+            446 =>
             array (
                 'id' => 1962,
                 'name' => 'CERTIFICATE III IN BROADCAST MANAGEMENT',
@@ -25336,7 +25336,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            447 => 
+            447 =>
             array (
                 'id' => 1963,
                 'name' => 'Bachelor of Human Resource Management ',
@@ -25349,7 +25349,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            448 => 
+            448 =>
             array (
                 'id' => 1965,
                 'name' => 'DIPLOMA IN BUSINESS  ',
@@ -25362,7 +25362,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            449 => 
+            449 =>
             array (
                 'id' => 1966,
                 'name' => 'ASSOCIATE DEGREE OF BUSINESS MANAGEMENT ',
@@ -25375,7 +25375,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            450 => 
+            450 =>
             array (
                 'id' => 1967,
                 'name' => 'CERTIFICATE IV IN QIRA\'AT',
@@ -25388,7 +25388,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            451 => 
+            451 =>
             array (
                 'id' => 1968,
             'name' => 'ASSOCIATE DEGREE IN EDUCATION (SPECIAL EDUCATION NEEDS)',
@@ -25401,7 +25401,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            452 => 
+            452 =>
             array (
                 'id' => 1969,
                 'name' => 'BACHELOR OF PUBLIC ADMINISTRATION',
@@ -25414,7 +25414,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            453 => 
+            453 =>
             array (
                 'id' => 1970,
             'name' => 'MASTER OF EDUCATION (EDUCATIONAL MANAGEMENT AND LEADERSHIP)',
@@ -25427,7 +25427,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            454 => 
+            454 =>
             array (
                 'id' => 1971,
             'name' => 'MASTER OF EDUCATION (CURRICULUM AND ASSESSMENT)',
@@ -25440,7 +25440,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            455 => 
+            455 =>
             array (
                 'id' => 1972,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -25453,7 +25453,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            456 => 
+            456 =>
             array (
                 'id' => 1973,
                 'name' => 'CERTIFICATE IV IN INFORMATION TECHNOLOGY',
@@ -25466,7 +25466,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            457 => 
+            457 =>
             array (
                 'id' => 1974,
             'name' => 'MASTER OF TEACHING (ISLAMIC STUDIES)',
@@ -25479,7 +25479,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            458 => 
+            458 =>
             array (
                 'id' => 1975,
                 'name' => 'CERTIFICATE I IN QURANIC RECITATION AND THAJWEEDH',
@@ -25492,7 +25492,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            459 => 
+            459 =>
             array (
                 'id' => 1976,
                 'name' => 'CERTIFICATE II IN QURANIC RECITATION AND THAJWEEDH',
@@ -25505,7 +25505,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            460 => 
+            460 =>
             array (
                 'id' => 1977,
                 'name' => 'CERTIFICATE III IN QURANIC RECITATION AND THAJWEEDH',
@@ -25518,7 +25518,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            461 => 
+            461 =>
             array (
                 'id' => 1978,
                 'name' => 'ASSOCIATE DEGREE IN OFFICE MANAGEMENT',
@@ -25531,7 +25531,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            462 => 
+            462 =>
             array (
                 'id' => 1979,
                 'name' => 'DIPLOMA IN TEACHING ISLAM',
@@ -25544,7 +25544,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            463 => 
+            463 =>
             array (
                 'id' => 1980,
                 'name' => 'CERTIFICATE III IN QIRA\'ATH',
@@ -25557,7 +25557,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            464 => 
+            464 =>
             array (
                 'id' => 1981,
                 'name' => 'CERTIFICATE III IN RULES OF JANAZAH ',
@@ -25570,7 +25570,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            465 => 
+            465 =>
             array (
                 'id' => 1982,
                 'name' => 'CERTIFICATE III FOR IMAMS',
@@ -25583,7 +25583,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            466 => 
+            466 =>
             array (
                 'id' => 1983,
                 'name' => 'CERTIFICATE I IN ARABIC FOR TRAVEL AND TOURISM ',
@@ -25596,7 +25596,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            467 => 
+            467 =>
             array (
                 'id' => 1984,
                 'name' => 'CERTIFICATE III FOR IMAAMS',
@@ -25609,7 +25609,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            468 => 
+            468 =>
             array (
                 'id' => 1985,
                 'name' => 'CERTIFICATE II IN RULES OF JANAZAH',
@@ -25622,7 +25622,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            469 => 
+            469 =>
             array (
                 'id' => 1987,
                 'name' => 'DIPLOMA IN TEACHING QURAN ',
@@ -25635,7 +25635,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            470 => 
+            470 =>
             array (
                 'id' => 1988,
                 'name' => 'CERTIFICATE I IN QIRA\'AT',
@@ -25648,7 +25648,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            471 => 
+            471 =>
             array (
                 'id' => 1989,
                 'name' => 'CERTIFICATE II IN QIRA\'AT',
@@ -25661,7 +25661,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            472 => 
+            472 =>
             array (
                 'id' => 1990,
                 'name' => 'ADVANCED CERTIFICATE IN ELECTRONICS AND COMMUNICATION TECHNICIAN',
@@ -25674,7 +25674,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            473 => 
+            473 =>
             array (
                 'id' => 1991,
                 'name' => 'CERTIFICATE III IN QIRA\'ATH',
@@ -25687,7 +25687,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            474 => 
+            474 =>
             array (
                 'id' => 1992,
                 'name' => 'Foundation Studies ',
@@ -25700,7 +25700,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            475 => 
+            475 =>
             array (
                 'id' => 1993,
                 'name' => 'CERTIFICATE I FOR IMAAMS',
@@ -25713,7 +25713,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            476 => 
+            476 =>
             array (
                 'id' => 1994,
                 'name' => 'CERTIFICATE II FOR IMAAMS',
@@ -25726,7 +25726,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            477 => 
+            477 =>
             array (
                 'id' => 1995,
                 'name' => 'CERTIFICATE III IN ARABIC LANGUAGE',
@@ -25739,7 +25739,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            478 => 
+            478 =>
             array (
                 'id' => 1996,
                 'name' => 'ADVANCED CERTIFICATE IN ARABIC LANGUAGE',
@@ -25752,7 +25752,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            479 => 
+            479 =>
             array (
                 'id' => 1997,
                 'name' => 'ADVANCED CERTIFICATE IN QIRA\'ATH',
@@ -25765,7 +25765,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            480 => 
+            480 =>
             array (
                 'id' => 1998,
                 'name' => 'DIPLOMA IN TEACHING QURAN ',
@@ -25778,7 +25778,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            481 => 
+            481 =>
             array (
                 'id' => 1999,
                 'name' => 'DIPLOMA FOR IMAAMS',
@@ -25791,7 +25791,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            482 => 
+            482 =>
             array (
                 'id' => 2000,
                 'name' => 'Foundation in Engineering ',
@@ -25804,7 +25804,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            483 => 
+            483 =>
             array (
                 'id' => 2001,
                 'name' => 'DIPLOMA IN MECHATRONICS ENGINEERING',
@@ -25817,7 +25817,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            484 => 
+            484 =>
             array (
                 'id' => 2002,
                 'name' => 'ADVANCED DIPLOMA IN MECHATRONICS ENGINEERING ',
@@ -25830,7 +25830,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            485 => 
+            485 =>
             array (
                 'id' => 2003,
                 'name' => 'BACHELOR OF MECHATRONICS ENGINEERING ',
@@ -25843,7 +25843,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            486 => 
+            486 =>
             array (
                 'id' => 2004,
                 'name' => 'DIPLOMA IN MECHANICAL ENGINEERING ',
@@ -25856,7 +25856,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            487 => 
+            487 =>
             array (
                 'id' => 2005,
                 'name' => 'ADVANCED DIPLOMA IN MECHANICAL ENGINEERING ',
@@ -25869,7 +25869,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            488 => 
+            488 =>
             array (
                 'id' => 2006,
                 'name' => 'BACHELOR OF MECHANICAL ENGINEERING ',
@@ -25882,7 +25882,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            489 => 
+            489 =>
             array (
                 'id' => 2007,
                 'name' => 'DIPLOMA IN ELECTRICAL AND ELECTRONICS ENGINEERING ',
@@ -25895,7 +25895,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            490 => 
+            490 =>
             array (
                 'id' => 2008,
                 'name' => 'ADVANCED DIPLOMA IN ELECTRICAL AND ELECTRONICS ENGINEERING ',
@@ -25908,7 +25908,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            491 => 
+            491 =>
             array (
                 'id' => 2009,
                 'name' => 'BACHELOR OF ELECTRICAL AND ELECTRONICS ENGINEERING ',
@@ -25921,7 +25921,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            492 => 
+            492 =>
             array (
                 'id' => 2010,
                 'name' => 'CERTIFICATE II IN INFORMATION TECHNOLOGY',
@@ -25934,7 +25934,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            493 => 
+            493 =>
             array (
                 'id' => 2011,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -25947,7 +25947,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            494 => 
+            494 =>
             array (
                 'id' => 2012,
                 'name' => 'Certificate IV in Arabic Language',
@@ -25960,7 +25960,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            495 => 
+            495 =>
             array (
                 'id' => 2013,
             'name' => 'CTH LEVEL 3 FOUNDATION DIPLOMA IN HOSPITALITY AND TOURISM (Awarded by: Confederation of Tourism and Hospitality, UK)',
@@ -25973,7 +25973,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            496 => 
+            496 =>
             array (
                 'id' => 2014,
             'name' => 'LEVEL 4 DIPLOMA IN HOSPITALITY  MANAGEMENT - (Awarded by Confederation of Tourism and Hospitality, United Kingdom)',
@@ -25986,7 +25986,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            497 => 
+            497 =>
             array (
                 'id' => 2015,
             'name' => 'LEVEL 5 ADVANCED DIPLOMA IN HOSPITALITY MANAGEMENT - (Awarded by Confederation of Tourism and Hospitality, United Kingdom)',
@@ -25999,7 +25999,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            498 => 
+            498 =>
             array (
                 'id' => 2016,
             'name' => 'LEVEL 6 PROFESSIONAL DIPLOMA IN TOURISM AND HOSPITALITY MANAGEMENT - (Awarded by Confederation of Tourism and Hospitality, United Kingdom)',
@@ -26012,7 +26012,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            499 => 
+            499 =>
             array (
                 'id' => 2017,
                 'name' => 'DIPLOMA IN BUSINESS ACCOUNTING AND FINANCE',
@@ -26027,7 +26027,7 @@ class CoursesTableSeeder extends Seeder
             ),
         ));
         \DB::table('courses')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 2018,
                 'name' => 'ADVANCED DIPLOMA IN BUSINESS ACCOUNTING AND FINANCE',
@@ -26040,7 +26040,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2019,
                 'name' => 'BACHELOR OF SCIENCE IN ACCOUNTING AND FINANCE',
@@ -26053,7 +26053,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 2020,
                 'name' => 'MASTER OF PUBLIC HEALTH',
@@ -26066,7 +26066,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 2021,
                 'name' => 'POSTGRADUATE CERTIFICATE IN PUBLIC HEALTH',
@@ -26079,7 +26079,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 2022,
                 'name' => 'BACHELOR OF ARTS IN BUSINESS MANAGEMENT',
@@ -26092,7 +26092,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 2023,
                 'name' => 'ADVANCED DIPLOMA IN BUSINESS',
@@ -26105,7 +26105,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 2024,
                 'name' => 'DIPLOMA IN BUSINESS',
@@ -26118,7 +26118,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 2025,
                 'name' => 'MASTER OF ARTS IN HUMAN RESOURCE MANAGEMENT',
@@ -26131,7 +26131,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 2026,
                 'name' => 'POSTGRADUATE CERTIFICATE IN HUMAN RESOURCE MANAGEMENT',
@@ -26144,7 +26144,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 2027,
                 'name' => 'ADVANCE CERTIFICATE IN ANIMATION, MULTIMEDIA AND FILM-MAKING',
@@ -26157,7 +26157,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 2028,
                 'name' => 'ASSOCIATE DEGREE IN BUSINESS AND HUMAN RESOURCE MANAGEMENT',
@@ -26170,7 +26170,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 2029,
                 'name' => 'ASSOCIATE DEGREE IN MARKETING MANAGEMENT ',
@@ -26183,7 +26183,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 2030,
                 'name' => 'ASSOCIATE DEGREE IN ACCOUNTING',
@@ -26196,7 +26196,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 2031,
                 'name' => 'DIPLOMA IN ACCOUNTING',
@@ -26209,7 +26209,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 2032,
                 'name' => 'DIPLOMA IN BUSINESS AND HUMAN RESOURCE MANAGEMENT',
@@ -26222,7 +26222,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 2033,
                 'name' => 'DIPLOMA IN MARKETING MANAGEMENT',
@@ -26235,7 +26235,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 2034,
                 'name' => 'MNDF BASIC TRAINING',
@@ -26248,7 +26248,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 2035,
                 'name' => 'ADVANCED DIPLOMA IN BUSINESS MANAGEMENT AND MARKETING ',
@@ -26261,7 +26261,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 2036,
                 'name' => 'BACHELOR OF ARTS IN BUSINESS MANAGEMENT AND MARKETING',
@@ -26274,7 +26274,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            19 => 
+            19 =>
             array (
                 'id' => 2037,
                 'name' => 'ADVANCED DIPLOMA IN PRIMARY AND INCLUSIVE EDUCATION',
@@ -26287,7 +26287,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            20 => 
+            20 =>
             array (
                 'id' => 2038,
                 'name' => 'BACHELOR OF TEACHING PRIMARY AND INCLUSICE EDUCATION ',
@@ -26300,7 +26300,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            21 => 
+            21 =>
             array (
                 'id' => 2039,
             'name' => 'BACHELOR OF SCIENCE (Hons) IN APPLIED ACCOUNTING - (Awarded by OXFORD BROOKS UNIVERSITY, UNITED KINGDOM)',
@@ -26313,7 +26313,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            22 => 
+            22 =>
             array (
                 'id' => 2040,
                 'name' => 'ADVANCED CERTIFICATE FOR IMAAMS',
@@ -26326,7 +26326,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            23 => 
+            23 =>
             array (
                 'id' => 2041,
                 'name' => 'DIPLOMA IN ACCOUNTING AND FINANCE',
@@ -26339,7 +26339,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            24 => 
+            24 =>
             array (
                 'id' => 2042,
                 'name' => 'BACHELOR OF ACCOUNTING AND FINANCE',
@@ -26352,7 +26352,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            25 => 
+            25 =>
             array (
                 'id' => 2043,
                 'name' => 'CERTIFICATE III IN ANIMATION, MULTIMEDIA AND FILM-MAKING',
@@ -26365,7 +26365,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            26 => 
+            26 =>
             array (
                 'id' => 2044,
                 'name' => 'ADVANCED DIPLOMA IN PUBLIC FINANCIAL MANAGEMENT',
@@ -26378,7 +26378,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            27 => 
+            27 =>
             array (
                 'id' => 2045,
                 'name' => 'CERTIFICATE IV IN QIRA\'ATH',
@@ -26391,7 +26391,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            28 => 
+            28 =>
             array (
                 'id' => 2046,
                 'name' => 'DIPLOMA IN TEACHING QURAN',
@@ -26404,7 +26404,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            29 => 
+            29 =>
             array (
                 'id' => 2047,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY ',
@@ -26417,7 +26417,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            30 => 
+            30 =>
             array (
                 'id' => 2048,
                 'name' => 'BACHELOR OF OFFICE MANAGEMENT',
@@ -26430,7 +26430,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            31 => 
+            31 =>
             array (
                 'id' => 2049,
             'name' => 'MASTER OF EDUCATION (DHIVEHI LANGUAGE TEACHING)',
@@ -26443,7 +26443,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            32 => 
+            32 =>
             array (
                 'id' => 2050,
                 'name' => 'BACHELOR OF TEACHING SECONDARY',
@@ -26456,7 +26456,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            33 => 
+            33 =>
             array (
                 'id' => 2051,
                 'name' => 'BACHELOR OF INTERNATIONAL TOURISM MANAGEMENT',
@@ -26469,7 +26469,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            34 => 
+            34 =>
             array (
                 'id' => 2052,
             'name' => 'LLM COMMERCIAL LAW - (Awarded by University of the West of England)',
@@ -26482,7 +26482,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            35 => 
+            35 =>
             array (
                 'id' => 2053,
                 'name' => 'ADVANCED CERTIFICATE IN LAND SURVEYING ',
@@ -26495,7 +26495,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            36 => 
+            36 =>
             array (
                 'id' => 2054,
                 'name' => 'ADVANCED DIPLOMA IN LAND SURVEYING ',
@@ -26508,7 +26508,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            37 => 
+            37 =>
             array (
                 'id' => 2055,
                 'name' => 'ADVANCED DIPLOMA IN CIVIL ENGINEERING',
@@ -26521,7 +26521,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            38 => 
+            38 =>
             array (
                 'id' => 2056,
                 'name' => 'CERTIFICATE I IN INFORMATION TECHNOLOGY',
@@ -26534,7 +26534,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            39 => 
+            39 =>
             array (
                 'id' => 2057,
                 'name' => 'CERTIFICATE II IN INFORMATION TECHNOLOGY',
@@ -26547,7 +26547,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            40 => 
+            40 =>
             array (
                 'id' => 2058,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -26560,7 +26560,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            41 => 
+            41 =>
             array (
                 'id' => 2059,
                 'name' => 'BACHELOR OF TEACHING ARABIC LANGUAGE',
@@ -26573,7 +26573,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            42 => 
+            42 =>
             array (
                 'id' => 2060,
                 'name' => 'CERTIFICATE I IN QIRA\'AT',
@@ -26586,7 +26586,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            43 => 
+            43 =>
             array (
                 'id' => 2061,
                 'name' => 'CERTIFICATE II IN QIRA\'AT',
@@ -26599,7 +26599,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            44 => 
+            44 =>
             array (
                 'id' => 2062,
                 'name' => 'CERTIFICATE III IN QIRA\'AT',
@@ -26612,7 +26612,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            45 => 
+            45 =>
             array (
                 'id' => 2063,
             'name' => 'POSTGRADUATE CERTIFICATE IN EDUCATION (DHIVEHI LANGUAGE)',
@@ -26625,7 +26625,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            46 => 
+            46 =>
             array (
                 'id' => 2064,
             'name' => 'POSTGRADUATE CERTIFICATE IN EDUCATION (ISLAMIC STUDIES)',
@@ -26638,7 +26638,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            47 => 
+            47 =>
             array (
                 'id' => 2065,
             'name' => 'DOCTOR OF PHILOSOPHY (MANAGEMENT/BUSINESS) (AWARDING BODY - MANAGEMENT AND SCIENCE UNIVERSITY/MALAYSIA)',
@@ -26651,7 +26651,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            48 => 
+            48 =>
             array (
                 'id' => 2066,
                 'name' => 'DIPLOMA IN OFFICE ADMINISTRATION AND MANAGEMENT',
@@ -26664,7 +26664,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            49 => 
+            49 =>
             array (
                 'id' => 2067,
                 'name' => 'CERTIFICATE II IN ARABIC LANGUAGE',
@@ -26677,7 +26677,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            50 => 
+            50 =>
             array (
                 'id' => 2068,
             'name' => 'BACHELOR OF BUSINESS ADMINISTRATION - (Awarded by - HERIOT - WATT UNIVERSITY)',
@@ -26690,7 +26690,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            51 => 
+            51 =>
             array (
                 'id' => 2069,
                 'name' => 'ADVANCED CERTIFICATE IN CIVIL ENGINEERING ',
@@ -26703,7 +26703,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            52 => 
+            52 =>
             array (
                 'id' => 2070,
                 'name' => 'MASTER OF TEACHING IN INCLUSIVE AND SPECIAL EDUCATION',
@@ -26716,7 +26716,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            53 => 
+            53 =>
             array (
                 'id' => 2071,
                 'name' => 'Advanced Certificate in Business Management',
@@ -26729,7 +26729,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            54 => 
+            54 =>
             array (
                 'id' => 2072,
                 'name' => 'BACHELOR OF HEALTH SERVICES MANAGEMENT',
@@ -26742,7 +26742,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            55 => 
+            55 =>
             array (
                 'id' => 2073,
                 'name' => 'ADVANCED DIPLOMA IN HEALTH SERVICES MANAGEMENT',
@@ -26755,7 +26755,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            56 => 
+            56 =>
             array (
                 'id' => 2074,
                 'name' => 'ADVANCED CERTIFICATE IN ACCOUNTING',
@@ -26768,7 +26768,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            57 => 
+            57 =>
             array (
                 'id' => 2075,
                 'name' => 'DIPLOMA IN TEACHING ARABIC LANGUAGE',
@@ -26781,7 +26781,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            58 => 
+            58 =>
             array (
                 'id' => 2076,
                 'name' => 'DIPLOMA IN ARABIC LANGUAGE',
@@ -26794,7 +26794,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            59 => 
+            59 =>
             array (
                 'id' => 2077,
                 'name' => 'CERTIFICATE III IN INFORMATION TECHNOLOGY',
@@ -26807,7 +26807,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            60 => 
+            60 =>
             array (
                 'id' => 2078,
                 'name' => 'CERTIFICATE IV IN OFFICE MANAGEMENT',
@@ -26820,7 +26820,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            61 => 
+            61 =>
             array (
                 'id' => 2079,
                 'name' => 'CERTIFICATE IV IN PROJECT MANAGEMENT',
@@ -26833,7 +26833,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            62 => 
+            62 =>
             array (
                 'id' => 2080,
                 'name' => 'CERTIFICATE IV IN MARKETING',
@@ -26846,7 +26846,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            63 => 
+            63 =>
             array (
                 'id' => 2081,
                 'name' => 'MASTER OF EDUCATION',
@@ -26859,7 +26859,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            64 => 
+            64 =>
             array (
                 'id' => 2082,
                 'name' => 'CERTIFICATE IV IN GRAPHICS AND MULTIMEDIA ',
@@ -26872,7 +26872,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            65 => 
+            65 =>
             array (
                 'id' => 2083,
                 'name' => 'CERTIFICATE III IN COMBAT MEDICAL CARE ',
@@ -26885,7 +26885,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            66 => 
+            66 =>
             array (
                 'id' => 2084,
                 'name' => 'DIPLOMA IN ISLAMIC FINANCE ',
@@ -26898,7 +26898,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            67 => 
+            67 =>
             array (
                 'id' => 2085,
                 'name' => 'DIPLOMA IN ACCOUNTING AND FINANCE',
@@ -26911,7 +26911,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            68 => 
+            68 =>
             array (
                 'id' => 2086,
                 'name' => 'CERTIFICATE III IN OFFICE ADMINISTRATION',
@@ -26924,7 +26924,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            69 => 
+            69 =>
             array (
                 'id' => 2087,
             'name' => 'POSTGRADUATE CERTIFICATE IN ACCOUNTING AND FINANCE (AWARDED BY UNIVERSITY OF THE WEST OF ENGLAND)',
@@ -26937,7 +26937,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            70 => 
+            70 =>
             array (
                 'id' => 2088,
             'name' => 'POSTGRADUATE DIPLOMA IN ACCOUNTING AND FINANCE (AWARDED BY UNIVERSITY OF THE WEST OF ENGLAND)',
@@ -26950,7 +26950,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            71 => 
+            71 =>
             array (
                 'id' => 2089,
                 'name' => 'DIPLOMA IN ARABIC LANGUAGE',
@@ -26963,7 +26963,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            72 => 
+            72 =>
             array (
                 'id' => 2090,
                 'name' => 'ADVANCED CERTIFICATE IN ARABIC LANGUAGE',
@@ -26976,7 +26976,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            73 => 
+            73 =>
             array (
                 'id' => 2091,
                 'name' => 'BACHELOR OF TEACHING IN ECONOMICS AND BUSINESS STUDIES',
@@ -26989,7 +26989,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            74 => 
+            74 =>
             array (
                 'id' => 2092,
                 'name' => 'ADVANCED DIPLOMA OF TEACHING IN ECONOMICS AND BUSINESS STUDIES',
@@ -27002,7 +27002,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            75 => 
+            75 =>
             array (
                 'id' => 2093,
                 'name' => 'BACHELOR OF TEACHING IN ACCOUNTING AND BUSINESS STUDIES',
@@ -27015,7 +27015,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            76 => 
+            76 =>
             array (
                 'id' => 2094,
                 'name' => 'ADVANCED DIPLOMA OF TEACHING IN ACCOUNTING AND BUSINESS STUDIES',
@@ -27028,7 +27028,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            77 => 
+            77 =>
             array (
                 'id' => 2095,
             'name' => 'CERTIFICATE IV IN PHARMACY (Temporary approval)',
@@ -27041,7 +27041,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            78 => 
+            78 =>
             array (
                 'id' => 2096,
             'name' => 'DIPLOMA IN NURSING (Temporary approval)',
@@ -27054,7 +27054,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            79 => 
+            79 =>
             array (
                 'id' => 2097,
                 'name' => 'CERTIFICATE III IN WEB DESIGN',
@@ -27067,7 +27067,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            80 => 
+            80 =>
             array (
                 'id' => 2098,
                 'name' => 'MASTER OF HUMAN RESOURCE MANAGEMENT',
@@ -27080,7 +27080,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            81 => 
+            81 =>
             array (
                 'id' => 2099,
                 'name' => 'CERTIFICATE III IN TOURISM, HOSPITALITY AND SERVICE MARKETING',
@@ -27093,7 +27093,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            82 => 
+            82 =>
             array (
                 'id' => 2100,
                 'name' => 'ADVANCED CERTIFICATE FOR IMAM AND KHATEEB',
@@ -27106,7 +27106,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            83 => 
+            83 =>
             array (
                 'id' => 2101,
                 'name' => 'ADVANCED CERTIFICATE IN JOURNALISM',
@@ -27119,7 +27119,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            84 => 
+            84 =>
             array (
                 'id' => 2102,
                 'name' => 'AAT LEVEL 2, CERTIFICATE IN ACCOUNTING',
@@ -27132,7 +27132,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            85 => 
+            85 =>
             array (
                 'id' => 2103,
                 'name' => 'BACHELOR OF ECONOMICS AND MANAGEMENT',
@@ -27145,7 +27145,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            86 => 
+            86 =>
             array (
                 'id' => 2104,
                 'name' => 'BACHELOR OF ARTS IN INTERIOR DESIGN',
@@ -27158,7 +27158,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            87 => 
+            87 =>
             array (
                 'id' => 2105,
                 'name' => 'BACHELOR OF PHYSIOTHERAPHY ',
@@ -27171,7 +27171,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            88 => 
+            88 =>
             array (
                 'id' => 2106,
                 'name' => 'MASTERS IN HOSPITALITY AND TOURISM MANAGEMENT',
@@ -27184,7 +27184,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            89 => 
+            89 =>
             array (
                 'id' => 2107,
                 'name' => 'DIPLOMA FOR IMAM AND KHATEEB',
@@ -27197,7 +27197,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            90 => 
+            90 =>
             array (
                 'id' => 2108,
             'name' => 'BACHELOR OF SCIENCE (BIOLOGY)',
@@ -27210,7 +27210,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            91 => 
+            91 =>
             array (
                 'id' => 2109,
             'name' => 'BACHELOR OF SCIENCE (CHEMISTRY)',
@@ -27223,7 +27223,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            92 => 
+            92 =>
             array (
                 'id' => 2110,
             'name' => 'BACHELOR OF SCIENCE (PHYSICS)',
@@ -27236,7 +27236,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            93 => 
+            93 =>
             array (
                 'id' => 2111,
                 'name' => 'BACHELOR OF MARINE SCIENCE',
@@ -27249,7 +27249,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            94 => 
+            94 =>
             array (
                 'id' => 2112,
             'name' => 'MASTER OF ARTS IN QURANIC SCIENCES (RESEARCH)',
@@ -27262,7 +27262,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            95 => 
+            95 =>
             array (
                 'id' => 2113,
             'name' => 'MASTER OF ARTS IN QURANIC SCIENCES (COURSEWORK)',
@@ -27275,7 +27275,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            96 => 
+            96 =>
             array (
                 'id' => 2114,
             'name' => 'MASTER OF ARTS IN QURANIC SCIENCES (COURSEWORK & RESEARCH)',
@@ -27288,7 +27288,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            97 => 
+            97 =>
             array (
                 'id' => 2115,
                 'name' => 'CERTIFICATE III IN ENGLISH FOR SOCIAL COMMUNICATION ',
@@ -27301,7 +27301,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            98 => 
+            98 =>
             array (
                 'id' => 2116,
                 'name' => 'CERTIFICATE II IN ENGLISH FOR SOCIAL COMMUNICATION ',
@@ -27314,7 +27314,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            99 => 
+            99 =>
             array (
                 'id' => 2117,
                 'name' => 'ASSOCIATE DEGREE IN GRAPHICS AND MULTIMEDIA',
@@ -27327,7 +27327,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            100 => 
+            100 =>
             array (
                 'id' => 2118,
             'name' => 'DIPLOMA IN NURSING (Temporary approval)',
@@ -27340,7 +27340,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            101 => 
+            101 =>
             array (
                 'id' => 2119,
             'name' => 'CERTIFICATE 4 IN NURSING (Temporary approval)',
@@ -27353,7 +27353,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            102 => 
+            102 =>
             array (
                 'id' => 2120,
             'name' => 'CERTIFICATE IV IN PHARMACY (Temporary approval)',
@@ -27366,7 +27366,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            103 => 
+            103 =>
             array (
                 'id' => 2121,
             'name' => 'POSTGRADUATE CERTIFICATE IN NURSING STUDIES (INTERNATIONAL) (Awarded by University of the West of England) (Temporary approval) ',
@@ -27379,7 +27379,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            104 => 
+            104 =>
             array (
                 'id' => 2122,
             'name' => 'POSTGRADUATE DIPLOMA IN NURSING STUDIES (INTERNATIONAL) (Awarded by University of the West of England) (Temporary approval)',
@@ -27392,7 +27392,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            105 => 
+            105 =>
             array (
                 'id' => 2123,
             'name' => 'MSC NURSING (INTERNATIONAL) (Awarded by University of the West of England) (Temporary approval)',
@@ -27405,7 +27405,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            106 => 
+            106 =>
             array (
                 'id' => 2124,
             'name' => 'ACCA SKILLS LEVEL (AWARDING BODY ACCA/UK)',
@@ -27418,7 +27418,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            107 => 
+            107 =>
             array (
                 'id' => 2125,
                 'name' => 'MASTER OF TEACHING QURANIC STUDIES',
@@ -27431,7 +27431,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            108 => 
+            108 =>
             array (
                 'id' => 2126,
             'name' => 'POSTGRADUATE CERTIFICATE IN EDUCATION (QURANIC STUIDES)',
@@ -27444,7 +27444,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            109 => 
+            109 =>
             array (
                 'id' => 2127,
             'name' => 'CTH LEVEL 3 FOUNDATION DIPLOMA IN TOURISM AND HOSPITALITY (Awarded by Confederation of Tourism & Hospitality)',
@@ -27457,7 +27457,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            110 => 
+            110 =>
             array (
                 'id' => 2128,
                 'name' => 'DIPLOMA IN HUMAN RESOURCE MANAGEMENT',
@@ -27470,7 +27470,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            111 => 
+            111 =>
             array (
                 'id' => 2129,
                 'name' => 'ASSOCIATE DEGREE IN HUMAN RESOURCE MANAGEMENT',
@@ -27483,7 +27483,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            112 => 
+            112 =>
             array (
                 'id' => 2130,
                 'name' => 'BACHELOR OF HUMAN RESOURCE MANAGEMENT',
@@ -27496,7 +27496,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            113 => 
+            113 =>
             array (
                 'id' => 2131,
             'name' => 'MASTER OF ARTS IN ARABIC LINGUISTIC (COURSEWORK)',
@@ -27509,7 +27509,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            114 => 
+            114 =>
             array (
                 'id' => 2132,
             'name' => 'MASTER OF ARTS IN ARABIC LINGUISTIC (COURSEWORK & RESEARCH)',
@@ -27522,7 +27522,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            115 => 
+            115 =>
             array (
                 'id' => 2133,
                 'name' => 'CERTIFICATE III IN EARLY CHILDHOOD CARE',
@@ -27535,7 +27535,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            116 => 
+            116 =>
             array (
                 'id' => 2134,
             'name' => 'BA (HONS) IN BUSINESS AND MANAGEMENT (AWARDING BODY - UNIVERSITY OF THE WEST OF ENGLAND)',
@@ -27548,7 +27548,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            117 => 
+            117 =>
             array (
                 'id' => 2135,
                 'name' => 'BACHELOR OF INFORMATION TECHNOLOGY',
@@ -27561,7 +27561,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            118 => 
+            118 =>
             array (
                 'id' => 2136,
                 'name' => 'BACHELOR OF IMAAMSHIP',
@@ -27574,7 +27574,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            119 => 
+            119 =>
             array (
                 'id' => 2137,
                 'name' => 'ASSOCIATE DEGREE OF IMAAMSHIP',
@@ -27587,7 +27587,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            120 => 
+            120 =>
             array (
                 'id' => 2138,
                 'name' => 'DIPLOMA OF IMAAMSHIP',
@@ -27600,7 +27600,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            121 => 
+            121 =>
             array (
                 'id' => 2139,
             'name' => 'GRADUATE DIPLOMA IN MANAGEMENT (AWARDED BY EDEXCEL)',
@@ -27613,7 +27613,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            122 => 
+            122 =>
             array (
                 'id' => 2140,
                 'name' => 'Bachelor of Science in Nursing and Midwifery',
@@ -27626,7 +27626,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            123 => 
+            123 =>
             array (
                 'id' => 2141,
             'name' => 'Bachelor of Teaching Secondary (Mathematics)',
@@ -27639,7 +27639,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            124 => 
+            124 =>
             array (
                 'id' => 2142,
                 'name' => 'Certificate I in  Qira\'ath',
@@ -27652,7 +27652,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            125 => 
+            125 =>
             array (
                 'id' => 2143,
                 'name' => 'Certificate II in  Qira\'ath',
@@ -27665,7 +27665,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            126 => 
+            126 =>
             array (
                 'id' => 2144,
                 'name' => 'Certificate III in  Qira\'ath',
@@ -27678,7 +27678,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            127 => 
+            127 =>
             array (
                 'id' => 2145,
                 'name' => 'Certificate III in Front Office Operations',
@@ -27691,7 +27691,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            128 => 
+            128 =>
             array (
                 'id' => 2146,
                 'name' => 'Certificate III in Food and Beverage Services',
@@ -27704,7 +27704,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            129 => 
+            129 =>
             array (
                 'id' => 2147,
                 'name' => 'Certificate III in Housekeeping Operations',
@@ -27717,7 +27717,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            130 => 
+            130 =>
             array (
                 'id' => 2148,
             'name' => 'MASTER OF EDUCATION IN LEADERSHIP AND ADMINISTRATION (COURSEWORK)',
@@ -27730,7 +27730,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            131 => 
+            131 =>
             array (
                 'id' => 2149,
             'name' => 'MASTER OF EDUCATION IN LEADERSHIP AND ADMINISTRATION (COURSEWORK & RESEARCH)',
@@ -27743,7 +27743,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            132 => 
+            132 =>
             array (
                 'id' => 2150,
             'name' => 'MASTER OF EDUCATION IN LEADERSHIP AND ADMINISTRATION (RESEARCH)',
@@ -27756,7 +27756,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            133 => 
+            133 =>
             array (
                 'id' => 2151,
                 'name' => 'Master of Public Administration',
@@ -27769,7 +27769,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            134 => 
+            134 =>
             array (
                 'id' => 2152,
                 'name' => 'BACHELOR OF ISLAMIC BANKING AND FINANCE',
@@ -27782,7 +27782,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            135 => 
+            135 =>
             array (
                 'id' => 2153,
                 'name' => 'BACHELOR OF EDUCATION IN EDUCATIONAL LEADERSHIP AND MANAGEMENT',
@@ -27795,7 +27795,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            136 => 
+            136 =>
             array (
                 'id' => 2154,
                 'name' => 'GRADUATE DIPLOMA IN MANAGEMENT',
@@ -27808,7 +27808,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            137 => 
+            137 =>
             array (
                 'id' => 2155,
                 'name' => 'IMAAMUKAMUGE DEGREE COURSE',
@@ -27821,7 +27821,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            138 => 
+            138 =>
             array (
                 'id' => 2156,
                 'name' => 'MASTER OF ISLAMIC STUDIES ',
@@ -27834,7 +27834,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            139 => 
+            139 =>
             array (
                 'id' => 2157,
                 'name' => 'CERTIFICATE III IN GARDENING',
@@ -27847,7 +27847,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            140 => 
+            140 =>
             array (
                 'id' => 2158,
                 'name' => 'CERTIFICATE IV IN MARINE CORPS SPECIAL OPERATIONS',
@@ -27860,7 +27860,7 @@ class CoursesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            141 => 
+            141 =>
             array (
                 'id' => 2159,
             'name' => 'MASTER IN COMPUTER SCIENCE - AWARDED BY MANAGEMENT AND SCIENCE UNIVERSITY, MALAYSIA)',
@@ -27873,7 +27873,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        142 => 
+        142 =>
         array (
             'id' => 2160,
             'name' => 'MASTER IN EARLY CHILDHOOD EDUCATION - AWARDED BY MANAGEMENT AND SCIENCE UNIVERSITY, MALAYSIA',
@@ -27886,7 +27886,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        143 => 
+        143 =>
         array (
             'id' => 2161,
             'name' => 'CTH LEVEL 7 EXECUTIVE DIPLOMA IN INTERNATIONAL HOSPITALITY AND TOURISM MANAGEMENT - AWARDED BY CONFEDERATION OF TOURISM AND HOSPITALITY, UNITED KINGDOM',
@@ -27899,7 +27899,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        144 => 
+        144 =>
         array (
             'id' => 2162,
             'name' => 'CERTIFICATE III IN GARDENING',
@@ -27912,7 +27912,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        145 => 
+        145 =>
         array (
             'id' => 2163,
             'name' => 'MASTER OF ISLAMIC STUDIES ',
@@ -27925,7 +27925,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        146 => 
+        146 =>
         array (
             'id' => 2164,
             'name' => 'LEVEL 4 DIPLOMA IN HOSPITALITY MANAGEMENT - AWARDED BY CONFEDERATION OF TOURISM AND HOSPITALITY, UNITED KINGDOM',
@@ -27938,7 +27938,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        147 => 
+        147 =>
         array (
             'id' => 2165,
             'name' => 'ADVANCED DIPLOMA IN BUSINESS',
@@ -27951,7 +27951,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        148 => 
+        148 =>
         array (
             'id' => 2166,
             'name' => 'MASTER OF RESEARCH STUDIES',
@@ -27964,7 +27964,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        149 => 
+        149 =>
         array (
             'id' => 2167,
             'name' => 'LEVEL 3 FOUNDATION DIPLOMA IN HOSPITALITY AND TOURISM',
@@ -27977,7 +27977,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        150 => 
+        150 =>
         array (
             'id' => 2168,
             'name' => 'MASTER OF ARTS IN CONTEMPORARY POLICING AND LEADERSHIP',
@@ -27990,7 +27990,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        151 => 
+        151 =>
         array (
             'id' => 2169,
         'name' => 'MASTER OF EDUCATION (ENGLISH LANGUAGE TEACHING)',
@@ -28003,7 +28003,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        152 => 
+        152 =>
         array (
             'id' => 2170,
             'name' => 'CERTIFICATE II IN BUILDING MAINTENANCE',
@@ -28016,7 +28016,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        153 => 
+        153 =>
         array (
             'id' => 2171,
             'name' => 'CERTIFICATE II IN AUTOMOTIVE MAINTENANCE',
@@ -28029,7 +28029,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        154 => 
+        154 =>
         array (
             'id' => 2172,
             'name' => 'AAT LEVEL 3, DIPLOMA IN ACCOUNTING ',
@@ -28042,7 +28042,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        155 => 
+        155 =>
         array (
             'id' => 2173,
             'name' => 'AAT LEVEL 4, DIPLOMA IN ACCOUNTING ',
@@ -28055,7 +28055,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        156 => 
+        156 =>
         array (
             'id' => 2174,
             'name' => 'DIPLOMA IN CHILD PSYCHOLOGY',
@@ -28068,7 +28068,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        157 => 
+        157 =>
         array (
             'id' => 2175,
             'name' => 'CERTIFICATE IV IN OFFICE ADMINISTRATION ',
@@ -28081,7 +28081,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        158 => 
+        158 =>
         array (
             'id' => 2176,
             'name' => 'CERTIFICATE I IN QIRA\'ATH',
@@ -28094,7 +28094,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        159 => 
+        159 =>
         array (
             'id' => 2177,
             'name' => 'ADVANCED DIPLOMA IN OCCUPATIONAL HEALTH & SAFETY',
@@ -28107,7 +28107,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        160 => 
+        160 =>
         array (
             'id' => 2178,
             'name' => 'BACHELOR OF OCCUPATIONAL HEALTH & SAFETY',
@@ -28120,7 +28120,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        161 => 
+        161 =>
         array (
             'id' => 2179,
         'name' => 'BACHELOR OF ARTS (LIBRARY & INFORMATION MANAGEMENT)',
@@ -28133,7 +28133,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        162 => 
+        162 =>
         array (
             'id' => 2180,
             'name' => 'BACHELOR OF SPORTS AND EXERCISE',
@@ -28146,7 +28146,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        163 => 
+        163 =>
         array (
             'id' => 2181,
             'name' => 'DIPLOMA IN PRIMARY TEACHING',
@@ -28159,7 +28159,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        164 => 
+        164 =>
         array (
             'id' => 2182,
             'name' => 'ASSOCIATE DEGREE IN PRIMARY TEACHING ',
@@ -28172,7 +28172,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        165 => 
+        165 =>
         array (
             'id' => 2183,
             'name' => 'BACHELOR OF BUSINESS ADMINISTRATION',
@@ -28185,7 +28185,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        166 => 
+        166 =>
         array (
             'id' => 2184,
             'name' => 'ADVANCED DIPLOMA OF TEACHING IN PHYSICS AND BIOLOGY',
@@ -28198,7 +28198,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        167 => 
+        167 =>
         array (
             'id' => 2185,
             'name' => 'ADVANCED DIPLOMA OF TEACHING IN CHEMISTRY AND BIOLOGY',
@@ -28211,7 +28211,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        168 => 
+        168 =>
         array (
             'id' => 2186,
             'name' => 'ADVANCED DIPLOMA OF TEACHING IN CHEMISTRY AND PHYSICS',
@@ -28224,7 +28224,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        169 => 
+        169 =>
         array (
             'id' => 2187,
             'name' => 'BACHELOR OF TEACHING IN PHYSICS AND BIOLOGY',
@@ -28237,7 +28237,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        170 => 
+        170 =>
         array (
             'id' => 2188,
             'name' => 'BACHELOR OF TEACHING IN CHEMISTRY AND BIOLOGY',
@@ -28250,7 +28250,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        171 => 
+        171 =>
         array (
             'id' => 2189,
             'name' => 'BACHELOR OF TEACHING IN CHEMISTRY AND PHYSICS',
@@ -28263,7 +28263,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        172 => 
+        172 =>
         array (
             'id' => 2190,
         'name' => 'BACHELOR OF TEACHING SECONDARY (ACCOUNTING)',
@@ -28276,7 +28276,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        173 => 
+        173 =>
         array (
             'id' => 2191,
             'name' => 'CERTIFICATE IN QIRA\'ATH',
@@ -28289,7 +28289,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        174 => 
+        174 =>
         array (
             'id' => 2192,
             'name' => 'DIPLOMA IN EDUCATIONAL LEADERSHIP AND MANAGEMENT',
@@ -28302,7 +28302,7 @@ class CoursesTableSeeder extends Seeder
             'created_at' => NULL,
             'updated_at' => NULL,
         ),
-        175 => 
+        175 =>
         array (
             'id' => 2193,
             'name' => 'ASSOCIATE DEGREE IN EDUCATIONAL LEADERSHIP AND MANAGEMENT',
@@ -28316,7 +28316,7 @@ class CoursesTableSeeder extends Seeder
             'updated_at' => NULL,
         ),
     ));
-        
-        
+
+
     }
 }
